@@ -1,0 +1,100 @@
+KULE İSTANBUL CAFE — QR MENÜ  (Türkçe · English · العربية)
+===========================================================
+
+MENÜ ADRESİ (QR kod buraya gider)
+https://claude.ai/code/artifact/76f74a9c-335e-484b-bcdc-6a768fa71f46
+
+
+1) MÜŞTERİLERİN GÖREBİLMESİ İÇİN — TEK ADIM
+--------------------------------------------
+Menü şu an yalnızca senin hesabına açık.
+Sayfayı aç → sağ üstteki paylaşım (share) menüsü → erişimi
+"bağlantıya sahip herkes" yap. Sonra telefonunda gizli pencerede
+QR'ı okutup kontrol et.
+
+
+2) YÖNETİCİ PANELİ — GİZLİ GİRİŞ
+---------------------------------
+Üç yoldan girebilirsin:
+  a) Arama kutusunu aç (büyüteç), içine  yönetici  yaz
+     (İngilizce "admin", Arapça "مدير" de olur)
+  b) Adresin sonuna  #admin  ekle
+  c) Üstteki yuvarlak ambleme ~1 saniye basılı tut
+
+PIN: 7161   → Ayarlar sekmesinden mutlaka değiştir.
+Menüde görünür bir "Yönetici" düğmesi YOK.
+
+Panelde yapabildiklerin:
+  • Fiyat, ürün adı (TR/EN/AR), içindekiler, alerjenler
+  • Fotoğraf ekleme / değiştirme (telefondan seç, otomatik küçültülür)
+  • "Tükendi" anahtarı — satırdaki yeşil düğme
+  • Ürün ekle / sil / sırala
+  • Telefon, WhatsApp, Instagram, Google bağlantısı, adres,
+    çalışma saati, slogan, PIN
+"Kaydet ve Yayınla" → menü aynı adreste anında güncellenir.
+QR KOD DEĞİŞMEZ.
+
+Güvenlik: PIN sadece paneli müşteriden gizler. Asıl koruma,
+yayınlamayı yalnızca senin Claude hesabının yapabilmesidir.
+
+
+3) BU KLASÖRDEKİ DOSYALAR
+--------------------------
+kule-masa-karti.pdf        Masalar için A6 kart (105×148 mm, 300 dpi, siyah–altın, amblemli)
+kule-qr.png                Sadece QR kod, yüksek çözünürlük
+kule-amblem.png            Yuvarlak kule amblemi (PSD'den, şeffaf zemin) — menünün üst bölümünde
+kule-logo.png              Yazı logosu (şeffaf zemin) — menünün alt bilgisinde ve masa kartında
+KULE-alerjen-kontrol.xlsx  Alerjen/içerik kontrol listesi (mutfak düzeltsin)
+menu.html                  Menünün kaynak dosyası (yedek)
+fotograflar/               Basılı menüden kesilen 39 ürün fotoğrafı (640×480)
+
+kule-menu-site/index.html  Kendi sunucuna yükleyebileceğin tam sayfa
+kule-menu-site.zip         Aynısının sıkıştırılmış hali (sürükle-bırak için)
+NETLIFY-ADIMLARI.txt       Netlify'a yükleme adımları
+GITHUB-PAGES-ADIMLARI.txt  GitHub Pages'e yükleme adımları
+
+kaynak/                    YAZILIMIN TAMAMI (kaynak kodu)
+kule-menu-yazilim.zip      Aynısının sıkıştırılmış hali
+                           → içindeki YAZILIM-NOTLARI.md her şeyi anlatır
+
+OKUBENI.txt                Bu dosya
+
+
+4) İLETİŞİM (menüde görünen)
+-----------------------------
+Adres     : Garipçe, Rumeli Feneri Yolu No:4359, 34450 Sarıyer/İstanbul
+Telefon   : 0541 551 71 61
+WhatsApp  : 905415517161
+Instagram : instagram.com/kuleistanbulcafe
+Google    : Adres aramasıyla üretildi — işletmenin kısa "share.google"
+            linki varsa panelden değiştir
+Saat      : Menüde gösterilmiyor. İstersen panelden Ayarlar → "Çalışma
+            saati" alanına yazarsın; boş kalırsa görünmez.
+Slogan    : "Boğaz'ın en güzel manzarasında" — panelden değiştirilebilir
+
+
+5) TASARIM
+-----------
+Aydınlık (kırık beyaz) zemin üzerine siyah–altın: üstte yuvarlak kule
+amblemi, slogan, adres ve altında telefon; altta altın yazı logosu.
+Geniş ekranda kategorilerin hepsi üst çubukta görünür; telefonda çubuk
+yana kaydırılır ve o anki bölüm altın çizgiyle işaretlenir.
+Ürün detaylarında alerjen uyarı metni YOK (istek üzerine kaldırıldı).
+
+
+6) MENÜ İÇERİĞİ
+----------------
+Kaynak: 01.04.2026 tarihli basılı menü (10 sayfa).
+9 bölüm, 173 ürün, 40 ürün fotoğraflı:
+  Kahvaltı · Aparatifler · Salatalar & Makarnalar · Burgerler & Wrapler ·
+  Ana Yemekler · Kırmızı Etler · Tatlılar · İçecekler · Nargile
+
+
+7) AÇIK KALAN İŞ
+-----------------
+• Alerjen ve içindekiler bilgileri TASLAKTIR. Basılı menüdeki
+  açıklamalardan ve standart tariflerden çıkarıldı. Mutfak ekibi
+  KULE-alerjen-kontrol.xlsx üzerinden kontrol etsin; düzeltilmiş
+  dosyayı bana gönder, menüyü güncelleyeyim.
+• Menüde fotoğrafı olmayan ürünlere (içecekler, omletler vb.) panelden
+  fotoğraf ekleyebilirsin.
