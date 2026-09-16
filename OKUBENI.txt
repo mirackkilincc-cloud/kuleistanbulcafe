@@ -1,16 +1,29 @@
 KULE İSTANBUL CAFE — QR MENÜ  (Türkçe · English · العربية)
 ===========================================================
 
-MENÜ ADRESİ (QR kod buraya gider)
+MENÜ ADRESİ (QR kod buraya gider — KÖK'teki gibi Vercel)
+https://kuleistanbulcafe.vercel.app
+
+Yedek / canlı düzenleme sürümü (Claude):
 https://claude.ai/code/artifact/76f74a9c-335e-484b-bcdc-6a768fa71f46
 
 
-1) MÜŞTERİLERİN GÖREBİLMESİ İÇİN — TEK ADIM
---------------------------------------------
-Menü şu an yalnızca senin hesabına açık.
-Sayfayı aç → sağ üstteki paylaşım (share) menüsü → erişimi
-"bağlantıya sahip herkes" yap. Sonra telefonunda gizli pencerede
-QR'ı okutup kontrol et.
+1) YAYINLAMA — NASIL ÇALIŞIR
+-----------------------------
+Bu klasör bir GitHub deposudur (mirackkilincc-cloud/kuleistanbulcafe);
+Vercel bu depoya bağlı. Klasörün kökündeki index.html her GitHub'a
+gönderildiğinde Vercel 1-2 dakika içinde menüyü yayına alır.
+
+Güncelleme akışı (3 adım):
+  1. Menüde yönetici paneline gir, düzenlemeleri yap.
+  2. Alttaki "Kaydet ve index.html indir" düğmesine bas.
+  3. İnen index.html'i bu klasörün köküne koy (eskisinin üzerine
+     yazsın), sonra YAYINLA.command dosyasına çift tıkla.
+  Kontrol: menüyü telefonda aç, en alttaki "Menü sürümü" tarihine bak.
+
+Not: Claude adresindeki sürümde panel "anlık yayın" yapar (dosya
+indirmeye gerek yok) ama QR Vercel'e gider; Vercel'i güncellemek
+için yukarıdaki 3 adım gerekir.
 
 
 2) YÖNETİCİ PANELİ — GİZLİ GİRİŞ
@@ -24,14 +37,13 @@ QR'ı okutup kontrol et.
 PIN: 7161   → Ayarlar sekmesinden mutlaka değiştir.
 Menüde görünür bir "Yönetici" düğmesi YOK.
 
-Panelde yapabildiklerin:
-  • Fiyat, ürün adı (TR/EN/AR), içindekiler, alerjenler
-  • Fotoğraf ekleme / değiştirme (telefondan seç, otomatik küçültülür)
-  • "Tükendi" anahtarı — satırdaki yeşil düğme
-  • Ürün ekle / sil / sırala
-  • Telefon, WhatsApp, Instagram, Google bağlantısı, adres,
+Panelde yapabildiklerin (KÖK ile aynı):
+  • Ürünler: fiyat, kalori + protein/yağ/karbonhidrat, porsiyon/gramaj,
+    ad (TR/EN/AR), içindekiler, alerjenler, alkol / domuz türevi beyanı,
+    fotoğraf, "tükendi" anahtarı, sıralama, başka gruba taşıma, pasife alma
+  • Yapı: yeni bölüm / grup açma, ad ve sıra değiştirme, gizleme
+  • Ayarlar: telefon, WhatsApp, Instagram, Google bağlantısı, adres,
     çalışma saati, slogan, PIN
-"Kaydet ve Yayınla" → menü aynı adreste anında güncellenir.
 QR KOD DEĞİŞMEZ.
 
 Güvenlik: PIN sadece paneli müşteriden gizler. Asıl koruma,
@@ -40,18 +52,21 @@ yayınlamayı yalnızca senin Claude hesabının yapabilmesidir.
 
 3) BU KLASÖRDEKİ DOSYALAR
 --------------------------
-kule-masa-karti.pdf        Masalar için A6 kart (105×148 mm, 300 dpi, siyah–altın, amblemli)
-kule-qr.png                Sadece QR kod, yüksek çözünürlük
+index.html                 YAYINDAKİ MENÜ (Vercel bunu yayınlar) — güncellerken bunu değiştir
+YAYINLA.command            Çift tıkla → GitHub'a gönderir → Vercel yayına alır
+kule-masa-karti.pdf        Masalar için A6 kart (siyah–altın, amblemli; alt kısmında mevzuatın
+                           istediği "bilgilere karekod ile ulaşabilirsiniz" ibaresi var)
+kule-qr.png                Sadece QR kod (kuleistanbulcafe.vercel.app), yüksek çözünürlük
 kule-amblem.png            Yuvarlak kule amblemi (PSD'den, şeffaf zemin) — menünün üst bölümünde
 kule-logo.png              Yazı logosu (şeffaf zemin) — menünün alt bilgisinde ve masa kartında
-KULE-alerjen-kontrol.xlsx  Alerjen/içerik kontrol listesi (mutfak düzeltsin)
-menu.html                  Menünün kaynak dosyası (yedek)
+KULE-alerjen-kontrol.xlsx  Alerjen / içerik / besin değeri kontrol listesi (mutfak + diyetisyen)
+menu.html                  Claude (artifact) sürümü — yedek
 fotograflar/               Basılı menüden kesilen 39 ürün fotoğrafı (640×480)
 
-kule-menu-site/index.html  Kendi sunucuna yükleyebileceğin tam sayfa
-kule-menu-site.zip         Aynısının sıkıştırılmış hali (sürükle-bırak için)
-NETLIFY-ADIMLARI.txt       Netlify'a yükleme adımları
-GITHUB-PAGES-ADIMLARI.txt  GitHub Pages'e yükleme adımları
+kule-menu-site/index.html  index.html'in kopyası (Netlify/başka sunucu için)
+kule-menu-site.zip         Aynısının sıkıştırılmış hali
+NETLIFY-ADIMLARI.txt       Alternatif: Netlify'a yükleme adımları
+GITHUB-PAGES-ADIMLARI.txt  Alternatif: GitHub Pages adımları
 
 kaynak/                    YAZILIMIN TAMAMI (kaynak kodu)
 kule-menu-yazilim.zip      Aynısının sıkıştırılmış hali
@@ -73,13 +88,27 @@ Saat      : Menüde gösterilmiyor. İstersen panelden Ayarlar → "Çalışma
 Slogan    : "Boğaz'ın en güzel manzarasında" — panelden değiştirilebilir
 
 
-5) TASARIM
------------
+5) TASARIM VE MEVZUAT
+----------------------
 Aydınlık (kırık beyaz) zemin üzerine siyah–altın: üstte yuvarlak kule
 amblemi, slogan, adres ve altında telefon; altta altın yazı logosu.
 Geniş ekranda kategorilerin hepsi üst çubukta görünür; telefonda çubuk
 yana kaydırılır ve o anki bölüm altın çizgiyle işaretlenir.
 Ürün detaylarında alerjen uyarı metni YOK (istek üzerine kaldırıldı).
+
+1 Temmuz 2026 menü düzenlemesi (Tarım ve Orman Bakanlığı — Türk Gıda
+Kodeksi Gıda Etiketleme ve Tüketicileri Bilgilendirme Yönetmeliği
+değişikliği) için menüde artık şunlar var:
+  • Temel bileşenler / hammaddeler (her üründe "İçindekiler")
+  • Porsiyon başına enerji (kcal + kJ) ve protein / yağ / karbonhidrat
+  • 14 alerjen (ürün başına işaret + alerjen filtresi)
+  • Alkol ve domuz türevi beyanı (her üründe; alt bilgide genel beyan)
+  • Masa kartında "bilgilere karekod ile ulaşabilirsiniz; karekod
+    kullanamayanlara talep halinde ayrıca sunulur" ibaresi
+Takvim: ulusal zincirler 1 Temmuz 2026; aynı ilde 3+ şube 31 Aralık 2026;
+diğer işletmeler içerik 31 Aralık 2026, enerji 31 Aralık 2027.
+KULE tek şube olduğu için son tarihler 31.12.2026 / 31.12.2027 — ama
+menü şimdiden uyumlu.
 
 
 6) MENÜ İÇERİĞİ
@@ -92,9 +121,16 @@ Kaynak: 01.04.2026 tarihli basılı menü (10 sayfa).
 
 7) AÇIK KALAN İŞ
 -----------------
-• Alerjen ve içindekiler bilgileri TASLAKTIR. Basılı menüdeki
-  açıklamalardan ve standart tariflerden çıkarıldı. Mutfak ekibi
-  KULE-alerjen-kontrol.xlsx üzerinden kontrol etsin; düzeltilmiş
-  dosyayı bana gönder, menüyü güncelleyeyim.
+• İçindekiler: mutfağın 16.09.2026 tarihli düzeltmeleri işlendi.
+• BESİN DEĞERLERİ TASLAKTIR: standart tarif ve gramajlardan hesaplanmış
+  yaklaşık değerler. Mevzuata uygun beyan için mutfak gramajlarıyla bir
+  gıda mühendisi / diyetisyene doğrulatıp KULE-alerjen-kontrol.xlsx
+  üzerinden gönder; menüyü güncelleyeyim (ya da panelden kendin düzelt).
+• Alkol / domuz beyanı: tüm ürünler "içermez" olarak işaretli. Jambon,
+  salam, sucuk, sosis ve tiramisu için mutfak teyit etmeli; içeren varsa
+  panelden "İçerir" seç.
 • Menüde fotoğrafı olmayan ürünlere (içecekler, omletler vb.) panelden
   fotoğraf ekleyebilirsin.
+• Güvenlik: bu klasördeki .git/config dosyasında GitHub erişim anahtarı
+  açık yazılı. Klasörü kimseyle paylaşma; anahtarı yenilemek istersen
+  GitHub → Settings → Developer settings → Tokens.

@@ -12,8 +12,9 @@ başka birine devretmek istediğinde lazım olur.
 | `photos.json` | Basılı menüden kesilen 39 ürün fotoğrafı (data URI). Orijinalleri `../fotograflar/` klasöründe. |
 | `icons.js` | 37 adet çizgi illüstrasyon (SVG). Fotoğrafı olmayan ürünlerde görünür. |
 | `page.css` | Sayfanın tüm stili. `:root` paleti aydınlık zemin + siyah–altındır; sondaki "KULE marka katmanı" bloğu bileşenleri buna göre boyar. Geniş ekranda (≥760px) kategori çubuğu satırlara sarılır, araçlar sağa yaslanır. |
-| `page.js` | Sayfanın tüm davranışı: dil değiştirme, arama, filtre, açılır detay, yönetici paneli, kendi kendini yayınlama. |
-| `build.js` | Hepsini birleştirip `menu.html` (Claude artifact) ve `site/index.html` (bağımsız site) üretir. |
+| `page.js` | Sayfanın tüm davranışı (KÖK v2 tabanı): dil, arama, filtre, açılır detay, besin tablosu, fotoğraf büyütme, yönetici paneli (Ürünler / Yapı / Ayarlar / Yardım), anlık yayın (Claude adresinde) veya index.html indirme (Vercel). |
+| `nut.js` | Porsiyon başına besin değerleri `[kcal, protein, yağ, karbonhidrat]` — TR ürün adıyla eşleşir. kJ build'de hesaplanır. TASLAK. |
+| `build.js` | Hepsini birleştirip `menu.html` (Claude artifact) ve `site/index.html` (= klasör kökündeki index.html, Vercel) üretir. `pub` alanına yayın zamanını yazar. |
 | `all.js` | build + sözdizimi kontrolü. |
 | `social.json` | WhatsApp / Instagram / Google Maps logoları (data URI). |
 | `emblem.b64`, `emblem-mime.txt` | Yuvarlak kule amblemi (PSD'den, WebP) — üst bölümde. Orijinali `../kule-amblem.png`. |
@@ -33,6 +34,12 @@ node all.js          # kule-data.js -> menu.html + site/index.html + state.json
 python3 card.py      # kule-masa-karti.pdf + kule-qr.png   (pillow, opencv-python gerekir)
 python3 sheet.py     # KULE-alerjen-kontrol.xlsx           (openpyxl gerekir)
 ```
+
+## Yayınlama
+
+Klasörün kökü GitHub deposu (`mirackkilincc-cloud/kuleistanbulcafe`), Vercel projesi `kuleistanbulcafe`
+ona bağlı. `site/index.html`'i köke kopyalayıp `YAYINLA.command` (git pull --rebase, commit, push) → Vercel
+1-2 dk içinde yayınlar. QR: https://kuleistanbulcafe.vercel.app
 
 ## Sayfa nasıl çalışıyor
 
@@ -58,6 +65,8 @@ Varsayılan PIN **7161** — Ayarlar sekmesinden değiştir.
 **Alerjen kodları:** G gluten · M süt · Y yumurta · B balık · K kabuklu deniz
 ürünleri · S soya · SS susam · N sert kabuklu yemişler · F yer fıstığı ·
 H hardal · C kereviz · SO sülfit · MO yumuşakçalar · L acı bakla
+
+**Ürün alanları (v5):** `kcal`, `nut:{kcal,kj,p,f,c}`, `por:{tr,en,ar}|null` (porsiyon/gramaj — KULE'de gramaj içindekilerde), `alc`, `pork` (0/1 beyan), `off` (pasif), `iw/ih` (fotoğraf boyutu).
 
 **Ürün kimliği:** `<bölüm>-<grup sırası>-<ürün sırası>` — örn. `et-1-1` =
 Kırmızı Etler / Izgaralar / Karışık Izgara.

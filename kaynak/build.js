@@ -2,6 +2,7 @@
 const fs = require("fs");
 const DATA = require("./kule-data.js");
 const ICONS = require("./icons.js");
+const NUT = require("./nut.js");
 const SOCIAL = JSON.parse(fs.readFileSync("social.json","utf8"));
 const PHOTOS = JSON.parse(fs.readFileSync("photos.json","utf8"));
 const CSS = fs.readFileSync("page.css","utf8");
@@ -13,28 +14,32 @@ const EMBLEM_MIME = fs.readFileSync("emblem-mime.txt","utf8").trim();
 const [LW,LH] = fs.readFileSync("logo-size.txt","utf8").trim().split(" ").map(Number);
 
 /* ---------- durum (sayfaya gömülen tek veri nesnesi) ---------- */
-let noPhoto = [];
+let noPhoto = [], noKcal = [];
 const sections = DATA.map((s,si)=>({
-  id:s.id, t:si+1,
+  id:s.id, t:si+1, off:0,
   title:{tr:s.tr, en:s.en, ar:s.ar},
   sub:{tr:s.str, en:s.sen, ar:s.sar},
   g:s.g.map((g,gi)=>({
-    title:{tr:g.tr, en:g.en, ar:g.ar},
+    off:0, title:{tr:g.tr, en:g.en, ar:g.ar},
     note:g.note?{tr:g.note, en:g.noteEn, ar:g.noteAr||g.noteEn}:null,
     i:g.i.map((it,ii)=>{
       const [n,ne,na,p,ing,inge,inga,a,ic,img] = it;
       if(img && !PHOTOS[img]) noPhoto.push(n+" -> "+img);
+      let kcal = null, nut = null;
+      if(s.id!=="nargile"){ const v = NUT[n]; if(!v){ noKcal.push(n); } else { kcal=v[0]; nut={kcal:v[0], kj:Math.round(v[0]*4.184), p:v[1], f:v[2], c:v[3]}; } }
       return {
         id:s.id+"-"+(gi+1)+"-"+(ii+1),
         name:{tr:n, en:ne, ar:na},
         ing:{tr:ing||"", en:inge||"", ar:inga||inge||""},
-        p, a:(a===null?[]:(a||[])), na:(a===null?1:0), ic, s:0, so:0,
-        img: img && PHOTOS[img] ? PHOTOS[img] : ""
+        p, a:(a===null?[]:(a||[])), ic, s:0, so:0, off:0,
+        kcal, nut, por:null, alc:0, pork:0,
+        img: img && PHOTOS[img] ? PHOTOS[img] : "", iw: (img && PHOTOS[img]) ? 640 : null, ih: (img && PHOTOS[img]) ? 480 : null
       };
     })
   }))
 }));
 if(noPhoto.length) console.log("FOTOĞRAF BULUNAMADI:", noPhoto.join(", "));
+if(noKcal.length) console.log("KCAL EKSİK:", noKcal.join(", "));
 
 const ALG = {
  G:{tr:"Gluten",en:"Gluten",ar:"غلوتين"}, M:{tr:"Süt",en:"Milk",ar:"حليب"}, Y:{tr:"Yumurta",en:"Egg",ar:"بيض"}, B:{tr:"Balık",en:"Fish",ar:"سمك"},
@@ -45,7 +50,7 @@ const ALG = {
 
 const ADDR_TR = "Garipçe, Rumeli Feneri Yolu No:4359, 34450 Sarıyer/İstanbul";
 const STATE = {
-  v:4,
+  v:5,
   brand:{
     name:"KULE İstanbul Cafe",
     tag:{tr:"Boğaz'ın en güzel manzarasında", en:"With the finest view of the Bosphorus", ar:"مع أجمل إطلالة على البوسفور"},
@@ -60,7 +65,7 @@ const STATE = {
   logo:"data:image/png;base64,"+LOGO_MASK, logoFull:"data:image/png;base64,"+LOGO_FULL, logoAr:LW+"/"+LH,
   emblem:"data:"+EMBLEM_MIME+";base64,"+EMBLEM,
   social:SOCIAL,
-  alg:ALG, sections
+  alg:ALG, sections, pub: Date.now()
 };
 
 /* ---------- simgeler ---------- */
@@ -107,7 +112,7 @@ const BODY = `
     <a class="sbtn ig" id="igbtn2" href="#" target="_blank" rel="noopener">${I_IG}<span id="igtext2"></span></a>
     <a class="sbtn gg" id="ggbtn2" href="#" target="_blank" rel="noopener">${I_GG}<span id="ggtext2"></span></a>
   </div>
-  <p class="fsmall" id="vat"></p><p class="fsmall" id="alrg"></p>
+  <p class="fsmall" id="vat"></p><p class="fsmall" id="alrg"></p><p class="fsmall" id="enote"></p><p class="fsmall" id="dnote"></p><p class="fsmall ver" id="ver"></p>
 </footer>
 <div class="fabs">
   <button class="fab top" id="totop" type="button">${I_UP}</button>

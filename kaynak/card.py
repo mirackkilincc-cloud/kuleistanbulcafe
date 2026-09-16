@@ -3,7 +3,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import cv2, numpy as np, base64, io, sys
 
-URL = sys.argv[1] if len(sys.argv) > 1 else "https://claude.ai/code/artifact/76f74a9c-335e-484b-bcdc-6a768fa71f46"
+URL = sys.argv[1] if len(sys.argv) > 1 else "https://kuleistanbulcafe.vercel.app"
 
 p = cv2.QRCodeEncoder_Params()
 p.correction_level = cv2.QRCodeEncoder_CORRECT_LEVEL_Q
@@ -50,36 +50,40 @@ def centered(dr, cx, y, text, font, fill):
 
 # amblem (PSD'den, gerçek renkleriyle)
 em = Image.open("../kule-amblem.png").convert("RGBA")
-es = 470; em = em.resize((es, es), Image.LANCZOS)
+es = 430; em = em.resize((es, es), Image.LANCZOS)
 # altın hale
 glow = Image.new("RGBA", (W, H), (0,0,0,0)); gd = ImageDraw.Draw(glow)
-gd.ellipse([cx-es//2-70, 92-70, cx+es//2+70, 92+es+70], fill=(212,182,90,70))
+gd.ellipse([cx-es//2-70, 80-70, cx+es//2+70, 80+es+70], fill=(212,182,90,70))
 from PIL import ImageFilter
 glow = glow.filter(ImageFilter.GaussianBlur(60))
 card.paste(glow, (0,0), glow)
-card.paste(em, (cx - es//2, 92), em)
+card.paste(em, (cx - es//2, 80), em)
 
-ly = 92 + es + 40
+ly = 80 + es + 36
 d.line([(cx-120, ly), (cx-24, ly)], fill=GOLD, width=2)
 d.line([(cx+24, ly), (cx+120, ly)], fill=GOLD, width=2)
 d.ellipse([cx-6, ly-6, cx+6, ly+6], fill=GOLD)
 
-qsize = 540; qy = ly + 44
+qsize = 520; qy = ly + 40
 qim = draw(grid, max(1, qsize//(n+8)), quiet=4).resize((qsize, qsize), Image.NEAREST)
 d.rounded_rectangle([cx-qsize//2-26, qy-26, cx+qsize//2+26, qy+qsize+26], radius=14, fill=(255,255,255))
 card.paste(qim, (cx-qsize//2, qy))
 
-y = qy + qsize + 62
+y = qy + qsize + 48
 tracked(d, cx, y, "MENÜ  ·  MENU", sans_b, GOLD, 12)
-centered(d, cx, y+62, "Kamerayı QR koda tutun", serif_i, CREAM)
-centered(d, cx, y+110, "Point your camera at the QR code", serif_i, CREAM)
+centered(d, cx, y+56, "Kamerayı QR koda tutun", serif_i, CREAM)
+centered(d, cx, y+100, "Point your camera at the QR code", serif_i, CREAM)
 
 # yazı logosu (beyaz + altın), altta küçük
 lg = Image.open("../kule-logo.png").convert("RGBA")
-lw = 250; lh = round(lg.height * lw / lg.width)
+lw = 220; lh = round(lg.height * lw / lg.width)
 lg = lg.resize((lw, lh), Image.LANCZOS)
-card.paste(lg, (cx - lw//2, y+178), lg)
-tracked(d, cx, H-108, "TÜRKÇE  ·  ENGLISH  ·  ARABIC", small, MUTED, 8)
+card.paste(lg, (cx - lw//2, y+166), lg)
+print('logo alt:', y+166+lh)
+tiny = ImageFont.truetype(GF+"Poppins-Regular.ttf", 17)
+centered(d, cx, H-200, "İçerik, alerjen ve enerji (kcal) bilgilerine karekod ile ulaşabilirsiniz.", tiny, MUTED)
+centered(d, cx, H-174, "Karekod kullanamayan misafirlerimize bilgiler talep halinde ayrıca sunulur.", tiny, MUTED)
+tracked(d, cx, H-118, "TÜRKÇE  ·  ENGLISH  ·  ARABIC", small, MUTED, 8)
 
 card.save("../kule-masa-karti.pdf", "PDF", resolution=300.0)
 card.resize((W//3, H//3), Image.LANCZOS).save("card-preview.png")

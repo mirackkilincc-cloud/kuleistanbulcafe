@@ -1,0 +1,60 @@
+// Porsiyon başına besin değerleri — TASLAK / YAKLAŞIK.  [kcal, protein g, yağ g, karbonhidrat g]
+// Standart tarif ve porsiyon büyüklüklerinden (USDA + TürKomp referansları) hesaplanmış tahminlerdir;
+// mevzuata uygun beyan için mutfak gramajlarıyla bir gıda mühendisi / diyetisyen tarafından doğrulanmalıdır.
+// Anahtar: Türkçe ürün adı (kule-data.js ile birebir). Nargile bölümü için besin beyanı yapılmaz (build.js).
+module.exports = {
+ // Kahvaltı
+ "Serpme Kahvaltı (Kişi Başı)":[1250,48,78,85],
+ "Sade Omlet":[330,19,27,2],"Peynirli Omlet":[420,27,33,2],"Kaşarlı Omlet":[430,28,34,2],"Karışık Omlet":[540,34,42,4],
+ "Kavurmalı Yumurta":[480,35,37,2],"Sucuklu Yumurta":[450,28,37,2],"Sahanda Yumurta":[300,18,25,1],"Sahanda Sucuk":[380,20,33,1],
+ "Menemen":[350,17,27,9],"Kaşarlı Menemen":[440,25,34,9],"Kuymak":[520,20,40,24],
+ "Çift Kaşarlı Tost":[720,30,36,68],"Kaşarlı Sucuklu Tost":[780,35,42,66],
+ // Aparatifler
+ "Günün Çorbası":[180,6,8,20],"Cajun Finger":[640,36,30,55],"Big Combo Mix":[950,42,52,78],"Elma Dilim Patates":[400,5,18,54],
+ "Parmak Patates":[400,5,19,52],"Sosis Box":[620,24,40,40],"Soğan Halkası":[430,6,24,48],"Sigara Böreği":[380,14,24,28],
+ // Salatalar & Makarnalar
+ "Çoban Salata":[160,3,12,11],"Mevsim Salata":[130,3,9,11],"Şişte Köfte Salata":[420,28,30,10],"Tavuklu Sezar Salata":[540,40,32,22],"Cajun Tavuk Salata":[430,38,22,18],
+ "Spagetti Bolonez":[880,42,32,105],"Mac & Cheese":[900,36,44,88],"Penne Arrabbiata":[780,24,30,102],"Fettuccine Alfredo":[960,48,48,84],
+ "Noodle Sebzeli":[620,16,18,96],"Noodle Tavuklu":[730,36,20,96],
+ // Burgerler & Wrapler (patates dahil)
+ "Kule İstanbul Burger":[1060,48,56,88],"Cheese Burger":[1080,50,58,86],"Jumbo Cheese Burger":[1450,82,84,88],"Tavuk Burger":[1000,46,50,90],
+ "Etli Wrap":[900,42,42,86],"Tavuklu Wrap":[830,40,34,90],"Kaşarlı Köfteli Wrap":[950,46,46,86],
+ // Ana Yemekler (garnitür dahil)
+ "Izgara Anne Köftesi":[820,44,42,66],"Kule İstanbul Kebap":[800,42,42,62],"Beğendili Köfte":[790,42,44,56],
+ "Kaymaklı Kule Tavuk":[860,50,44,62],"Köri Soslu Tavuk":[780,48,34,66],"BBQ Soslu Tavuk":[760,48,30,70],"Tavuk Sote":[700,46,28,64],
+ "Baharatlı Piliç Izgara":[720,46,32,60],"Tavuk Külbastı":[620,46,26,48],
+ "Chicken Schnitzel":[820,48,38,70],"Mantar Soslu Schnitzel":[880,48,44,70],"Cheddar Soslu Schnitzel":[940,52,50,70],
+ "Cafe de Paris Soslu Tavuk Lokum":[560,42,38,8],"Cheddar Soslu Tavuk Lokum":[580,44,40,8],"Sweet Chili Kule Topları":[640,40,30,48],
+ // Kırmızı Etler (garnitür dahil)
+ "Karışık Izgara":[1900,120,110,90],"Kuzu Pirzola (3 Parça)":[850,44,56,44],"Kuzu Pirzola (4 Parça)":[1050,58,72,44],"Antrikot":[950,52,60,44],
+ "Bonfile":[850,50,48,44],"Mantar Soslu Bonfile":[950,52,56,46],"Cafe de Paris Soslu Bonfile":[980,52,60,46],"Fajita":[1120,58,54,92],"Combo Fajita":[1150,66,52,92],
+ // Tatlılar
+ "Frambuazlı Cheesecake":[420,7,28,36],"Limonlu Cheesecake":[410,7,27,36],"Süt Reçelli Cheesecake":[450,8,28,42],"Çikolatalı Vişne Rüyası":[430,6,24,50],
+ "Yaban Mersinli Linzer":[380,5,18,50],"Lotus Cup":[460,6,26,50],"Snickers Pasta":[480,9,28,50],"Mozaik Pasta":[400,6,22,46],"Tiramisu Pasta":[380,7,24,34],
+ "Kule Ballım":[420,6,20,56],"Sufle":[450,8,26,48],
+ "Cedric Fıstık":[420,8,28,34],"Cedric Limon":[380,5,22,40],"Cedric Mango":[380,5,22,40],"Cedric Hindistan Cevizi":[400,5,26,36],
+ "Meyve Tabağı":[220,3,1,52],"Dondurma (1 Top)":[120,2,6,14],"Dondurma (3 Top)":[360,6,18,42],
+ // Sıcak kahveler
+ "Espresso":[5,0,0,1],"Duble Espresso":[10,0,0,2],"Espresso Macchiato":[20,1,1,1],"Americano":[10,0,0,2],"Filtre Kahve":[5,0,0,1],
+ "Cafe Latte":[150,8,6,14],"Cappuccino":[120,7,5,11],"Hot Chocolate":[280,9,10,38],"White Hot Chocolate":[320,9,14,40],"Salep":[220,8,6,34],
+ "Caramel Latte":[230,8,6,34],"Vanilya Latte":[220,8,6,32],"Tuzlu Karamel Latte":[240,8,6,36],"Chocolate Cookie Latte":[260,8,8,38],
+ "Cinnamon Latte":[220,8,6,32],"Caramello Latte":[260,8,8,38],"Chai Tea Latte":[200,6,5,32],"Kule Chai Tea Latte":[210,6,5,34],
+ "Kule Mocha":[290,9,10,40],"Mocha Caramel Latte":[300,9,10,44],"White Mocha":[300,9,12,40],
+ // Soğuk kahveler
+ "Iced Latte":[130,7,5,12],"Iced Americano":[10,0,0,2],"Iced Caramel Latte":[220,7,5,34],"Iced Kule Coffee Caramel":[240,7,6,36],
+ "Iced Mocha":[260,8,9,36],"Iced White Mocha":[280,8,11,38],"Iced Vanilya Latte":[210,7,5,32],"Iced Tuzlu Karamel Latte":[230,7,5,36],
+ "Iced Chai Tea Latte":[190,6,4,30],"Iced Kule Chai Tea Latte":[200,6,4,32],
+ // Çay & Türk kahvesi
+ "Çay":[2,0,0,0],"Yeşil Çay":[2,0,0,0],"Ihlamur":[2,0,0,0],"Ada Çayı":[2,0,0,0],"Kuşburnu":[5,0,0,1],"Nane Limon":[10,0,0,2],"Limon Çayı":[10,0,0,2],
+ "Türk Kahvesi":[10,1,0,1],"Double Türk Kahvesi":[20,1,0,2],
+ // Soğuk & gazlı
+ "Coca Cola":[140,0,0,35],"Cola Zero":[1,0,0,0],"Sprite":[130,0,0,33],"Fanta":[140,0,0,35],"Cappy Karışık":[110,0,0,27],"Cappy Vişne":[120,0,0,29],
+ "Cappy Şeftali":[110,0,0,27],"Fuse Tea Şeftali":[90,0,0,22],"Fuse Tea Limon":[80,0,0,20],"Ayran":[90,5,4,7],"Sade Soda":[0,0,0,0],
+ "Meyveli Soda":[20,0,0,5],"Limonata":[150,0,0,38],"Portakal Suyu":[180,3,1,40],"Churchill":[5,0,0,1],"Su":[0,0,0,0],"Karadut":[160,1,0,38],
+ // Milkshake / Frozen / Mojito
+ "Çilekli Milkshake":[450,10,18,62],"Çikolatalı Milkshake":[480,11,20,64],"Vanilyalı Milkshake":[440,10,18,60],"Oreo Milkshake":[520,10,22,70],"Muzlu Milkshake":[460,10,17,66],
+ "Kavunlu Frozen":[180,1,0,45],"Karpuz Frozen":[170,1,0,42],"Elma Frozen":[200,0,0,50],"Çilek Frozen":[180,1,0,44],"Böğürtlen Frozen":[190,1,0,46],
+ "Kivi Frozen":[200,1,0,48],"Yaban Mersini Frozen":[200,1,0,48],"Karadut Frozen":[200,1,0,48],"Frambuazlı Frozen":[190,1,0,46],
+ "Orman Meyveli Frozen":[200,1,0,48],"Muz Frozen":[230,2,0,56],
+ "Klasik Mojito":[160,0,0,40],"Çilekli Mojito":[180,0,0,44],"Elmalı Mojito":[180,0,0,44]
+};
