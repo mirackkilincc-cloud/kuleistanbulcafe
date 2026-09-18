@@ -12,7 +12,7 @@ const T = {
      ing:"İçindekiler", all:"Alerjenler", noall:"Bildirilen alerjen yok", out:"Tükendi",
      kcal:"Besin değerleri", kcalU:"kcal", kcalN:"Porsiyon başına yaklaşık değerlerdir.",
      nEn:"Enerji", nPr:"Protein", nFa:"Yağ", nCa:"Karbonhidrat", nPor:"Porsiyon",
-     sauces:"Soslar", strace:"Eser miktarda", decl:"Beyan", alcNo:"Alkol içermez", alcYes:"Alkol içerir", porkNo:"Domuz türevi içermez", porkYes:"Domuz türevi içerir",
+     sauces:"Soslar", strace:"Eser miktarda", aunk:"Bu ürünün içeriği günlük değişir — alerjen bilgisi için lütfen servis ekibimize danışın.", asrcl:"kaynak", decl:"Beyan", alcNo:"Alkol içermez", alcYes:"Alkol içerir", porkNo:"Domuz türevi içermez", porkYes:"Domuz türevi içerir",
      enote:"Besin değerleri porsiyon başına yaklaşık değerlerdir; tarif ve porsiyon farklılıklarına göre değişebilir.",
      dnote:"Ürünlerimizde alkol ve domuz türevi bileşen bulunmamaktadır.", dnote2:"Alkol veya domuz türevi bileşen içeren ürünler ürün detayında belirtilmiştir.",
      wa:"WhatsApp", ig:"Instagram", gg:"Google'da Bul", wamsg:"Merhaba, KULE İstanbul Cafe'ye menüden yazıyorum.", top:"Başa dön"},
@@ -22,7 +22,7 @@ const T = {
      ing:"Ingredients", all:"Allergens", noall:"No declared allergens", out:"Sold out",
      kcal:"Nutrition", kcalU:"kcal", kcalN:"Approximate values per portion.",
      nEn:"Energy", nPr:"Protein", nFa:"Fat", nCa:"Carbohydrate", nPor:"Portion",
-     sauces:"Sauces", strace:"May contain traces", decl:"Declaration", alcNo:"No alcohol", alcYes:"Contains alcohol", porkNo:"No pork derivatives", porkYes:"Contains pork derivatives",
+     sauces:"Sauces", strace:"May contain traces", aunk:"This dish changes daily — please ask our team for allergen information.", asrcl:"from", decl:"Declaration", alcNo:"No alcohol", alcYes:"Contains alcohol", porkNo:"No pork derivatives", porkYes:"Contains pork derivatives",
      enote:"Nutrition values are approximate, per serving, and may vary with recipe and portion size.",
      dnote:"None of our products contain alcohol or pork-derived ingredients.", dnote2:"Products containing alcohol or pork derivatives are marked in the product details.",
      wa:"WhatsApp", ig:"Instagram", gg:"Find us on Google", wamsg:"Hello, I'm writing from the KULE İstanbul Cafe menu.", top:"Back to top"},
@@ -32,7 +32,7 @@ const T = {
      ing:"المكوّنات", all:"مسببات الحساسية", noall:"لا توجد مسببات حساسية مُعلنة", out:"نفد",
      kcal:"القيم الغذائية", kcalU:"سعرة", kcalN:"قيم تقريبية للحصة الواحدة.",
      nEn:"الطاقة", nPr:"بروتين", nFa:"دهون", nCa:"كربوهيدرات", nPor:"الحصة",
-     sauces:"الصلصات", strace:"آثار محتملة", decl:"البيان", alcNo:"خالٍ من الكحول", alcYes:"يحتوي على كحول", porkNo:"خالٍ من مشتقات لحم الخنزير", porkYes:"يحتوي على مشتقات لحم الخنزير",
+     sauces:"الصلصات", strace:"آثار محتملة", aunk:"يتغيّر هذا الطبق يوميًا — يُرجى سؤال فريق الخدمة عن مسببات الحساسية.", asrcl:"المصدر", decl:"البيان", alcNo:"خالٍ من الكحول", alcYes:"يحتوي على كحول", porkNo:"خالٍ من مشتقات لحم الخنزير", porkYes:"يحتوي على مشتقات لحم الخنزير",
      enote:"القيم الغذائية تقريبية لكل حصة وقد تختلف حسب الوصفة وحجم الحصة.",
      dnote:"لا تحتوي منتجاتنا على كحول أو مكوّنات مشتقة من لحم الخنزير.", dnote2:"المنتجات التي تحتوي على كحول أو مشتقات لحم الخنزير موضّحة في تفاصيل المنتج.",
      wa:"واتساب", ig:"إنستغرام", gg:"خرائط غوغل", wamsg:"مرحبًا، أكتب إليكم من قائمة كوله إسطنبول كافيه.", top:"العودة للأعلى"}
@@ -77,7 +77,9 @@ function build(){
       const items = g.i.filter(it=>!it.off).map(it=>{
         const nm = tx(it.name), ing = tx(it.ing);
         const key = [it.name.tr,it.name.en,it.name.ar,it.ing.tr,it.ing.en,it.ing.ar,g.title.tr,g.title.en,g.title.ar,s.title.tr,s.title.en,s.title.ar].join(" ").toLocaleLowerCase("tr");
-        const chips = (it.a||[]).map(a=>'<span class="achip"><b>'+esc(a)+'</b>'+esc(tx(ST.alg[a]))+'</span>').join("");
+        const chips = (it.a||[]).map(a=>{ const sr=(it.asrc&&it.asrc[a])?tx(it.asrc[a]):null;
+          return '<div class="algrow"><span class="achip"><b>'+esc(a)+'</b>'+esc(tx(ST.alg[a]))+'</span>'
+            +((sr&&sr.length)?'<span class="algsrc">'+esc(Array.isArray(sr)?sr.join(", "):sr)+'</span>':'')+'</div>';}).join("");
         const dim = (it.iw&&it.ih) ? ' width="'+it.iw+'" height="'+it.ih+'"' : '';
         const photo = it.img ? '<button type="button" class="photo" data-zoom="'+it.id+'" aria-label="'+esc(nm)+' — '+t.zoom+'"><img src="'+it.img+'" alt="'+esc(nm)+'"'+dim+' loading="lazy"><span class="zi">'+I_ZOOM+'</span></button>' : '';
         return '<div class="item'+(it.so?' so':'')+'" data-id="'+it.id+'" data-k="'+esc(key)+'" data-a="'+((it.a||[]).join(","))+'">'
@@ -103,7 +105,7 @@ function build(){
                       +'<tr><th>'+t.nFa+'</th><td>'+esc(gr(it.nut.f))+'</td></tr>'
                       +'<tr><th>'+t.nCa+'</th><td>'+esc(gr(it.nut.c))+'</td></tr>':'')
               +'</tbody></table><p class="kcaln">'+t.kcalN+'</p></div>':'')
-            +'<div class="dblock"><h4>'+t.all+'</h4>'+(chips?'<div class="achips">'+chips+'</div>':'<p class="snone">'+t.noall+'</p>')+'</div>'
+            +'<div class="dblock"><h4>'+t.all+'</h4>'+(it.aunk?'<p class="snone">'+t.aunk+'</p>':(chips?'<div class="algrid">'+chips+'</div>':'<p class="snone">'+t.noall+'</p>'))+'</div>'
             +(s.id!=="nargile"?'<div class="dblock"><h4>'+t.decl+'</h4><div class="achips"><span class="achip dcl'+(it.alc?' warn':'')+'">'+(it.alc?t.alcYes:t.alcNo)+'</span><span class="achip dcl'+(it.pork?' warn':'')+'">'+(it.pork?t.porkYes:t.porkNo)+'</span></div></div>':'')
           +'</div></div></div></div>';
       }).join("");
@@ -336,7 +338,7 @@ function renderAdmin(){
     +'<b>Yapı:</b> yeni bölüm ve grup açma, adlarını ve sırasını değiştirme, gizleme. Menüyü kendiniz büyütebilirsiniz.<br><br>'
     +'<b>Silme yok:</b> ürün, grup ve bölümler silinmez; "pasife al" / "gizle" dersiniz, müşteri menüsünden çıkar, panelde durur, istediğinizde geri açarsınız.<br><br>'
     +'<b>Besin değerleri:</b> kalori ürün adının yanında rozet olarak, detayda ise enerji (kcal/kJ), protein, yağ ve karbonhidrat tablosu olarak görünür. Porsiyon/gramaj yazarsanız (örn. "220 g antrikot") tablonun başlığında çıkar. Değerler bileşim üzerinden hesaplanmış yaklaşık değerlerdir; mutfağın ölçümleriyle buradan güncelleyin.<br><br>'
-    +'<b>Sos kartları:</b> Sweet Chili, Cafe de Paris ve Demi Glace soslarının kendi içindekileri ve alerjenleri ürün detayında AYRI bir blokta görünür — ürünün içindekileriyle karışmaz. Ürün düzenleme ekranındaki kutucuklardan hangi sosun görüneceğini seçersiniz; sosun alerjeni ürünün alerjen listesine de kendiliğinden eklenir.<br><br><b>Beyan:</b> her üründe alkol ve domuz türevi beyanı vardır (varsayılan: içermez). Mevzuat gereği içeren ürünlerde "İçerir" seçin.<br><br><b>Ayarlar:</b> telefon, WhatsApp, Instagram, Google, adres, çalışma saati, slogan ve PIN.<br><br>'
+    +'<b>Alerjenler:</b> her alerjenin yanında onu doğuran malzemeler yazar (örn. "Gluten — burger köftesi, susamlı burger ekmeği"). Alerjenler içindekiler listesinden türetilir; içindekileri değiştirirseniz alerjen kutucuklarını da elle güncelleyin.<br><br><b>Sos kartları:</b> Sweet Chili, Cafe de Paris ve Demi Glace soslarının kendi içindekileri ve alerjenleri ürün detayında AYRI bir blokta görünür — ürünün içindekileriyle karışmaz. Ürün düzenleme ekranındaki kutucuklardan hangi sosun görüneceğini seçersiniz; sosun alerjeni ürünün alerjen listesine de kendiliğinden eklenir.<br><br><b>Beyan:</b> her üründe alkol ve domuz türevi beyanı vardır (varsayılan: içermez). Mevzuat gereği içeren ürünlerde "İçerir" seçin.<br><br><b>Ayarlar:</b> telefon, WhatsApp, Instagram, Google, adres, çalışma saati, slogan ve PIN.<br><br>'
     +publine
     +'<b>Fotoğraf:</b> telefondan seçilen fotoğraf otomatik küçültülür (en fazla 720 px).<br><br>'
     +'<b>Panele girmek için:</b> arama kutusuna <code>yönetici</code> yazın, ya da adresin sonuna <code>#admin</code> ekleyin, ya da üstteki ambleme uzun basın.</p>';
@@ -508,7 +510,9 @@ function editItem(si,gi,ii,isNew){
     it.ing={tr:$("f_itr").value.trim(),en:$("f_ien").value.trim(),ar:$("f_iar").value.trim()};
     it.a=[...m.querySelectorAll('.chk input:checked')].filter(x=>!x.hasAttribute("data-sos")).map(x=>x.value);
     it.sos=[...m.querySelectorAll('#f_soswrap input:checked')].map(x=>x.value);
-    (it.sos||[]).forEach(k=>{ const sc=ST.sauces&&ST.sauces[k]; if(sc) (sc.a||[]).forEach(x=>{ if(!it.a.includes(x)) it.a.push(x); }); });
+    (it.sos||[]).forEach(k=>{ const sc=ST.sauces&&ST.sauces[k]; if(sc) (sc.a||[]).forEach(x=>{ if(!it.a.includes(x)) it.a.push(x);
+      const d=(it.asrc=it.asrc||{})[x]||((it.asrc[x])={tr:[],en:[],ar:[]}); ["tr","en","ar"].forEach(L=>{ const nm=sc.name[L]; if(!d[L].includes(nm)) d[L].push(nm); }); }); });
+    if(it.asrc) Object.keys(it.asrc).forEach(k=>{ if(!it.a.includes(k)) delete it.asrc[k]; });
     it.s=$("f_s").value==="1"?1:0; it.so=$("f_so").value==="1"?1:0;
     it.alc=$("f_alc").value==="1"?1:0; it.pork=$("f_pork").value==="1"?1:0;
     if(removeImg){ it.img=""; it.iw=null; it.ih=null; } else if(newImg){ it.img=newImg; if(newDim){ it.iw=newDim.w; it.ih=newDim.h; } }

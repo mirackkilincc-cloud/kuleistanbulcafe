@@ -377,3 +377,9 @@ table.nut th{color:var(--ink-3)} table.nut td{color:var(--ink)} table.nut td b{c
 .sos-t{margin:0 0 4px;font-size:.76rem;line-height:1.45;color:var(--ink-3)}
 .sos-t b{color:var(--price)}
 .sos .snone{font-size:.78rem;margin-bottom:6px}
+/* alerjen + kaynak malzeme satırları */
+.algrid{display:flex;flex-direction:column;gap:8px}
+.algrow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.algrow .achip{flex:0 0 auto}
+.algsrc{flex:1 1 60%;min-width:0;font-size:.79rem;line-height:1.45;color:var(--ink-3)}
+.sos .algrid{gap:6px}

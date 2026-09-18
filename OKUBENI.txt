@@ -98,15 +98,44 @@ yana kaydırılır ve o anki bölüm altın çizgiyle işaretlenir.
 
 1 Temmuz 2026 menü düzenlemesi (Tarım ve Orman Bakanlığı — Türk Gıda
 Kodeksi Gıda Etiketleme ve Tüketicileri Bilgilendirme Yönetmeliği
-değişikliği) için menüde artık şunlar var:
-  • Temel bileşenler / hammaddeler (her üründe "İçindekiler")
-  • Hazır sosların (Sweet Chili, Cafe de Paris, Demi Glace) kendi
-    içindekileri ve alerjenleri — ürün detayında AYRI "Soslar" bloğu
-  • Porsiyon başına enerji (kcal + kJ) ve protein / yağ / karbonhidrat
-  • 14 alerjen (ürün başına işaret + alerjen filtresi)
-  • Alkol ve domuz türevi beyanı (her üründe; alt bilgide genel beyan)
-  • Masa kartında "bilgilere karekod ile ulaşabilirsiniz; karekod
-    kullanamayanlara talep halinde ayrıca sunulur" ibaresi
+değişikliği) neyi zorunlu kılıyor, menüde nasıl karşılanıyor:
+
+  1. TEMEL BİLEŞENLER / HAMMADDELER
+     Her üründe "İçindekiler" satırı; sos, marine ve kaplamaların
+     bileşimi parantez içinde açık yazılı (örn. "hamburger sosu
+     (mayonez, Sweet Chili sos, az acı, tuz, pul biber)").
+
+  2. HAZIR SOSLARIN KENDİ BİLEŞİMİ
+     Sweet Chili, Cafe de Paris ve Demi Glace için ürün detayında AYRI
+     "Soslar" bloğu: sosun kendi içindekileri, kendi alerjenleri ve
+     "eser miktarda içerebilir" uyarısı. Ürünün içindekileriyle
+     karışmaz.
+
+  3. ALERJENLER (14 grup: gluten, süt, yumurta, balık, kabuklu deniz
+     ürünleri, soya, susam, sert kabuklu yemişler, yer fıstığı, hardal,
+     kereviz, sülfit, yumuşakçalar, acı bakla)
+     Her ürünün alerjeni İÇİNDEKİLERDEN kural tabanlı türetilir ve
+     alerjenin YANINDA onu doğuran malzeme yazar:
+        Gluten — burger köftesi, susamlı burger ekmeği
+        Süt    — mantar sos, krema
+     Sos kartlarının alerjenleri ürünün listesine de eklenir.
+     Menüde ayrıca "alerjen içermesin" filtresi vardır: misafir
+     gluten/süt vb. seçince o alerjeni içeren ürünler gizlenir.
+
+  4. PORSİYON BAŞINA ENERJİ
+     kcal + kJ, ayrıca protein / yağ / karbonhidrat tablosu; ürün
+     adının yanında kalori rozeti.
+
+  5. ALKOL VE DOMUZ TÜREVİ BEYANI
+     Her üründe "Alkol içermez / Domuz türevi içermez" etiketi; alt
+     bilgide genel beyan.
+
+  6. KAREKOD İBARESİ
+     Masa kartında "bilgilere karekod ile ulaşabilirsiniz; karekod
+     kullanamayan misafirlere talep halinde ayrıca sunulur" yazıyor.
+
+  7. FİYAT (Ticaret Bakanlığı Fiyat Etiketi Yönetmeliği)
+     Tüm fiyatlar KDV dahil; alt bilgide belirtiliyor.
 Takvim: ulusal zincirler 1 Temmuz 2026; aynı ilde 3+ şube 31 Aralık 2026;
 diğer işletmeler içerik 31 Aralık 2026, enerji 31 Aralık 2027.
 KULE tek şube olduğu için son tarihler 31.12.2026 / 31.12.2027 — ama
@@ -128,6 +157,13 @@ Kaynak: 01.04.2026 tarihli basılı menü (10 sayfa).
   Hangi yemeklerde kullanılıyorsa yönetici panelinden o ürünün
   düzenleme ekranındaki "Sos kartları" kutucuğundan işaretle
   (alerjenleri — gluten, süt, kereviz — ürüne kendiliğinden eklenir).
+• Alerjenler artık elle değil, içindekilerden OTOMATİK çıkarılıyor
+  (kaynak/alerjen-kural.py + alerjen.json). İçindekileri değiştirince
+  bu betiği yeniden çalıştırmak gerekir; yönetici panelinden ürün
+  düzenlerseniz alerjen kutucuklarını da elle güncelleyin.
+• KULE-alerjen-kontrol.xlsx'te "Teyit gerekenler" sayfası var: soya
+  sosu/sosis/köri sos gibi hazır ürünlerin etiketinden doğrulanması
+  gereken 14 madde orada listeli.
 • BESİN DEĞERLERİ TASLAKTIR: standart tarif ve gramajlardan hesaplanmış
   yaklaşık değerler. Mevzuata uygun beyan için mutfak gramajlarıyla bir
   gıda mühendisi / diyetisyene doğrulatıp KULE-alerjen-kontrol.xlsx

@@ -13,6 +13,8 @@ başka birine devretmek istediğinde lazım olur.
 | `icons.js` | 37 adet çizgi illüstrasyon (SVG). Fotoğrafı olmayan ürünlerde görünür. |
 | `page.css` | Sayfanın tüm stili. `:root` paleti aydınlık zemin + siyah–altındır; sondaki "KULE marka katmanı" bloğu bileşenleri buna göre boyar. Geniş ekranda (≥760px) kategori çubuğu satırlara sarılır, araçlar sağa yaslanır. |
 | `page.js` | Sayfanın tüm davranışı (KÖK v2 tabanı): dil, arama, filtre, açılır detay, besin tablosu, fotoğraf büyütme, yönetici paneli (Ürünler / Yapı / Ayarlar / Yardım), anlık yayın (Claude adresinde) veya index.html indirme (Vercel). |
+| `alerjen-kural.py` | Alerjen türetici: menüdeki HER malzeme ifadesi sınıflandırılmıştır; ürünün alerjenlerini ve her alerjenin kaynak malzemelerini (3 dil) `alerjen.json`'a yazar. Tabloda olmayan malzeme görürse hata verir. `python3 alerjen-kural.py` (önce `node build.js`, çünkü state.json'u okur). |
+| `alerjen.json` | Türetilmiş alerjenler — build.js bunu okur. |
 | `soslar.js` | Sos kartları: hazır sosların kendi içindekileri, KESİN alerjenleri (`a` — ürüne de eklenir), eser-miktar uyarısı (`trace`) ve notu. `SOS_MAP` hangi üründe hangi kartın görüneceğini söyler. |
 | `nut.js` | Porsiyon başına besin değerleri `[kcal, protein, yağ, karbonhidrat]` — TR ürün adıyla eşleşir. kJ build'de hesaplanır. TASLAK. |
 | `build.js` | Hepsini birleştirip `menu.html` (Claude artifact) ve `site/index.html` (= klasör kökündeki index.html, Vercel) üretir. `pub` alanına yayın zamanını yazar. |
@@ -31,7 +33,7 @@ Node.js 18+ ve Python 3 gerekir.
 
 ```bash
 cd kaynak
-node all.js          # kule-data.js -> menu.html + site/index.html + state.json
+node all.js          # (içindekiler değiştiyse: node build.js && python3 alerjen-kural.py && node all.js)          # kule-data.js -> menu.html + site/index.html + state.json
 python3 card.py      # kule-masa-karti.pdf + kule-qr.png   (pillow, opencv-python gerekir)
 python3 sheet.py     # KULE-alerjen-kontrol.xlsx           (openpyxl gerekir)
 ```
@@ -67,7 +69,7 @@ Varsayılan PIN **7161** — Ayarlar sekmesinden değiştir.
 ürünleri · S soya · SS susam · N sert kabuklu yemişler · F yer fıstığı ·
 H hardal · C kereviz · SO sülfit · MO yumuşakçalar · L acı bakla
 
-**Ürün alanları (v5):** `sos` (gösterilecek sos kartı anahtarları), `kcal`, `nut:{kcal,kj,p,f,c}`, `por:{tr,en,ar}|null` (porsiyon/gramaj — KULE'de gramaj içindekilerde), `alc`, `pork` (0/1 beyan), `off` (pasif), `iw/ih` (fotoğraf boyutu).
+**Ürün alanları (v5):** `asrc` (alerjen -> kaynak malzemeler, 3 dil), `aunk` (içerik günlük değişir), `sos` (gösterilecek sos kartı anahtarları), `kcal`, `nut:{kcal,kj,p,f,c}`, `por:{tr,en,ar}|null` (porsiyon/gramaj — KULE'de gramaj içindekilerde), `alc`, `pork` (0/1 beyan), `off` (pasif), `iw/ih` (fotoğraf boyutu).
 
 **Ürün kimliği:** `<bölüm>-<grup sırası>-<ürün sırası>` — örn. `et-1-1` =
 Kırmızı Etler / Izgaralar / Karışık Izgara.

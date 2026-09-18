@@ -222,8 +222,100 @@
         "G",
         "M",
         "Y",
+        "S",
         "N"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "sahanda yumurta",
+          "menemen"
+         ],
+         "en": [
+          "fried egg",
+          "menemen (egg)"
+         ],
+         "ar": [
+          "بيض مقلي",
+          "منمن (بيض)"
+         ]
+        },
+        "G": {
+         "tr": [
+          "kalem böreği",
+          "sınırsız ekmek sepeti"
+         ],
+         "en": [
+          "cheese rolls",
+          "bread basket"
+         ],
+         "ar": [
+          "لفائف جبنة",
+          "سلة خبز"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kalem böreği",
+          "beyaz peynir",
+          "taze kaşar",
+          "çeçil peyniri",
+          "burgu peynir",
+          "lor peyniri",
+          "kaymak",
+          "tereyağı",
+          "nutella"
+         ],
+         "en": [
+          "cheese rolls",
+          "white cheese",
+          "fresh kashar",
+          "chechil cheese",
+          "braided cheese",
+          "curd cheese",
+          "clotted cream",
+          "butter",
+          "Nutella"
+         ],
+         "ar": [
+          "لفائف جبنة",
+          "جبنة بيضاء",
+          "قشقوان طازج",
+          "جبنة شيشيل",
+          "جبنة مضفورة",
+          "جبنة لور",
+          "قشطة",
+          "زبدة",
+          "نوتيلا"
+         ]
+        },
+        "N": {
+         "tr": [
+          "acuka",
+          "nutella"
+         ],
+         "en": [
+          "acuka (walnut)",
+          "Nutella"
+         ],
+         "ar": [
+          "أجوكا (جوز)",
+          "نوتيلا"
+         ]
+        },
+        "S": {
+         "tr": [
+          "nutella"
+         ],
+         "en": [
+          "Nutella"
+         ],
+         "ar": [
+          "نوتيلا"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "plate",
        "s": 0,
        "so": 0,
@@ -269,9 +361,34 @@
        },
        "p": 405,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "tereyağı"
+         ],
+         "en": [
+          "butter"
+         ],
+         "ar": [
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "omelette",
        "s": 0,
        "so": 0,
@@ -306,9 +423,37 @@
        },
        "p": 435,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "beyaz peynir",
+          "tereyağı"
+         ],
+         "en": [
+          "white cheese",
+          "butter"
+         ],
+         "ar": [
+          "جبنة بيضاء",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "omelette",
        "s": 0,
        "so": 0,
@@ -343,9 +488,37 @@
        },
        "p": 435,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri",
+          "tereyağı"
+         ],
+         "en": [
+          "kashar cheese",
+          "butter"
+         ],
+         "ar": [
+          "قشقوان",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "omelette",
        "s": 0,
        "so": 0,
@@ -380,9 +553,49 @@
        },
        "p": 460,
        "a": [
-        "Y",
-        "M"
+        "G",
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri",
+          "tereyağı"
+         ],
+         "en": [
+          "kashar cheese",
+          "butter"
+         ],
+         "ar": [
+          "قشقوان",
+          "زبدة"
+         ]
+        },
+        "G": {
+         "tr": [
+          "sosis"
+         ],
+         "en": [
+          "sausage"
+         ],
+         "ar": [
+          "نقانق"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "omelette",
        "s": 0,
        "so": 0,
@@ -428,9 +641,34 @@
        },
        "p": 475,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "tereyağı"
+         ],
+         "en": [
+          "butter"
+         ],
+         "ar": [
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "egg",
        "s": 0,
        "so": 0,
@@ -465,9 +703,34 @@
        },
        "p": 435,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "tereyağı"
+         ],
+         "en": [
+          "butter"
+         ],
+         "ar": [
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "egg",
        "s": 0,
        "so": 0,
@@ -502,9 +765,34 @@
        },
        "p": 380,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "tereyağı"
+         ],
+         "en": [
+          "butter"
+         ],
+         "ar": [
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "egg",
        "s": 0,
        "so": 0,
@@ -541,6 +829,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "tereyağı"
+         ],
+         "en": [
+          "butter"
+         ],
+         "ar": [
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "egg",
        "s": 0,
        "so": 0,
@@ -575,9 +877,34 @@
        },
        "p": 430,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "tereyağı"
+         ],
+         "en": [
+          "butter"
+         ],
+         "ar": [
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "menemen",
        "s": 0,
        "so": 0,
@@ -612,9 +939,37 @@
        },
        "p": 460,
        "a": [
-        "Y",
-        "M"
+        "M",
+        "Y"
        ],
+       "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri",
+          "tereyağı"
+         ],
+         "en": [
+          "kashar cheese",
+          "butter"
+         ],
+         "ar": [
+          "قشقوان",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "menemen",
        "s": 0,
        "so": 0,
@@ -651,6 +1006,26 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "tereyağı",
+          "kolot",
+          "dil peyniri"
+         ],
+         "en": [
+          "butter",
+          "kolot cheese",
+          "dil cheese"
+         ],
+         "ar": [
+          "زبدة",
+          "جبنة كولوت",
+          "جبنة دل"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "menemen",
        "s": 0,
        "so": 0,
@@ -703,6 +1078,34 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "tost ekmeği"
+         ],
+         "en": [
+          "toast bread"
+         ],
+         "ar": [
+          "خبز توست"
+         ]
+        },
+        "M": {
+         "tr": [
+          "çift kaşar peyniri",
+          "tereyağı"
+         ],
+         "en": [
+          "kashar cheese",
+          "butter"
+         ],
+         "ar": [
+          "قشقوان",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "toast",
        "s": 0,
        "so": 0,
@@ -740,6 +1143,34 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "tost ekmeği"
+         ],
+         "en": [
+          "toast bread"
+         ],
+         "ar": [
+          "خبز توست"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri",
+          "tereyağı"
+         ],
+         "en": [
+          "kashar cheese",
+          "butter"
+         ],
+         "ar": [
+          "قشقوان",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "toast",
        "s": 0,
        "so": 0,
@@ -802,6 +1233,8 @@
        },
        "p": 350,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "soup",
        "s": 0,
        "so": 0,
@@ -837,10 +1270,69 @@
        "p": 575,
        "a": [
         "G",
-        "Y",
         "M",
+        "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "cajun baharatlı çıtır tavuk parçaları",
+          "un",
+          "soya sosu"
+         ],
+         "en": [
+          "Cajun crispy chicken",
+          "flour",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج كاجون مقرمش",
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "cajun baharatlı çıtır tavuk parçaları",
+          "yumurta"
+         ],
+         "en": [
+          "Cajun crispy chicken",
+          "egg"
+         ],
+         "ar": [
+          "دجاج كاجون مقرمش",
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cajun baharatlı çıtır tavuk parçaları",
+          "süt"
+         ],
+         "en": [
+          "Cajun crispy chicken",
+          "milk"
+         ],
+         "ar": [
+          "دجاج كاجون مقرمش",
+          "حليب"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -880,6 +1372,83 @@
         "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "çıtır tavuk",
+          "un",
+          "soya sosu",
+          "sigara böreği",
+          "soğan halkası",
+          "mozzarella stick",
+          "sosis"
+         ],
+         "en": [
+          "crispy chicken",
+          "flour",
+          "soy sauce (contains wheat)",
+          "cheese rolls",
+          "onion rings",
+          "mozzarella sticks",
+          "sausage"
+         ],
+         "ar": [
+          "دجاج مقرمش",
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)",
+          "لفائف جبنة",
+          "حلقات بصل",
+          "أصابع موزاريلا",
+          "نقانق"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "çıtır tavuk",
+          "yumurta"
+         ],
+         "en": [
+          "crispy chicken",
+          "egg"
+         ],
+         "ar": [
+          "دجاج مقرمش",
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "çıtır tavuk",
+          "süt",
+          "sigara böreği",
+          "mozzarella stick"
+         ],
+         "en": [
+          "crispy chicken",
+          "milk",
+          "cheese rolls",
+          "mozzarella sticks"
+         ],
+         "ar": [
+          "دجاج مقرمش",
+          "حليب",
+          "لفائف جبنة",
+          "أصابع موزاريلا"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "combo",
        "s": 0,
        "so": 0,
@@ -914,6 +1483,8 @@
        },
        "p": 440,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "fries",
        "s": 0,
        "so": 0,
@@ -948,6 +1519,8 @@
        },
        "p": 410,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "fries",
        "s": 0,
        "so": 0,
@@ -984,6 +1557,20 @@
        "a": [
         "G"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "ızgara sosis"
+         ],
+         "en": [
+          "grilled sausage"
+         ],
+         "ar": [
+          "نقانق مشوية"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "combo",
        "s": 0,
        "so": 0,
@@ -1018,9 +1605,25 @@
        },
        "p": 400,
        "a": [
-        "G",
-        "Y"
+        "G"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "soğan halkası",
+          "galeta unu"
+         ],
+         "en": [
+          "onion rings",
+          "breadcrumbs"
+         ],
+         "ar": [
+          "حلقات بصل",
+          "بقسماط"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "combo",
        "s": 0,
        "so": 0,
@@ -1058,6 +1661,37 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "sigara böreği",
+          "yufka"
+         ],
+         "en": [
+          "cheese rolls",
+          "yufka pastry"
+         ],
+         "ar": [
+          "لفائف جبنة",
+          "عجينة يوفكا"
+         ]
+        },
+        "M": {
+         "tr": [
+          "sigara böreği",
+          "beyaz peynir"
+         ],
+         "en": [
+          "cheese rolls",
+          "white cheese"
+         ],
+         "ar": [
+          "لفائف جبنة",
+          "جبنة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "borek",
        "s": 0,
        "so": 0,
@@ -1120,6 +1754,8 @@
        },
        "p": 475,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "salad",
        "s": 0,
        "so": 0,
@@ -1154,6 +1790,8 @@
        },
        "p": 475,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "salad",
        "s": 0,
        "so": 0,
@@ -1190,6 +1828,20 @@
        "a": [
         "G"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "şişte köfte"
+         ],
+         "en": [
+          "skewered meatballs"
+         ],
+         "ar": [
+          "كفتة بالسيخ"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "salad",
        "s": 0,
        "so": 0,
@@ -1230,6 +1882,73 @@
         "B",
         "H"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "kruton ekmek"
+         ],
+         "en": [
+          "croutons"
+         ],
+         "ar": [
+          "خبز محمّص"
+         ]
+        },
+        "M": {
+         "tr": [
+          "parmesan"
+         ],
+         "en": [
+          "parmesan"
+         ],
+         "ar": [
+          "بارميزان"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "sezar sos",
+          "mayonez"
+         ],
+         "en": [
+          "Caesar dressing",
+          "mayonnaise"
+         ],
+         "ar": [
+          "صوص سيزر",
+          "مايونيز"
+         ]
+        },
+        "B": {
+         "tr": [
+          "sezar sos",
+          "ançüez"
+         ],
+         "en": [
+          "Caesar dressing",
+          "anchovy"
+         ],
+         "ar": [
+          "صوص سيزر",
+          "أنشوجة"
+         ]
+        },
+        "H": {
+         "tr": [
+          "sezar sos",
+          "hardal"
+         ],
+         "en": [
+          "Caesar dressing",
+          "mustard"
+         ],
+         "ar": [
+          "صوص سيزر",
+          "خردل"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "salad",
        "s": 0,
        "so": 0,
@@ -1270,6 +1989,85 @@
         "S",
         "H"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "cajun tavuk",
+          "un",
+          "pane",
+          "galeta unu",
+          "soya sosu"
+         ],
+         "en": [
+          "Cajun chicken",
+          "flour",
+          "breading",
+          "breadcrumbs",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج كاجون",
+          "دقيق",
+          "خلطة تغليف",
+          "بقسماط",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "cajun tavuk",
+          "yumurta"
+         ],
+         "en": [
+          "Cajun chicken",
+          "egg"
+         ],
+         "ar": [
+          "دجاج كاجون",
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cajun tavuk",
+          "süt"
+         ],
+         "en": [
+          "Cajun chicken",
+          "milk"
+         ],
+         "ar": [
+          "دجاج كاجون",
+          "حليب"
+         ]
+        },
+        "S": {
+         "tr": [
+          "cajun tavuk",
+          "soya sosu"
+         ],
+         "en": [
+          "Cajun chicken",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج كاجون",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "H": {
+         "tr": [
+          "ballı hardal sos"
+         ],
+         "en": [
+          "honey mustard dressing"
+         ],
+         "ar": [
+          "صوص عسل وخردل"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "salad",
        "s": 0,
        "so": 0,
@@ -1319,6 +2117,45 @@
         "M",
         "N"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "spagetti"
+         ],
+         "en": [
+          "spaghetti"
+         ],
+         "ar": [
+          "سباغيتي"
+         ]
+        },
+        "N": {
+         "tr": [
+          "fesleğenli pesto sos"
+         ],
+         "en": [
+          "basil pesto"
+         ],
+         "ar": [
+          "بيستو الريحان"
+         ]
+        },
+        "M": {
+         "tr": [
+          "fesleğenli pesto sos",
+          "parmesan"
+         ],
+         "en": [
+          "basil pesto",
+          "parmesan"
+         ],
+         "ar": [
+          "بيستو الريحان",
+          "بارميزان"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "pasta",
        "s": 0,
        "so": 0,
@@ -1356,6 +2193,40 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "makarna"
+         ],
+         "en": [
+          "macaroni"
+         ],
+         "ar": [
+          "معكرونة"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cheddar",
+          "kaşar",
+          "krema",
+          "tereyağı"
+         ],
+         "en": [
+          "cheddar",
+          "kashar cheese",
+          "cream",
+          "butter"
+         ],
+         "ar": [
+          "شيدر",
+          "قشقوان",
+          "كريمة",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "pasta",
        "s": 0,
        "so": 0,
@@ -1394,6 +2265,42 @@
         "M",
         "N"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "penne"
+         ],
+         "en": [
+          "penne"
+         ],
+         "ar": [
+          "بيني"
+         ]
+        },
+        "N": {
+         "tr": [
+          "fesleğenli pesto sos"
+         ],
+         "en": [
+          "basil pesto"
+         ],
+         "ar": [
+          "بيستو الريحان"
+         ]
+        },
+        "M": {
+         "tr": [
+          "fesleğenli pesto sos"
+         ],
+         "en": [
+          "basil pesto"
+         ],
+         "ar": [
+          "بيستو الريحان"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "pasta",
        "s": 0,
        "so": 0,
@@ -1429,9 +2336,39 @@
        "p": 650,
        "a": [
         "G",
-        "M",
-        "Y"
+        "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "fettuccine"
+         ],
+         "en": [
+          "fettuccine"
+         ],
+         "ar": [
+          "فيتوتشيني"
+         ]
+        },
+        "M": {
+         "tr": [
+          "krema",
+          "parmesan",
+          "tereyağı"
+         ],
+         "en": [
+          "cream",
+          "parmesan",
+          "butter"
+         ],
+         "ar": [
+          "كريمة",
+          "بارميزان",
+          "زبدة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "pasta",
        "s": 0,
        "so": 0,
@@ -1468,9 +2405,53 @@
        "a": [
         "G",
         "S",
-        "SS",
-        "Y"
+        "SS"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "noodle",
+          "soya sos"
+         ],
+         "en": [
+          "noodles",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "نودلز",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya filizi",
+          "soya sos"
+         ],
+         "en": [
+          "bean sprouts",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "براعم الصويا",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "SS": {
+         "tr": [
+          "susam yağı",
+          "susam"
+         ],
+         "en": [
+          "sesame oil",
+          "sesame"
+         ],
+         "ar": [
+          "زيت سمسم",
+          "سمسم"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "pasta",
        "s": 0,
        "so": 0,
@@ -1507,9 +2488,53 @@
        "a": [
         "G",
         "S",
-        "SS",
-        "Y"
+        "SS"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "noodle",
+          "soya sos"
+         ],
+         "en": [
+          "noodles",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "نودلز",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya filizi",
+          "soya sos"
+         ],
+         "en": [
+          "bean sprouts",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "براعم الصويا",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "SS": {
+         "tr": [
+          "susam yağı",
+          "susam"
+         ],
+         "en": [
+          "sesame oil",
+          "sesame"
+         ],
+         "ar": [
+          "زيت سمسم",
+          "سمسم"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "pasta",
        "s": 0,
        "so": 0,
@@ -1566,9 +2591,9 @@
         "ar": "برجر كوله إسطنبول"
        },
        "ing": {
-        "tr": "180 g burger köftesi, kıvırcık, domates, turşu, mantar sos (mantar, krema, tuz, karabiber), hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
-        "en": "180 g beef patty, lettuce, tomato, pickles, mushroom sauce (mushroom, cream, salt, black pepper), burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
-        "ar": "180 غ لحم برجر، خس، طماطم، مخلل، صوص فطر (فطر، كريمة، ملح، فلفل أسود)، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "180 g burger köftesi, susamlı burger ekmeği, kıvırcık, domates, turşu, mantar sos (mantar, krema, tuz, karabiber), hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "180 g beef patty, sesame burger bun, lettuce, tomato, pickles, mushroom sauce (mushroom, cream, salt, black pepper), burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "180 غ لحم برجر، خبز برجر بالسمسم، خس، طماطم، مخلل، صوص فطر (فطر، كريمة، ملح، فلفل أسود)، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 820,
        "a": [
@@ -1577,6 +2602,62 @@
         "Y",
         "SS"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "burger köftesi",
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "beef patty",
+          "sesame burger bun"
+         ],
+         "ar": [
+          "لحم برجر",
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "SS": {
+         "tr": [
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "sesame burger bun"
+         ],
+         "ar": [
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "M": {
+         "tr": [
+          "mantar sos",
+          "krema"
+         ],
+         "en": [
+          "mushroom sauce",
+          "cream"
+         ],
+         "ar": [
+          "صوص فطر",
+          "كريمة"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "hamburger sosu",
+          "mayonez"
+         ],
+         "en": [
+          "burger sauce",
+          "mayonnaise"
+         ],
+         "ar": [
+          "صوص البرجر",
+          "مايونيز"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "burger",
        "s": 0,
        "so": 0,
@@ -1607,9 +2688,9 @@
         "ar": "تشيز برجر"
        },
        "ing": {
-        "tr": "180 g burger köftesi, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
-        "en": "180 g beef patty, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
-        "ar": "180 غ لحم برجر، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "180 g burger köftesi, susamlı burger ekmeği, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "180 g beef patty, sesame burger bun, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "180 غ لحم برجر، خبز برجر بالسمسم، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 815,
        "a": [
@@ -1618,6 +2699,59 @@
         "Y",
         "SS"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "burger köftesi",
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "beef patty",
+          "sesame burger bun"
+         ],
+         "ar": [
+          "لحم برجر",
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "SS": {
+         "tr": [
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "sesame burger bun"
+         ],
+         "ar": [
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cheddar peyniri"
+         ],
+         "en": [
+          "cheddar"
+         ],
+         "ar": [
+          "جبنة شيدر"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "hamburger sosu",
+          "mayonez"
+         ],
+         "en": [
+          "burger sauce",
+          "mayonnaise"
+         ],
+         "ar": [
+          "صوص البرجر",
+          "مايونيز"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "burger",
        "s": 0,
        "so": 0,
@@ -1648,9 +2782,9 @@
         "ar": "جامبو تشيز برجر"
        },
        "ing": {
-        "tr": "360 g burger köftesi, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
-        "en": "360 g beef patty, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
-        "ar": "360 غ لحم برجر، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "360 g burger köftesi, susamlı burger ekmeği, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "360 g beef patty, sesame burger bun, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "360 غ لحم برجر، خبز برجر بالسمسم، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 925,
        "a": [
@@ -1659,6 +2793,59 @@
         "Y",
         "SS"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "burger köftesi",
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "beef patty",
+          "sesame burger bun"
+         ],
+         "ar": [
+          "لحم برجر",
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "SS": {
+         "tr": [
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "sesame burger bun"
+         ],
+         "ar": [
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cheddar peyniri"
+         ],
+         "en": [
+          "cheddar"
+         ],
+         "ar": [
+          "جبنة شيدر"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "hamburger sosu",
+          "mayonez"
+         ],
+         "en": [
+          "burger sauce",
+          "mayonnaise"
+         ],
+         "ar": [
+          "صوص البرجر",
+          "مايونيز"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "burger",
        "s": 0,
        "so": 0,
@@ -1689,9 +2876,9 @@
         "ar": "برجر دجاج"
        },
        "ing": {
-        "tr": "180 g özel soslu tavuk (yumurta, un, süt, panko, galeta unu, pane, soya sosu, tuz, karabiber, Cajun baharatı), kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
-        "en": "180 g chicken in special coating (egg, flour, milk, panko, breadcrumbs, breading, soy sauce, salt, black pepper, Cajun spice), lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
-        "ar": "180 غ دجاج بخلطة خاصة (بيض، دقيق، حليب، بانكو، بقسماط، خلطة تغليف، صلصة صويا، ملح، فلفل أسود، توابل كاجون)، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "180 g özel soslu tavuk (yumurta, un, süt, panko, galeta unu, pane, soya sosu, tuz, karabiber, Cajun baharatı), susamlı burger ekmeği, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "180 g chicken in special coating (egg, flour, milk, panko, breadcrumbs, breading, soy sauce, salt, black pepper, Cajun spice), sesame burger bun, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "180 غ دجاج بخلطة خاصة (بيض، دقيق، حليب، بانكو، بقسماط، خلطة تغليف، صلصة صويا، ملح، فلفل أسود، توابل كاجون)، خبز برجر بالسمسم، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 745,
        "a": [
@@ -1701,6 +2888,100 @@
         "S",
         "SS"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "özel soslu tavuk",
+          "un",
+          "panko",
+          "galeta unu",
+          "pane",
+          "soya sosu",
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "chicken in special coating",
+          "flour",
+          "panko",
+          "breadcrumbs",
+          "breading",
+          "soy sauce (contains wheat)",
+          "sesame burger bun"
+         ],
+         "ar": [
+          "دجاج بخلطة خاصة",
+          "دقيق",
+          "بانكو",
+          "بقسماط",
+          "خلطة تغليف",
+          "صلصة صويا (تحتوي على قمح)",
+          "خبز برجر بالسمسم"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "özel soslu tavuk",
+          "yumurta",
+          "hamburger sosu",
+          "mayonez"
+         ],
+         "en": [
+          "chicken in special coating",
+          "egg",
+          "burger sauce",
+          "mayonnaise"
+         ],
+         "ar": [
+          "دجاج بخلطة خاصة",
+          "بيض",
+          "صوص البرجر",
+          "مايونيز"
+         ]
+        },
+        "M": {
+         "tr": [
+          "özel soslu tavuk",
+          "süt",
+          "cheddar peyniri"
+         ],
+         "en": [
+          "chicken in special coating",
+          "milk",
+          "cheddar"
+         ],
+         "ar": [
+          "دجاج بخلطة خاصة",
+          "حليب",
+          "جبنة شيدر"
+         ]
+        },
+        "S": {
+         "tr": [
+          "özel soslu tavuk",
+          "soya sosu"
+         ],
+         "en": [
+          "chicken in special coating",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج بخلطة خاصة",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "SS": {
+         "tr": [
+          "susamlı burger ekmeği"
+         ],
+         "en": [
+          "sesame burger bun"
+         ],
+         "ar": [
+          "خبز برجر بالسمسم"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "burger",
        "s": 0,
        "so": 0,
@@ -1742,17 +3023,55 @@
         "ar": "لفافة لحم"
        },
        "ing": {
-        "tr": "170 g jülyen et, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
-        "en": "170 g julienne beef, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
-        "ar": "170 غ لحم شرائح، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "170 g jülyen et, lavaş, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g julienne beef, lavash, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ لحم شرائح، خبز لافاش، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 810,
        "a": [
         "G",
         "M",
-        "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lavaş",
+          "soya sosu"
+         ],
+         "en": [
+          "lavash",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "خبز لافاش",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri"
+         ],
+         "en": [
+          "kashar cheese"
+         ],
+         "ar": [
+          "قشقوان"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "wrap",
        "s": 0,
        "so": 0,
@@ -1783,9 +3102,9 @@
         "ar": "لفافة دجاج"
        },
        "ing": {
-        "tr": "170 g jülyen tavuk, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
-        "en": "170 g julienne chicken, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
-        "ar": "170 غ دجاج شرائح، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "170 g jülyen tavuk, lavaş, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g julienne chicken, lavash, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ دجاج شرائح، خبز لافاش، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 730,
        "a": [
@@ -1793,6 +3112,45 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lavaş",
+          "soya sosu"
+         ],
+         "en": [
+          "lavash",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "خبز لافاش",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri"
+         ],
+         "en": [
+          "kashar cheese"
+         ],
+         "ar": [
+          "قشقوان"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "wrap",
        "s": 0,
        "so": 0,
@@ -1823,9 +3181,9 @@
         "ar": "لفافة كفتة بالقشقوان"
        },
        "ing": {
-        "tr": "170 g köfte, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
-        "en": "170 g meatballs, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
-        "ar": "170 غ كفتة، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "170 g köfte, lavaş, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g meatballs, lavash, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ كفتة، خبز لافاش، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 765,
        "a": [
@@ -1833,6 +3191,48 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "köfte",
+          "lavaş",
+          "soya sosu"
+         ],
+         "en": [
+          "meatballs",
+          "lavash",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "كفتة",
+          "خبز لافاش",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kaşar peyniri"
+         ],
+         "en": [
+          "kashar cheese"
+         ],
+         "ar": [
+          "قشقوان"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "wrap",
        "s": 0,
        "so": 0,
@@ -1899,6 +3299,23 @@
        "a": [
         "G"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "anne köfte",
+          "lavaş"
+         ],
+         "en": [
+          "homestyle meatballs",
+          "lavash"
+         ],
+         "ar": [
+          "كفتة بيتية",
+          "خبز لافاش"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "meatball",
        "s": 0,
        "so": 0,
@@ -1936,6 +3353,31 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "köfte"
+         ],
+         "en": [
+          "meatballs"
+         ],
+         "ar": [
+          "كفتة"
+         ]
+        },
+        "M": {
+         "tr": [
+          "süzme yoğurt"
+         ],
+         "en": [
+          "strained yoghurt"
+         ],
+         "ar": [
+          "لبن مصفّى"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "kebab",
        "s": 0,
        "so": 0,
@@ -1973,6 +3415,37 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "köfte"
+         ],
+         "en": [
+          "meatballs"
+         ],
+         "ar": [
+          "كفتة"
+         ]
+        },
+        "M": {
+         "tr": [
+          "patlıcan beğendi",
+          "süt",
+          "kaşar peyniri"
+         ],
+         "en": [
+          "aubergine purée",
+          "milk",
+          "kashar cheese"
+         ],
+         "ar": [
+          "بيغندي باذنجان",
+          "حليب",
+          "قشقوان"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "meatball",
        "s": 0,
        "so": 0,
@@ -2021,6 +3494,40 @@
         "G",
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süzme yoğurt",
+          "özel kaymak sos",
+          "kaymak",
+          "tereyağı"
+         ],
+         "en": [
+          "strained yoghurt",
+          "cream sauce",
+          "clotted cream",
+          "butter"
+         ],
+         "ar": [
+          "لبن مصفّى",
+          "صوص القشطة",
+          "قشطة",
+          "زبدة"
+         ]
+        },
+        "G": {
+         "tr": [
+          "çıtır yufka"
+         ],
+         "en": [
+          "crispy yufka"
+         ],
+         "ar": [
+          "يوفكا مقرمشة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2055,8 +3562,34 @@
        },
        "p": 790,
        "a": [
-        "M"
+        "M",
+        "H"
        ],
+       "asrc": {
+        "H": {
+         "tr": [
+          "köri sos"
+         ],
+         "en": [
+          "curry sauce"
+         ],
+         "ar": [
+          "صوص كاري"
+         ]
+        },
+        "M": {
+         "tr": [
+          "krema"
+         ],
+         "en": [
+          "cream"
+         ],
+         "ar": [
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2093,6 +3626,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "krema"
+         ],
+         "en": [
+          "cream"
+         ],
+         "ar": [
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2127,6 +3674,8 @@
        },
        "p": 790,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2161,6 +3710,8 @@
        },
        "p": 805,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2197,6 +3748,26 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "patlıcan beğendi",
+          "süt",
+          "kaşar peyniri"
+         ],
+         "en": [
+          "aubergine purée",
+          "milk",
+          "kashar cheese"
+         ],
+         "ar": [
+          "بيغندي باذنجان",
+          "حليب",
+          "قشقوان"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2246,6 +3817,57 @@
         "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "panelenmiş tavuk",
+          "pane",
+          "galeta unu",
+          "un",
+          "soya sosu"
+         ],
+         "en": [
+          "breaded chicken",
+          "breading",
+          "breadcrumbs",
+          "flour",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج مغلّف",
+          "خلطة تغليف",
+          "بقسماط",
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "panelenmiş tavuk",
+          "yumurta"
+         ],
+         "en": [
+          "breaded chicken",
+          "egg"
+         ],
+         "ar": [
+          "دجاج مغلّف",
+          "بيض"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2281,10 +3903,72 @@
        "p": 795,
        "a": [
         "G",
-        "Y",
         "M",
+        "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "panelenmiş tavuk",
+          "pane",
+          "galeta unu",
+          "un",
+          "soya sosu"
+         ],
+         "en": [
+          "breaded chicken",
+          "breading",
+          "breadcrumbs",
+          "flour",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج مغلّف",
+          "خلطة تغليف",
+          "بقسماط",
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "panelenmiş tavuk",
+          "yumurta"
+         ],
+         "en": [
+          "breaded chicken",
+          "egg"
+         ],
+         "ar": [
+          "دجاج مغلّف",
+          "بيض"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "M": {
+         "tr": [
+          "mantar sos"
+         ],
+         "en": [
+          "mushroom sauce"
+         ],
+         "ar": [
+          "صوص فطر"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2320,10 +4004,78 @@
        "p": 795,
        "a": [
         "G",
-        "Y",
         "M",
+        "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "panelenmiş tavuk",
+          "pane",
+          "galeta unu",
+          "un",
+          "soya sosu"
+         ],
+         "en": [
+          "breaded chicken",
+          "breading",
+          "breadcrumbs",
+          "flour",
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "دجاج مغلّف",
+          "خلطة تغليف",
+          "بقسماط",
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "panelenmiş tavuk",
+          "yumurta"
+         ],
+         "en": [
+          "breaded chicken",
+          "egg"
+         ],
+         "ar": [
+          "دجاج مغلّف",
+          "بيض"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cheddar sos",
+          "cheddar",
+          "krema"
+         ],
+         "en": [
+          "cheddar sauce",
+          "cheddar",
+          "cream"
+         ],
+         "ar": [
+          "صوص شيدر",
+          "شيدر",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2369,10 +4121,41 @@
        },
        "p": 750,
        "a": [
-        "M",
-        "H",
-        "G"
+        "G",
+        "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "cafe de paris sos",
+          "Cafe de Paris Sos"
+         ],
+         "en": [
+          "Café de Paris sauce",
+          "Café de Paris Sauce"
+         ],
+         "ar": [
+          "صوص كافيه دو باري"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cafe de paris sos",
+          "krema",
+          "Cafe de Paris Sos"
+         ],
+         "en": [
+          "Café de Paris sauce",
+          "cream",
+          "Café de Paris Sauce"
+         ],
+         "ar": [
+          "صوص كافيه دو باري",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2411,6 +4194,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "cheddar sos",
+          "krema"
+         ],
+         "en": [
+          "cheddar sauce",
+          "cream"
+         ],
+         "ar": [
+          "صوص شيدر",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2448,6 +4248,31 @@
         "G",
         "Y"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "çıtır kaplama"
+         ],
+         "en": [
+          "crispy coating"
+         ],
+         "ar": [
+          "طبقة مقرمشة"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "çıtır kaplama"
+         ],
+         "en": [
+          "crispy coating"
+         ],
+         "ar": [
+          "طبقة مقرمشة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "chicken",
        "s": 0,
        "so": 0,
@@ -2518,6 +4343,20 @@
        "a": [
         "G"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "köfte"
+         ],
+         "en": [
+          "meatballs"
+         ],
+         "ar": [
+          "كفتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2552,6 +4391,8 @@
        },
        "p": 1320,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2586,6 +4427,8 @@
        },
        "p": 1570,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2620,6 +4463,8 @@
        },
        "p": 1320,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2654,6 +4499,8 @@
        },
        "p": 1450,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2688,9 +4535,44 @@
        },
        "p": 1500,
        "a": [
-        "M",
-        "G"
+        "G",
+        "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "mantar sos",
+          "krema",
+          "cafe de paris sos",
+          "Cafe de Paris Sos"
+         ],
+         "en": [
+          "mushroom sauce",
+          "cream",
+          "Café de Paris sauce",
+          "Café de Paris Sauce"
+         ],
+         "ar": [
+          "صوص فطر",
+          "كريمة",
+          "صوص كافيه دو باري"
+         ]
+        },
+        "G": {
+         "tr": [
+          "cafe de paris sos",
+          "Cafe de Paris Sos"
+         ],
+         "en": [
+          "Café de Paris sauce",
+          "Café de Paris Sauce"
+         ],
+         "ar": [
+          "صوص كافيه دو باري"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2727,10 +4609,38 @@
        },
        "p": 1500,
        "a": [
-        "M",
-        "H",
-        "G"
+        "G",
+        "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "cafe de paris sos",
+          "Cafe de Paris Sos"
+         ],
+         "en": [
+          "Café de Paris sauce",
+          "Café de Paris Sauce"
+         ],
+         "ar": [
+          "صوص كافيه دو باري"
+         ]
+        },
+        "M": {
+         "tr": [
+          "cafe de paris sos",
+          "Cafe de Paris Sos"
+         ],
+         "en": [
+          "Café de Paris sauce",
+          "Café de Paris Sauce"
+         ],
+         "ar": [
+          "صوص كافيه دو باري"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
@@ -2786,6 +4696,45 @@
         "M",
         "Y"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süzme yoğurt"
+         ],
+         "en": [
+          "strained yoghurt"
+         ],
+         "ar": [
+          "لبن مصفّى"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "özel kule sos",
+          "mayonez"
+         ],
+         "en": [
+          "special Kule sauce",
+          "mayonnaise"
+         ],
+         "ar": [
+          "صوص كوله الخاص",
+          "مايونيز"
+         ]
+        },
+        "G": {
+         "tr": [
+          "lavaş"
+         ],
+         "en": [
+          "lavash"
+         ],
+         "ar": [
+          "خبز لافاش"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "fajita",
        "s": 0,
        "so": 0,
@@ -2826,6 +4775,45 @@
         "M",
         "Y"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süzme yoğurt"
+         ],
+         "en": [
+          "strained yoghurt"
+         ],
+         "ar": [
+          "لبن مصفّى"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "özel kule sos",
+          "mayonez"
+         ],
+         "en": [
+          "special Kule sauce",
+          "mayonnaise"
+         ],
+         "ar": [
+          "صوص كوله الخاص",
+          "مايونيز"
+         ]
+        },
+        "G": {
+         "tr": [
+          "lavaş"
+         ],
+         "en": [
+          "lavash"
+         ],
+         "ar": [
+          "خبز لافاش"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "fajita",
        "s": 0,
        "so": 0,
@@ -2891,9 +4879,39 @@
        "p": 375,
        "a": [
         "G",
-        "M",
-        "Y"
+        "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "bisküvi tabanı"
+         ],
+         "en": [
+          "biscuit base"
+         ],
+         "ar": [
+          "قاعدة بسكويت"
+         ]
+        },
+        "M": {
+         "tr": [
+          "bisküvi tabanı",
+          "krem peynir",
+          "krema"
+         ],
+         "en": [
+          "biscuit base",
+          "cream cheese",
+          "cream"
+         ],
+         "ar": [
+          "قاعدة بسكويت",
+          "جبنة كريمية",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -2929,9 +4947,39 @@
        "p": 375,
        "a": [
         "G",
-        "M",
-        "Y"
+        "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "bisküvi tabanı"
+         ],
+         "en": [
+          "biscuit base"
+         ],
+         "ar": [
+          "قاعدة بسكويت"
+         ]
+        },
+        "M": {
+         "tr": [
+          "bisküvi tabanı",
+          "krem peynir",
+          "krema"
+         ],
+         "en": [
+          "biscuit base",
+          "cream cheese",
+          "cream"
+         ],
+         "ar": [
+          "قاعدة بسكويت",
+          "جبنة كريمية",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -2968,9 +5016,50 @@
        "a": [
         "G",
         "M",
-        "Y",
         "N"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "bisküvi tabanı"
+         ],
+         "en": [
+          "biscuit base"
+         ],
+         "ar": [
+          "قاعدة بسكويت"
+         ]
+        },
+        "M": {
+         "tr": [
+          "bisküvi tabanı",
+          "krem peynir",
+          "süt reçeli"
+         ],
+         "en": [
+          "biscuit base",
+          "cream cheese",
+          "dulce de leche"
+         ],
+         "ar": [
+          "قاعدة بسكويت",
+          "جبنة كريمية",
+          "مربى الحليب"
+         ]
+        },
+        "N": {
+         "tr": [
+          "fındık"
+         ],
+         "en": [
+          "hazelnut"
+         ],
+         "ar": [
+          "بندق"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3010,6 +5099,56 @@
         "Y",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "kakaolu kek"
+         ],
+         "en": [
+          "cocoa sponge"
+         ],
+         "ar": [
+          "كيك كاكاو"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "kakaolu kek"
+         ],
+         "en": [
+          "cocoa sponge"
+         ],
+         "ar": [
+          "كيك كاكاو"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kakaolu kek",
+          "çikolata krema"
+         ],
+         "en": [
+          "cocoa sponge",
+          "chocolate cream"
+         ],
+         "ar": [
+          "كيك كاكاو",
+          "كريمة شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata krema"
+         ],
+         "en": [
+          "chocolate cream"
+         ],
+         "ar": [
+          "كريمة شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3049,6 +5188,56 @@
         "Y",
         "N"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "linzer hamuru"
+         ],
+         "en": [
+          "linzer pastry"
+         ],
+         "ar": [
+          "عجينة لينزر"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "linzer hamuru"
+         ],
+         "en": [
+          "linzer pastry"
+         ],
+         "ar": [
+          "عجينة لينزر"
+         ]
+        },
+        "M": {
+         "tr": [
+          "linzer hamuru",
+          "krema"
+         ],
+         "en": [
+          "linzer pastry",
+          "cream"
+         ],
+         "ar": [
+          "عجينة لينزر",
+          "كريمة"
+         ]
+        },
+        "N": {
+         "tr": [
+          "linzer hamuru"
+         ],
+         "en": [
+          "linzer pastry"
+         ],
+         "ar": [
+          "عجينة لينزر"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3087,6 +5276,48 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lotus bisküvi",
+          "karamelize bisküvi kreması"
+         ],
+         "en": [
+          "Lotus biscuit",
+          "caramelised biscuit spread"
+         ],
+         "ar": [
+          "بسكويت لوتس",
+          "كريمة بسكويت مكرمل"
+         ]
+        },
+        "S": {
+         "tr": [
+          "lotus bisküvi",
+          "karamelize bisküvi kreması"
+         ],
+         "en": [
+          "Lotus biscuit",
+          "caramelised biscuit spread"
+         ],
+         "ar": [
+          "بسكويت لوتس",
+          "كريمة بسكويت مكرمل"
+         ]
+        },
+        "M": {
+         "tr": [
+          "krema"
+         ],
+         "en": [
+          "cream"
+         ],
+         "ar": [
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3124,9 +5355,73 @@
         "G",
         "M",
         "Y",
-        "F",
-        "S"
+        "S",
+        "F"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "kakaolu kek"
+         ],
+         "en": [
+          "cocoa sponge"
+         ],
+         "ar": [
+          "كيك كاكاو"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "kakaolu kek"
+         ],
+         "en": [
+          "cocoa sponge"
+         ],
+         "ar": [
+          "كيك كاكاو"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kakaolu kek",
+          "karamel",
+          "çikolata"
+         ],
+         "en": [
+          "cocoa sponge",
+          "caramel",
+          "chocolate"
+         ],
+         "ar": [
+          "كيك كاكاو",
+          "كراميل",
+          "شوكولاتة"
+         ]
+        },
+        "F": {
+         "tr": [
+          "yer fıstığı"
+         ],
+         "en": [
+          "peanut"
+         ],
+         "ar": [
+          "فول سوداني"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata"
+         ],
+         "en": [
+          "chocolate"
+         ],
+         "ar": [
+          "شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3162,9 +5457,36 @@
        "p": 375,
        "a": [
         "G",
-        "M",
-        "S"
+        "M"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "bisküvi"
+         ],
+         "en": [
+          "biscuit"
+         ],
+         "ar": [
+          "بسكويت"
+         ]
+        },
+        "M": {
+         "tr": [
+          "tereyağı",
+          "süt"
+         ],
+         "en": [
+          "butter",
+          "milk"
+         ],
+         "ar": [
+          "زبدة",
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3203,6 +5525,45 @@
         "M",
         "Y"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "kedidili bisküvi"
+         ],
+         "en": [
+          "ladyfingers"
+         ],
+         "ar": [
+          "بسكويت أصابع"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "kedidili bisküvi",
+          "yumurta"
+         ],
+         "en": [
+          "ladyfingers",
+          "egg"
+         ],
+         "ar": [
+          "بسكويت أصابع",
+          "بيض"
+         ]
+        },
+        "M": {
+         "tr": [
+          "mascarpone"
+         ],
+         "en": [
+          "mascarpone"
+         ],
+         "ar": [
+          "ماسكاربوني"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3241,6 +5602,45 @@
         "M",
         "Y"
        ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "kat kat ballı kek"
+         ],
+         "en": [
+          "layered honey cake"
+         ],
+         "ar": [
+          "كيك بالعسل"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "kat kat ballı kek"
+         ],
+         "en": [
+          "layered honey cake"
+         ],
+         "ar": [
+          "كيك بالعسل"
+         ]
+        },
+        "M": {
+         "tr": [
+          "kat kat ballı kek",
+          "özel krema"
+         ],
+         "en": [
+          "layered honey cake",
+          "cream"
+         ],
+         "ar": [
+          "كيك بالعسل",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3280,6 +5680,56 @@
         "Y",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "çikolata",
+          "tereyağı"
+         ],
+         "en": [
+          "chocolate",
+          "butter"
+         ],
+         "ar": [
+          "شوكولاتة",
+          "زبدة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata"
+         ],
+         "en": [
+          "chocolate"
+         ],
+         "ar": [
+          "شوكولاتة"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "G": {
+         "tr": [
+          "un"
+         ],
+         "en": [
+          "flour"
+         ],
+         "ar": [
+          "دقيق"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3330,10 +5780,48 @@
        "p": 395,
        "a": [
         "M",
-        "N",
-        "Y",
-        "S"
+        "S",
+        "N"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "antep fıstığı kreması",
+          "beyaz çikolata"
+         ],
+         "en": [
+          "pistachio cream",
+          "white chocolate"
+         ],
+         "ar": [
+          "كريمة فستق",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "N": {
+         "tr": [
+          "antep fıstığı kreması"
+         ],
+         "en": [
+          "pistachio cream"
+         ],
+         "ar": [
+          "كريمة فستق"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3369,9 +5857,36 @@
        "p": 395,
        "a": [
         "M",
-        "Y",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "limon kreması",
+          "beyaz çikolata"
+         ],
+         "en": [
+          "lemon cream",
+          "white chocolate"
+         ],
+         "ar": [
+          "كريمة ليمون",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3407,9 +5922,36 @@
        "p": 395,
        "a": [
         "M",
-        "Y",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "mango kreması",
+          "beyaz çikolata"
+         ],
+         "en": [
+          "mango cream",
+          "white chocolate"
+         ],
+         "ar": [
+          "كريمة مانجو",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3445,9 +5987,36 @@
        "p": 395,
        "a": [
         "M",
-        "Y",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "hindistan cevizi kreması",
+          "çikolata"
+         ],
+         "en": [
+          "coconut cream",
+          "chocolate"
+         ],
+         "ar": [
+          "كريمة جوز الهند",
+          "شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata"
+         ],
+         "en": [
+          "chocolate"
+         ],
+         "ar": [
+          "شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "cake",
        "s": 0,
        "so": 0,
@@ -3493,6 +6062,8 @@
        },
        "p": 590,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "fruit",
        "s": 0,
        "so": 0,
@@ -3529,6 +6100,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "krema"
+         ],
+         "en": [
+          "milk",
+          "cream"
+         ],
+         "ar": [
+          "حليب",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icecream",
        "s": 0,
        "so": 0,
@@ -3565,6 +6153,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "krema"
+         ],
+         "en": [
+          "milk",
+          "cream"
+         ],
+         "ar": [
+          "حليب",
+          "كريمة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icecream",
        "s": 0,
        "so": 0,
@@ -3627,6 +6232,8 @@
        },
        "p": 240,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3661,6 +6268,8 @@
        },
        "p": 295,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3697,6 +6306,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "az süt köpüğü"
+         ],
+         "en": [
+          "milk foam"
+         ],
+         "ar": [
+          "رغوة حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3731,6 +6354,8 @@
        },
        "p": 265,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3765,6 +6390,8 @@
        },
        "p": 265,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3801,6 +6428,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "süt köpüğü"
+         ],
+         "en": [
+          "milk",
+          "milk foam"
+         ],
+         "ar": [
+          "حليب",
+          "رغوة حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3837,6 +6481,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "bol süt köpüğü"
+         ],
+         "en": [
+          "milk",
+          "milk foam"
+         ],
+         "ar": [
+          "حليب",
+          "رغوة حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -3874,6 +6535,34 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "çikolata"
+         ],
+         "en": [
+          "milk",
+          "chocolate"
+         ],
+         "ar": [
+          "حليب",
+          "شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata"
+         ],
+         "en": [
+          "chocolate"
+         ],
+         "ar": [
+          "شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "mug",
        "s": 0,
        "so": 0,
@@ -3911,6 +6600,34 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "beyaz çikolata"
+         ],
+         "en": [
+          "milk",
+          "white chocolate"
+         ],
+         "ar": [
+          "حليب",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "mug",
        "s": 0,
        "so": 0,
@@ -3947,6 +6664,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "mug",
        "s": 0,
        "so": 0,
@@ -3983,6 +6714,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4019,6 +6764,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4055,6 +6814,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4091,6 +6864,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4127,6 +6914,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4164,6 +6965,37 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "karamel",
+          "çikolata"
+         ],
+         "en": [
+          "milk",
+          "caramel",
+          "chocolate"
+         ],
+         "ar": [
+          "حليب",
+          "كراميل",
+          "شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata"
+         ],
+         "en": [
+          "chocolate"
+         ],
+         "ar": [
+          "شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4200,6 +7032,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4236,6 +7082,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt"
+         ],
+         "en": [
+          "milk"
+         ],
+         "ar": [
+          "حليب"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4273,6 +7133,34 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "çikolata sosu"
+         ],
+         "en": [
+          "milk",
+          "chocolate sauce"
+         ],
+         "ar": [
+          "حليب",
+          "صوص شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata sosu"
+         ],
+         "en": [
+          "chocolate sauce"
+         ],
+         "ar": [
+          "صوص شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4310,6 +7198,37 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "çikolata sosu",
+          "karamel"
+         ],
+         "en": [
+          "milk",
+          "chocolate sauce",
+          "caramel"
+         ],
+         "ar": [
+          "حليب",
+          "صوص شوكولاتة",
+          "كراميل"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata sosu"
+         ],
+         "en": [
+          "chocolate sauce"
+         ],
+         "ar": [
+          "صوص شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4347,6 +7266,34 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "beyaz çikolata"
+         ],
+         "en": [
+          "milk",
+          "white chocolate"
+         ],
+         "ar": [
+          "حليب",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "coffee",
        "s": 0,
        "so": 0,
@@ -4394,6 +7341,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt"
+         ],
+         "en": [
+          "cold milk"
+         ],
+         "ar": [
+          "حليب بارد"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4428,6 +7389,8 @@
        },
        "p": 335,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4464,6 +7427,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt",
+          "karamel"
+         ],
+         "en": [
+          "cold milk",
+          "caramel"
+         ],
+         "ar": [
+          "حليب بارد",
+          "كراميل"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4500,6 +7480,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt",
+          "karamel"
+         ],
+         "en": [
+          "cold milk",
+          "caramel"
+         ],
+         "ar": [
+          "حليب بارد",
+          "كراميل"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4537,6 +7534,34 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt",
+          "çikolata sosu"
+         ],
+         "en": [
+          "cold milk",
+          "chocolate sauce"
+         ],
+         "ar": [
+          "حليب بارد",
+          "صوص شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata sosu"
+         ],
+         "en": [
+          "chocolate sauce"
+         ],
+         "ar": [
+          "صوص شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4574,6 +7599,34 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt",
+          "beyaz çikolata"
+         ],
+         "en": [
+          "cold milk",
+          "white chocolate"
+         ],
+         "ar": [
+          "حليب بارد",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4610,6 +7663,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt"
+         ],
+         "en": [
+          "cold milk"
+         ],
+         "ar": [
+          "حليب بارد"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4646,6 +7713,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt",
+          "tuzlu karamel"
+         ],
+         "en": [
+          "cold milk",
+          "salted caramel"
+         ],
+         "ar": [
+          "حليب بارد",
+          "كراميل مملّح"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4682,6 +7766,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt"
+         ],
+         "en": [
+          "cold milk"
+         ],
+         "ar": [
+          "حليب بارد"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4718,6 +7816,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "soğuk süt"
+         ],
+         "en": [
+          "cold milk"
+         ],
+         "ar": [
+          "حليب بارد"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "icedcoffee",
        "s": 0,
        "so": 0,
@@ -4763,6 +7875,8 @@
        },
        "p": 55,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -4797,6 +7911,8 @@
        },
        "p": 260,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -4831,6 +7947,8 @@
        },
        "p": 260,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -4865,6 +7983,8 @@
        },
        "p": 260,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -4899,6 +8019,8 @@
        },
        "p": 260,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -4933,6 +8055,8 @@
        },
        "p": 260,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -4967,6 +8091,8 @@
        },
        "p": 260,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "tea",
        "s": 0,
        "so": 0,
@@ -5001,6 +8127,8 @@
        },
        "p": 195,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "turkishcoffee",
        "s": 0,
        "so": 0,
@@ -5035,6 +8163,8 @@
        },
        "p": 300,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "turkishcoffee",
        "s": 0,
        "so": 0,
@@ -5080,6 +8210,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5114,6 +8246,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5148,6 +8282,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5182,6 +8318,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5216,6 +8354,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "juice",
        "s": 0,
        "so": 0,
@@ -5250,6 +8390,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "juice",
        "s": 0,
        "so": 0,
@@ -5284,6 +8426,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "juice",
        "s": 0,
        "so": 0,
@@ -5318,6 +8462,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5352,6 +8498,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5388,6 +8536,20 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "yoğurt"
+         ],
+         "en": [
+          "yoghurt"
+         ],
+         "ar": [
+          "لبن"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "ayran",
        "s": 0,
        "so": 0,
@@ -5422,6 +8584,8 @@
        },
        "p": 90,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5456,6 +8620,8 @@
        },
        "p": 110,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5490,6 +8656,8 @@
        },
        "p": 155,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "juice",
        "s": 0,
        "so": 0,
@@ -5524,6 +8692,8 @@
        },
        "p": 205,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "juice",
        "s": 0,
        "so": 0,
@@ -5558,6 +8728,8 @@
        },
        "p": 120,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "bottle",
        "s": 0,
        "so": 0,
@@ -5592,6 +8764,8 @@
        },
        "p": 60,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "water",
        "s": 0,
        "so": 0,
@@ -5626,6 +8800,8 @@
        },
        "p": 155,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "juice",
        "s": 0,
        "so": 0,
@@ -5673,6 +8849,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "dondurma"
+         ],
+         "en": [
+          "milk",
+          "ice cream"
+         ],
+         "ar": [
+          "حليب",
+          "آيس كريم"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5710,6 +8903,37 @@
         "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "dondurma",
+          "çikolata sosu"
+         ],
+         "en": [
+          "milk",
+          "ice cream",
+          "chocolate sauce"
+         ],
+         "ar": [
+          "حليب",
+          "آيس كريم",
+          "صوص شوكولاتة"
+         ]
+        },
+        "S": {
+         "tr": [
+          "çikolata sosu"
+         ],
+         "en": [
+          "chocolate sauce"
+         ],
+         "ar": [
+          "صوص شوكولاتة"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5746,6 +8970,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "dondurma"
+         ],
+         "en": [
+          "milk",
+          "ice cream"
+         ],
+         "ar": [
+          "حليب",
+          "آيس كريم"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5780,10 +9021,49 @@
        },
        "p": 350,
        "a": [
-        "M",
         "G",
+        "M",
         "S"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "dondurma"
+         ],
+         "en": [
+          "milk",
+          "ice cream"
+         ],
+         "ar": [
+          "حليب",
+          "آيس كريم"
+         ]
+        },
+        "G": {
+         "tr": [
+          "oreo bisküvi"
+         ],
+         "en": [
+          "Oreo biscuit"
+         ],
+         "ar": [
+          "بسكويت أوريو"
+         ]
+        },
+        "S": {
+         "tr": [
+          "oreo bisküvi"
+         ],
+         "en": [
+          "Oreo biscuit"
+         ],
+         "ar": [
+          "بسكويت أوريو"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5820,6 +9100,23 @@
        "a": [
         "M"
        ],
+       "asrc": {
+        "M": {
+         "tr": [
+          "süt",
+          "dondurma"
+         ],
+         "en": [
+          "milk",
+          "ice cream"
+         ],
+         "ar": [
+          "حليب",
+          "آيس كريم"
+         ]
+        }
+       },
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5869,6 +9166,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5903,6 +9202,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5937,6 +9238,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -5971,6 +9274,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6005,6 +9310,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6039,6 +9346,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6073,6 +9382,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6107,6 +9418,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6141,6 +9454,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6175,6 +9490,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6209,6 +9526,8 @@
        },
        "p": 370,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "shake",
        "s": 0,
        "so": 0,
@@ -6258,6 +9577,8 @@
        },
        "p": 360,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "cocktail",
        "s": 0,
        "so": 0,
@@ -6292,6 +9613,8 @@
        },
        "p": 360,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "cocktail",
        "s": 0,
        "so": 0,
@@ -6326,6 +9649,8 @@
        },
        "p": 360,
        "a": [],
+       "asrc": {},
+       "aunk": 0,
        "ic": "cocktail",
        "s": 0,
        "so": 0,
@@ -6388,6 +9713,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6416,6 +9743,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6444,6 +9773,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6472,6 +9803,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6500,6 +9833,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6528,6 +9863,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6556,6 +9893,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6584,6 +9923,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6612,6 +9953,8 @@
        },
        "p": 950,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6640,6 +9983,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6668,6 +10013,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6696,6 +10043,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6724,6 +10073,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6752,6 +10103,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6780,6 +10133,8 @@
        },
        "p": 800,
        "a": [],
+       "asrc": {},
+       "aunk": 1,
        "ic": "shisha",
        "s": 0,
        "so": 0,
@@ -6799,5 +10154,5 @@
    ]
   }
  ],
- "pub": 1789724590262
+ "pub": 1789729764616
 }

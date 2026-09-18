@@ -4,6 +4,7 @@ const DATA = require("./kule-data.js");
 const ICONS = require("./icons.js");
 const NUT = require("./nut.js");
 const { SAUCES, SOS_MAP } = require("./soslar.js");
+const ALG_DERIVED = JSON.parse(fs.readFileSync("alerjen.json","utf8"));   // alerjen-kural.py üretir
 const SOCIAL = JSON.parse(fs.readFileSync("social.json","utf8"));
 const PHOTOS = JSON.parse(fs.readFileSync("photos.json","utf8"));
 const CSS = fs.readFileSync("page.css","utf8");
@@ -13,6 +14,8 @@ const LOGO_FULL = fs.readFileSync("logo-full.b64","utf8").trim();
 const EMBLEM = fs.readFileSync("emblem.b64","utf8").trim();
 const EMBLEM_MIME = fs.readFileSync("emblem-mime.txt","utf8").trim();
 const [LW,LH] = fs.readFileSync("logo-size.txt","utf8").trim().split(" ").map(Number);
+
+const ALG_ORDER = ["G","M","Y","B","K","S","SS","N","F","H","C","SO","MO","L"];
 
 /* ---------- durum (sayfaya gömülen tek veri nesnesi) ---------- */
 let noPhoto = [], noKcal = [];
@@ -28,15 +31,27 @@ const sections = DATA.map((s,si)=>({
       if(img && !PHOTOS[img]) noPhoto.push(n+" -> "+img);
       const sos = SOS_MAP[n] || [];
       sos.forEach(k=>{ if(!SAUCES[k]) throw new Error("Tanımsız sos: "+k+" ("+n+")"); });
-      let alg = (a===null?[]:(a||[])).slice();
-      sos.forEach(k=>(SAUCES[k].a||[]).forEach(x=>{ if(!alg.includes(x)) alg.push(x); }));   // sos alerjenleri ürüne de işlenir
+      // alerjenler içindekilerden kural tabanlı türetilir (alerjen-kural.py)
+      const id = s.id+"-"+(gi+1)+"-"+(ii+1);
+      const der = ALG_DERIVED[id];
+      if(!der) throw new Error("Alerjen türetilemedi: "+id+" ("+n+") — önce: python3 alerjen-kural.py");
+      let alg = der.a.slice();
+      const asrc = JSON.parse(JSON.stringify(der.src||{}));
+      sos.forEach(k=>{                                    // sos kartlarının kesin alerjenleri de ürüne işlenir
+        (SAUCES[k].a||[]).forEach(x=>{
+          if(!alg.includes(x)) alg.push(x);
+          const d = asrc[x] || (asrc[x]={tr:[],en:[],ar:[]});
+          ["tr","en","ar"].forEach(L=>{ const nm=SAUCES[k].name[L]; if(!d[L].includes(nm)) d[L].push(nm); });
+        });
+      });
+      alg.sort((x,y)=>ALG_ORDER.indexOf(x)-ALG_ORDER.indexOf(y));
       let kcal = null, nut = null;
       if(s.id!=="nargile"){ const v = NUT[n]; if(!v){ noKcal.push(n); } else { kcal=v[0]; nut={kcal:v[0], kj:Math.round(v[0]*4.184), p:v[1], f:v[2], c:v[3]}; } }
       return {
         id:s.id+"-"+(gi+1)+"-"+(ii+1),
         name:{tr:n, en:ne, ar:na},
         ing:{tr:ing||"", en:inge||"", ar:inga||inge||""},
-        p, a:alg, ic, s:0, so:0, off:0, sos,
+        p, a:alg, asrc, aunk:(a===null?1:0), ic, s:0, so:0, off:0, sos,
         kcal, nut, por:null, alc:0, pork:0,
         img: img && PHOTOS[img] ? PHOTOS[img] : "", iw: (img && PHOTOS[img]) ? 640 : null, ih: (img && PHOTOS[img]) ? 480 : null
       };
