@@ -10,7 +10,7 @@ module.exports = {
  "Menemen":[350,17,27,9],"Kaşarlı Menemen":[440,25,34,9],"Kuymak":[520,20,40,24],
  "Çift Kaşarlı Tost":[720,30,36,68],"Kaşarlı Sucuklu Tost":[780,35,42,66],
  // Aparatifler
- "Günün Çorbası":[180,6,8,20],"Cajun Finger":[680,38,34,56],"Big Combo Mix":[1180,50,66,92],"Elma Dilim Patates":[400,5,18,54],
+ "Günün Çorbası":[180,6,8,20],"Cajun Finger":[680,38,34,56],"Big Combo Mix":[1310,50,76,100],"Elma Dilim Patates":[400,5,18,54],
  "Parmak Patates":[400,5,19,52],"Sosis Box":[900,34,58,56],"Soğan Halkası":[700,9,36,84],"Sigara Böreği":[620,22,38,46],
  // Salatalar & Makarnalar
  "Çoban Salata":[160,3,12,11],"Mevsim Salata":[130,3,9,11],"Şişte Köfte Salata":[420,28,30,10],"Tavuklu Sezar Salata":[540,40,32,22],"Cajun Tavuk Salata":[560,40,30,34],
@@ -26,8 +26,8 @@ module.exports = {
  "Chicken Schnitzel":[780,44,36,68],"Mantar Soslu Schnitzel":[880,48,44,70],"Cheddar Soslu Schnitzel":[940,52,50,70],
  "Cafe de Paris Soslu Tavuk Lokum":[600,43,42,10],"Cheddar Soslu Tavuk Lokum":[620,45,44,10],"Sweet Chili Kule Topları":[640,40,30,48],
  // Kırmızı Etler (garnitür dahil)
- "Karışık Izgara":[1900,120,110,90],"Kuzu Pirzola (3 Parça)":[850,44,56,44],"Kuzu Pirzola (4 Parça)":[1050,58,72,44],"Antrikot":[950,52,60,44],
- "Bonfile":[850,50,48,44],"Mantar Soslu Bonfile":[950,52,56,46],"Cafe de Paris Soslu Bonfile":[980,52,60,46],"Fajita":[1120,58,54,92],"Combo Fajita":[1150,66,52,92],
+ "Karışık Izgara":[2100,126,111,130],"Kuzu Pirzola (3 Parça)":[1050,50,57,84],"Kuzu Pirzola (4 Parça)":[1250,64,73,84],"Antrikot":[1150,58,61,84],
+ "Bonfile":[1050,56,49,84],"Mantar Soslu Bonfile":[1240,62,58,102],"Cafe de Paris Soslu Bonfile":[980,52,60,46],"Fajita":[1330,58,78,92],"Combo Fajita":[1360,66,76,92],
  // Tatlılar
  "Frambuazlı Cheesecake":[420,7,28,36],"Limonlu Cheesecake":[410,7,27,36],"Süt Reçelli Cheesecake":[450,8,28,42],"Çikolatalı Vişne Rüyası":[430,6,24,50],
  "Yaban Mersinli Linzer":[380,5,18,50],"Lotus Cup":[460,6,26,50],"Snickers Pasta":[480,9,28,50],"Mozaik Pasta":[400,6,22,46],"Tiramisu Pasta":[380,7,24,34],

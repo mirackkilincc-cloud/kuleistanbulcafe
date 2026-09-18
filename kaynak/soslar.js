@@ -52,6 +52,35 @@ const SAUCES = {
    en:"May contain traces of egg, mustard, soy, pistachio, hazelnut, almond and sesame.",
    ar:"قد يحتوي على آثار من البيض والخردل والصويا والفستق والبندق واللوز والسمسم."},
   note:null
+ },
+ bbq:{
+  name:{tr:"Barbekü Sos", en:"BBQ Sauce", ar:"صوص باربكيو"},
+  ing:{
+   tr:"Su, şeker, domates salçası, modifiye nişasta, sirke, tuz, tütsü aroma vericisi, renklendirici (amonyak karamel — gluten içerir), bitkisel sıvı yağ (değişen oranlarda kanola, ayçiçek, sarımsak), kıvam artırıcı (ksantan gam), koruyucu (sodyum benzoat), baharatlar (karabiber, kırmızı biber).",
+   en:"Water, sugar, tomato paste, modified starch, vinegar, salt, smoke flavouring, colour (ammonia caramel — contains gluten), vegetable oil (canola, sunflower, garlic in varying proportions), thickener (xanthan gum), preservative (sodium benzoate), spices (black pepper, red pepper).",
+   ar:"ماء، سكر، معجون طماطم، نشا معدّل، خل، ملح، منكّه دخان، ملوّن (كراميل الأمونيا — يحتوي على غلوتين)، زيت نباتي (كانولا، عبّاد الشمس، ثوم بنسب متغيّرة)، مادة مثخّنة (صمغ الزانثان)، مادة حافظة (بنزوات الصوديوم)، بهارات (فلفل أسود، فلفل أحمر)."},
+  a:["G"],
+  trace:{
+   tr:"İz miktarda süt ve süt ürünleri, yumurta, hardal ve kereviz içerebilir.",
+   en:"May contain traces of milk and milk products, egg, mustard and celery.",
+   ar:"قد يحتوي على آثار من الحليب ومنتجاته والبيض والخردل والكرفس."},
+  note:{
+   tr:"Domuz yağı ve domuz türevi katkı içermez.",
+   en:"Contains no pork fat or pork-derived additives.",
+   ar:"لا يحتوي على شحم الخنزير أو مشتقاته."}
+ },
+ kori:{
+  name:{tr:"Köri Baharat Karışımı", en:"Curry Spice Blend", ar:"خلطة بهارات الكاري"},
+  ing:{
+   tr:"Karabiber, kişniş, kimyon, çemen, sarımsak, zerdeçal, tuz, kırmızı tatlı biber, tarçın.",
+   en:"Black pepper, coriander, cumin, fenugreek, garlic, turmeric, salt, sweet red pepper, cinnamon.",
+   ar:"فلفل أسود، كزبرة، كمّون، حلبة، ثوم، كركم، ملح، فلفل أحمر حلو، قرفة."},
+  a:[],
+  trace:null,
+  note:{
+   tr:"Üretici etiketinde alerjen beyanı bulunmamaktadır. Tabaktaki köri sosu ayrıca krema ile hazırlanır (süt).",
+   en:"No allergen declaration on the manufacturer's label. The curry sauce on the plate is finished with cream (milk).",
+   ar:"لا يوجد بيان مسبّبات حساسية على ملصق المُنتِج. يُحضَّر صوص الكاري في الطبق مع الكريمة (حليب)."}
  }
 };
 
@@ -65,13 +94,15 @@ const SOS_MAP = {
  "Tavuklu Wrap":["sweetchili"],
  "Kaşarlı Köfteli Wrap":["sweetchili"],
  "Sweet Chili Kule Topları":["sweetchili"],
+ "Big Combo Mix":["sweetchili"],
  "Fajita":["sweetchili"],
  "Combo Fajita":["sweetchili"],
  "Cafe de Paris Soslu Tavuk Lokum":["cafedeparis"],
  "Cafe de Paris Soslu Bonfile":["cafedeparis"],
- "Mantar Soslu Bonfile":["cafedeparis"]
- // Demi Glace şu an hiçbir ürüne bağlı değil — kullanıldığı ürünler netleşince
- // buraya "Ürün Adı":["demiglace"] satırı eklenir ya da yönetici panelinden işaretlenir.
+ "Mantar Soslu Bonfile":["cafedeparis","demiglace"],
+ "BBQ Soslu Tavuk":["bbq"],
+ "Kaymaklı Kule Tavuk":["bbq"],
+ "Köri Soslu Tavuk":["kori"]
 };
 
 module.exports = { SAUCES, SOS_MAP };

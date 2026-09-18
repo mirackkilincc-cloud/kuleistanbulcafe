@@ -41,7 +41,11 @@ const sections = DATA.map((s,si)=>({
         (SAUCES[k].a||[]).forEach(x=>{
           if(!alg.includes(x)) alg.push(x);
           const d = asrc[x] || (asrc[x]={tr:[],en:[],ar:[]});
-          ["tr","en","ar"].forEach(L=>{ const nm=SAUCES[k].name[L]; if(!d[L].includes(nm)) d[L].push(nm); });
+          // aynı malzeme zaten içindekilerden geldiyse sos adını tekrar yazma ("barbekü sos" ↔ "Barbekü Sos")
+          const STOP = new Set(["sos","sosu","sauce","et","meat","صوص","للحوم"]);
+          const nrm = z => z.toLocaleLowerCase("tr").replace(/[^\p{L}\p{N}]+/gu," ")
+                            .split(" ").filter(w=>w && !STOP.has(w)).join(" ");
+          ["tr","en","ar"].forEach(L=>{ const nm=SAUCES[k].name[L]; if(!d[L].some(v=>nrm(v)===nrm(nm))) d[L].push(nm); });
         });
       });
       alg.sort((x,y)=>ALG_ORDER.indexOf(x)-ALG_ORDER.indexOf(y));

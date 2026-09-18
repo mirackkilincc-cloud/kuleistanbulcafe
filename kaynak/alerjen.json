@@ -627,15 +627,18 @@
 "Y": {
 "tr": [
 "çıtır tavuk",
-"yumurta"
+"yumurta",
+"mayonez"
 ],
 "en": [
 "crispy chicken",
-"egg"
+"egg",
+"mayonnaise"
 ],
 "ar": [
 "دجاج مقرمش",
-"بيض"
+"بيض",
+"مايونيز"
 ]
 },
 "M": {
@@ -777,13 +780,16 @@
 "src": {
 "G": {
 "tr": [
-"şişte köfte"
+"şişte köfte",
+"galeta unu"
 ],
 "en": [
-"skewered meatballs"
+"skewered meatballs",
+"breadcrumbs"
 ],
 "ar": [
-"كفتة بالسيخ"
+"كفتة بالسيخ",
+"بقسماط"
 ]
 }
 }
@@ -941,13 +947,13 @@
 },
 "H": {
 "tr": [
-"ballı hardal sos"
+"hardal"
 ],
 "en": [
-"honey mustard dressing"
+"mustard"
 ],
 "ar": [
-"صوص عسل وخردل"
+"خردل"
 ]
 }
 }
@@ -1258,29 +1264,23 @@
 },
 "M": {
 "tr": [
-"mantar sos",
 "krema"
 ],
 "en": [
-"mushroom sauce",
 "cream"
 ],
 "ar": [
-"صوص فطر",
 "كريمة"
 ]
 },
 "Y": {
 "tr": [
-"hamburger sosu",
 "mayonez"
 ],
 "en": [
-"burger sauce",
 "mayonnaise"
 ],
 "ar": [
-"صوص البرجر",
 "مايونيز"
 ]
 }
@@ -1333,15 +1333,12 @@
 },
 "Y": {
 "tr": [
-"hamburger sosu",
 "mayonez"
 ],
 "en": [
-"burger sauce",
 "mayonnaise"
 ],
 "ar": [
-"صوص البرجر",
 "مايونيز"
 ]
 }
@@ -1394,15 +1391,12 @@
 },
 "Y": {
 "tr": [
-"hamburger sosu",
 "mayonez"
 ],
 "en": [
-"burger sauce",
 "mayonnaise"
 ],
 "ar": [
-"صوص البرجر",
 "مايونيز"
 ]
 }
@@ -1451,19 +1445,16 @@
 "tr": [
 "özel soslu tavuk",
 "yumurta",
-"hamburger sosu",
 "mayonez"
 ],
 "en": [
 "chicken in special coating",
 "egg",
-"burger sauce",
 "mayonnaise"
 ],
 "ar": [
 "دجاج بخلطة خاصة",
 "بيض",
-"صوص البرجر",
 "مايونيز"
 ]
 },
@@ -1614,16 +1605,19 @@
 "G": {
 "tr": [
 "köfte",
+"galeta unu",
 "lavaş",
 "soya sosu"
 ],
 "en": [
 "meatballs",
+"breadcrumbs",
 "lavash",
 "soy sauce (contains wheat)"
 ],
 "ar": [
 "كفتة",
+"بقسماط",
 "خبز لافاش",
 "صلصة صويا (تحتوي على قمح)"
 ]
@@ -1661,14 +1655,17 @@
 "G": {
 "tr": [
 "anne köfte",
+"galeta unu",
 "lavaş"
 ],
 "en": [
 "homestyle meatballs",
+"breadcrumbs",
 "lavash"
 ],
 "ar": [
 "كفتة بيتية",
+"بقسماط",
 "خبز لافاش"
 ]
 }
@@ -1683,13 +1680,16 @@
 "src": {
 "G": {
 "tr": [
-"köfte"
+"köfte",
+"galeta unu"
 ],
 "en": [
-"meatballs"
+"meatballs",
+"breadcrumbs"
 ],
 "ar": [
-"كفتة"
+"كفتة",
+"بقسماط"
 ]
 },
 "M": {
@@ -1714,13 +1714,16 @@
 "src": {
 "G": {
 "tr": [
-"köfte"
+"köfte",
+"galeta unu"
 ],
 "en": [
-"meatballs"
+"meatballs",
+"breadcrumbs"
 ],
 "ar": [
-"كفتة"
+"كفتة",
+"بقسماط"
 ]
 },
 "M": {
@@ -1752,32 +1755,32 @@
 "M": {
 "tr": [
 "süzme yoğurt",
-"özel kaymak sos",
 "kaymak",
 "tereyağı"
 ],
 "en": [
 "strained yoghurt",
-"cream sauce",
 "clotted cream",
 "butter"
 ],
 "ar": [
 "لبن مصفّى",
-"صوص القشطة",
 "قشطة",
 "زبدة"
 ]
 },
 "G": {
 "tr": [
-"çıtır yufka"
+"çıtır yufka",
+"barbekü sos"
 ],
 "en": [
-"crispy yufka"
+"crispy yufka",
+"BBQ sauce"
 ],
 "ar": [
-"يوفكا مقرمشة"
+"يوفكا مقرمشة",
+"صوص باربكيو"
 ]
 }
 }
@@ -1785,21 +1788,9 @@
 "ana-2-2": {
 "ad": "Köri Soslu Tavuk",
 "a": [
-"H",
 "M"
 ],
 "src": {
-"H": {
-"tr": [
-"köri sos"
-],
-"en": [
-"curry sauce"
-],
-"ar": [
-"صوص كاري"
-]
-},
 "M": {
 "tr": [
 "krema"
@@ -1816,9 +1807,21 @@
 "ana-2-3": {
 "ad": "BBQ Soslu Tavuk",
 "a": [
+"G",
 "M"
 ],
 "src": {
+"G": {
+"tr": [
+"barbekü sos"
+],
+"en": [
+"BBQ sauce"
+],
+"ar": [
+"صوص باربكيو"
+]
+},
 "M": {
 "tr": [
 "krema"
@@ -1929,7 +1932,6 @@
 "ad": "Mantar Soslu Schnitzel",
 "a": [
 "G",
-"M",
 "S",
 "Y"
 ],
@@ -1980,17 +1982,6 @@
 ],
 "ar": [
 "صلصة صويا (تحتوي على قمح)"
-]
-},
-"M": {
-"tr": [
-"mantar sos"
-],
-"en": [
-"mushroom sauce"
-],
-"ar": [
-"صوص فطر"
 ]
 }
 }
@@ -2054,17 +2045,14 @@
 },
 "M": {
 "tr": [
-"cheddar sos",
 "cheddar",
 "krema"
 ],
 "en": [
-"cheddar sauce",
 "cheddar",
 "cream"
 ],
 "ar": [
-"صوص شيدر",
 "شيدر",
 "كريمة"
 ]
@@ -2075,32 +2063,59 @@
 "ad": "Cafe de Paris Soslu Tavuk Lokum",
 "a": [
 "G",
-"M"
+"M",
+"S"
 ],
 "src": {
-"G": {
-"tr": [
-"cafe de paris sos"
-],
-"en": [
-"Café de Paris sauce"
-],
-"ar": [
-"صوص كافيه دو باري"
-]
-},
 "M": {
 "tr": [
+"süt",
 "cafe de paris sos",
 "krema"
 ],
 "en": [
+"milk",
 "Café de Paris sauce",
 "cream"
 ],
 "ar": [
+"حليب",
 "صوص كافيه دو باري",
 "كريمة"
+]
+},
+"G": {
+"tr": [
+"un",
+"soya sosu",
+"galeta unu",
+"pane",
+"cafe de paris sos"
+],
+"en": [
+"flour",
+"soy sauce (contains wheat)",
+"breadcrumbs",
+"breading",
+"Café de Paris sauce"
+],
+"ar": [
+"دقيق",
+"صلصة صويا (تحتوي على قمح)",
+"بقسماط",
+"خلطة تغليف",
+"صوص كافيه دو باري"
+]
+},
+"S": {
+"tr": [
+"soya sosu"
+],
+"en": [
+"soy sauce (contains wheat)"
+],
+"ar": [
+"صلصة صويا (تحتوي على قمح)"
 ]
 }
 }
@@ -2108,21 +2123,57 @@
 "ana-4-2": {
 "ad": "Cheddar Soslu Tavuk Lokum",
 "a": [
-"M"
+"G",
+"M",
+"S"
 ],
 "src": {
 "M": {
 "tr": [
-"cheddar sos",
+"süt",
+"cheddar",
 "krema"
 ],
 "en": [
-"cheddar sauce",
+"milk",
+"cheddar",
 "cream"
 ],
 "ar": [
-"صوص شيدر",
+"حليب",
+"شيدر",
 "كريمة"
+]
+},
+"G": {
+"tr": [
+"un",
+"soya sosu",
+"galeta unu",
+"pane"
+],
+"en": [
+"flour",
+"soy sauce (contains wheat)",
+"breadcrumbs",
+"breading"
+],
+"ar": [
+"دقيق",
+"صلصة صويا (تحتوي على قمح)",
+"بقسماط",
+"خلطة تغليف"
+]
+},
+"S": {
+"tr": [
+"soya sosu"
+],
+"en": [
+"soy sauce (contains wheat)"
+],
+"ar": [
+"صلصة صويا (تحتوي على قمح)"
 ]
 }
 }
@@ -2131,29 +2182,50 @@
 "ad": "Sweet Chili Kule Topları",
 "a": [
 "G",
-"Y"
+"M",
+"S"
 ],
 "src": {
-"G": {
+"M": {
 "tr": [
-"çıtır kaplama"
+"süt"
 ],
 "en": [
-"crispy coating"
+"milk"
 ],
 "ar": [
-"طبقة مقرمشة"
+"حليب"
 ]
 },
-"Y": {
+"G": {
 "tr": [
-"çıtır kaplama"
+"un",
+"soya sosu",
+"galeta unu",
+"pane"
 ],
 "en": [
-"crispy coating"
+"flour",
+"soy sauce (contains wheat)",
+"breadcrumbs",
+"breading"
 ],
 "ar": [
-"طبقة مقرمشة"
+"دقيق",
+"صلصة صويا (تحتوي على قمح)",
+"بقسماط",
+"خلطة تغليف"
+]
+},
+"S": {
+"tr": [
+"soya sosu"
+],
+"en": [
+"soy sauce (contains wheat)"
+],
+"ar": [
+"صلصة صويا (تحتوي على قمح)"
 ]
 }
 }
@@ -2166,70 +2238,150 @@
 "src": {
 "G": {
 "tr": [
-"köfte"
+"köfte",
+"galeta unu",
+"lavaş"
 ],
 "en": [
-"meatballs"
+"meatballs",
+"breadcrumbs",
+"lavash"
 ],
 "ar": [
-"كفتة"
+"كفتة",
+"بقسماط",
+"خبز لافاش"
 ]
 }
 }
 },
 "et-1-2": {
 "ad": "Kuzu Pirzola (3 Parça)",
-"a": [],
-"src": {}
+"a": [
+"G"
+],
+"src": {
+"G": {
+"tr": [
+"lavaş"
+],
+"en": [
+"lavash"
+],
+"ar": [
+"خبز لافاش"
+]
+}
+}
 },
 "et-1-3": {
 "ad": "Kuzu Pirzola (4 Parça)",
-"a": [],
-"src": {}
+"a": [
+"G"
+],
+"src": {
+"G": {
+"tr": [
+"lavaş"
+],
+"en": [
+"lavash"
+],
+"ar": [
+"خبز لافاش"
+]
+}
+}
 },
 "et-1-4": {
 "ad": "Antrikot",
-"a": [],
-"src": {}
+"a": [
+"G"
+],
+"src": {
+"G": {
+"tr": [
+"lavaş"
+],
+"en": [
+"lavash"
+],
+"ar": [
+"خبز لافاش"
+]
+}
+}
 },
 "et-1-5": {
 "ad": "Bonfile",
-"a": [],
-"src": {}
+"a": [
+"G"
+],
+"src": {
+"G": {
+"tr": [
+"lavaş"
+],
+"en": [
+"lavash"
+],
+"ar": [
+"خبز لافاش"
+]
+}
+}
 },
 "et-1-6": {
 "ad": "Mantar Soslu Bonfile",
 "a": [
+"C",
 "G",
 "M"
 ],
 "src": {
 "M": {
 "tr": [
-"mantar sos",
 "krema",
-"cafe de paris sos"
+"cafe de paris sos",
+"demi glace sos"
 ],
 "en": [
-"mushroom sauce",
 "cream",
-"Café de Paris sauce"
+"Café de Paris sauce",
+"demi-glace sauce"
 ],
 "ar": [
-"صوص فطر",
 "كريمة",
-"صوص كافيه دو باري"
+"صوص كافيه دو باري",
+"صوص ديمي غلاس"
 ]
 },
 "G": {
 "tr": [
-"cafe de paris sos"
+"cafe de paris sos",
+"demi glace sos",
+"fettuccine"
 ],
 "en": [
-"Café de Paris sauce"
+"Café de Paris sauce",
+"demi-glace sauce",
+"fettuccine"
 ],
 "ar": [
-"صوص كافيه دو باري"
+"صوص كافيه دو باري",
+"صوص ديمي غلاس",
+"فيتوتشيني"
+]
+},
+"C": {
+"tr": [
+"demi glace sos"
+],
+"en": [
+"demi-glace sauce"
+],
+"ar": [
+"صوص ديمي غلاس"
 ]
 }
 }
@@ -2275,26 +2427,26 @@
 "src": {
 "M": {
 "tr": [
+"tereyağı",
 "süzme yoğurt"
 ],
 "en": [
+"butter",
 "strained yoghurt"
 ],
 "ar": [
+"زبدة",
 "لبن مصفّى"
 ]
 },
 "Y": {
 "tr": [
-"özel kule sos",
 "mayonez"
 ],
 "en": [
-"special Kule sauce",
 "mayonnaise"
 ],
 "ar": [
-"صوص كوله الخاص",
 "مايونيز"
 ]
 },
@@ -2321,26 +2473,26 @@
 "src": {
 "M": {
 "tr": [
+"tereyağı",
 "süzme yoğurt"
 ],
 "en": [
+"butter",
 "strained yoghurt"
 ],
 "ar": [
+"زبدة",
 "لبن مصفّى"
 ]
 },
 "Y": {
 "tr": [
-"özel kule sos",
 "mayonez"
 ],
 "en": [
-"special Kule sauce",
 "mayonnaise"
 ],
 "ar": [
-"صوص كوله الخاص",
 "مايونيز"
 ]
 },

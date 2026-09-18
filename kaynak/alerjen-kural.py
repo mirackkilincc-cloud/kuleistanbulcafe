@@ -77,7 +77,7 @@ R = {
  "antep fıstığı kreması":(["M","N"],"pistachio cream","كريمة فستق"),
  "tereyağı":(["M"],"butter","زبدة"),
  "kaymak":(["M"],"clotted cream","قشطة"),
- "özel kaymak sos":(["M"],"cream sauce","صوص القشطة"),
+ "özel kaymak sos":([],"cream sauce","صوص القشطة"),              # alt malzemeleri ayrıca listeleniyor
  "yoğurt":(["M"],"yoghurt","لبن"),
  "süzme yoğurt":(["M"],"strained yoghurt","لبن مصفّى"),
  "dondurma":(["M"],"ice cream","آيس كريم"),
@@ -88,7 +88,7 @@ R = {
  "çift kaşar peyniri":(["M"],"kashar cheese","قشقوان"),
  "cheddar":(["M"],"cheddar","شيدر"),
  "cheddar peyniri":(["M"],"cheddar","جبنة شيدر"),
- "cheddar sos":(["M"],"cheddar sauce","صوص شيدر"),
+ "cheddar sos":([],"cheddar sauce","صوص شيدر"),                  # alt malzemeleri ayrıca listeleniyor
  "parmesan":(["M"],"parmesan","بارميزان"),
  "mascarpone":(["M"],"mascarpone","ماسكاربوني"),
  "krem peynir":(["M"],"cream cheese","جبنة كريمية"),
@@ -98,7 +98,7 @@ R = {
  "dil peyniri":(["M"],"dil cheese","جبنة دل"),
  "kolot":(["M"],"kolot cheese","جبنة كولوت"),
  "patlıcan beğendi":(["M"],"aubergine purée","بيغندي باذنجان"),
- "mantar sos":(["M"],"mushroom sauce","صوص فطر"),
+ "mantar sos":([],"mushroom sauce","صوص فطر"),                   # alt malzemeleri ayrıca listeleniyor
  "çikolata":(["M","S"],"chocolate","شوكولاتة"),
  "çikolata sosu":(["M","S"],"chocolate sauce","صوص شوكولاتة"),
  "beyaz çikolata":(["M","S"],"white chocolate","شوكولاتة بيضاء"),
@@ -110,7 +110,7 @@ R = {
  "sahanda yumurta":(["Y"],"fried egg","بيض مقلي"),
  "menemen":(["Y"],"menemen (egg)","منمن (بيض)"),
  "mayonez":(["Y"],"mayonnaise","مايونيز"),
- "hamburger sosu":(["Y"],"burger sauce","صوص البرجر"),
+ "hamburger sosu":([],"burger sauce","صوص البرجر"),              # alt malzemeleri ayrıca listeleniyor
  "özel kule sos":(["Y"],"special Kule sauce","صوص كوله الخاص"),
  "sezar sos":(["Y","B","H"],"Caesar dressing","صوص سيزر"),
  # --- balık ---
@@ -127,8 +127,11 @@ R = {
  "acuka":(["N"],"acuka (walnut)","أجوكا (جوز)"),
  "fesleğenli pesto sos":(["N","M"],"basil pesto","بيستو الريحان"),
  "hardal":(["H"],"mustard","خردل"),
- "ballı hardal sos":(["H"],"honey mustard dressing","صوص عسل وخردل"),
- "köri sos":(["H"],"curry sauce","صوص كاري"),        # köri karışımı hardal içerir — mutfak teyidi
+ "ballı hardal sos":([],"honey mustard dressing","صوص عسل وخردل"),  # alt malzemeleri ayrıca listeleniyor
+ "bal":([],"honey","عسل"),
+ # köri baharat karışımı (üretici etiketi): karabiber, kişniş, kimyon, çemen, sarımsak,
+ # zerdeçal, tuz, kırmızı tatlı biber, tarçın — beyan edilen alerjen yok.
+ "köri sos":([],"curry sauce","صوص كاري"),
  # --- birleşik soslar (alt malzemeleri ayrıca taranır) ---
  "schnitzel sosu":([],"schnitzel coating","خلطة الشنيتزل"),
  "özel sos":([],"special sauce","صوص خاص"),
@@ -136,8 +139,11 @@ R = {
  "domates sos":([],"tomato sauce","صلصة طماطم"),
  "sweet chili sos":([],"sweet chilli sauce","صوص سويت تشيلي"),
  "cafe de paris sos":(["G","M"],"Café de Paris sauce","صوص كافيه دو باري"),
- "barbekü sos":([],"BBQ sauce","صوص باربكيو"),
- "barbekü":([],"BBQ","باربكيو"),
+ "demi glace sos":(["G","M","C"],"demi-glace sauce","صوص ديمي غلاس"),
+ "kule sos":([],"Kule sauce","صوص كوله"),
+ # barbekü sos (üretici etiketi): renklendirici amonyak karamel gluten içerir
+ "barbekü sos":(["G"],"BBQ sauce","صوص باربكيو"),
+ "barbekü":(["G"],"BBQ sauce","صوص باربكيو"),
  "acı sos":([],"hot sauce","صوص حار"),
  "frambuaz sos":([],"raspberry sauce","صوص توت"),
  # --- alerjen içermeyen malzemeler ---
@@ -147,10 +153,11 @@ NONE = """
 kuzu pirzola|tavuk bonfile|et|tavuk|tavuk but|tavuk kanat|tavuk parçaları|tavuk göğsü|marine edilmiş tavuk göğsü|
 jülyen et|jülyen tavuk|dana kıyma|antrikot|bonfile|et kavurma|sucuk|jambon|et ve tavuk|
 domates|salatalık|soğan|sivri biber|biber|renkli biber|renkli biberler|kıvırcık|göbek salata|karışık yeşillik|taze yeşillikler|
-mini salata|söğüş tabağı|patates|patates tabağı|patates eşliğinde|parmak patates eşliğinde|elma dilim patates eşliğinde|
-patates ve sweet chili sos eşliğinde|pilav eşliğinde|pilav ve patates eşliğinde|domates ve salatalık eşliğinde|limon eşliğinde|
-közlenmiş biber & domates|mantar|havuç|kabak|sarımsak|turşu|maydanoz|salça|zeytin salatası|siyah zeytin|siyah–yeşil zeytin|
-kekik|taze kekik|pul biber|karabiber|tuz|şeker|şeker tercihe göre|şeker · sıcak servis edilir|az acı|kırmızı tatlı toz biber|
+mini salata|söğüş tabağı|patates|patates tabağı|elma dilim patates|parmak patates|patates eşliğinde|parmak patates eşliğinde|
+elma dilim patates eşliğinde|patates ve sweet chili sos eşliğinde|pilav eşliğinde|pilav ve patates eşliğinde|
+pilav ve elma dilim patates eşliğinde|domates ve salatalık eşliğinde|limon eşliğinde|yanında|sıcak servis edilir|
+közlenmiş biber & domates|mantar|havuç|kabak|sarımsak|turşu|maydanoz|görsel maydanoz|salça|zeytin salatası|siyah zeytin|siyah–yeşil zeytin|
+kekik|taze kekik|pul biber|karabiber|kimyon|kişniş|çemen|zerdeçal|tuz|şeker|şeker tercihe göre|şeker · sıcak servis edilir|az acı|kırmızı tatlı toz biber|
 cajun baharatı|tarçın|tarçın şurubu|vanilya|vanilya şurubu|karamel şurubu|tuzlu karamel şurubu|çikolatalı kurabiye şurubu|
 zeytinyağı|ayçiçek yağı|soda|su|soğuk su|sıcak su|buz|maden suyu|doğal kaynak suyu|gazlı içecek|şekersiz gazlı içecek|
 limon aromalı gazlı içecek|portakal aromalı gazlı içecek|limon aromalı soğuk çay|şeftali aromalı soğuk çay|meyve aromalı maden suyu|
@@ -169,7 +176,7 @@ for t in [x.strip() for x in NONE.replace("\n","").split("|") if x.strip()]:
 
 # Mutfak teyidi bekleyen EK alerjenler (ürün id -> {kod: kaynak TR|EN|AR})
 EXTRA = {
- "ana-4-3": {"G":"çıtır kaplama|crispy coating|طبقة مقرمشة", "Y":"çıtır kaplama|crispy coating|طبقة مقرمشة"},  # Sweet Chili Kule Topları
+ # (şu an boş) — mutfak teyidi gerektiren ek alerjenler buraya "ürün-id": {"K":"TR|EN|AR"} biçiminde yazılır.
 }
 
 QTY = re.compile(r"^\s*\d+([.,]\d+)?\s*(g|gr|adet|parça|kişilik|top|shot|porsiyon)?\s*")
@@ -181,7 +188,7 @@ def norm(tok):
     return t.strip(" .")
 
 def split(t):
-    t = t.replace("(", ", ").replace(")", ", ").replace(";", ",").replace(" / ", ", ")
+    t = t.replace("(", ", ").replace(")", ", ").replace(";", ",").replace(":", ",").replace(". ", ", ").replace(" / ", ", ")
     return [x.strip(" .") for x in t.split(",") if x.strip(" .")]
 
 def analyse(ing_tr):

@@ -174,6 +174,50 @@
     "ar": "قد يحتوي على آثار من البيض والخردل والصويا والفستق والبندق واللوز والسمسم."
    },
    "note": null
+  },
+  "bbq": {
+   "name": {
+    "tr": "Barbekü Sos",
+    "en": "BBQ Sauce",
+    "ar": "صوص باربكيو"
+   },
+   "ing": {
+    "tr": "Su, şeker, domates salçası, modifiye nişasta, sirke, tuz, tütsü aroma vericisi, renklendirici (amonyak karamel — gluten içerir), bitkisel sıvı yağ (değişen oranlarda kanola, ayçiçek, sarımsak), kıvam artırıcı (ksantan gam), koruyucu (sodyum benzoat), baharatlar (karabiber, kırmızı biber).",
+    "en": "Water, sugar, tomato paste, modified starch, vinegar, salt, smoke flavouring, colour (ammonia caramel — contains gluten), vegetable oil (canola, sunflower, garlic in varying proportions), thickener (xanthan gum), preservative (sodium benzoate), spices (black pepper, red pepper).",
+    "ar": "ماء، سكر، معجون طماطم، نشا معدّل، خل، ملح، منكّه دخان، ملوّن (كراميل الأمونيا — يحتوي على غلوتين)، زيت نباتي (كانولا، عبّاد الشمس، ثوم بنسب متغيّرة)، مادة مثخّنة (صمغ الزانثان)، مادة حافظة (بنزوات الصوديوم)، بهارات (فلفل أسود، فلفل أحمر)."
+   },
+   "a": [
+    "G"
+   ],
+   "trace": {
+    "tr": "İz miktarda süt ve süt ürünleri, yumurta, hardal ve kereviz içerebilir.",
+    "en": "May contain traces of milk and milk products, egg, mustard and celery.",
+    "ar": "قد يحتوي على آثار من الحليب ومنتجاته والبيض والخردل والكرفس."
+   },
+   "note": {
+    "tr": "Domuz yağı ve domuz türevi katkı içermez.",
+    "en": "Contains no pork fat or pork-derived additives.",
+    "ar": "لا يحتوي على شحم الخنزير أو مشتقاته."
+   }
+  },
+  "kori": {
+   "name": {
+    "tr": "Köri Baharat Karışımı",
+    "en": "Curry Spice Blend",
+    "ar": "خلطة بهارات الكاري"
+   },
+   "ing": {
+    "tr": "Karabiber, kişniş, kimyon, çemen, sarımsak, zerdeçal, tuz, kırmızı tatlı biber, tarçın.",
+    "en": "Black pepper, coriander, cumin, fenugreek, garlic, turmeric, salt, sweet red pepper, cinnamon.",
+    "ar": "فلفل أسود، كزبرة، كمّون، حلبة، ثوم، كركم، ملح، فلفل أحمر حلو، قرفة."
+   },
+   "a": [],
+   "trace": null,
+   "note": {
+    "tr": "Üretici etiketinde alerjen beyanı bulunmamaktadır. Tabaktaki köri sosu ayrıca krema ile hazırlanır (süt).",
+    "en": "No allergen declaration on the manufacturer's label. The curry sauce on the plate is finished with cream (milk).",
+    "ar": "لا يوجد بيان مسبّبات حساسية على ملصق المُنتِج. يُحضَّر صوص الكاري في الطبق مع الكريمة (حليب)."
+   }
   }
  },
  "sections": [
@@ -1361,9 +1405,9 @@
         "ar": "بيغ كومبو ميكس"
        },
        "ing": {
-        "tr": "2 adet çıtır tavuk (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu), 2 adet sigara böreği, 2 adet soğan halkası, 2 adet mozzarella stick, 2 adet sosis, elma dilim patates eşliğinde",
-        "en": "2 crispy chicken pieces (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce), 2 cheese rolls, 2 onion rings, 2 mozzarella sticks, 2 sausages, served with wedge potatoes",
-        "ar": "قطعتا دجاج مقرمش (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)، لفافتا جبنة، حلقتا بصل، أصبعا موزاريلا، قطعتا نقانق، تُقدَّم مع بطاطس ودجز"
+        "tr": "2 adet çıtır tavuk (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu), 2 adet sigara böreği, 2 adet soğan halkası, 2 adet mozzarella stick, 2 adet sosis. Yanında: elma dilim patates, Sweet Chili sos, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber)",
+        "en": "2 crispy chicken pieces (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce), 2 cheese rolls, 2 onion rings, 2 mozzarella sticks, 2 sausages. Served with: wedge potatoes, sweet chilli sauce, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes)",
+        "ar": "قطعتا دجاج مقرمش (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)، لفافتا جبنة، حلقتا بصل، أصبعا موزاريلا، قطعتا نقانق. يُقدَّم مع: بطاطس ودجز، صوص سويت تشيلي، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)"
        },
        "p": 605,
        "a": [
@@ -1405,15 +1449,18 @@
         "Y": {
          "tr": [
           "çıtır tavuk",
-          "yumurta"
+          "yumurta",
+          "mayonez"
          ],
          "en": [
           "crispy chicken",
-          "egg"
+          "egg",
+          "mayonnaise"
          ],
          "ar": [
           "دجاج مقرمش",
-          "بيض"
+          "بيض",
+          "مايونيز"
          ]
         },
         "M": {
@@ -1453,14 +1500,16 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "sos": [],
-       "kcal": 1180,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1310,
        "nut": {
-        "kcal": 1180,
-        "kj": 4937,
+        "kcal": 1310,
+        "kj": 5481,
         "p": 50,
-        "f": 66,
-        "c": 92
+        "f": 76,
+        "c": 100
        },
        "por": null,
        "alc": 0,
@@ -1820,9 +1869,9 @@
         "ar": "سلطة كفتة بالسيخ"
        },
        "ing": {
-        "tr": "120 g şişte köfte, taze yeşillikler, domates, soğan, zeytinyağı",
-        "en": "120 g skewered meatballs, fresh greens, tomato, onion, olive oil",
-        "ar": "120 غ كفتة بالسيخ، خضار ورقية طازجة، طماطم، بصل، زيت زيتون"
+        "tr": "120 g şişte köfte (sarımsak, galeta unu, karabiber, kimyon, pul biber), taze yeşillikler, domates, soğan, zeytinyağı",
+        "en": "120 g skewered meatballs (garlic, breadcrumbs, black pepper, cumin, chilli flakes), fresh greens, tomato, onion, olive oil",
+        "ar": "120 غ كفتة بالسيخ (ثوم، بقسماط، فلفل أسود، كمّون، رقائق فلفل)، خضار ورقية طازجة، طماطم، بصل، زيت زيتون"
        },
        "p": 575,
        "a": [
@@ -1831,13 +1880,16 @@
        "asrc": {
         "G": {
          "tr": [
-          "şişte köfte"
+          "şişte köfte",
+          "galeta unu"
          ],
          "en": [
-          "skewered meatballs"
+          "skewered meatballs",
+          "breadcrumbs"
          ],
          "ar": [
-          "كفتة بالسيخ"
+          "كفتة بالسيخ",
+          "بقسماط"
          ]
         }
        },
@@ -1977,9 +2029,9 @@
         "ar": "سلطة دجاج كاجون"
        },
        "ing": {
-        "tr": "160 g Cajun tavuk (yumurta, süt, un, pane, galeta unu, soya sosu, Cajun baharatı, tuz), taze yeşillikler, ballı hardal sos",
-        "en": "160 g Cajun chicken (egg, milk, flour, breading, breadcrumbs, soy sauce, Cajun spice, salt), fresh greens, honey mustard dressing",
-        "ar": "160 غ دجاج كاجون (بيض، حليب، دقيق، خلطة تغليف، بقسماط، صلصة صويا، توابل كاجون، ملح)، خضار ورقية طازجة، صوص عسل وخردل"
+        "tr": "160 g Cajun tavuk (yumurta, süt, un, pane, galeta unu, soya sosu, Cajun baharatı, tuz), taze yeşillikler, ballı hardal sos (bal, hardal)",
+        "en": "160 g Cajun chicken (egg, milk, flour, breading, breadcrumbs, soy sauce, Cajun spice, salt), fresh greens, honey mustard dressing (honey, mustard)",
+        "ar": "160 غ دجاج كاجون (بيض، حليب، دقيق، خلطة تغليف، بقسماط، صلصة صويا، توابل كاجون، ملح)، خضار ورقية طازجة، صوص عسل وخردل (عسل، خردل)"
        },
        "p": 560,
        "a": [
@@ -2057,13 +2109,13 @@
         },
         "H": {
          "tr": [
-          "ballı hardal sos"
+          "hardal"
          ],
          "en": [
-          "honey mustard dressing"
+          "mustard"
          ],
          "ar": [
-          "صوص عسل وخردل"
+          "خردل"
          ]
         }
        },
@@ -2630,29 +2682,23 @@
         },
         "M": {
          "tr": [
-          "mantar sos",
           "krema"
          ],
          "en": [
-          "mushroom sauce",
           "cream"
          ],
          "ar": [
-          "صوص فطر",
           "كريمة"
          ]
         },
         "Y": {
          "tr": [
-          "hamburger sosu",
           "mayonez"
          ],
          "en": [
-          "burger sauce",
           "mayonnaise"
          ],
          "ar": [
-          "صوص البرجر",
           "مايونيز"
          ]
         }
@@ -2738,15 +2784,12 @@
         },
         "Y": {
          "tr": [
-          "hamburger sosu",
           "mayonez"
          ],
          "en": [
-          "burger sauce",
           "mayonnaise"
          ],
          "ar": [
-          "صوص البرجر",
           "مايونيز"
          ]
         }
@@ -2832,15 +2875,12 @@
         },
         "Y": {
          "tr": [
-          "hamburger sosu",
           "mayonez"
          ],
          "en": [
-          "burger sauce",
           "mayonnaise"
          ],
          "ar": [
-          "صوص البرجر",
           "مايونيز"
          ]
         }
@@ -2922,19 +2962,16 @@
          "tr": [
           "özel soslu tavuk",
           "yumurta",
-          "hamburger sosu",
           "mayonez"
          ],
          "en": [
           "chicken in special coating",
           "egg",
-          "burger sauce",
           "mayonnaise"
          ],
          "ar": [
           "دجاج بخلطة خاصة",
           "بيض",
-          "صوص البرجر",
           "مايونيز"
          ]
         },
@@ -3181,9 +3218,9 @@
         "ar": "لفافة كفتة بالقشقوان"
        },
        "ing": {
-        "tr": "170 g köfte, lavaş, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
-        "en": "170 g meatballs, lavash, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
-        "ar": "170 غ كفتة، خبز لافاش، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
+        "tr": "170 g köfte (sarımsak, galeta unu, karabiber, kimyon, pul biber), lavaş, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g meatballs (garlic, breadcrumbs, black pepper, cumin, chilli flakes), lavash, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ كفتة (ثوم، بقسماط، فلفل أسود، كمّون، رقائق فلفل)، خبز لافاش، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 765,
        "a": [
@@ -3195,16 +3232,19 @@
         "G": {
          "tr": [
           "köfte",
+          "galeta unu",
           "lavaş",
           "soya sosu"
          ],
          "en": [
           "meatballs",
+          "breadcrumbs",
           "lavash",
           "soy sauce (contains wheat)"
          ],
          "ar": [
           "كفتة",
+          "بقسماط",
           "خبز لافاش",
           "صلصة صويا (تحتوي على قمح)"
          ]
@@ -3291,9 +3331,9 @@
         "ar": "كفتة مشوية على طريقة الأم"
        },
        "ing": {
-        "tr": "180 g anne köfte, lavaş, közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "180 g homestyle meatballs, lavash, served with roasted pepper & tomato, rice and fries",
-        "ar": "180 غ كفتة بيتية، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "180 g anne köfte (sarımsak, galeta unu, karabiber, kimyon, pul biber), lavaş, közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "180 g homestyle meatballs (garlic, breadcrumbs, black pepper, cumin, chilli flakes), lavash, served with roasted pepper & tomato, rice and fries",
+        "ar": "180 غ كفتة بيتية (ثوم، بقسماط، فلفل أسود، كمّون، رقائق فلفل)، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 840,
        "a": [
@@ -3303,14 +3343,17 @@
         "G": {
          "tr": [
           "anne köfte",
+          "galeta unu",
           "lavaş"
          ],
          "en": [
           "homestyle meatballs",
+          "breadcrumbs",
           "lavash"
          ],
          "ar": [
           "كفتة بيتية",
+          "بقسماط",
           "خبز لافاش"
          ]
         }
@@ -3344,9 +3387,9 @@
         "ar": "كباب كوله إسطنبول"
        },
        "ing": {
-        "tr": "180 g köfte, domates sos (domates, salça, tuz, karabiber), süzme yoğurt, közlenmiş biber & domates, patates eşliğinde",
-        "en": "180 g meatballs, tomato sauce (tomato, tomato paste, salt, black pepper), strained yoghurt, roasted pepper & tomato, served with fries",
-        "ar": "180 غ كفتة، صلصة طماطم (طماطم، معجون طماطم، ملح، فلفل أسود)، لبن مصفّى، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
+        "tr": "180 g köfte (sarımsak, galeta unu, karabiber, kimyon, pul biber), domates sos (domates, salça, tuz, karabiber), süzme yoğurt, közlenmiş biber & domates, patates eşliğinde",
+        "en": "180 g meatballs (garlic, breadcrumbs, black pepper, cumin, chilli flakes), tomato sauce (tomato, tomato paste, salt, black pepper), strained yoghurt, roasted pepper & tomato, served with fries",
+        "ar": "180 غ كفتة (ثوم، بقسماط، فلفل أسود، كمّون، رقائق فلفل)، صلصة طماطم (طماطم، معجون طماطم، ملح، فلفل أسود)، لبن مصفّى، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
        },
        "p": 870,
        "a": [
@@ -3356,13 +3399,16 @@
        "asrc": {
         "G": {
          "tr": [
-          "köfte"
+          "köfte",
+          "galeta unu"
          ],
          "en": [
-          "meatballs"
+          "meatballs",
+          "breadcrumbs"
          ],
          "ar": [
-          "كفتة"
+          "كفتة",
+          "بقسماط"
          ]
         },
         "M": {
@@ -3406,9 +3452,9 @@
         "ar": "كفتة مع بيغندي الباذنجان"
        },
        "ing": {
-        "tr": "180 g köfte, patlıcan beğendi (süt, kaşar peyniri, tuz, karabiber), közlenmiş biber & domates, patates eşliğinde",
-        "en": "180 g meatballs, smoked aubergine purée (milk, kashar cheese, salt, black pepper), roasted pepper & tomato, served with fries",
-        "ar": "180 غ كفتة، بيغندي باذنجان (حليب، قشقوان، ملح، فلفل أسود)، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
+        "tr": "180 g köfte (sarımsak, galeta unu, karabiber, kimyon, pul biber), patlıcan beğendi (süt, kaşar peyniri, tuz, karabiber), közlenmiş biber & domates, patates eşliğinde",
+        "en": "180 g meatballs (garlic, breadcrumbs, black pepper, cumin, chilli flakes), smoked aubergine purée (milk, kashar cheese, salt, black pepper), roasted pepper & tomato, served with fries",
+        "ar": "180 غ كفتة (ثوم، بقسماط، فلفل أسود، كمّون، رقائق فلفل)، بيغندي باذنجان (حليب، قشقوان، ملح، فلفل أسود)، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
        },
        "p": 870,
        "a": [
@@ -3418,13 +3464,16 @@
        "asrc": {
         "G": {
          "tr": [
-          "köfte"
+          "köfte",
+          "galeta unu"
          ],
          "en": [
-          "meatballs"
+          "meatballs",
+          "breadcrumbs"
          ],
          "ar": [
-          "كفتة"
+          "كفتة",
+          "بقسماط"
          ]
         },
         "M": {
@@ -3498,32 +3547,32 @@
         "M": {
          "tr": [
           "süzme yoğurt",
-          "özel kaymak sos",
           "kaymak",
           "tereyağı"
          ],
          "en": [
           "strained yoghurt",
-          "cream sauce",
           "clotted cream",
           "butter"
          ],
          "ar": [
           "لبن مصفّى",
-          "صوص القشطة",
           "قشطة",
           "زبدة"
          ]
         },
         "G": {
          "tr": [
-          "çıtır yufka"
+          "çıtır yufka",
+          "barbekü sos"
          ],
          "en": [
-          "crispy yufka"
+          "crispy yufka",
+          "BBQ sauce"
          ],
          "ar": [
-          "يوفكا مقرمشة"
+          "يوفكا مقرمشة",
+          "صوص باربكيو"
          ]
         }
        },
@@ -3532,7 +3581,9 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "sos": [],
+       "sos": [
+        "bbq"
+       ],
        "kcal": 880,
        "nut": {
         "kcal": 880,
@@ -3562,21 +3613,9 @@
        },
        "p": 790,
        "a": [
-        "M",
-        "H"
+        "M"
        ],
        "asrc": {
-        "H": {
-         "tr": [
-          "köri sos"
-         ],
-         "en": [
-          "curry sauce"
-         ],
-         "ar": [
-          "صوص كاري"
-         ]
-        },
         "M": {
          "tr": [
           "krema"
@@ -3594,7 +3633,9 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "sos": [],
+       "sos": [
+        "kori"
+       ],
        "kcal": 830,
        "nut": {
         "kcal": 830,
@@ -3618,15 +3659,27 @@
         "ar": "دجاج بصوص الباربكيو"
        },
        "ing": {
-        "tr": "180 g tavuk, barbekü sos (barbekü, krema, tuz, karabiber), renkli biberler, mantar, krema, tuz, karabiber, pilav ve patates eşliğinde",
-        "en": "180 g chicken, BBQ sauce (BBQ, cream, salt, black pepper), bell peppers, mushroom, cream, salt, black pepper, served with rice and fries",
-        "ar": "180 غ دجاج، صوص باربكيو (باربكيو، كريمة، ملح، فلفل أسود)، فلفل ملوّن، فطر، كريمة، ملح، فلفل أسود، تُقدَّم مع الأرز والبطاطس"
+        "tr": "180 g tavuk, barbekü sos, renkli biberler, mantar, krema, tuz, karabiber, pilav ve patates eşliğinde",
+        "en": "180 g chicken, BBQ sauce, bell peppers, mushroom, cream, salt, black pepper, served with rice and fries",
+        "ar": "180 غ دجاج، صوص باربكيو، فلفل ملوّن، فطر، كريمة، ملح، فلفل أسود، تُقدَّم مع الأرز والبطاطس"
        },
        "p": 790,
        "a": [
+        "G",
         "M"
        ],
        "asrc": {
+        "G": {
+         "tr": [
+          "barbekü sos"
+         ],
+         "en": [
+          "BBQ sauce"
+         ],
+         "ar": [
+          "صوص باربكيو"
+         ]
+        },
         "M": {
          "tr": [
           "krema"
@@ -3644,7 +3697,9 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "sos": [],
+       "sos": [
+        "bbq"
+       ],
        "kcal": 820,
        "nut": {
         "kcal": 820,
@@ -3903,7 +3958,6 @@
        "p": 795,
        "a": [
         "G",
-        "M",
         "Y",
         "S"
        ],
@@ -3954,17 +4008,6 @@
          ],
          "ar": [
           "صلصة صويا (تحتوي على قمح)"
-         ]
-        },
-        "M": {
-         "tr": [
-          "mantar sos"
-         ],
-         "en": [
-          "mushroom sauce"
-         ],
-         "ar": [
-          "صوص فطر"
          ]
         }
        },
@@ -4059,17 +4102,14 @@
         },
         "M": {
          "tr": [
-          "cheddar sos",
           "cheddar",
           "krema"
          ],
          "en": [
-          "cheddar sauce",
           "cheddar",
           "cream"
          ],
          "ar": [
-          "صوص شيدر",
           "شيدر",
           "كريمة"
          ]
@@ -4115,43 +4155,66 @@
         "ar": "قطع دجاج بصوص كافيه دو باري"
        },
        "ing": {
-        "tr": "180 g tavuk parçaları, Cafe de Paris sos, krema",
-        "en": "180 g chicken pieces, Café de Paris sauce, cream",
-        "ar": "180 غ قطع دجاج، صوص كافيه دو باري، كريمة"
+        "tr": "180 g tavuk parçaları (süt, un, soya sosu, Cajun baharatı, galeta unu, pane, tuz, karabiber), Cafe de Paris sos, krema",
+        "en": "180 g chicken pieces (milk, flour, soy sauce, Cajun spice, breadcrumbs, breading, salt, black pepper), Café de Paris sauce, cream",
+        "ar": "180 غ قطع دجاج (حليب، دقيق، صلصة صويا، توابل كاجون، بقسماط، خلطة تغليف، ملح، فلفل أسود)، صوص كافيه دو باري، كريمة"
        },
        "p": 750,
        "a": [
         "G",
-        "M"
+        "M",
+        "S"
        ],
        "asrc": {
-        "G": {
+        "M": {
          "tr": [
+          "süt",
           "cafe de paris sos",
-          "Cafe de Paris Sos"
+          "krema"
          ],
          "en": [
+          "milk",
           "Café de Paris sauce",
-          "Café de Paris Sauce"
+          "cream"
          ],
          "ar": [
+          "حليب",
+          "صوص كافيه دو باري",
+          "كريمة"
+         ]
+        },
+        "G": {
+         "tr": [
+          "un",
+          "soya sosu",
+          "galeta unu",
+          "pane",
+          "cafe de paris sos"
+         ],
+         "en": [
+          "flour",
+          "soy sauce (contains wheat)",
+          "breadcrumbs",
+          "breading",
+          "Café de Paris sauce"
+         ],
+         "ar": [
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)",
+          "بقسماط",
+          "خلطة تغليف",
           "صوص كافيه دو باري"
          ]
         },
-        "M": {
+        "S": {
          "tr": [
-          "cafe de paris sos",
-          "krema",
-          "Cafe de Paris Sos"
+          "soya sosu"
          ],
          "en": [
-          "Café de Paris sauce",
-          "cream",
-          "Café de Paris Sauce"
+          "soy sauce (contains wheat)"
          ],
          "ar": [
-          "صوص كافيه دو باري",
-          "كريمة"
+          "صلصة صويا (تحتوي على قمح)"
          ]
         }
        },
@@ -4186,27 +4249,63 @@
         "ar": "قطع دجاج بصوص الشيدر"
        },
        "ing": {
-        "tr": "180 g tavuk parçaları, cheddar sos, krema",
-        "en": "180 g chicken pieces, cheddar sauce, cream",
-        "ar": "180 غ قطع دجاج، صوص شيدر، كريمة"
+        "tr": "180 g tavuk parçaları (süt, un, soya sosu, Cajun baharatı, galeta unu, pane, tuz, karabiber), cheddar sos (cheddar, krema)",
+        "en": "180 g chicken pieces (milk, flour, soy sauce, Cajun spice, breadcrumbs, breading, salt, black pepper), cheddar sauce (cheddar, cream)",
+        "ar": "180 غ قطع دجاج (حليب، دقيق، صلصة صويا، توابل كاجون، بقسماط، خلطة تغليف، ملح، فلفل أسود)، صوص شيدر (شيدر، كريمة)"
        },
        "p": 750,
        "a": [
-        "M"
+        "G",
+        "M",
+        "S"
        ],
        "asrc": {
         "M": {
          "tr": [
-          "cheddar sos",
+          "süt",
+          "cheddar",
           "krema"
          ],
          "en": [
-          "cheddar sauce",
+          "milk",
+          "cheddar",
           "cream"
          ],
          "ar": [
-          "صوص شيدر",
+          "حليب",
+          "شيدر",
           "كريمة"
+         ]
+        },
+        "G": {
+         "tr": [
+          "un",
+          "soya sosu",
+          "galeta unu",
+          "pane"
+         ],
+         "en": [
+          "flour",
+          "soy sauce (contains wheat)",
+          "breadcrumbs",
+          "breading"
+         ],
+         "ar": [
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)",
+          "بقسماط",
+          "خلطة تغليف"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
          ]
         }
        },
@@ -4239,36 +4338,57 @@
         "ar": "كرات كوله بالسويت تشيلي"
        },
        "ing": {
-        "tr": "180 g tavuk parçaları, Sweet Chili sos, maydanoz",
-        "en": "180 g chicken pieces, sweet chilli sauce, parsley",
-        "ar": "180 غ قطع دجاج، صوص سويت تشيلي، بقدونس"
+        "tr": "180 g tavuk parçaları (süt, un, soya sosu, Cajun baharatı, galeta unu, pane, tuz, karabiber), Sweet Chili sos, görsel maydanoz",
+        "en": "180 g chicken pieces (milk, flour, soy sauce, Cajun spice, breadcrumbs, breading, salt, black pepper), sweet chilli sauce, parsley (garnish)",
+        "ar": "180 غ قطع دجاج (حليب، دقيق، صلصة صويا، توابل كاجون، بقسماط، خلطة تغليف، ملح، فلفل أسود)، صوص سويت تشيلي، بقدونس (للتزيين)"
        },
        "p": 750,
        "a": [
         "G",
-        "Y"
+        "M",
+        "S"
        ],
        "asrc": {
-        "G": {
+        "M": {
          "tr": [
-          "çıtır kaplama"
+          "süt"
          ],
          "en": [
-          "crispy coating"
+          "milk"
          ],
          "ar": [
-          "طبقة مقرمشة"
+          "حليب"
          ]
         },
-        "Y": {
+        "G": {
          "tr": [
-          "çıtır kaplama"
+          "un",
+          "soya sosu",
+          "galeta unu",
+          "pane"
          ],
          "en": [
-          "crispy coating"
+          "flour",
+          "soy sauce (contains wheat)",
+          "breadcrumbs",
+          "breading"
          ],
          "ar": [
-          "طبقة مقرمشة"
+          "دقيق",
+          "صلصة صويا (تحتوي على قمح)",
+          "بقسماط",
+          "خلطة تغليف"
+         ]
+        },
+        "S": {
+         "tr": [
+          "soya sosu"
+         ],
+         "en": [
+          "soy sauce (contains wheat)"
+         ],
+         "ar": [
+          "صلصة صويا (تحتوي على قمح)"
          ]
         }
        },
@@ -4322,9 +4442,9 @@
       "ar": "مشاوي"
      },
      "note": {
-      "tr": "Közlenmiş biber & domates, pilav ve patates eşliğinde",
-      "en": "Served with roasted pepper & tomato, rice and fries",
-      "ar": "تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+      "tr": "Közlenmiş biber & domates, pilav, elma dilim patates ve lavaş eşliğinde",
+      "en": "Served with roasted pepper & tomato, rice, wedge potatoes and lavash",
+      "ar": "تُقدَّم مع فلفل وطماطم مشوية، أرز، بطاطس ودجز وخبز لافاش"
      },
      "i": [
       {
@@ -4335,9 +4455,9 @@
         "ar": "مشاوي مشكّلة"
        },
        "ing": {
-        "tr": "1 kuzu pirzola, 200 g antrikot, 2 köfte, 2 tavuk kanat, 1 tavuk bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "1 lamb chop, 200 g ribeye, 2 meatballs, 2 chicken wings, 1 chicken fillet (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
-        "ar": "ريشة غنم، 200 غ أنتريكوت، كفتتان، جناحا دجاج، فيليه دجاج (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "1 kuzu pirzola, 200 g antrikot, 2 köfte (sarımsak, galeta unu, karabiber, kimyon, pul biber), 2 tavuk kanat, 1 tavuk bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), lavaş, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "1 lamb chop, 200 g ribeye, 2 meatballs (garlic, breadcrumbs, black pepper, cumin, chilli flakes), 2 chicken wings, 1 chicken fillet (marinated in olive oil, thyme and chilli flakes), lavash, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "ريشة غنم، 200 غ أنتريكوت، كفتتان (ثوم، بقسماط، فلفل أسود، كمّون، رقائق فلفل)، جناحا دجاج، فيليه دجاج (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 2500,
        "a": [
@@ -4346,13 +4466,19 @@
        "asrc": {
         "G": {
          "tr": [
-          "köfte"
+          "köfte",
+          "galeta unu",
+          "lavaş"
          ],
          "en": [
-          "meatballs"
+          "meatballs",
+          "breadcrumbs",
+          "lavash"
          ],
          "ar": [
-          "كفتة"
+          "كفتة",
+          "بقسماط",
+          "خبز لافاش"
          ]
         }
        },
@@ -4362,13 +4488,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 1900,
+       "kcal": 2100,
        "nut": {
-        "kcal": 1900,
-        "kj": 7950,
-        "p": 120,
-        "f": 110,
-        "c": 90
+        "kcal": 2100,
+        "kj": 8786,
+        "p": 126,
+        "f": 111,
+        "c": 130
        },
        "por": null,
        "alc": 0,
@@ -4385,26 +4511,40 @@
         "ar": "ريش غنم (3 قطع)"
        },
        "ing": {
-        "tr": "3 parça kuzu pirzola (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "3 lamb chops (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
-        "ar": "3 ريش غنم (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "3 parça kuzu pirzola (zeytinyağı, kekik ve pul biber ile marine edilmiş), lavaş, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "3 lamb chops (marinated in olive oil, thyme and chilli flakes), lavash, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "3 ريش غنم (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 1320,
-       "a": [],
-       "asrc": {},
+       "a": [
+        "G"
+       ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lavaş"
+         ],
+         "en": [
+          "lavash"
+         ],
+         "ar": [
+          "خبز لافاش"
+         ]
+        }
+       },
        "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 850,
+       "kcal": 1050,
        "nut": {
-        "kcal": 850,
-        "kj": 3556,
-        "p": 44,
-        "f": 56,
-        "c": 44
+        "kcal": 1050,
+        "kj": 4393,
+        "p": 50,
+        "f": 57,
+        "c": 84
        },
        "por": null,
        "alc": 0,
@@ -4421,26 +4561,40 @@
         "ar": "ريش غنم (4 قطع)"
        },
        "ing": {
-        "tr": "4 parça kuzu pirzola (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "4 lamb chops (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
-        "ar": "4 ريش غنم (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "4 parça kuzu pirzola (zeytinyağı, kekik ve pul biber ile marine edilmiş), lavaş, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "4 lamb chops (marinated in olive oil, thyme and chilli flakes), lavash, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "4 ريش غنم (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 1570,
-       "a": [],
-       "asrc": {},
+       "a": [
+        "G"
+       ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lavaş"
+         ],
+         "en": [
+          "lavash"
+         ],
+         "ar": [
+          "خبز لافاش"
+         ]
+        }
+       },
        "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 1050,
+       "kcal": 1250,
        "nut": {
-        "kcal": 1050,
-        "kj": 4393,
-        "p": 58,
-        "f": 72,
-        "c": 44
+        "kcal": 1250,
+        "kj": 5230,
+        "p": 64,
+        "f": 73,
+        "c": 84
        },
        "por": null,
        "alc": 0,
@@ -4457,26 +4611,40 @@
         "ar": "أنتريكوت"
        },
        "ing": {
-        "tr": "200 g antrikot (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "200 g ribeye (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
-        "ar": "200 غ أنتريكوت (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g antrikot (zeytinyağı, kekik ve pul biber ile marine edilmiş), lavaş, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "200 g ribeye (marinated in olive oil, thyme and chilli flakes), lavash, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "200 غ أنتريكوت (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 1320,
-       "a": [],
-       "asrc": {},
+       "a": [
+        "G"
+       ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lavaş"
+         ],
+         "en": [
+          "lavash"
+         ],
+         "ar": [
+          "خبز لافاش"
+         ]
+        }
+       },
        "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 950,
+       "kcal": 1150,
        "nut": {
-        "kcal": 950,
-        "kj": 3975,
-        "p": 52,
-        "f": 60,
-        "c": 44
+        "kcal": 1150,
+        "kj": 4812,
+        "p": 58,
+        "f": 61,
+        "c": 84
        },
        "por": null,
        "alc": 0,
@@ -4493,26 +4661,40 @@
         "ar": "بونفيليه (فيليه بقري)"
        },
        "ing": {
-        "tr": "200 g bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "200 g tenderloin (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
-        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), lavaş, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "200 g tenderloin (marinated in olive oil, thyme and chilli flakes), lavash, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 1450,
-       "a": [],
-       "asrc": {},
+       "a": [
+        "G"
+       ],
+       "asrc": {
+        "G": {
+         "tr": [
+          "lavaş"
+         ],
+         "en": [
+          "lavash"
+         ],
+         "ar": [
+          "خبز لافاش"
+         ]
+        }
+       },
        "aunk": 0,
        "ic": "steak",
        "s": 0,
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 850,
+       "kcal": 1050,
        "nut": {
-        "kcal": 850,
-        "kj": 3556,
-        "p": 50,
-        "f": 48,
-        "c": 44
+        "kcal": 1050,
+        "kj": 4393,
+        "p": 56,
+        "f": 49,
+        "c": 84
        },
        "por": null,
        "alc": 0,
@@ -4529,46 +4711,60 @@
         "ar": "فيليه بصوص الفطر"
        },
        "ing": {
-        "tr": "200 g bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), mantar sos (krema, Cafe de Paris sos), közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "200 g tenderloin (marinated in olive oil, thyme and chilli flakes), mushroom sauce (cream, Café de Paris sauce), served with roasted pepper & tomato, rice and fries",
-        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، صوص فطر (كريمة، صوص كافيه دو باري)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), mantar sos (krema, Cafe de Paris sos, Demi Glace sos), 200 g fettuccine, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "200 g tenderloin (marinated in olive oil, thyme and chilli flakes), mushroom sauce (cream, Café de Paris sauce, Demi-Glace sauce), 200 g fettuccine, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، صوص فطر (كريمة، صوص كافيه دو باري، صوص ديمي غلاس)، 200 غ فيتوتشيني، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 1500,
        "a": [
         "G",
-        "M"
+        "M",
+        "C"
        ],
        "asrc": {
         "M": {
          "tr": [
-          "mantar sos",
           "krema",
           "cafe de paris sos",
-          "Cafe de Paris Sos"
+          "demi glace sos"
          ],
          "en": [
-          "mushroom sauce",
           "cream",
           "Café de Paris sauce",
-          "Café de Paris Sauce"
+          "demi-glace sauce"
          ],
          "ar": [
-          "صوص فطر",
           "كريمة",
-          "صوص كافيه دو باري"
+          "صوص كافيه دو باري",
+          "صوص ديمي غلاس"
          ]
         },
         "G": {
          "tr": [
           "cafe de paris sos",
-          "Cafe de Paris Sos"
+          "demi glace sos",
+          "fettuccine"
          ],
          "en": [
           "Café de Paris sauce",
-          "Café de Paris Sauce"
+          "demi-glace sauce",
+          "fettuccine"
          ],
          "ar": [
-          "صوص كافيه دو باري"
+          "صوص كافيه دو باري",
+          "صوص ديمي غلاس",
+          "فيتوتشيني"
+         ]
+        },
+        "C": {
+         "tr": [
+          "demi glace sos"
+         ],
+         "en": [
+          "demi-glace sauce"
+         ],
+         "ar": [
+          "صوص ديمي غلاس"
          ]
         }
        },
@@ -4578,15 +4774,16 @@
        "so": 0,
        "off": 0,
        "sos": [
-        "cafedeparis"
+        "cafedeparis",
+        "demiglace"
        ],
-       "kcal": 950,
+       "kcal": 1240,
        "nut": {
-        "kcal": 950,
-        "kj": 3975,
-        "p": 52,
-        "f": 56,
-        "c": 46
+        "kcal": 1240,
+        "kj": 5188,
+        "p": 62,
+        "f": 58,
+        "c": 102
        },
        "por": null,
        "alc": 0,
@@ -4603,9 +4800,9 @@
         "ar": "فيليه بصوص كافيه دو باري"
        },
        "ing": {
-        "tr": "200 g bonfile, Cafe de Paris sos, közlenmiş biber & domates, pilav ve patates eşliğinde",
-        "en": "200 g tenderloin, Café de Paris sauce, served with roasted pepper & tomato, rice and fries",
-        "ar": "200 غ فيليه، صوص كافيه دو باري، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g bonfile, Cafe de Paris sos, közlenmiş biber & domates, pilav ve elma dilim patates eşliğinde",
+        "en": "200 g tenderloin, Café de Paris sauce, served with roasted pepper & tomato, rice and wedge potatoes",
+        "ar": "200 غ فيليه، صوص كافيه دو باري، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس ودجز"
        },
        "p": 1500,
        "a": [
@@ -4615,12 +4812,10 @@
        "asrc": {
         "G": {
          "tr": [
-          "cafe de paris sos",
-          "Cafe de Paris Sos"
+          "cafe de paris sos"
          ],
          "en": [
-          "Café de Paris sauce",
-          "Café de Paris Sauce"
+          "Café de Paris sauce"
          ],
          "ar": [
           "صوص كافيه دو باري"
@@ -4628,12 +4823,10 @@
         },
         "M": {
          "tr": [
-          "cafe de paris sos",
-          "Cafe de Paris Sos"
+          "cafe de paris sos"
          ],
          "en": [
-          "Café de Paris sauce",
-          "Café de Paris Sauce"
+          "Café de Paris sauce"
          ],
          "ar": [
           "صوص كافيه دو باري"
@@ -4673,9 +4866,9 @@
       "ar": "فاهيتا"
      },
      "note": {
-      "tr": "Kekik, zeytinyağı ve pul biber ile marine edilir; renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos ve lavaş eşliğinde",
-      "en": "Marinated in thyme, olive oil and chilli flakes; served with bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce and lavash",
-      "ar": "متبّلة بالزعتر وزيت الزيتون ورقائق الفلفل؛ تُقدَّم مع فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص وخبز لافاش"
+      "tr": "Kekik, zeytinyağı ve pul biber ile marine edilir; Sweet Chili sos, Kule sos, süzme yoğurt ve lavaş yanında servis edilir",
+      "en": "Marinated in thyme, olive oil and chilli flakes; sweet chilli sauce, Kule sauce, strained yoghurt and lavash are served on the side",
+      "ar": "متبّلة بالزعتر وزيت الزيتون ورقائق الفلفل؛ يُقدَّم صوص سويت تشيلي وصوص كوله واللبن المصفّى وخبز اللافاش على الجانب"
      },
      "i": [
       {
@@ -4686,9 +4879,9 @@
         "ar": "فاهيتا لحم"
        },
        "ing": {
-        "tr": "200 g kekik, zeytinyağı ve pul biber ile marine edilmiş et, renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos (Sweet Chili sos, mayonez, acı sos, pul biber, tuz), lavaş",
-        "en": "200 g beef marinated in thyme, olive oil and chilli flakes, bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, chilli flakes, salt), lavash",
-        "ar": "200 غ لحم متبّل بالزعتر وزيت الزيتون ورقائق الفلفل، فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص (صوص سويت تشيلي، مايونيز، صوص حار، رقائق فلفل، ملح)، لافاش"
+        "tr": "200 g et (kekik, zeytinyağı ve pul biber ile marine edilmiş), renkli biberler, soğan, tereyağı, ayçiçek yağı. Yanında: Sweet Chili sos, Kule sos (Sweet Chili sos, mayonez, acı sos, pul biber, tuz), süzme yoğurt, lavaş",
+        "en": "200 g beef (marinated in thyme, olive oil and chilli flakes), bell peppers, onion, butter, sunflower oil. Served with: sweet chilli sauce, Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, chilli flakes, salt), strained yoghurt, lavash",
+        "ar": "200 غ لحم (متبّل بالزعتر وزيت الزيتون ورقائق الفلفل)، فلفل ملوّن، بصل، زبدة، زيت عبّاد الشمس. يُقدَّم مع: صوص سويت تشيلي، صوص كوله (صوص سويت تشيلي، مايونيز، صوص حار، رقائق فلفل، ملح)، لبن مصفّى، خبز لافاش"
        },
        "p": 1470,
        "a": [
@@ -4699,26 +4892,26 @@
        "asrc": {
         "M": {
          "tr": [
+          "tereyağı",
           "süzme yoğurt"
          ],
          "en": [
+          "butter",
           "strained yoghurt"
          ],
          "ar": [
+          "زبدة",
           "لبن مصفّى"
          ]
         },
         "Y": {
          "tr": [
-          "özel kule sos",
           "mayonez"
          ],
          "en": [
-          "special Kule sauce",
           "mayonnaise"
          ],
          "ar": [
-          "صوص كوله الخاص",
           "مايونيز"
          ]
         },
@@ -4742,12 +4935,12 @@
        "sos": [
         "sweetchili"
        ],
-       "kcal": 1120,
+       "kcal": 1330,
        "nut": {
-        "kcal": 1120,
-        "kj": 4686,
+        "kcal": 1330,
+        "kj": 5565,
         "p": 58,
-        "f": 54,
+        "f": 78,
         "c": 92
        },
        "por": null,
@@ -4765,9 +4958,9 @@
         "ar": "فاهيتا كومبو"
        },
        "ing": {
-        "tr": "150 g et ve 150 g tavuk (kekik, zeytinyağı ve pul biber ile marine edilmiş), renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos (Sweet Chili sos, mayonez, acı sos, pul biber, tuz), lavaş",
-        "en": "150 g beef and 150 g chicken (marinated in thyme, olive oil and chilli flakes), bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, chilli flakes, salt), lavash",
-        "ar": "150 غ لحم و150 غ دجاج (متبّل بالزعتر وزيت الزيتون ورقائق الفلفل)، فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص (صوص سويت تشيلي، مايونيز، صوص حار، رقائق فلفل، ملح)، لافاش"
+        "tr": "150 g et ve 150 g tavuk (kekik, zeytinyağı ve pul biber ile marine edilmiş), renkli biberler, soğan, tereyağı, ayçiçek yağı. Yanında: Sweet Chili sos, Kule sos (Sweet Chili sos, mayonez, acı sos, pul biber, tuz), süzme yoğurt, lavaş",
+        "en": "150 g beef and 150 g chicken (marinated in thyme, olive oil and chilli flakes), bell peppers, onion, butter, sunflower oil. Served with: sweet chilli sauce, Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, chilli flakes, salt), strained yoghurt, lavash",
+        "ar": "150 غ لحم و150 غ دجاج (متبّل بالزعتر وزيت الزيتون ورقائق الفلفل)، فلفل ملوّن، بصل، زبدة، زيت عبّاد الشمس. يُقدَّم مع: صوص سويت تشيلي، صوص كوله (صوص سويت تشيلي، مايونيز، صوص حار، رقائق فلفل، ملح)، لبن مصفّى، خبز لافاش"
        },
        "p": 1520,
        "a": [
@@ -4778,26 +4971,26 @@
        "asrc": {
         "M": {
          "tr": [
+          "tereyağı",
           "süzme yoğurt"
          ],
          "en": [
+          "butter",
           "strained yoghurt"
          ],
          "ar": [
+          "زبدة",
           "لبن مصفّى"
          ]
         },
         "Y": {
          "tr": [
-          "özel kule sos",
           "mayonez"
          ],
          "en": [
-          "special Kule sauce",
           "mayonnaise"
          ],
          "ar": [
-          "صوص كوله الخاص",
           "مايونيز"
          ]
         },
@@ -4821,12 +5014,12 @@
        "sos": [
         "sweetchili"
        ],
-       "kcal": 1150,
+       "kcal": 1360,
        "nut": {
-        "kcal": 1150,
-        "kj": 4812,
+        "kcal": 1360,
+        "kj": 5690,
         "p": 66,
-        "f": 52,
+        "f": 76,
         "c": 92
        },
        "por": null,
@@ -10154,5 +10347,5 @@
    ]
   }
  ],
- "pub": 1789731100344
+ "pub": 1789734374606
 }
