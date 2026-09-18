@@ -1,4 +1,5 @@
-// Porsiyon başına besin değerleri — TASLAK / YAKLAŞIK.  [kcal, protein g, yağ g, karbonhidrat g]
+// Porsiyon başına besin değerleri — TASLAK / YAKLAŞIK.
+// (Tatlılar bölümündeki Lupin Gıda ürünleri hariç: onlar üreticinin 100 g beyanı x ürün gramajı.)  [kcal, protein g, yağ g, karbonhidrat g]
 // Standart tarif ve porsiyon büyüklüklerinden (USDA + TürKomp referansları) hesaplanmış tahminlerdir;
 // mevzuata uygun beyan için mutfak gramajlarıyla bir gıda mühendisi / diyetisyen tarafından doğrulanmalıdır.
 // Anahtar: Türkçe ürün adı (kule-data.js ile birebir). Nargile bölümü için besin beyanı yapılmaz (build.js).
@@ -29,10 +30,10 @@ module.exports = {
  "Karışık Izgara":[2100,126,111,130],"Kuzu Pirzola (3 Parça)":[1050,50,57,84],"Kuzu Pirzola (4 Parça)":[1250,64,73,84],"Antrikot":[1150,58,61,84],
  "Bonfile":[1050,56,49,84],"Mantar Soslu Bonfile":[1240,62,58,102],"Cafe de Paris Soslu Bonfile":[980,52,60,46],"Fajita":[1330,58,78,92],"Combo Fajita":[1360,66,76,92],
  // Tatlılar
- "Frambuazlı Cheesecake":[420,7,28,36],"Limonlu Cheesecake":[410,7,27,36],"Süt Reçelli Cheesecake":[450,8,28,42],"Çikolatalı Vişne Rüyası":[430,6,24,50],
- "Yaban Mersinli Linzer":[380,5,18,50],"Lotus Cup":[460,6,26,50],"Snickers Pasta":[480,9,28,50],"Mozaik Pasta":[400,6,22,46],"Tiramisu Pasta":[380,7,24,34],
- "Kule Ballım":[420,6,20,56],"Sufle":[450,8,26,48],
- "Cedric Fıstık":[420,8,28,34],"Cedric Limon":[380,5,22,40],"Cedric Mango":[380,5,22,40],"Cedric Hindistan Cevizi":[400,5,26,36],
+ "Frambuazlı Cheesecake":[930,14,52,100],"Limonlu Cheesecake":[570,8,32,63],"Süt Reçelli Cheesecake":[435,10,22,53],"Çikolatalı Vişne Rüyası":[730,13,43,71],
+ "Yaban Mersinli Linzer":[775,11,45,81],"Lotus Cup":[1215,14,72,140],"Snickers Pasta":[1180,19,77,102],"Mozaik Pasta":[680,10,36,77],"Tiramisu Pasta":[460,8,24,54],
+ "Kule Ballım":[420,6,20,56],"Sufle":[295,5,15,32],
+ "Cedric Fıstık":[420,8,28,34],"Cedric Limon":[380,5,22,40],"Cedric Mango":[380,5,22,40],"Cedric Hindistan Cevizi":[830,13,32,120],
  "Meyve Tabağı":[220,3,1,52],"Dondurma (1 Top)":[120,2,6,14],"Dondurma (3 Top)":[360,6,18,42],
  // Sıcak kahveler
  "Espresso":[5,0,0,1],"Duble Espresso":[10,0,0,2],"Espresso Macchiato":[20,1,1,1],"Americano":[10,0,0,2],"Filtre Kahve":[5,0,0,1],

@@ -2513,35 +2513,59 @@
 "ad": "Frambuazlı Cheesecake",
 "a": [
 "G",
-"M"
+"M",
+"S",
+"Y"
 ],
 "src": {
-"G": {
-"tr": [
-"bisküvi tabanı"
-],
-"en": [
-"biscuit base"
-],
-"ar": [
-"قاعدة بسكويت"
-]
-},
 "M": {
 "tr": [
-"bisküvi tabanı",
-"krem peynir",
-"krema"
+"labne",
+"şekerli şanti",
+"beyaz çikolata"
 ],
 "en": [
-"biscuit base",
-"cream cheese",
-"cream"
+"labneh",
+"sweetened cream",
+"white chocolate"
 ],
 "ar": [
-"قاعدة بسكويت",
-"جبنة كريمية",
-"كريمة"
+"لبنة",
+"كريمة محلّاة",
+"شوكولاتة بيضاء"
+]
+},
+"Y": {
+"tr": [
+"yumurta"
+],
+"en": [
+"egg"
+],
+"ar": [
+"بيض"
+]
+},
+"S": {
+"tr": [
+"beyaz çikolata"
+],
+"en": [
+"white chocolate"
+],
+"ar": [
+"شوكولاتة بيضاء"
+]
+},
+"G": {
+"tr": [
+"bisküvi"
+],
+"en": [
+"biscuit"
+],
+"ar": [
+"بسكويت"
 ]
 }
 }
@@ -2550,35 +2574,59 @@
 "ad": "Limonlu Cheesecake",
 "a": [
 "G",
-"M"
+"M",
+"S",
+"Y"
 ],
 "src": {
-"G": {
-"tr": [
-"bisküvi tabanı"
-],
-"en": [
-"biscuit base"
-],
-"ar": [
-"قاعدة بسكويت"
-]
-},
 "M": {
 "tr": [
-"bisküvi tabanı",
-"krem peynir",
-"krema"
+"labne",
+"şekerli şanti",
+"beyaz çikolata"
 ],
 "en": [
-"biscuit base",
-"cream cheese",
-"cream"
+"labneh",
+"sweetened cream",
+"white chocolate"
 ],
 "ar": [
-"قاعدة بسكويت",
-"جبنة كريمية",
-"كريمة"
+"لبنة",
+"كريمة محلّاة",
+"شوكولاتة بيضاء"
+]
+},
+"Y": {
+"tr": [
+"yumurta"
+],
+"en": [
+"egg"
+],
+"ar": [
+"بيض"
+]
+},
+"S": {
+"tr": [
+"beyaz çikolata"
+],
+"en": [
+"white chocolate"
+],
+"ar": [
+"شوكولاتة بيضاء"
+]
+},
+"G": {
+"tr": [
+"bisküvi"
+],
+"en": [
+"biscuit"
+],
+"ar": [
+"بسكويت"
 ]
 }
 }
@@ -2588,46 +2636,73 @@
 "a": [
 "G",
 "M",
-"N"
+"N",
+"S",
+"Y"
 ],
 "src": {
-"G": {
-"tr": [
-"bisküvi tabanı"
-],
-"en": [
-"biscuit base"
-],
-"ar": [
-"قاعدة بسكويت"
-]
-},
 "M": {
 "tr": [
-"bisküvi tabanı",
-"krem peynir",
-"süt reçeli"
+"süt reçelli dolgu",
+"labne",
+"şekerli şanti",
+"beyaz çikolata"
 ],
 "en": [
-"biscuit base",
-"cream cheese",
-"dulce de leche"
+"dulce de leche filling",
+"labneh",
+"sweetened cream",
+"white chocolate"
 ],
 "ar": [
-"قاعدة بسكويت",
-"جبنة كريمية",
-"مربى الحليب"
+"حشوة مربى الحليب",
+"لبنة",
+"كريمة محلّاة",
+"شوكولاتة بيضاء"
+]
+},
+"Y": {
+"tr": [
+"yumurta"
+],
+"en": [
+"egg"
+],
+"ar": [
+"بيض"
+]
+},
+"S": {
+"tr": [
+"beyaz çikolata"
+],
+"en": [
+"white chocolate"
+],
+"ar": [
+"شوكولاتة بيضاء"
+]
+},
+"G": {
+"tr": [
+"bisküvi"
+],
+"en": [
+"biscuit"
+],
+"ar": [
+"بسكويت"
 ]
 },
 "N": {
 "tr": [
-"fındık"
+"file fındık"
 ],
 "en": [
-"hazelnut"
+"flaked hazelnut"
 ],
 "ar": [
-"بندق"
+"بندق مبشور"
 ]
 }
 }
@@ -2637,55 +2712,70 @@
 "a": [
 "G",
 "M",
+"N",
 "S",
 "Y"
 ],
 "src": {
 "G": {
 "tr": [
-"kakaolu kek"
+"dark kek tozu"
 ],
 "en": [
-"cocoa sponge"
+"dark cake mix"
 ],
 "ar": [
-"كيك كاكاو"
+"خليط كيك داكن"
 ]
 },
 "Y": {
 "tr": [
-"kakaolu kek"
+"yumurta"
 ],
 "en": [
-"cocoa sponge"
+"egg"
 ],
 "ar": [
-"كيك كاكاو"
+"بيض"
 ]
 },
 "M": {
 "tr": [
-"kakaolu kek",
-"çikolata krema"
+"krema",
+"bitter pul çikolata",
+"tereyağı"
 ],
 "en": [
-"cocoa sponge",
-"chocolate cream"
+"cream",
+"dark chocolate chips",
+"butter"
 ],
 "ar": [
-"كيك كاكاو",
-"كريمة شوكولاتة"
+"كريمة",
+"رقائق شوكولاتة داكنة",
+"زبدة"
 ]
 },
 "S": {
 "tr": [
-"çikolata krema"
+"bitter pul çikolata"
 ],
 "en": [
-"chocolate cream"
+"dark chocolate chips"
 ],
 "ar": [
-"كريمة شوكولاتة"
+"رقائق شوكولاتة داكنة"
+]
+},
+"N": {
+"tr": [
+"badem"
+],
+"en": [
+"almond"
+],
+"ar": [
+"لوز"
 ]
 }
 }
@@ -2695,55 +2785,58 @@
 "a": [
 "G",
 "M",
-"N",
+"S",
 "Y"
 ],
 "src": {
-"G": {
+"M": {
 "tr": [
-"linzer hamuru"
+"labne",
+"şekerli şanti",
+"beyaz çikolata"
 ],
 "en": [
-"linzer pastry"
+"labneh",
+"sweetened cream",
+"white chocolate"
 ],
 "ar": [
-"عجينة لينزر"
+"لبنة",
+"كريمة محلّاة",
+"شوكولاتة بيضاء"
 ]
 },
 "Y": {
 "tr": [
-"linzer hamuru"
+"yumurta"
 ],
 "en": [
-"linzer pastry"
+"egg"
 ],
 "ar": [
-"عجينة لينزر"
+"بيض"
 ]
 },
-"M": {
+"S": {
 "tr": [
-"linzer hamuru",
-"krema"
+"beyaz çikolata"
 ],
 "en": [
-"linzer pastry",
-"cream"
+"white chocolate"
 ],
 "ar": [
-"عجينة لينزر",
-"كريمة"
+"شوكولاتة بيضاء"
 ]
 },
-"N": {
+"G": {
 "tr": [
-"linzer hamuru"
+"bisküvi"
 ],
 "en": [
-"linzer pastry"
+"biscuit"
 ],
 "ar": [
-"عجينة لينزر"
+"بسكويت"
 ]
 }
 }
@@ -2753,46 +2846,94 @@
 "a": [
 "G",
 "M",
-"S"
+"N",
+"S",
+"Y"
 ],
 "src": {
-"G": {
+"M": {
 "tr": [
-"lotus bisküvi",
-"karamelize bisküvi kreması"
+"krema",
+"pralin çikolata",
+"tereyağı",
+"para çikolata"
 ],
 "en": [
-"Lotus biscuit",
-"caramelised biscuit spread"
+"cream",
+"praline chocolate",
+"butter",
+"chocolate coins"
 ],
 "ar": [
+"كريمة",
+"شوكولاتة برالين",
+"زبدة",
+"عملات شوكولاتة"
+]
+},
+"G": {
+"tr": [
+"lotus dolgu",
+"lotus bisküvi tozu",
+"lotus bisküvi",
+"un"
+],
+"en": [
+"Lotus filling",
+"Lotus biscuit crumb",
+"Lotus biscuit",
+"flour"
+],
+"ar": [
+"حشوة لوتس",
+"فتات بسكويت لوتس",
 "بسكويت لوتس",
-"كريمة بسكويت مكرمل"
+"دقيق"
 ]
 },
 "S": {
 "tr": [
+"lotus dolgu",
+"lotus bisküvi tozu",
 "lotus bisküvi",
-"karamelize bisküvi kreması"
+"pralin çikolata",
+"para çikolata"
 ],
 "en": [
+"Lotus filling",
+"Lotus biscuit crumb",
 "Lotus biscuit",
-"caramelised biscuit spread"
+"praline chocolate",
+"chocolate coins"
 ],
 "ar": [
+"حشوة لوتس",
+"فتات بسكويت لوتس",
 "بسكويت لوتس",
-"كريمة بسكويت مكرمل"
+"شوكولاتة برالين",
+"عملات شوكولاتة"
 ]
 },
-"M": {
+"N": {
 "tr": [
-"krema"
+"pralin çikolata"
 ],
 "en": [
-"cream"
+"praline chocolate"
 ],
 "ar": [
-"كريمة"
+"شوكولاتة برالين"
+]
+},
+"Y": {
+"tr": [
+"yumurta"
+],
+"en": [
+"egg"
+],
+"ar": [
+"بيض"
 ]
 }
 }
@@ -2803,47 +2944,73 @@
 "F",
 "G",
 "M",
+"N",
 "S",
 "Y"
 ],
 "src": {
 "G": {
 "tr": [
-"kakaolu kek"
+"dark velvet tozu"
 ],
 "en": [
-"cocoa sponge"
+"dark velvet cake mix"
 ],
 "ar": [
-"كيك كاكاو"
+"خليط كيك دارك فلفت"
 ]
 },
 "Y": {
 "tr": [
-"kakaolu kek"
+"yumurta"
 ],
 "en": [
-"cocoa sponge"
+"egg"
 ],
 "ar": [
-"كيك كاكاو"
+"بيض"
 ]
 },
 "M": {
 "tr": [
-"kakaolu kek",
-"karamel",
-"çikolata"
+"şekerli şanti",
+"şekersiz şanti",
+"toffee karamel",
+"pralin"
 ],
 "en": [
-"cocoa sponge",
-"caramel",
-"chocolate"
+"sweetened cream",
+"unsweetened cream",
+"toffee caramel",
+"praline"
 ],
 "ar": [
-"كيك كاكاو",
-"كراميل",
-"شوكولاتة"
+"كريمة محلّاة",
+"كريمة غير محلّاة",
+"كراميل توفي",
+"برالين"
+]
+},
+"S": {
+"tr": [
+"pralin"
+],
+"en": [
+"praline"
+],
+"ar": [
+"برالين"
+]
+},
+"N": {
+"tr": [
+"pralin"
+],
+"en": [
+"praline"
+],
+"ar": [
+"برالين"
 ]
 },
 "F": {
@@ -2856,17 +3023,6 @@
 "ar": [
 "فول سوداني"
 ]
-},
-"S": {
-"tr": [
-"çikolata"
-],
-"en": [
-"chocolate"
-],
-"ar": [
-"شوكولاتة"
-]
 }
 }
 },
@@ -2874,32 +3030,53 @@
 "ad": "Mozaik Pasta",
 "a": [
 "G",
-"M"
+"M",
+"N",
+"Y"
 ],
 "src": {
 "G": {
 "tr": [
-"bisküvi"
+"petibör bisküvi"
 ],
 "en": [
-"biscuit"
+"Petit Beurre biscuit"
 ],
 "ar": [
-"بسكويت"
+"بسكويت بيتي بور"
+]
+},
+"N": {
+"tr": [
+"file fındık"
+],
+"en": [
+"flaked hazelnut"
+],
+"ar": [
+"بندق مبشور"
 ]
 },
 "M": {
 "tr": [
-"tereyağı",
 "süt"
 ],
 "en": [
-"butter",
 "milk"
 ],
 "ar": [
-"زبدة",
 "حليب"
+]
+},
+"Y": {
+"tr": [
+"yumurta"
+],
+"en": [
+"egg"
+],
+"ar": [
+"بيض"
 ]
 }
 }
@@ -2909,43 +3086,64 @@
 "a": [
 "G",
 "M",
+"S",
 "Y"
 ],
 "src": {
 "G": {
 "tr": [
-"kedidili bisküvi"
+"dark velvet mix",
+"kedi dili"
 ],
 "en": [
+"dark velvet cake mix",
 "ladyfingers"
 ],
 "ar": [
+"خليط كيك دارك فلفت",
 "بسكويت أصابع"
 ]
 },
 "Y": {
 "tr": [
-"kedidili bisküvi",
-"yumurta"
+"yumurta",
+"kedi dili"
 ],
 "en": [
-"ladyfingers",
-"egg"
+"egg",
+"ladyfingers"
 ],
 "ar": [
-"بسكويت أصابع",
-"بيض"
+"بيض",
+"بسكويت أصابع"
 ]
 },
 "M": {
 "tr": [
-"mascarpone"
+"labne",
+"krem şanti",
+"beyaz çikolata"
 ],
 "en": [
-"mascarpone"
+"labneh",
+"whipped cream",
+"white chocolate"
 ],
 "ar": [
-"ماسكاربوني"
+"لبنة",
+"كريمة مخفوقة",
+"شوكولاتة بيضاء"
+]
+},
+"S": {
+"tr": [
+"beyaz çikolata"
+],
+"en": [
+"white chocolate"
+],
+"ar": [
+"شوكولاتة بيضاء"
 ]
 }
 }
@@ -2960,74 +3158,13 @@
 "src": {
 "G": {
 "tr": [
-"kat kat ballı kek"
+"un"
 ],
 "en": [
-"layered honey cake"
+"flour"
 ],
 "ar": [
-"كيك بالعسل"
-]
-},
-"Y": {
-"tr": [
-"kat kat ballı kek"
-],
-"en": [
-"layered honey cake"
-],
-"ar": [
-"كيك بالعسل"
-]
-},
-"M": {
-"tr": [
-"kat kat ballı kek",
-"özel krema"
-],
-"en": [
-"layered honey cake",
-"cream"
-],
-"ar": [
-"كيك بالعسل",
-"كريمة"
-]
-}
-}
-},
-"tatli-1-11": {
-"ad": "Sufle",
-"a": [
-"G",
-"M",
-"S",
-"Y"
-],
-"src": {
-"M": {
-"tr": [
-"çikolata",
-"tereyağı"
-],
-"en": [
-"chocolate",
-"butter"
-],
-"ar": [
-"شوكولاتة",
-"زبدة"
-]
-},
-"S": {
-"tr": [
-"çikolata"
-],
-"en": [
-"chocolate"
-],
-"ar": [
-"شوكولاتة"
+"دقيق"
 ]
 },
 "Y": {
@@ -3041,6 +3178,63 @@
 "بيض"
 ]
 },
+"M": {
+"tr": [
+"tereyağı",
+"krem şanti",
+"labne"
+],
+"en": [
+"butter",
+"whipped cream",
+"labneh"
+],
+"ar": [
+"زبدة",
+"كريمة مخفوقة",
+"لبنة"
+]
+}
+}
+},
+"tatli-1-11": {
+"ad": "Sufle",
+"a": [
+"G",
+"M",
+"N",
+"S",
+"Y"
+],
+"src": {
+"M": {
+"tr": [
+"tereyağı",
+"bitter çikolata"
+],
+"en": [
+"butter",
+"dark chocolate"
+],
+"ar": [
+"زبدة",
+"شوكولاتة داكنة"
+]
+},
+"Y": {
+"tr": [
+"yumurta",
+"yumurta sarısı"
+],
+"en": [
+"egg",
+"egg yolk"
+],
+"ar": [
+"بيض",
+"صفار بيض"
+]
+},
 "G": {
 "tr": [
 "un"
@@ -3050,6 +3244,28 @@
 ],
 "ar": [
 "دقيق"
+]
+},
+"S": {
+"tr": [
+"bitter çikolata"
+],
+"en": [
+"dark chocolate"
+],
+"ar": [
+"شوكولاتة داكنة"
+]
+},
+"N": {
+"tr": [
+"üretici beyanı"
+],
+"en": [
+"manufacturer declaration"
+],
+"ar": [
+"إقرار المُنتِج"
 ]
 }
 }
@@ -3103,21 +3319,54 @@
 "tatli-2-2": {
 "ad": "Cedric Limon",
 "a": [
+"G",
 "M",
-"S"
+"S",
+"Y"
 ],
 "src": {
+"Y": {
+"tr": [
+"yumurta",
+"pastacı kreması"
+],
+"en": [
+"egg",
+"pastry cream"
+],
+"ar": [
+"بيض",
+"كريمة الحلواني"
+]
+},
+"G": {
+"tr": [
+"un"
+],
+"en": [
+"flour"
+],
+"ar": [
+"دقيق"
+]
+},
 "M": {
 "tr": [
-"limon kreması",
+"süt",
+"pastacı kreması",
+"şekerli şanti",
 "beyaz çikolata"
 ],
 "en": [
-"lemon cream",
+"milk",
+"pastry cream",
+"sweetened cream",
 "white chocolate"
 ],
 "ar": [
-"كريمة ليمون",
+"حليب",
+"كريمة الحلواني",
+"كريمة محلّاة",
 "شوكولاتة بيضاء"
 ]
 },
@@ -3171,33 +3420,90 @@
 "tatli-2-4": {
 "ad": "Cedric Hindistan Cevizi",
 "a": [
+"G",
 "M",
-"S"
+"N",
+"S",
+"Y"
 ],
 "src": {
-"M": {
+"Y": {
 "tr": [
-"hindistan cevizi kreması",
-"çikolata"
+"yumurta",
+"pastacı kreması"
 ],
 "en": [
-"coconut cream",
-"chocolate"
+"egg",
+"pastry cream"
 ],
 "ar": [
-"كريمة جوز الهند",
-"شوكولاتة"
+"بيض",
+"كريمة الحلواني"
+]
+},
+"G": {
+"tr": [
+"un"
+],
+"en": [
+"flour"
+],
+"ar": [
+"دقيق"
+]
+},
+"M": {
+"tr": [
+"süt",
+"sütlü çikolata",
+"bitter çikolata",
+"krema",
+"pastacı kreması",
+"pralin çikolata"
+],
+"en": [
+"milk",
+"milk chocolate",
+"dark chocolate",
+"cream",
+"pastry cream",
+"praline chocolate"
+],
+"ar": [
+"حليب",
+"شوكولاتة بالحليب",
+"شوكولاتة داكنة",
+"كريمة",
+"كريمة الحلواني",
+"شوكولاتة برالين"
 ]
 },
 "S": {
 "tr": [
-"çikolata"
+"sütlü çikolata",
+"bitter çikolata",
+"pralin çikolata"
 ],
 "en": [
-"chocolate"
+"milk chocolate",
+"dark chocolate",
+"praline chocolate"
 ],
 "ar": [
-"شوكولاتة"
+"شوكولاتة بالحليب",
+"شوكولاتة داكنة",
+"شوكولاتة برالين"
+]
+},
+"N": {
+"tr": [
+"pralin çikolata"
+],
+"en": [
+"praline chocolate"
+],
+"ar": [
+"شوكولاتة برالين"
 ]
 }
 }

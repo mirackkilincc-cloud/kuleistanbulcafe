@@ -45,7 +45,7 @@ R = {
  "oreo bisküvi":(["G","S"],"Oreo biscuit","بسكويت أوريو"),
  "karamelize bisküvi kreması":(["G","S"],"caramelised biscuit spread","كريمة بسكويت مكرمل"),
  "kakaolu kek":(["G","Y","M"],"cocoa sponge","كيك كاكاو"),
- "kat kat ballı kek":(["G","Y","M"],"layered honey cake","كيك بالعسل"),
+ "kat kat ballı kek":([],"layered honey cake","كيك بالعسل"),   # alt malzemeleri ayrıca listeleniyor
  "linzer hamuru":(["G","Y","M","N"],"linzer pastry","عجينة لينزر"),
  "mısır unu":([],"corn flour","دقيق ذرة"),          # mısır — glutensiz
  # --- köfte / pane ürünleri (galeta unu–ekmek içi) ---
@@ -146,6 +146,35 @@ R = {
  "barbekü":(["G"],"BBQ sauce","صوص باربكيو"),
  "acı sos":([],"hot sauce","صوص حار"),
  "frambuaz sos":([],"raspberry sauce","صوص توت"),
+ # --- pastane / tatlı malzemeleri (Lupin Gıda üretici etiketleri, 18.09.2026) ---
+ "kedi dili":(["G","Y"],"ladyfingers","بسكويت أصابع"),
+ "petibör bisküvi":(["G"],"Petit Beurre biscuit","بسكويت بيتي بور"),
+ "lotus bisküvi tozu":(["G","S"],"Lotus biscuit crumb","فتات بسكويت لوتس"),
+ "lotus dolgu":(["G","S"],"Lotus filling","حشوة لوتس"),
+ "kabartma tozu":([],"baking powder","بيكنج باودر"),
+ "dark kek":([],"dark sponge","كيك داكن"),                        # alt malzemeleri ayrıca listeleniyor
+ "mois kek":([],"moist sponge","كيك رطب"),                        # alt malzemeleri ayrıca listeleniyor
+ "pataşu hamuru":([],"choux pastry","عجينة شو"),                  # alt malzemeleri ayrıca listeleniyor
+ "ganaj":([],"ganache","غاناش"),                                  # alt malzemeleri ayrıca listeleniyor
+ "dark kek tozu":(["G"],"dark cake mix","خليط كيك داكن"),
+ "dark velvet mix":(["G"],"dark velvet cake mix","خليط كيك دارك فلفت"),
+ "dark velvet tozu":(["G"],"dark velvet cake mix","خليط كيك دارك فلفت"),
+ "labne":(["M"],"labneh","لبنة"),
+ "şekerli şanti":(["M"],"sweetened cream","كريمة محلّاة"),
+ "şekersiz şanti":(["M"],"unsweetened cream","كريمة غير محلّاة"),
+ "krem şanti":(["M"],"whipped cream","كريمة مخفوقة"),
+ "pastacı kreması":(["M","Y"],"pastry cream","كريمة الحلواني"),
+ "toffee karamel":(["M"],"toffee caramel","كراميل توفي"),
+ "sütlü çikolata":(["M","S"],"milk chocolate","شوكولاتة بالحليب"),
+ "bitter çikolata":(["M","S"],"dark chocolate","شوكولاتة داكنة"),
+ "bitter pul çikolata":(["M","S"],"dark chocolate chips","رقائق شوكولاتة داكنة"),
+ "para çikolata":(["M","S"],"chocolate coins","عملات شوكولاتة"),
+ "pralin çikolata":(["M","S","N"],"praline chocolate","شوكولاتة برالين"),
+ "pralin":(["M","S","N"],"praline","برالين"),
+ "süt reçelli dolgu":(["M"],"dulce de leche filling","حشوة مربى الحليب"),
+ "yumurta sarısı":(["Y"],"egg yolk","صفار بيض"),
+ "badem":(["N"],"almond","لوز"),
+ "file fındık":(["N"],"flaked hazelnut","بندق مبشور"),
  # --- alerjen içermeyen malzemeler ---
 }
 # alerjensiz malzemeler (yalnızca kapsama güvencesi için listelenir)
@@ -166,7 +195,7 @@ espresso|çift shot espresso|kahve|çekirdek kahve|filtre kahve|türk kahvesi|ç
 demlenmiş siyah çay|yeşil çay yaprağı|adaçayı yaprağı|ihlamur çiçeği|kuşburnu|sınırsız çay|baharatlı çay konsantresi|
 özel kule karışımı|salep|kakao|bal|reçel|mevsim meyveleri|elma|muz|çilek|karpuz|kavun|kivi|mango|vişne|frambuaz|böğürtlen|
 yaban mersini|yaban mersini dolgusu|karadut|orman meyveleri|oryantal meyveler|tropikal meyveler|passion meyvesi|
-kapari çiçeği|yumuşak dokulu iç|günlük değişir — servis ekibimize danışınız|kule'ye özel karışım — servis ekibimize danışınız|
+kapari çiçeği|yumuşak dokulu iç|sıvı yağ|yağ|toz şeker|yaprak jelatin|hindistan cevizi|eti puf|biskin yağ|nescafe|pirinç fındık|siyah glaze|beyaz glaze|orman meyveli dolgu|limonlu dolgu|yaban mersini dolgu|donuk orman meyvesi|donuk yaban mersini|günlük değişir — servis ekibimize danışınız|kule'ye özel karışım — servis ekibimize danışınız|
 mentol|şekerleme|çift elma aroması|üzüm aroması|karpuz aroması|çilek aroması|nane aroması|limon aroması|
 fırınlanmış şeftali aroması|cappuccino aroması|kekik ve pul biber ile marine edilmiş|zeytinyağı ve pul biber ile marine edilmiş|
 zeytinyağı ve pul biber ile marine edilmiş et|pul biber ile marine edilmiş|tatlı kırmızı toz biber ile marine edilmiş
@@ -176,7 +205,10 @@ for t in [x.strip() for x in NONE.replace("\n","").split("|") if x.strip()]:
 
 # Mutfak teyidi bekleyen EK alerjenler (ürün id -> {kod: kaynak TR|EN|AR})
 EXTRA = {
- # (şu an boş) — mutfak teyidi gerektiren ek alerjenler buraya "ürün-id": {"K":"TR|EN|AR"} biçiminde yazılır.
+ # Sufle: Lupin Gıda etiketi "sert kabuklu meyveler" beyan ediyor (ortak üretim hattı);
+ # içindekilerden türetilemediği için üretici beyanı olarak eklenir.
+ "tatli-1-11": {"N": "üretici beyanı|manufacturer declaration|إقرار المُنتِج"},
+ # (diğerleri boş) — mutfak teyidi gerektiren ek alerjenler buraya "ürün-id": {"K":"TR|EN|AR"} biçiminde yazılır.
 }
 
 QTY = re.compile(r"^\s*\d+([.,]\d+)?\s*(g|gr|adet|parça|kişilik|top|shot|porsiyon)?\s*")
@@ -188,7 +220,7 @@ def norm(tok):
     return t.strip(" .")
 
 def split(t):
-    t = t.replace("(", ", ").replace(")", ", ").replace(";", ",").replace(":", ",").replace(". ", ", ").replace(" / ", ", ")
+    t = t.replace("(", ", ").replace(")", ", ").replace("·", ",").replace(";", ",").replace(":", ",").replace(". ", ", ").replace(" / ", ", ")
     return [x.strip(" .") for x in t.split(",") if x.strip(" .")]
 
 def analyse(ing_tr):

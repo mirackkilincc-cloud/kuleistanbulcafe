@@ -5065,42 +5065,66 @@
         "ar": "تشيز كيك بالتوت الأحمر"
        },
        "ing": {
-        "tr": "Bisküvi tabanı, krem peynir, krema, frambuaz sos",
-        "en": "Biscuit base, cream cheese, cream, raspberry sauce",
-        "ar": "قاعدة بسكويت، جبنة كريمية، كريمة، صوص توت أحمر"
+        "tr": "Orman meyveli dolgu, labne, şekerli şanti, yumurta, beyaz çikolata, bisküvi, şeker, yağ, yaprak jelatin, donuk orman meyvesi",
+        "en": "Forest fruit filling, labneh, sweetened cream, egg, white chocolate, biscuit, sugar, oil, leaf gelatine, frozen forest fruits",
+        "ar": "حشوة فواكه الغابة، لبنة، كريمة محلّاة، بيض، شوكولاتة بيضاء، بسكويت، سكر، زيت، جيلاتين ورقي، فواكه غابة مجمّدة"
        },
        "p": 375,
        "a": [
         "G",
-        "M"
+        "M",
+        "Y",
+        "S"
        ],
        "asrc": {
-        "G": {
-         "tr": [
-          "bisküvi tabanı"
-         ],
-         "en": [
-          "biscuit base"
-         ],
-         "ar": [
-          "قاعدة بسكويت"
-         ]
-        },
         "M": {
          "tr": [
-          "bisküvi tabanı",
-          "krem peynir",
-          "krema"
+          "labne",
+          "şekerli şanti",
+          "beyaz çikolata"
          ],
          "en": [
-          "biscuit base",
-          "cream cheese",
-          "cream"
+          "labneh",
+          "sweetened cream",
+          "white chocolate"
          ],
          "ar": [
-          "قاعدة بسكويت",
-          "جبنة كريمية",
-          "كريمة"
+          "لبنة",
+          "كريمة محلّاة",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "G": {
+         "tr": [
+          "bisküvi"
+         ],
+         "en": [
+          "biscuit"
+         ],
+         "ar": [
+          "بسكويت"
          ]
         }
        },
@@ -5110,13 +5134,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 420,
+       "kcal": 930,
        "nut": {
-        "kcal": 420,
-        "kj": 1757,
-        "p": 7,
-        "f": 28,
-        "c": 36
+        "kcal": 930,
+        "kj": 3891,
+        "p": 14,
+        "f": 52,
+        "c": 100
        },
        "por": null,
        "alc": 0,
@@ -5133,42 +5157,66 @@
         "ar": "تشيز كيك بالليمون"
        },
        "ing": {
-        "tr": "Bisküvi tabanı, krem peynir, krema, limon",
-        "en": "Biscuit base, cream cheese, cream, lemon",
-        "ar": "قاعدة بسكويت، جبنة كريمية، كريمة، ليمون"
+        "tr": "Limonlu dolgu, labne, şekerli şanti, yumurta, beyaz çikolata, bisküvi, şeker, yağ, yaprak jelatin, limon",
+        "en": "Lemon filling, labneh, sweetened cream, egg, white chocolate, biscuit, sugar, oil, leaf gelatine, lemon",
+        "ar": "حشوة ليمون، لبنة، كريمة محلّاة، بيض، شوكولاتة بيضاء، بسكويت، سكر، زيت، جيلاتين ورقي، ليمون"
        },
        "p": 375,
        "a": [
         "G",
-        "M"
+        "M",
+        "Y",
+        "S"
        ],
        "asrc": {
-        "G": {
-         "tr": [
-          "bisküvi tabanı"
-         ],
-         "en": [
-          "biscuit base"
-         ],
-         "ar": [
-          "قاعدة بسكويت"
-         ]
-        },
         "M": {
          "tr": [
-          "bisküvi tabanı",
-          "krem peynir",
-          "krema"
+          "labne",
+          "şekerli şanti",
+          "beyaz çikolata"
          ],
          "en": [
-          "biscuit base",
-          "cream cheese",
-          "cream"
+          "labneh",
+          "sweetened cream",
+          "white chocolate"
          ],
          "ar": [
-          "قاعدة بسكويت",
-          "جبنة كريمية",
-          "كريمة"
+          "لبنة",
+          "كريمة محلّاة",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "G": {
+         "tr": [
+          "bisküvi"
+         ],
+         "en": [
+          "biscuit"
+         ],
+         "ar": [
+          "بسكويت"
          ]
         }
        },
@@ -5178,13 +5226,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 410,
+       "kcal": 570,
        "nut": {
-        "kcal": 410,
-        "kj": 1715,
-        "p": 7,
-        "f": 27,
-        "c": 36
+        "kcal": 570,
+        "kj": 2385,
+        "p": 8,
+        "f": 32,
+        "c": 63
        },
        "por": null,
        "alc": 0,
@@ -5201,54 +5249,81 @@
         "ar": "تشيز كيك بمربى الحليب"
        },
        "ing": {
-        "tr": "Bisküvi tabanı, krem peynir, süt reçeli, fındık",
-        "en": "Biscuit base, cream cheese, dulce de leche, hazelnut",
-        "ar": "قاعدة بسكويت، جبنة كريمية، مربى الحليب، بندق"
+        "tr": "Süt reçelli dolgu, labne, şekerli şanti, yumurta, beyaz çikolata, bisküvi, şeker, yağ, yaprak jelatin, file fındık",
+        "en": "Dulce de leche filling, labneh, sweetened cream, egg, white chocolate, biscuit, sugar, oil, leaf gelatine, flaked hazelnut",
+        "ar": "حشوة مربى الحليب، لبنة، كريمة محلّاة، بيض، شوكولاتة بيضاء، بسكويت، سكر، زيت، جيلاتين ورقي، بندق مبشور"
        },
        "p": 385,
        "a": [
         "G",
         "M",
+        "Y",
+        "S",
         "N"
        ],
        "asrc": {
-        "G": {
-         "tr": [
-          "bisküvi tabanı"
-         ],
-         "en": [
-          "biscuit base"
-         ],
-         "ar": [
-          "قاعدة بسكويت"
-         ]
-        },
         "M": {
          "tr": [
-          "bisküvi tabanı",
-          "krem peynir",
-          "süt reçeli"
+          "süt reçelli dolgu",
+          "labne",
+          "şekerli şanti",
+          "beyaz çikolata"
          ],
          "en": [
-          "biscuit base",
-          "cream cheese",
-          "dulce de leche"
+          "dulce de leche filling",
+          "labneh",
+          "sweetened cream",
+          "white chocolate"
          ],
          "ar": [
-          "قاعدة بسكويت",
-          "جبنة كريمية",
-          "مربى الحليب"
+          "حشوة مربى الحليب",
+          "لبنة",
+          "كريمة محلّاة",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "G": {
+         "tr": [
+          "bisküvi"
+         ],
+         "en": [
+          "biscuit"
+         ],
+         "ar": [
+          "بسكويت"
          ]
         },
         "N": {
          "tr": [
-          "fındık"
+          "file fındık"
          ],
          "en": [
-          "hazelnut"
+          "flaked hazelnut"
          ],
          "ar": [
-          "بندق"
+          "بندق مبشور"
          ]
         }
        },
@@ -5258,13 +5333,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 450,
+       "kcal": 435,
        "nut": {
-        "kcal": 450,
-        "kj": 1883,
-        "p": 8,
-        "f": 28,
-        "c": 42
+        "kcal": 435,
+        "kj": 1820,
+        "p": 10,
+        "f": 22,
+        "c": 53
        },
        "por": null,
        "alc": 0,
@@ -5281,63 +5356,78 @@
         "ar": "حلم الكرز بالشوكولاتة"
        },
        "ing": {
-        "tr": "Kakaolu kek, çikolata krema, vişne",
-        "en": "Cocoa sponge, chocolate cream, sour cherry",
-        "ar": "كيك كاكاو، كريمة شوكولاتة، كرز حامض"
+        "tr": "Dark kek (dark kek tozu, su, yumurta, sıvı yağ), krema, bitter pul çikolata, tereyağı, vişne, badem",
+        "en": "Dark sponge (dark cake mix, water, egg, vegetable oil), cream, dark chocolate chips, butter, sour cherry, almond",
+        "ar": "كيك داكن (خليط كيك داكن، ماء، بيض، زيت نباتي)، كريمة، رقائق شوكولاتة داكنة، زبدة، كرز حامض، لوز"
        },
        "p": 395,
        "a": [
         "G",
         "M",
         "Y",
-        "S"
+        "S",
+        "N"
        ],
        "asrc": {
         "G": {
          "tr": [
-          "kakaolu kek"
+          "dark kek tozu"
          ],
          "en": [
-          "cocoa sponge"
+          "dark cake mix"
          ],
          "ar": [
-          "كيك كاكاو"
+          "خليط كيك داكن"
          ]
         },
         "Y": {
          "tr": [
-          "kakaolu kek"
+          "yumurta"
          ],
          "en": [
-          "cocoa sponge"
+          "egg"
          ],
          "ar": [
-          "كيك كاكاو"
+          "بيض"
          ]
         },
         "M": {
          "tr": [
-          "kakaolu kek",
-          "çikolata krema"
+          "krema",
+          "bitter pul çikolata",
+          "tereyağı"
          ],
          "en": [
-          "cocoa sponge",
-          "chocolate cream"
+          "cream",
+          "dark chocolate chips",
+          "butter"
          ],
          "ar": [
-          "كيك كاكاو",
-          "كريمة شوكولاتة"
+          "كريمة",
+          "رقائق شوكولاتة داكنة",
+          "زبدة"
          ]
         },
         "S": {
          "tr": [
-          "çikolata krema"
+          "bitter pul çikolata"
          ],
          "en": [
-          "chocolate cream"
+          "dark chocolate chips"
          ],
          "ar": [
-          "كريمة شوكولاتة"
+          "رقائق شوكولاتة داكنة"
+         ]
+        },
+        "N": {
+         "tr": [
+          "badem"
+         ],
+         "en": [
+          "almond"
+         ],
+         "ar": [
+          "لوز"
          ]
         }
        },
@@ -5347,13 +5437,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 430,
+       "kcal": 730,
        "nut": {
-        "kcal": 430,
-        "kj": 1799,
-        "p": 6,
-        "f": 24,
-        "c": 50
+        "kcal": 730,
+        "kj": 3054,
+        "p": 13,
+        "f": 43,
+        "c": 71
        },
        "por": null,
        "alc": 0,
@@ -5370,63 +5460,66 @@
         "ar": "لينزر بالتوت الأزرق"
        },
        "ing": {
-        "tr": "Linzer hamuru, yaban mersini dolgusu, krema",
-        "en": "Linzer pastry, blueberry filling, cream",
-        "ar": "عجينة لينزر، حشوة توت أزرق، كريمة"
+        "tr": "Yaban mersini dolgu, labne, şekerli şanti, yumurta, beyaz çikolata, bisküvi, şeker, yağ, yaprak jelatin, donuk yaban mersini",
+        "en": "Blueberry filling, labneh, sweetened cream, egg, white chocolate, biscuit, sugar, oil, leaf gelatine, frozen blueberries",
+        "ar": "حشوة توت أزرق، لبنة، كريمة محلّاة، بيض، شوكولاتة بيضاء، بسكويت، سكر، زيت، جيلاتين ورقي، توت أزرق مجمّد"
        },
        "p": 385,
        "a": [
         "G",
         "M",
         "Y",
-        "N"
+        "S"
        ],
        "asrc": {
-        "G": {
+        "M": {
          "tr": [
-          "linzer hamuru"
+          "labne",
+          "şekerli şanti",
+          "beyaz çikolata"
          ],
          "en": [
-          "linzer pastry"
+          "labneh",
+          "sweetened cream",
+          "white chocolate"
          ],
          "ar": [
-          "عجينة لينزر"
+          "لبنة",
+          "كريمة محلّاة",
+          "شوكولاتة بيضاء"
          ]
         },
         "Y": {
          "tr": [
-          "linzer hamuru"
+          "yumurta"
          ],
          "en": [
-          "linzer pastry"
+          "egg"
          ],
          "ar": [
-          "عجينة لينزر"
+          "بيض"
          ]
         },
-        "M": {
+        "S": {
          "tr": [
-          "linzer hamuru",
-          "krema"
+          "beyaz çikolata"
          ],
          "en": [
-          "linzer pastry",
-          "cream"
+          "white chocolate"
          ],
          "ar": [
-          "عجينة لينزر",
-          "كريمة"
+          "شوكولاتة بيضاء"
          ]
         },
-        "N": {
+        "G": {
          "tr": [
-          "linzer hamuru"
+          "bisküvi"
          ],
          "en": [
-          "linzer pastry"
+          "biscuit"
          ],
          "ar": [
-          "عجينة لينزر"
+          "بسكويت"
          ]
         }
        },
@@ -5436,13 +5529,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 380,
+       "kcal": 775,
        "nut": {
-        "kcal": 380,
-        "kj": 1590,
-        "p": 5,
-        "f": 18,
-        "c": 50
+        "kcal": 775,
+        "kj": 3243,
+        "p": 11,
+        "f": 45,
+        "c": 81
        },
        "por": null,
        "alc": 0,
@@ -5459,54 +5552,102 @@
         "ar": "لوتس كب"
        },
        "ing": {
-        "tr": "Lotus bisküvi, krema, karamelize bisküvi kreması",
-        "en": "Lotus biscuit, cream, caramelised biscuit spread",
-        "ar": "بسكويت لوتس، كريمة، كريمة بسكويت مكرمل"
+        "tr": "Krema, lotus dolgu, lotus bisküvi tozu, lotus bisküvi, beyaz glaze (pralin çikolata, yağ), şeker, tereyağı, yumurta, kabartma tozu, tuz, un, pirinç fındık, para çikolata",
+        "en": "Cream, Lotus filling, Lotus biscuit crumb, Lotus biscuit, white glaze (praline chocolate, oil), sugar, butter, egg, baking powder, salt, flour, crisped rice, chocolate coins",
+        "ar": "كريمة، حشوة لوتس، فتات بسكويت لوتس، بسكويت لوتس، طلاء أبيض (شوكولاتة برالين، زيت)، سكر، زبدة، بيض، بيكنج باودر، ملح، دقيق، أرز مقرمش، عملات شوكولاتة"
        },
        "p": 385,
        "a": [
         "G",
         "M",
-        "S"
+        "Y",
+        "S",
+        "N"
        ],
        "asrc": {
-        "G": {
+        "M": {
          "tr": [
-          "lotus bisküvi",
-          "karamelize bisküvi kreması"
+          "krema",
+          "pralin çikolata",
+          "tereyağı",
+          "para çikolata"
          ],
          "en": [
-          "Lotus biscuit",
-          "caramelised biscuit spread"
+          "cream",
+          "praline chocolate",
+          "butter",
+          "chocolate coins"
          ],
          "ar": [
+          "كريمة",
+          "شوكولاتة برالين",
+          "زبدة",
+          "عملات شوكولاتة"
+         ]
+        },
+        "G": {
+         "tr": [
+          "lotus dolgu",
+          "lotus bisküvi tozu",
+          "lotus bisküvi",
+          "un"
+         ],
+         "en": [
+          "Lotus filling",
+          "Lotus biscuit crumb",
+          "Lotus biscuit",
+          "flour"
+         ],
+         "ar": [
+          "حشوة لوتس",
+          "فتات بسكويت لوتس",
           "بسكويت لوتس",
-          "كريمة بسكويت مكرمل"
+          "دقيق"
          ]
         },
         "S": {
          "tr": [
+          "lotus dolgu",
+          "lotus bisküvi tozu",
           "lotus bisküvi",
-          "karamelize bisküvi kreması"
+          "pralin çikolata",
+          "para çikolata"
          ],
          "en": [
+          "Lotus filling",
+          "Lotus biscuit crumb",
           "Lotus biscuit",
-          "caramelised biscuit spread"
+          "praline chocolate",
+          "chocolate coins"
          ],
          "ar": [
+          "حشوة لوتس",
+          "فتات بسكويت لوتس",
           "بسكويت لوتس",
-          "كريمة بسكويت مكرمل"
+          "شوكولاتة برالين",
+          "عملات شوكولاتة"
          ]
         },
-        "M": {
+        "N": {
          "tr": [
-          "krema"
+          "pralin çikolata"
          ],
          "en": [
-          "cream"
+          "praline chocolate"
          ],
          "ar": [
-          "كريمة"
+          "شوكولاتة برالين"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
          ]
         }
        },
@@ -5516,13 +5657,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 460,
+       "kcal": 1215,
        "nut": {
-        "kcal": 460,
-        "kj": 1925,
-        "p": 6,
-        "f": 26,
-        "c": 50
+        "kcal": 1215,
+        "kj": 5084,
+        "p": 14,
+        "f": 72,
+        "c": 140
        },
        "por": null,
        "alc": 0,
@@ -5539,9 +5680,9 @@
         "ar": "كيك سنيكرز"
        },
        "ing": {
-        "tr": "Kakaolu kek, karamel, yer fıstığı, çikolata",
-        "en": "Cocoa sponge, caramel, peanuts, chocolate",
-        "ar": "كيك كاكاو، كراميل، فول سوداني، شوكولاتة"
+        "tr": "Mois kek (dark velvet tozu, yumurta, sıvı yağ, su), şekerli şanti, şekersiz şanti, toffee karamel, biskin yağ, pralin, yer fıstığı",
+        "en": "Moist sponge (dark velvet cake mix, egg, vegetable oil, water), sweetened cream, unsweetened cream, toffee caramel, vegetable fat, praline, peanuts",
+        "ar": "كيك رطب (خليط دارك فلفت، بيض، زيت نباتي، ماء)، كريمة محلّاة، كريمة غير محلّاة، كراميل توفي، دهن نباتي، برالين، فول سوداني"
        },
        "p": 385,
        "a": [
@@ -5549,46 +5690,72 @@
         "M",
         "Y",
         "S",
+        "N",
         "F"
        ],
        "asrc": {
         "G": {
          "tr": [
-          "kakaolu kek"
+          "dark velvet tozu"
          ],
          "en": [
-          "cocoa sponge"
+          "dark velvet cake mix"
          ],
          "ar": [
-          "كيك كاكاو"
+          "خليط كيك دارك فلفت"
          ]
         },
         "Y": {
          "tr": [
-          "kakaolu kek"
+          "yumurta"
          ],
          "en": [
-          "cocoa sponge"
+          "egg"
          ],
          "ar": [
-          "كيك كاكاو"
+          "بيض"
          ]
         },
         "M": {
          "tr": [
-          "kakaolu kek",
-          "karamel",
-          "çikolata"
+          "şekerli şanti",
+          "şekersiz şanti",
+          "toffee karamel",
+          "pralin"
          ],
          "en": [
-          "cocoa sponge",
-          "caramel",
-          "chocolate"
+          "sweetened cream",
+          "unsweetened cream",
+          "toffee caramel",
+          "praline"
          ],
          "ar": [
-          "كيك كاكاو",
-          "كراميل",
-          "شوكولاتة"
+          "كريمة محلّاة",
+          "كريمة غير محلّاة",
+          "كراميل توفي",
+          "برالين"
+         ]
+        },
+        "S": {
+         "tr": [
+          "pralin"
+         ],
+         "en": [
+          "praline"
+         ],
+         "ar": [
+          "برالين"
+         ]
+        },
+        "N": {
+         "tr": [
+          "pralin"
+         ],
+         "en": [
+          "praline"
+         ],
+         "ar": [
+          "برالين"
          ]
         },
         "F": {
@@ -5601,17 +5768,6 @@
          "ar": [
           "فول سوداني"
          ]
-        },
-        "S": {
-         "tr": [
-          "çikolata"
-         ],
-         "en": [
-          "chocolate"
-         ],
-         "ar": [
-          "شوكولاتة"
-         ]
         }
        },
        "aunk": 0,
@@ -5620,13 +5776,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 480,
+       "kcal": 1180,
        "nut": {
-        "kcal": 480,
-        "kj": 2008,
-        "p": 9,
-        "f": 28,
-        "c": 50
+        "kcal": 1180,
+        "kj": 4937,
+        "p": 19,
+        "f": 77,
+        "c": 102
        },
        "por": null,
        "alc": 0,
@@ -5643,39 +5799,60 @@
         "ar": "كيك موزاييك"
        },
        "ing": {
-        "tr": "Bisküvi, kakao, tereyağı, süt",
-        "en": "Biscuit, cocoa, butter, milk",
-        "ar": "بسكويت، كاكاو، زبدة، حليب"
+        "tr": "Petibör bisküvi, yağ, şeker, file fındık, süt, yumurta, siyah glaze",
+        "en": "Petit Beurre biscuit, oil, sugar, flaked hazelnut, milk, egg, dark glaze",
+        "ar": "بسكويت بيتي بور، زيت، سكر، بندق مبشور، حليب، بيض، طلاء داكن"
        },
        "p": 375,
        "a": [
         "G",
-        "M"
+        "M",
+        "Y",
+        "N"
        ],
        "asrc": {
         "G": {
          "tr": [
-          "bisküvi"
+          "petibör bisküvi"
          ],
          "en": [
-          "biscuit"
+          "Petit Beurre biscuit"
          ],
          "ar": [
-          "بسكويت"
+          "بسكويت بيتي بور"
+         ]
+        },
+        "N": {
+         "tr": [
+          "file fındık"
+         ],
+         "en": [
+          "flaked hazelnut"
+         ],
+         "ar": [
+          "بندق مبشور"
          ]
         },
         "M": {
          "tr": [
-          "tereyağı",
           "süt"
          ],
          "en": [
-          "butter",
           "milk"
          ],
          "ar": [
-          "زبدة",
           "حليب"
+         ]
+        },
+        "Y": {
+         "tr": [
+          "yumurta"
+         ],
+         "en": [
+          "egg"
+         ],
+         "ar": [
+          "بيض"
          ]
         }
        },
@@ -5685,13 +5862,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 400,
+       "kcal": 680,
        "nut": {
-        "kcal": 400,
-        "kj": 1674,
-        "p": 6,
-        "f": 22,
-        "c": 46
+        "kcal": 680,
+        "kj": 2845,
+        "p": 10,
+        "f": 36,
+        "c": 77
        },
        "por": null,
        "alc": 0,
@@ -5708,51 +5885,72 @@
         "ar": "تيراميسو"
        },
        "ing": {
-        "tr": "Kedidili bisküvi, mascarpone, kahve, kakao, yumurta",
-        "en": "Ladyfingers, mascarpone, coffee, cocoa, egg",
-        "ar": "بسكويت أصابع، ماسكاربوني، قهوة، كاكاو، بيض"
+        "tr": "Dark kek (dark velvet mix, su, yumurta, sıvı yağ), labne, krem şanti, şeker, beyaz çikolata, nescafe, kakao, kedi dili",
+        "en": "Dark sponge (dark velvet cake mix, water, egg, vegetable oil), labneh, whipped cream, sugar, white chocolate, instant coffee, cocoa, ladyfingers",
+        "ar": "كيك داكن (خليط دارك فلفت، ماء، بيض، زيت نباتي)، لبنة، كريمة مخفوقة، سكر، شوكولاتة بيضاء، قهوة سريعة الذوبان، كاكاو، بسكويت أصابع"
        },
        "p": 375,
        "a": [
         "G",
         "M",
-        "Y"
+        "Y",
+        "S"
        ],
        "asrc": {
         "G": {
          "tr": [
-          "kedidili bisküvi"
+          "dark velvet mix",
+          "kedi dili"
          ],
          "en": [
+          "dark velvet cake mix",
           "ladyfingers"
          ],
          "ar": [
+          "خليط كيك دارك فلفت",
           "بسكويت أصابع"
          ]
         },
         "Y": {
          "tr": [
-          "kedidili bisküvi",
-          "yumurta"
+          "yumurta",
+          "kedi dili"
          ],
          "en": [
-          "ladyfingers",
-          "egg"
+          "egg",
+          "ladyfingers"
          ],
          "ar": [
-          "بسكويت أصابع",
-          "بيض"
+          "بيض",
+          "بسكويت أصابع"
          ]
         },
         "M": {
          "tr": [
-          "mascarpone"
+          "labne",
+          "krem şanti",
+          "beyaz çikolata"
          ],
          "en": [
-          "mascarpone"
+          "labneh",
+          "whipped cream",
+          "white chocolate"
          ],
          "ar": [
-          "ماسكاربوني"
+          "لبنة",
+          "كريمة مخفوقة",
+          "شوكولاتة بيضاء"
+         ]
+        },
+        "S": {
+         "tr": [
+          "beyaz çikolata"
+         ],
+         "en": [
+          "white chocolate"
+         ],
+         "ar": [
+          "شوكولاتة بيضاء"
          ]
         }
        },
@@ -5762,13 +5960,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 380,
+       "kcal": 460,
        "nut": {
-        "kcal": 380,
-        "kj": 1590,
-        "p": 7,
+        "kcal": 460,
+        "kj": 1925,
+        "p": 8,
         "f": 24,
-        "c": 34
+        "c": 54
        },
        "por": null,
        "alc": 0,
@@ -5785,9 +5983,9 @@
         "ar": "كيك العسل كوله"
        },
        "ing": {
-        "tr": "Kat kat ballı kek, özel krema",
-        "en": "Layered honey cake, special cream",
-        "ar": "طبقات كيك بالعسل، كريمة خاصة"
+        "tr": "Kat kat ballı kek (un, bal, yumurta, tereyağı, şeker, kabartma tozu), krem şanti, labne",
+        "en": "Layered honey cake (flour, honey, egg, butter, sugar, baking powder), whipped cream, labneh",
+        "ar": "كيك بالعسل متعدد الطبقات (دقيق، عسل، بيض، زبدة، سكر، بيكنج باودر)، كريمة مخفوقة، لبنة"
        },
        "p": 385,
        "a": [
@@ -5798,38 +5996,41 @@
        "asrc": {
         "G": {
          "tr": [
-          "kat kat ballı kek"
+          "un"
          ],
          "en": [
-          "layered honey cake"
+          "flour"
          ],
          "ar": [
-          "كيك بالعسل"
+          "دقيق"
          ]
         },
         "Y": {
          "tr": [
-          "kat kat ballı kek"
+          "yumurta"
          ],
          "en": [
-          "layered honey cake"
+          "egg"
          ],
          "ar": [
-          "كيك بالعسل"
+          "بيض"
          ]
         },
         "M": {
          "tr": [
-          "kat kat ballı kek",
-          "özel krema"
+          "tereyağı",
+          "krem şanti",
+          "labne"
          ],
          "en": [
-          "layered honey cake",
-          "cream"
+          "butter",
+          "whipped cream",
+          "labneh"
          ],
          "ar": [
-          "كيك بالعسل",
-          "كريمة"
+          "زبدة",
+          "كريمة مخفوقة",
+          "لبنة"
          ]
         }
        },
@@ -5862,52 +6063,45 @@
         "ar": "سوفليه شوكولاتة"
        },
        "ing": {
-        "tr": "Çikolata, yumurta, un, tereyağı, şeker · sıcak servis edilir",
-        "en": "Chocolate, egg, flour, butter, sugar · served warm",
-        "ar": "شوكولاتة، بيض، دقيق، زبدة، سكر · يُقدَّم ساخنًا"
+        "tr": "Şeker, tereyağı, yumurta, yumurta sarısı, un, bitter çikolata · sıcak servis edilir",
+        "en": "Sugar, butter, egg, egg yolk, flour, dark chocolate · served warm",
+        "ar": "سكر، زبدة، بيض، صفار بيض، دقيق، شوكولاتة داكنة · يُقدَّم ساخنًا"
        },
        "p": 375,
        "a": [
         "G",
         "M",
         "Y",
-        "S"
+        "S",
+        "N"
        ],
        "asrc": {
         "M": {
          "tr": [
-          "çikolata",
-          "tereyağı"
+          "tereyağı",
+          "bitter çikolata"
          ],
          "en": [
-          "chocolate",
-          "butter"
+          "butter",
+          "dark chocolate"
          ],
          "ar": [
-          "شوكولاتة",
-          "زبدة"
-         ]
-        },
-        "S": {
-         "tr": [
-          "çikolata"
-         ],
-         "en": [
-          "chocolate"
-         ],
-         "ar": [
-          "شوكولاتة"
+          "زبدة",
+          "شوكولاتة داكنة"
          ]
         },
         "Y": {
          "tr": [
-          "yumurta"
+          "yumurta",
+          "yumurta sarısı"
          ],
          "en": [
-          "egg"
+          "egg",
+          "egg yolk"
          ],
          "ar": [
-          "بيض"
+          "بيض",
+          "صفار بيض"
          ]
         },
         "G": {
@@ -5920,6 +6114,28 @@
          "ar": [
           "دقيق"
          ]
+        },
+        "S": {
+         "tr": [
+          "bitter çikolata"
+         ],
+         "en": [
+          "dark chocolate"
+         ],
+         "ar": [
+          "شوكولاتة داكنة"
+         ]
+        },
+        "N": {
+         "tr": [
+          "üretici beyanı"
+         ],
+         "en": [
+          "manufacturer declaration"
+         ],
+         "ar": [
+          "إقرار المُنتِج"
+         ]
         }
        },
        "aunk": 0,
@@ -5928,13 +6144,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 450,
+       "kcal": 295,
        "nut": {
-        "kcal": 450,
-        "kj": 1883,
-        "p": 8,
-        "f": 26,
-        "c": 48
+        "kcal": 295,
+        "kj": 1234,
+        "p": 5,
+        "f": 15,
+        "c": 32
        },
        "por": null,
        "alc": 0,
@@ -6043,27 +6259,60 @@
         "ar": "سيدريك ليمون"
        },
        "ing": {
-        "tr": "Limon kreması, beyaz çikolata, yumuşak dokulu iç",
-        "en": "Lemon cream, white chocolate, soft filling",
-        "ar": "كريمة ليمون، شوكولاتة بيضاء، حشوة طرية"
+        "tr": "Pataşu hamuru (yumurta, un, süt, su, yağ), limonlu dolgu, pastacı kreması, şekerli şanti, beyaz çikolata, limon",
+        "en": "Choux pastry (egg, flour, milk, water, oil), lemon filling, pastry cream, sweetened cream, white chocolate, lemon",
+        "ar": "عجينة شو (بيض، دقيق، حليب، ماء، زيت)، حشوة ليمون، كريمة الحلواني، كريمة محلّاة، شوكولاتة بيضاء، ليمون"
        },
        "p": 395,
        "a": [
+        "G",
         "M",
+        "Y",
         "S"
        ],
        "asrc": {
+        "Y": {
+         "tr": [
+          "yumurta",
+          "pastacı kreması"
+         ],
+         "en": [
+          "egg",
+          "pastry cream"
+         ],
+         "ar": [
+          "بيض",
+          "كريمة الحلواني"
+         ]
+        },
+        "G": {
+         "tr": [
+          "un"
+         ],
+         "en": [
+          "flour"
+         ],
+         "ar": [
+          "دقيق"
+         ]
+        },
         "M": {
          "tr": [
-          "limon kreması",
+          "süt",
+          "pastacı kreması",
+          "şekerli şanti",
           "beyaz çikolata"
          ],
          "en": [
-          "lemon cream",
+          "milk",
+          "pastry cream",
+          "sweetened cream",
           "white chocolate"
          ],
          "ar": [
-          "كريمة ليمون",
+          "حليب",
+          "كريمة الحلواني",
+          "كريمة محلّاة",
           "شوكولاتة بيضاء"
          ]
         },
@@ -6173,39 +6422,96 @@
         "ar": "سيدريك جوز الهند"
        },
        "ing": {
-        "tr": "Hindistan cevizi kreması, çikolata, yumuşak dokulu iç",
-        "en": "Coconut cream, chocolate, soft filling",
-        "ar": "كريمة جوز الهند، شوكولاتة، حشوة طرية"
+        "tr": "Pataşu hamuru (yumurta, un, süt, su, yağ), ganaj (sütlü çikolata, bitter çikolata, krema), pastacı kreması, siyah glaze (pralin çikolata, yağ), hindistan cevizi, eti puf",
+        "en": "Choux pastry (egg, flour, milk, water, oil), ganache (milk chocolate, dark chocolate, cream), pastry cream, dark glaze (praline chocolate, oil), coconut, marshmallow",
+        "ar": "عجينة شو (بيض، دقيق، حليب، ماء، زيت)، غاناش (شوكولاتة بالحليب، شوكولاتة داكنة، كريمة)، كريمة الحلواني، طلاء داكن (شوكولاتة برالين، زيت)، جوز الهند، مارشميلو"
        },
        "p": 395,
        "a": [
+        "G",
         "M",
-        "S"
+        "Y",
+        "S",
+        "N"
        ],
        "asrc": {
-        "M": {
+        "Y": {
          "tr": [
-          "hindistan cevizi kreması",
-          "çikolata"
+          "yumurta",
+          "pastacı kreması"
          ],
          "en": [
-          "coconut cream",
-          "chocolate"
+          "egg",
+          "pastry cream"
          ],
          "ar": [
-          "كريمة جوز الهند",
-          "شوكولاتة"
+          "بيض",
+          "كريمة الحلواني"
+         ]
+        },
+        "G": {
+         "tr": [
+          "un"
+         ],
+         "en": [
+          "flour"
+         ],
+         "ar": [
+          "دقيق"
+         ]
+        },
+        "M": {
+         "tr": [
+          "süt",
+          "sütlü çikolata",
+          "bitter çikolata",
+          "krema",
+          "pastacı kreması",
+          "pralin çikolata"
+         ],
+         "en": [
+          "milk",
+          "milk chocolate",
+          "dark chocolate",
+          "cream",
+          "pastry cream",
+          "praline chocolate"
+         ],
+         "ar": [
+          "حليب",
+          "شوكولاتة بالحليب",
+          "شوكولاتة داكنة",
+          "كريمة",
+          "كريمة الحلواني",
+          "شوكولاتة برالين"
          ]
         },
         "S": {
          "tr": [
-          "çikolata"
+          "sütlü çikolata",
+          "bitter çikolata",
+          "pralin çikolata"
          ],
          "en": [
-          "chocolate"
+          "milk chocolate",
+          "dark chocolate",
+          "praline chocolate"
          ],
          "ar": [
-          "شوكولاتة"
+          "شوكولاتة بالحليب",
+          "شوكولاتة داكنة",
+          "شوكولاتة برالين"
+         ]
+        },
+        "N": {
+         "tr": [
+          "pralin çikolata"
+         ],
+         "en": [
+          "praline chocolate"
+         ],
+         "ar": [
+          "شوكولاتة برالين"
          ]
         }
        },
@@ -6215,13 +6521,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 400,
+       "kcal": 830,
        "nut": {
-        "kcal": 400,
-        "kj": 1674,
-        "p": 5,
-        "f": 26,
-        "c": 36
+        "kcal": 830,
+        "kj": 3473,
+        "p": 13,
+        "f": 32,
+        "c": 120
        },
        "por": null,
        "alc": 0,
@@ -10347,5 +10653,5 @@
    ]
   }
  ],
- "pub": 1789734374606
+ "pub": 1789736043792
 }
