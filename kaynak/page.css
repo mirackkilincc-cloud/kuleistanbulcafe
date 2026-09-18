@@ -367,16 +367,26 @@ table.nut th{color:var(--ink-3)} table.nut td{color:var(--ink)} table.nut td b{c
 .lb-x{color:var(--gold-2)}
 .adm-foot .live .sw[aria-checked="true"]{background:var(--gold)}
 .tag{background:var(--gold-soft);color:var(--price)}
-/* sos kartları */
-.sos{border-inline-start:2px solid var(--gold-3);padding-inline-start:11px;margin-bottom:12px}
+/* sos kartları — kapalı gelir, dokununca açılır */
+.sos{border:1px solid var(--line);border-radius:9px;background:var(--raised);margin-bottom:8px;overflow:hidden}
 .sos:last-child{margin-bottom:0}
-.sos-n{margin:0 0 3px;font-weight:700;font-size:.9rem;color:var(--ink)}
-.sos-i{margin:0 0 7px;font-size:.82rem;line-height:1.5;color:var(--ink-2)}
-.sos .achips{margin-bottom:6px}
+.sos-n{display:flex;align-items:center;gap:8px;margin:0;padding:10px 12px;font-weight:700;font-size:.88rem;color:var(--ink);
+  cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.sos-n::-webkit-details-marker{display:none}
+.sos-n .sos-h{margin-inline-start:auto;font-size:.62rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--gold);white-space:nowrap}
+.sos-n svg{flex:0 0 auto;width:10px;height:10px;color:var(--gold);transition:transform .22s}
+.sos[open] .sos-n{border-bottom:1px solid var(--line)}
+.sos[open] .sos-n svg{transform:rotate(180deg)}
+.sos-n:active{background:var(--chip)}
+.sos-b{padding:11px 12px 12px}
+.sos-i{margin:0 0 8px;font-size:.82rem;line-height:1.5;color:var(--ink-2)}
+.sos .achips{margin-bottom:7px}
 .sos .achip{font-size:.74rem;padding:4px 9px 4px 5px}
 .sos-t{margin:0 0 4px;font-size:.76rem;line-height:1.45;color:var(--ink-3)}
-.sos-t b{color:var(--price)}
+.sos-t:last-child{margin-bottom:0}
 .sos .snone{font-size:.78rem;margin-bottom:6px}
+[dir=rtl] .sos-n .sos-h{letter-spacing:0}
+@media (max-width:430px){ .sos-n .sos-h{display:none} .sos-n svg{margin-inline-start:auto} }
 /* alerjen + kaynak malzeme satırları */
 .algrid{display:flex;flex-direction:column;gap:8px}
 .algrow{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}

@@ -94,10 +94,11 @@ function build(){
           +'<div class="idet" id="d-'+it.id+'"><div><div class="idin">'+photo
             +(ing?'<div class="dblock"><h4>'+t.ing+'</h4><p>'+esc(ing)+'</p></div>':'')
             +(((it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k])).length?'<div class="dblock"><h4>'+t.sauces+'</h4>'+(it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k]).map(k=>{const sc=ST.sauces[k];
-               return '<div class="sos"><p class="sos-n">'+esc(tx(sc.name))+'</p><p class="sos-i">'+esc(tx(sc.ing))+'</p>'
+               return '<details class="sos"><summary class="sos-n">'+esc(tx(sc.name))+'<span class="sos-h">'+t.more+'</span>'+CHEV+'</summary><div class="sos-b">'
+                 +'<p class="sos-i">'+esc(tx(sc.ing))+'</p>'
                  +((sc.a||[]).length?'<div class="achips">'+(sc.a||[]).map(x=>'<span class="achip"><b>'+esc(x)+'</b>'+esc(tx(ST.alg[x]))+'</span>').join("")+'</div>':'<p class="snone">'+t.noall+'</p>')
                  +(tx(sc.trace||{})?'<p class="sos-t">'+esc(tx(sc.trace))+'</p>':'')
-                 +(tx(sc.note||{})?'<p class="sos-t">'+esc(tx(sc.note))+'</p>':'')+'</div>';}).join("")+'</div>':'')
+                 +(tx(sc.note||{})?'<p class="sos-t">'+esc(tx(sc.note))+'</p>':'')+'</div></details>';}).join("")+'</div>':'')
             +(kc(it)!==null?'<div class="dblock"><h4>'+t.kcal+(it.por&&tx(it.por)?' <span class="pw">· '+esc(tx(it.por))+'</span>':'')+'</h4>'
               +'<table class="nut"><tbody>'
               +'<tr><th>'+t.nEn+'</th><td><b>'+esc(kcTxt(it))+'</b>'+(it.nut&&it.nut.kj?' <span class="kj">/ '+Number(it.nut.kj).toLocaleString(lang==="tr"?"tr-TR":"en-US")+' kJ</span>':'')+'</td></tr>'
