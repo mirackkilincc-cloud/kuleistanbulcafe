@@ -600,7 +600,7 @@
 "çıtır tavuk",
 "un",
 "soya sosu",
-"sigara böreği",
+"yufka",
 "soğan halkası",
 "mozzarella stick",
 "sosis"
@@ -609,7 +609,7 @@
 "crispy chicken",
 "flour",
 "soy sauce (contains wheat)",
-"cheese rolls",
+"yufka pastry",
 "onion rings",
 "mozzarella sticks",
 "sausage"
@@ -618,7 +618,7 @@
 "دجاج مقرمش",
 "دقيق",
 "صلصة صويا (تحتوي على قمح)",
-"لفائف جبنة",
+"عجينة يوفكا",
 "حلقات بصل",
 "أصابع موزاريلا",
 "نقانق"
@@ -645,19 +645,19 @@
 "tr": [
 "çıtır tavuk",
 "süt",
-"sigara böreği",
+"beyaz peynir",
 "mozzarella stick"
 ],
 "en": [
 "crispy chicken",
 "milk",
-"cheese rolls",
+"white cheese",
 "mozzarella sticks"
 ],
 "ar": [
 "دجاج مقرمش",
 "حليب",
-"لفائف جبنة",
+"جبنة بيضاء",
 "أصابع موزاريلا"
 ]
 },
@@ -692,13 +692,13 @@
 "src": {
 "G": {
 "tr": [
-"ızgara sosis"
+"sosis"
 ],
 "en": [
-"grilled sausage"
+"sausage"
 ],
 "ar": [
-"نقانق مشوية"
+"نقانق"
 ]
 }
 }
@@ -734,29 +734,23 @@
 "src": {
 "G": {
 "tr": [
-"sigara böreği",
 "yufka"
 ],
 "en": [
-"cheese rolls",
 "yufka pastry"
 ],
 "ar": [
-"لفائف جبنة",
 "عجينة يوفكا"
 ]
 },
 "M": {
 "tr": [
-"sigara böreği",
 "beyaz peynir"
 ],
 "en": [
-"cheese rolls",
 "white cheese"
 ],
 "ar": [
-"لفائف جبنة",
 "جبنة بيضاء"
 ]
 }
@@ -4369,16 +4363,13 @@
 "src": {
 "M": {
 "tr": [
-"süt",
-"dondurma"
+"süt"
 ],
 "en": [
-"milk",
-"ice cream"
+"milk"
 ],
 "ar": [
-"حليب",
-"آيس كريم"
+"حليب"
 ]
 }
 }
@@ -4393,17 +4384,14 @@
 "M": {
 "tr": [
 "süt",
-"dondurma",
 "çikolata sosu"
 ],
 "en": [
 "milk",
-"ice cream",
 "chocolate sauce"
 ],
 "ar": [
 "حليب",
-"آيس كريم",
 "صوص شوكولاتة"
 ]
 },
@@ -4428,16 +4416,13 @@
 "src": {
 "M": {
 "tr": [
-"süt",
-"dondurma"
+"süt"
 ],
 "en": [
-"milk",
-"ice cream"
+"milk"
 ],
 "ar": [
-"حليب",
-"آيس كريم"
+"حليب"
 ]
 }
 }
@@ -4452,16 +4437,13 @@
 "src": {
 "M": {
 "tr": [
-"süt",
-"dondurma"
+"süt"
 ],
 "en": [
-"milk",
-"ice cream"
+"milk"
 ],
 "ar": [
-"حليب",
-"آيس كريم"
+"حليب"
 ]
 },
 "G": {
@@ -4496,16 +4478,13 @@
 "src": {
 "M": {
 "tr": [
-"süt",
-"dondurma"
+"süt"
 ],
 "en": [
-"milk",
-"ice cream"
+"milk"
 ],
 "ar": [
-"حليب",
-"آيس كريم"
+"حليب"
 ]
 }
 }

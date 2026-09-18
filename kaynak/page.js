@@ -76,6 +76,8 @@ function build(){
     const groups = s.g.filter(g=>!g.off).map(g=>{
       const items = g.i.filter(it=>!it.off).map(it=>{
         const nm = tx(it.name), ing = tx(it.ing);
+        // içindekiler yazılmamış ve alerjeni de yoksa (kapalı ambalaj gazlı içecekler) bu blokları hiç gösterme
+        const nodet = !ing && !(it.a||[]).length && !it.aunk;
         const key = [it.name.tr,it.name.en,it.name.ar,it.ing.tr,it.ing.en,it.ing.ar,g.title.tr,g.title.en,g.title.ar,s.title.tr,s.title.en,s.title.ar].join(" ").toLocaleLowerCase("tr");
         const chips = (it.a||[]).map(a=>{ const sr=(it.asrc&&it.asrc[a])?tx(it.asrc[a]):null;
           return '<div class="algrow"><span class="achip"><b>'+esc(a)+'</b>'+esc(tx(ST.alg[a]))+'</span>'
@@ -89,7 +91,7 @@ function build(){
               +'<span class="line"><span class="nm">'+esc(nm)+(it.s?'<span class="badge">KULE</span>':'')+(it.so?'<span class="badge out">'+t.out+'</span>':'')+(kc(it)!==null?'<span class="badge kcal">'+esc(kcTxt(it))+'</span>':'')
               +'</span><span class="dots"></span><span class="pr">'+money(it.p)+'</span></span>'
               +((ing||(it.por&&tx(it.por)))?'<span class="desc">'+(it.por&&tx(it.por)?'<b class="pg">'+esc(tx(it.por))+'</b>'+(ing?' · ':''):'')+esc(ing)+'</span>':'')
-              +'<span class="more">'+t.more+CHEV+'</span>'
+              +'<span class="more">'+(nodet?t.kcal:t.more)+CHEV+'</span>'
             +'</span></button>'
           +'<div class="idet" id="d-'+it.id+'"><div><div class="idin">'+photo
             +(ing?'<div class="dblock"><h4>'+t.ing+'</h4><p>'+esc(ing)+'</p></div>':'')
@@ -106,7 +108,7 @@ function build(){
                       +'<tr><th>'+t.nFa+'</th><td>'+esc(gr(it.nut.f))+'</td></tr>'
                       +'<tr><th>'+t.nCa+'</th><td>'+esc(gr(it.nut.c))+'</td></tr>':'')
               +'</tbody></table><p class="kcaln">'+t.kcalN+'</p></div>':'')
-            +'<div class="dblock"><h4>'+t.all+'</h4>'+(it.aunk?'<p class="snone">'+t.aunk+'</p>':(chips?'<div class="algrid">'+chips+'</div>':'<p class="snone">'+t.noall+'</p>'))+'</div>'
+            +(nodet?'':'<div class="dblock"><h4>'+t.all+'</h4>'+(it.aunk?'<p class="snone">'+t.aunk+'</p>':(chips?'<div class="algrid">'+chips+'</div>':'<p class="snone">'+t.noall+'</p>'))+'</div>')
             +(s.id!=="nargile"?'<div class="dblock"><h4>'+t.decl+'</h4><div class="achips"><span class="achip dcl'+(it.alc?' warn':'')+'">'+(it.alc?t.alcYes:t.alcNo)+'</span><span class="achip dcl'+(it.pork?' warn':'')+'">'+(it.pork?t.porkYes:t.porkNo)+'</span></div></div>':'')
           +'</div></div></div></div>';
       }).join("");

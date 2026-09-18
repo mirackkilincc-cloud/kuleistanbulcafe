@@ -1405,9 +1405,9 @@
         "ar": "بيغ كومبو ميكس"
        },
        "ing": {
-        "tr": "2 adet çıtır tavuk (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu), 2 adet sigara böreği, 2 adet soğan halkası, 2 adet mozzarella stick, 2 adet sosis. Yanında: elma dilim patates, Sweet Chili sos, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber)",
-        "en": "2 crispy chicken pieces (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce), 2 cheese rolls, 2 onion rings, 2 mozzarella sticks, 2 sausages. Served with: wedge potatoes, sweet chilli sauce, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes)",
-        "ar": "قطعتا دجاج مقرمش (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)، لفافتا جبنة، حلقتا بصل، أصبعا موزاريلا، قطعتا نقانق. يُقدَّم مع: بطاطس ودجز، صوص سويت تشيلي، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)"
+        "tr": "2 adet çıtır tavuk (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu), 2 adet sigara böreği (yufka, beyaz peynir, maydanoz, soda, tuz), 2 adet soğan halkası, 2 adet mozzarella stick, 2 adet sosis. Yanında: elma dilim patates, Sweet Chili sos, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber)",
+        "en": "2 crispy chicken pieces (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce), 2 cheese rolls (yufka pastry, white cheese, parsley, sparkling water, salt), 2 onion rings, 2 mozzarella sticks, 2 sausages. Served with: wedge potatoes, sweet chilli sauce, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes)",
+        "ar": "قطعتا دجاج مقرمش (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)، لفافتا جبنة (عجينة يوفكا، جبنة بيضاء، بقدونس، مياه غازية، ملح)، حلقتا بصل، أصبعا موزاريلا، قطعتا نقانق. يُقدَّم مع: بطاطس ودجز، صوص سويت تشيلي، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)"
        },
        "p": 605,
        "a": [
@@ -1422,7 +1422,7 @@
           "çıtır tavuk",
           "un",
           "soya sosu",
-          "sigara böreği",
+          "yufka",
           "soğan halkası",
           "mozzarella stick",
           "sosis"
@@ -1431,7 +1431,7 @@
           "crispy chicken",
           "flour",
           "soy sauce (contains wheat)",
-          "cheese rolls",
+          "yufka pastry",
           "onion rings",
           "mozzarella sticks",
           "sausage"
@@ -1440,7 +1440,7 @@
           "دجاج مقرمش",
           "دقيق",
           "صلصة صويا (تحتوي على قمح)",
-          "لفائف جبنة",
+          "عجينة يوفكا",
           "حلقات بصل",
           "أصابع موزاريلا",
           "نقانق"
@@ -1467,19 +1467,19 @@
          "tr": [
           "çıtır tavuk",
           "süt",
-          "sigara böreği",
+          "beyaz peynir",
           "mozzarella stick"
          ],
          "en": [
           "crispy chicken",
           "milk",
-          "cheese rolls",
+          "white cheese",
           "mozzarella sticks"
          ],
          "ar": [
           "دجاج مقرمش",
           "حليب",
-          "لفائف جبنة",
+          "جبنة بيضاء",
           "أصابع موزاريلا"
          ]
         },
@@ -1598,9 +1598,9 @@
         "ar": "صندوق نقانق"
        },
        "ing": {
-        "tr": "8 adet ızgara sosis, parmak patates eşliğinde",
-        "en": "8 grilled sausages, served with french fries",
-        "ar": "8 قطع نقانق مشوية، تُقدَّم مع بطاطس مقلية"
+        "tr": "8 adet sosis, parmak patates eşliğinde",
+        "en": "8 sausages, served with french fries",
+        "ar": "8 قطع نقانق، تُقدَّم مع بطاطس مقلية"
        },
        "p": 400,
        "a": [
@@ -1609,13 +1609,13 @@
        "asrc": {
         "G": {
          "tr": [
-          "ızgara sosis"
+          "sosis"
          ],
          "en": [
-          "grilled sausage"
+          "sausage"
          ],
          "ar": [
-          "نقانق مشوية"
+          "نقانق"
          ]
         }
        },
@@ -1713,29 +1713,23 @@
        "asrc": {
         "G": {
          "tr": [
-          "sigara böreği",
           "yufka"
          ],
          "en": [
-          "cheese rolls",
           "yufka pastry"
          ],
          "ar": [
-          "لفائف جبنة",
           "عجينة يوفكا"
          ]
         },
         "M": {
          "tr": [
-          "sigara böreği",
           "beyaz peynir"
          ],
          "en": [
-          "cheese rolls",
           "white cheese"
          ],
          "ar": [
-          "لفائف جبنة",
           "جبنة بيضاء"
          ]
         }
@@ -8703,9 +8697,9 @@
         "ar": "كوكاكولا"
        },
        "ing": {
-        "tr": "Gazlı içecek",
-        "en": "Carbonated soft drink",
-        "ar": "مشروب غازي"
+        "tr": "",
+        "en": "",
+        "ar": ""
        },
        "p": 120,
        "a": [],
@@ -8739,9 +8733,9 @@
         "ar": "كوكاكولا زيرو"
        },
        "ing": {
-        "tr": "Şekersiz gazlı içecek",
-        "en": "Sugar-free carbonated soft drink",
-        "ar": "مشروب غازي بدون سكر"
+        "tr": "",
+        "en": "",
+        "ar": ""
        },
        "p": 120,
        "a": [],
@@ -8775,9 +8769,9 @@
         "ar": "سبرايت"
        },
        "ing": {
-        "tr": "Limon aromalı gazlı içecek",
-        "en": "Lemon-lime soft drink",
-        "ar": "مشروب غازي بنكهة الليمون"
+        "tr": "",
+        "en": "",
+        "ar": ""
        },
        "p": 120,
        "a": [],
@@ -8811,9 +8805,9 @@
         "ar": "فانتا"
        },
        "ing": {
-        "tr": "Portakal aromalı gazlı içecek",
-        "en": "Orange soft drink",
-        "ar": "مشروب غازي بنكهة البرتقال"
+        "tr": "",
+        "en": "",
+        "ar": ""
        },
        "p": 120,
        "a": [],
@@ -9077,9 +9071,9 @@
         "ar": "مياه غازية"
        },
        "ing": {
-        "tr": "Maden suyu",
-        "en": "Sparkling mineral water",
-        "ar": "مياه معدنية غازية"
+        "tr": "",
+        "en": "",
+        "ar": ""
        },
        "p": 90,
        "a": [],
@@ -9113,9 +9107,9 @@
         "ar": "صودا بنكهة الفواكه"
        },
        "ing": {
-        "tr": "Meyve aromalı maden suyu",
-        "en": "Fruit-flavoured mineral water",
-        "ar": "مياه معدنية بنكهة الفواكه"
+        "tr": "",
+        "en": "",
+        "ar": ""
        },
        "p": 110,
        "a": [],
@@ -9340,9 +9334,9 @@
         "ar": "ميلك شيك فراولة"
        },
        "ing": {
-        "tr": "Süt, dondurma, çilek",
-        "en": "Milk, ice cream, strawberry",
-        "ar": "حليب، آيس كريم، فراولة"
+        "tr": "Süt, çilek özü tozu",
+        "en": "Milk, strawberry extract powder",
+        "ar": "حليب، مسحوق خلاصة الفراولة"
        },
        "p": 350,
        "a": [
@@ -9351,16 +9345,13 @@
        "asrc": {
         "M": {
          "tr": [
-          "süt",
-          "dondurma"
+          "süt"
          ],
          "en": [
-          "milk",
-          "ice cream"
+          "milk"
          ],
          "ar": [
-          "حليب",
-          "آيس كريم"
+          "حليب"
          ]
         }
        },
@@ -9370,13 +9361,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 450,
+       "kcal": 310,
        "nut": {
-        "kcal": 450,
-        "kj": 1883,
+        "kcal": 310,
+        "kj": 1297,
         "p": 10,
-        "f": 18,
-        "c": 62
+        "f": 11,
+        "c": 42
        },
        "por": null,
        "alc": 0,
@@ -9393,9 +9384,9 @@
         "ar": "ميلك شيك شوكولاتة"
        },
        "ing": {
-        "tr": "Süt, dondurma, çikolata sosu",
-        "en": "Milk, ice cream, chocolate sauce",
-        "ar": "حليب، آيس كريم، صوص شوكولاتة"
+        "tr": "Süt, çikolata sosu",
+        "en": "Milk, chocolate sauce",
+        "ar": "حليب، صوص شوكولاتة"
        },
        "p": 350,
        "a": [
@@ -9406,17 +9397,14 @@
         "M": {
          "tr": [
           "süt",
-          "dondurma",
           "çikolata sosu"
          ],
          "en": [
           "milk",
-          "ice cream",
           "chocolate sauce"
          ],
          "ar": [
           "حليب",
-          "آيس كريم",
           "صوص شوكولاتة"
          ]
         },
@@ -9438,13 +9426,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 480,
+       "kcal": 340,
        "nut": {
-        "kcal": 480,
-        "kj": 2008,
-        "p": 11,
-        "f": 20,
-        "c": 64
+        "kcal": 340,
+        "kj": 1423,
+        "p": 10,
+        "f": 12,
+        "c": 48
        },
        "por": null,
        "alc": 0,
@@ -9461,9 +9449,9 @@
         "ar": "ميلك شيك فانيليا"
        },
        "ing": {
-        "tr": "Süt, dondurma, vanilya",
-        "en": "Milk, ice cream, vanilla",
-        "ar": "حليب، آيس كريم، فانيليا"
+        "tr": "Süt, vanilya özü tozu",
+        "en": "Milk, vanilla extract powder",
+        "ar": "حليب، مسحوق خلاصة الفانيليا"
        },
        "p": 350,
        "a": [
@@ -9472,16 +9460,13 @@
        "asrc": {
         "M": {
          "tr": [
-          "süt",
-          "dondurma"
+          "süt"
          ],
          "en": [
-          "milk",
-          "ice cream"
+          "milk"
          ],
          "ar": [
-          "حليب",
-          "آيس كريم"
+          "حليب"
          ]
         }
        },
@@ -9491,13 +9476,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 440,
+       "kcal": 300,
        "nut": {
-        "kcal": 440,
-        "kj": 1841,
+        "kcal": 300,
+        "kj": 1255,
         "p": 10,
-        "f": 18,
-        "c": 60
+        "f": 11,
+        "c": 40
        },
        "por": null,
        "alc": 0,
@@ -9514,9 +9499,9 @@
         "ar": "ميلك شيك أوريو"
        },
        "ing": {
-        "tr": "Süt, dondurma, Oreo bisküvi",
-        "en": "Milk, ice cream, Oreo biscuit",
-        "ar": "حليب، آيس كريم، بسكويت أوريو"
+        "tr": "Süt, Oreo bisküvi",
+        "en": "Milk, Oreo biscuit",
+        "ar": "حليب، بسكويت أوريو"
        },
        "p": 350,
        "a": [
@@ -9527,16 +9512,13 @@
        "asrc": {
         "M": {
          "tr": [
-          "süt",
-          "dondurma"
+          "süt"
          ],
          "en": [
-          "milk",
-          "ice cream"
+          "milk"
          ],
          "ar": [
-          "حليب",
-          "آيس كريم"
+          "حليب"
          ]
         },
         "G": {
@@ -9568,13 +9550,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 520,
+       "kcal": 390,
        "nut": {
-        "kcal": 520,
-        "kj": 2176,
-        "p": 10,
-        "f": 22,
-        "c": 70
+        "kcal": 390,
+        "kj": 1632,
+        "p": 11,
+        "f": 15,
+        "c": 52
        },
        "por": null,
        "alc": 0,
@@ -9591,9 +9573,9 @@
         "ar": "ميلك شيك موز"
        },
        "ing": {
-        "tr": "Süt, dondurma, muz",
-        "en": "Milk, ice cream, banana",
-        "ar": "حليب، آيس كريم، موز"
+        "tr": "Süt, muz özü tozu",
+        "en": "Milk, banana extract powder",
+        "ar": "حليب، مسحوق خلاصة الموز"
        },
        "p": 350,
        "a": [
@@ -9602,16 +9584,13 @@
        "asrc": {
         "M": {
          "tr": [
-          "süt",
-          "dondurma"
+          "süt"
          ],
          "en": [
-          "milk",
-          "ice cream"
+          "milk"
          ],
          "ar": [
-          "حليب",
-          "آيس كريم"
+          "حليب"
          ]
         }
        },
@@ -9621,13 +9600,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 460,
+       "kcal": 310,
        "nut": {
-        "kcal": 460,
-        "kj": 1925,
+        "kcal": 310,
+        "kj": 1297,
         "p": 10,
-        "f": 17,
-        "c": 66
+        "f": 11,
+        "c": 42
        },
        "por": null,
        "alc": 0,
@@ -9659,9 +9638,9 @@
         "ar": "فروزن شمام"
        },
        "ing": {
-        "tr": "Kavun, buz, şeker",
-        "en": "Melon, ice, sugar",
-        "ar": "شمام، ثلج، سكر"
+        "tr": "Kavun püresi, su, buz",
+        "en": "Melon purée, water, ice",
+        "ar": "بيوريه الشمام، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9672,13 +9651,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 180,
+       "kcal": 110,
        "nut": {
-        "kcal": 180,
-        "kj": 753,
+        "kcal": 110,
+        "kj": 460,
         "p": 1,
         "f": 0,
-        "c": 45
+        "c": 26
        },
        "por": null,
        "alc": 0,
@@ -9695,9 +9674,9 @@
         "ar": "فروزن بطيخ"
        },
        "ing": {
-        "tr": "Karpuz, buz, şeker",
-        "en": "Watermelon, ice, sugar",
-        "ar": "بطيخ، ثلج، سكر"
+        "tr": "Karpuz püresi, su, buz",
+        "en": "Watermelon purée, water, ice",
+        "ar": "بيوريه البطيخ، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9708,13 +9687,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 170,
+       "kcal": 100,
        "nut": {
-        "kcal": 170,
-        "kj": 711,
+        "kcal": 100,
+        "kj": 418,
         "p": 1,
         "f": 0,
-        "c": 42
+        "c": 24
        },
        "por": null,
        "alc": 0,
@@ -9731,9 +9710,9 @@
         "ar": "فروزن تفاح"
        },
        "ing": {
-        "tr": "Elma, buz, şeker",
-        "en": "Apple, ice, sugar",
-        "ar": "تفاح، ثلج، سكر"
+        "tr": "Elma püresi, su, buz",
+        "en": "Apple purée, water, ice",
+        "ar": "بيوريه التفاح، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9744,13 +9723,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 200,
+       "kcal": 130,
        "nut": {
-        "kcal": 200,
-        "kj": 837,
+        "kcal": 130,
+        "kj": 544,
         "p": 0,
         "f": 0,
-        "c": 50
+        "c": 32
        },
        "por": null,
        "alc": 0,
@@ -9767,9 +9746,9 @@
         "ar": "فروزن فراولة"
        },
        "ing": {
-        "tr": "Çilek, buz, şeker",
-        "en": "Strawberry, ice, sugar",
-        "ar": "فراولة، ثلج، سكر"
+        "tr": "Çilek püresi, su, buz",
+        "en": "Strawberry purée, water, ice",
+        "ar": "بيوريه الفراولة، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9780,13 +9759,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 180,
+       "kcal": 110,
        "nut": {
-        "kcal": 180,
-        "kj": 753,
+        "kcal": 110,
+        "kj": 460,
         "p": 1,
         "f": 0,
-        "c": 44
+        "c": 26
        },
        "por": null,
        "alc": 0,
@@ -9803,9 +9782,9 @@
         "ar": "فروزن توت العليق"
        },
        "ing": {
-        "tr": "Böğürtlen, buz, şeker",
-        "en": "Blackberry, ice, sugar",
-        "ar": "توت العليق، ثلج، سكر"
+        "tr": "Böğürtlen püresi, su, buz",
+        "en": "Blackberry purée, water, ice",
+        "ar": "بيوريه توت العليق، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9816,13 +9795,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 190,
+       "kcal": 115,
        "nut": {
-        "kcal": 190,
-        "kj": 795,
+        "kcal": 115,
+        "kj": 481,
         "p": 1,
         "f": 0,
-        "c": 46
+        "c": 27
        },
        "por": null,
        "alc": 0,
@@ -9839,9 +9818,9 @@
         "ar": "فروزن كيوي"
        },
        "ing": {
-        "tr": "Kivi, buz, şeker",
-        "en": "Kiwi, ice, sugar",
-        "ar": "كيوي، ثلج، سكر"
+        "tr": "Kivi püresi, su, buz",
+        "en": "Kiwi purée, water, ice",
+        "ar": "بيوريه الكيوي، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9852,13 +9831,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 200,
+       "kcal": 125,
        "nut": {
-        "kcal": 200,
-        "kj": 837,
+        "kcal": 125,
+        "kj": 523,
         "p": 1,
         "f": 0,
-        "c": 48
+        "c": 29
        },
        "por": null,
        "alc": 0,
@@ -9875,9 +9854,9 @@
         "ar": "فروزن توت أزرق"
        },
        "ing": {
-        "tr": "Yaban mersini, buz, şeker",
-        "en": "Blueberry, ice, sugar",
-        "ar": "توت أزرق، ثلج، سكر"
+        "tr": "Yaban mersini püresi, su, buz",
+        "en": "Blueberry purée, water, ice",
+        "ar": "بيوريه التوت الأزرق، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9888,13 +9867,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 200,
+       "kcal": 130,
        "nut": {
-        "kcal": 200,
-        "kj": 837,
+        "kcal": 130,
+        "kj": 544,
         "p": 1,
         "f": 0,
-        "c": 48
+        "c": 31
        },
        "por": null,
        "alc": 0,
@@ -9911,9 +9890,9 @@
         "ar": "فروزن توت أسود"
        },
        "ing": {
-        "tr": "Karadut, buz, şeker",
-        "en": "Black mulberry, ice, sugar",
-        "ar": "توت أسود، ثلج، سكر"
+        "tr": "Karadut püresi, su, buz",
+        "en": "Black mulberry purée, water, ice",
+        "ar": "بيوريه التوت الأسود، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9924,13 +9903,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 200,
+       "kcal": 130,
        "nut": {
-        "kcal": 200,
-        "kj": 837,
+        "kcal": 130,
+        "kj": 544,
         "p": 1,
         "f": 0,
-        "c": 48
+        "c": 31
        },
        "por": null,
        "alc": 0,
@@ -9947,9 +9926,9 @@
         "ar": "فروزن توت أحمر"
        },
        "ing": {
-        "tr": "Frambuaz, buz, şeker",
-        "en": "Raspberry, ice, sugar",
-        "ar": "توت أحمر، ثلج، سكر"
+        "tr": "Frambuaz püresi, su, buz",
+        "en": "Raspberry purée, water, ice",
+        "ar": "بيوريه التوت الأحمر، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9960,13 +9939,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 190,
+       "kcal": 115,
        "nut": {
-        "kcal": 190,
-        "kj": 795,
+        "kcal": 115,
+        "kj": 481,
         "p": 1,
         "f": 0,
-        "c": 46
+        "c": 26
        },
        "por": null,
        "alc": 0,
@@ -9983,9 +9962,9 @@
         "ar": "فروزن فواكه الغابة"
        },
        "ing": {
-        "tr": "Orman meyveleri, buz, şeker",
-        "en": "Forest fruits, ice, sugar",
-        "ar": "فواكه الغابة، ثلج، سكر"
+        "tr": "Orman meyveleri püresi, su, buz",
+        "en": "Forest fruits purée, water, ice",
+        "ar": "بيوريه فواكه الغابة، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -9996,13 +9975,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 200,
+       "kcal": 125,
        "nut": {
-        "kcal": 200,
-        "kj": 837,
+        "kcal": 125,
+        "kj": 523,
         "p": 1,
         "f": 0,
-        "c": 48
+        "c": 29
        },
        "por": null,
        "alc": 0,
@@ -10019,9 +9998,9 @@
         "ar": "فروزن موز"
        },
        "ing": {
-        "tr": "Muz, buz, şeker",
-        "en": "Banana, ice, sugar",
-        "ar": "موز، ثلج، سكر"
+        "tr": "Muz püresi, su, buz",
+        "en": "Banana purée, water, ice",
+        "ar": "بيوريه الموز، ماء، ثلج"
        },
        "p": 370,
        "a": [],
@@ -10032,13 +10011,13 @@
        "so": 0,
        "off": 0,
        "sos": [],
-       "kcal": 230,
+       "kcal": 165,
        "nut": {
-        "kcal": 230,
-        "kj": 962,
+        "kcal": 165,
+        "kj": 690,
         "p": 2,
         "f": 0,
-        "c": 56
+        "c": 40
        },
        "por": null,
        "alc": 0,
@@ -10070,9 +10049,9 @@
         "ar": "موهيتو كلاسيك"
        },
        "ing": {
-        "tr": "Nane, lime, şeker, soda, buz",
-        "en": "Mint, lime, sugar, soda, ice",
-        "ar": "نعناع، ليمون أخضر، سكر، صودا، ثلج"
+        "tr": "Taze nane, limon parçası, lime, şeker, soda, buz",
+        "en": "Fresh mint, lemon wedge, lime, sugar, soda, ice",
+        "ar": "نعناع طازج، قطعة ليمون، ليمون أخضر، سكر، صودا، ثلج"
        },
        "p": 360,
        "a": [],
@@ -10106,9 +10085,9 @@
         "ar": "موهيتو فراولة"
        },
        "ing": {
-        "tr": "Çilek, nane, lime, şeker, soda, buz",
-        "en": "Strawberry, mint, lime, sugar, soda, ice",
-        "ar": "فراولة، نعناع، ليمون أخضر، سكر، صودا، ثلج"
+        "tr": "Çilek, taze nane, limon parçası, lime, şeker, soda, buz",
+        "en": "Strawberry, fresh mint, lemon wedge, lime, sugar, soda, ice",
+        "ar": "فراولة، نعناع طازج، قطعة ليمون، ليمون أخضر، سكر، صودا، ثلج"
        },
        "p": 360,
        "a": [],
@@ -10142,9 +10121,9 @@
         "ar": "موهيتو تفاح"
        },
        "ing": {
-        "tr": "Elma, nane, lime, şeker, soda, buz",
-        "en": "Apple, mint, lime, sugar, soda, ice",
-        "ar": "تفاح، نعناع، ليمون أخضر، سكر، صودا، ثلج"
+        "tr": "Elma, taze nane, limon parçası, lime, şeker, soda, buz",
+        "en": "Apple, fresh mint, lemon wedge, lime, sugar, soda, ice",
+        "ar": "تفاح، نعناع طازج، قطعة ليمون، ليمون أخضر، سكر، صودا، ثلج"
        },
        "p": 360,
        "a": [],
@@ -10653,5 +10632,5 @@
    ]
   }
  ],
- "pub": 1789736043792
+ "pub": 1789751471921
 }

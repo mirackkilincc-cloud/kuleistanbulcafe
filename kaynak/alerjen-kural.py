@@ -31,7 +31,7 @@ R = {
  "yufka":(["G"],"yufka pastry","عجينة يوفكا"),
  "çıtır yufka":(["G"],"crispy yufka","يوفكا مقرمشة"),
  "kalem böreği":(["G","M"],"cheese rolls","لفائف جبنة"),
- "sigara böreği":(["G","M"],"cheese rolls","لفائف جبنة"),
+ "sigara böreği":([],"cheese rolls","لفائف جبنة"),   # alt malzemeleri ayrıca listeleniyor
  "mozzarella stick":(["G","M"],"mozzarella sticks","أصابع موزاريلا"),
  "makarna":(["G"],"macaroni","معكرونة"),
  "spagetti":(["G"],"spaghetti","سباغيتي"),
@@ -195,7 +195,7 @@ espresso|çift shot espresso|kahve|çekirdek kahve|filtre kahve|türk kahvesi|ç
 demlenmiş siyah çay|yeşil çay yaprağı|adaçayı yaprağı|ihlamur çiçeği|kuşburnu|sınırsız çay|baharatlı çay konsantresi|
 özel kule karışımı|salep|kakao|bal|reçel|mevsim meyveleri|elma|muz|çilek|karpuz|kavun|kivi|mango|vişne|frambuaz|böğürtlen|
 yaban mersini|yaban mersini dolgusu|karadut|orman meyveleri|oryantal meyveler|tropikal meyveler|passion meyvesi|
-kapari çiçeği|yumuşak dokulu iç|sıvı yağ|yağ|toz şeker|yaprak jelatin|hindistan cevizi|eti puf|biskin yağ|nescafe|pirinç fındık|siyah glaze|beyaz glaze|orman meyveli dolgu|limonlu dolgu|yaban mersini dolgu|donuk orman meyvesi|donuk yaban mersini|günlük değişir — servis ekibimize danışınız|kule'ye özel karışım — servis ekibimize danışınız|
+kapari çiçeği|yumuşak dokulu iç|limon parçası|çilek özü tozu|vanilya özü tozu|muz özü tozu|kavun püresi|karpuz püresi|elma püresi|çilek püresi|böğürtlen püresi|kivi püresi|yaban mersini püresi|karadut püresi|frambuaz püresi|orman meyveleri püresi|muz püresi|sıvı yağ|yağ|toz şeker|yaprak jelatin|hindistan cevizi|eti puf|biskin yağ|nescafe|pirinç fındık|siyah glaze|beyaz glaze|orman meyveli dolgu|limonlu dolgu|yaban mersini dolgu|donuk orman meyvesi|donuk yaban mersini|günlük değişir — servis ekibimize danışınız|kule'ye özel karışım — servis ekibimize danışınız|
 mentol|şekerleme|çift elma aroması|üzüm aroması|karpuz aroması|çilek aroması|nane aroması|limon aroması|
 fırınlanmış şeftali aroması|cappuccino aroması|kekik ve pul biber ile marine edilmiş|zeytinyağı ve pul biber ile marine edilmiş|
 zeytinyağı ve pul biber ile marine edilmiş et|pul biber ile marine edilmiş|tatlı kırmızı toz biber ile marine edilmiş

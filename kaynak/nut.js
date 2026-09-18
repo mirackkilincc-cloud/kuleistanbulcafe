@@ -52,10 +52,10 @@ module.exports = {
  "Coca Cola":[140,0,0,35],"Cola Zero":[1,0,0,0],"Sprite":[130,0,0,33],"Fanta":[140,0,0,35],"Cappy Karışık":[110,0,0,27],"Cappy Vişne":[120,0,0,29],
  "Cappy Şeftali":[110,0,0,27],"Fuse Tea Şeftali":[90,0,0,22],"Fuse Tea Limon":[80,0,0,20],"Ayran":[90,5,4,7],"Sade Soda":[0,0,0,0],
  "Meyveli Soda":[20,0,0,5],"Limonata":[150,0,0,38],"Portakal Suyu":[180,3,1,40],"Churchill":[5,0,0,1],"Su":[0,0,0,0],"Karadut":[160,1,0,38],
- // Milkshake / Frozen / Mojito
- "Çilekli Milkshake":[450,10,18,62],"Çikolatalı Milkshake":[480,11,20,64],"Vanilyalı Milkshake":[440,10,18,60],"Oreo Milkshake":[520,10,22,70],"Muzlu Milkshake":[460,10,17,66],
- "Kavunlu Frozen":[180,1,0,45],"Karpuz Frozen":[170,1,0,42],"Elma Frozen":[200,0,0,50],"Çilek Frozen":[180,1,0,44],"Böğürtlen Frozen":[190,1,0,46],
- "Kivi Frozen":[200,1,0,48],"Yaban Mersini Frozen":[200,1,0,48],"Karadut Frozen":[200,1,0,48],"Frambuazlı Frozen":[190,1,0,46],
- "Orman Meyveli Frozen":[200,1,0,48],"Muz Frozen":[230,2,0,56],
+ // Milkshake / Frozen / Mojito  (18.09.2026: milkshake'lerden dondurma, frozen'lardan şeker çıktı — yeniden tahmin edildi)
+ "Çilekli Milkshake":[310,10,11,42],"Çikolatalı Milkshake":[340,10,12,48],"Vanilyalı Milkshake":[300,10,11,40],"Oreo Milkshake":[390,11,15,52],"Muzlu Milkshake":[310,10,11,42],
+ "Kavunlu Frozen":[110,1,0,26],"Karpuz Frozen":[100,1,0,24],"Elma Frozen":[130,0,0,32],"Çilek Frozen":[110,1,0,26],"Böğürtlen Frozen":[115,1,0,27],
+ "Kivi Frozen":[125,1,0,29],"Yaban Mersini Frozen":[130,1,0,31],"Karadut Frozen":[130,1,0,31],"Frambuazlı Frozen":[115,1,0,26],
+ "Orman Meyveli Frozen":[125,1,0,29],"Muz Frozen":[165,2,0,40],
  "Klasik Mojito":[160,0,0,40],"Çilekli Mojito":[180,0,0,44],"Elmalı Mojito":[180,0,0,44]
 };
