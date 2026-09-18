@@ -3,6 +3,7 @@ const fs = require("fs");
 const DATA = require("./kule-data.js");
 const ICONS = require("./icons.js");
 const NUT = require("./nut.js");
+const { SAUCES, SOS_MAP } = require("./soslar.js");
 const SOCIAL = JSON.parse(fs.readFileSync("social.json","utf8"));
 const PHOTOS = JSON.parse(fs.readFileSync("photos.json","utf8"));
 const CSS = fs.readFileSync("page.css","utf8");
@@ -25,13 +26,17 @@ const sections = DATA.map((s,si)=>({
     i:g.i.map((it,ii)=>{
       const [n,ne,na,p,ing,inge,inga,a,ic,img] = it;
       if(img && !PHOTOS[img]) noPhoto.push(n+" -> "+img);
+      const sos = SOS_MAP[n] || [];
+      sos.forEach(k=>{ if(!SAUCES[k]) throw new Error("Tanımsız sos: "+k+" ("+n+")"); });
+      let alg = (a===null?[]:(a||[])).slice();
+      sos.forEach(k=>(SAUCES[k].a||[]).forEach(x=>{ if(!alg.includes(x)) alg.push(x); }));   // sos alerjenleri ürüne de işlenir
       let kcal = null, nut = null;
       if(s.id!=="nargile"){ const v = NUT[n]; if(!v){ noKcal.push(n); } else { kcal=v[0]; nut={kcal:v[0], kj:Math.round(v[0]*4.184), p:v[1], f:v[2], c:v[3]}; } }
       return {
         id:s.id+"-"+(gi+1)+"-"+(ii+1),
         name:{tr:n, en:ne, ar:na},
         ing:{tr:ing||"", en:inge||"", ar:inga||inge||""},
-        p, a:(a===null?[]:(a||[])), ic, s:0, so:0, off:0,
+        p, a:alg, ic, s:0, so:0, off:0, sos,
         kcal, nut, por:null, alc:0, pork:0,
         img: img && PHOTOS[img] ? PHOTOS[img] : "", iw: (img && PHOTOS[img]) ? 640 : null, ih: (img && PHOTOS[img]) ? 480 : null
       };
@@ -65,7 +70,7 @@ const STATE = {
   logo:"data:image/png;base64,"+LOGO_MASK, logoFull:"data:image/png;base64,"+LOGO_FULL, logoAr:LW+"/"+LH,
   emblem:"data:"+EMBLEM_MIME+";base64,"+EMBLEM,
   social:SOCIAL,
-  alg:ALG, sections, pub: Date.now()
+  alg:ALG, sauces:SAUCES, sections, pub: Date.now()
 };
 
 /* ---------- simgeler ---------- */

@@ -12,7 +12,7 @@ const T = {
      ing:"İçindekiler", all:"Alerjenler", noall:"Bildirilen alerjen yok", out:"Tükendi",
      kcal:"Besin değerleri", kcalU:"kcal", kcalN:"Porsiyon başına yaklaşık değerlerdir.",
      nEn:"Enerji", nPr:"Protein", nFa:"Yağ", nCa:"Karbonhidrat", nPor:"Porsiyon",
-     decl:"Beyan", alcNo:"Alkol içermez", alcYes:"Alkol içerir", porkNo:"Domuz türevi içermez", porkYes:"Domuz türevi içerir",
+     sauces:"Soslar", strace:"Eser miktarda", decl:"Beyan", alcNo:"Alkol içermez", alcYes:"Alkol içerir", porkNo:"Domuz türevi içermez", porkYes:"Domuz türevi içerir",
      enote:"Besin değerleri porsiyon başına yaklaşık değerlerdir; tarif ve porsiyon farklılıklarına göre değişebilir.",
      dnote:"Ürünlerimizde alkol ve domuz türevi bileşen bulunmamaktadır.", dnote2:"Alkol veya domuz türevi bileşen içeren ürünler ürün detayında belirtilmiştir.",
      wa:"WhatsApp", ig:"Instagram", gg:"Google'da Bul", wamsg:"Merhaba, KULE İstanbul Cafe'ye menüden yazıyorum.", top:"Başa dön"},
@@ -22,7 +22,7 @@ const T = {
      ing:"Ingredients", all:"Allergens", noall:"No declared allergens", out:"Sold out",
      kcal:"Nutrition", kcalU:"kcal", kcalN:"Approximate values per portion.",
      nEn:"Energy", nPr:"Protein", nFa:"Fat", nCa:"Carbohydrate", nPor:"Portion",
-     decl:"Declaration", alcNo:"No alcohol", alcYes:"Contains alcohol", porkNo:"No pork derivatives", porkYes:"Contains pork derivatives",
+     sauces:"Sauces", strace:"May contain traces", decl:"Declaration", alcNo:"No alcohol", alcYes:"Contains alcohol", porkNo:"No pork derivatives", porkYes:"Contains pork derivatives",
      enote:"Nutrition values are approximate, per serving, and may vary with recipe and portion size.",
      dnote:"None of our products contain alcohol or pork-derived ingredients.", dnote2:"Products containing alcohol or pork derivatives are marked in the product details.",
      wa:"WhatsApp", ig:"Instagram", gg:"Find us on Google", wamsg:"Hello, I'm writing from the KULE İstanbul Cafe menu.", top:"Back to top"},
@@ -32,7 +32,7 @@ const T = {
      ing:"المكوّنات", all:"مسببات الحساسية", noall:"لا توجد مسببات حساسية مُعلنة", out:"نفد",
      kcal:"القيم الغذائية", kcalU:"سعرة", kcalN:"قيم تقريبية للحصة الواحدة.",
      nEn:"الطاقة", nPr:"بروتين", nFa:"دهون", nCa:"كربوهيدرات", nPor:"الحصة",
-     decl:"البيان", alcNo:"خالٍ من الكحول", alcYes:"يحتوي على كحول", porkNo:"خالٍ من مشتقات لحم الخنزير", porkYes:"يحتوي على مشتقات لحم الخنزير",
+     sauces:"الصلصات", strace:"آثار محتملة", decl:"البيان", alcNo:"خالٍ من الكحول", alcYes:"يحتوي على كحول", porkNo:"خالٍ من مشتقات لحم الخنزير", porkYes:"يحتوي على مشتقات لحم الخنزير",
      enote:"القيم الغذائية تقريبية لكل حصة وقد تختلف حسب الوصفة وحجم الحصة.",
      dnote:"لا تحتوي منتجاتنا على كحول أو مكوّنات مشتقة من لحم الخنزير.", dnote2:"المنتجات التي تحتوي على كحول أو مشتقات لحم الخنزير موضّحة في تفاصيل المنتج.",
      wa:"واتساب", ig:"إنستغرام", gg:"خرائط غوغل", wamsg:"مرحبًا، أكتب إليكم من قائمة كوله إسطنبول كافيه.", top:"العودة للأعلى"}
@@ -91,6 +91,11 @@ function build(){
             +'</span></button>'
           +'<div class="idet" id="d-'+it.id+'"><div><div class="idin">'+photo
             +(ing?'<div class="dblock"><h4>'+t.ing+'</h4><p>'+esc(ing)+'</p></div>':'')
+            +(((it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k])).length?'<div class="dblock"><h4>'+t.sauces+'</h4>'+(it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k]).map(k=>{const sc=ST.sauces[k];
+               return '<div class="sos"><p class="sos-n">'+esc(tx(sc.name))+'</p><p class="sos-i">'+esc(tx(sc.ing))+'</p>'
+                 +((sc.a||[]).length?'<div class="achips">'+(sc.a||[]).map(x=>'<span class="achip"><b>'+esc(x)+'</b>'+esc(tx(ST.alg[x]))+'</span>').join("")+'</div>':'<p class="snone">'+t.noall+'</p>')
+                 +(tx(sc.trace||{})?'<p class="sos-t">'+esc(tx(sc.trace))+'</p>':'')
+                 +(tx(sc.note||{})?'<p class="sos-t">'+esc(tx(sc.note))+'</p>':'')+'</div>';}).join("")+'</div>':'')
             +(kc(it)!==null?'<div class="dblock"><h4>'+t.kcal+(it.por&&tx(it.por)?' <span class="pw">· '+esc(tx(it.por))+'</span>':'')+'</h4>'
               +'<table class="nut"><tbody>'
               +'<tr><th>'+t.nEn+'</th><td><b>'+esc(kcTxt(it))+'</b>'+(it.nut&&it.nut.kj?' <span class="kj">/ '+Number(it.nut.kj).toLocaleString(lang==="tr"?"tr-TR":"en-US")+' kJ</span>':'')+'</td></tr>'
@@ -331,7 +336,7 @@ function renderAdmin(){
     +'<b>Yapı:</b> yeni bölüm ve grup açma, adlarını ve sırasını değiştirme, gizleme. Menüyü kendiniz büyütebilirsiniz.<br><br>'
     +'<b>Silme yok:</b> ürün, grup ve bölümler silinmez; "pasife al" / "gizle" dersiniz, müşteri menüsünden çıkar, panelde durur, istediğinizde geri açarsınız.<br><br>'
     +'<b>Besin değerleri:</b> kalori ürün adının yanında rozet olarak, detayda ise enerji (kcal/kJ), protein, yağ ve karbonhidrat tablosu olarak görünür. Porsiyon/gramaj yazarsanız (örn. "220 g antrikot") tablonun başlığında çıkar. Değerler bileşim üzerinden hesaplanmış yaklaşık değerlerdir; mutfağın ölçümleriyle buradan güncelleyin.<br><br>'
-    +'<b>Beyan:</b> her üründe alkol ve domuz türevi beyanı vardır (varsayılan: içermez). Mevzuat gereği içeren ürünlerde "İçerir" seçin.<br><br><b>Ayarlar:</b> telefon, WhatsApp, Instagram, Google, adres, çalışma saati, slogan ve PIN.<br><br>'
+    +'<b>Sos kartları:</b> Sweet Chili, Cafe de Paris ve Demi Glace soslarının kendi içindekileri ve alerjenleri ürün detayında AYRI bir blokta görünür — ürünün içindekileriyle karışmaz. Ürün düzenleme ekranındaki kutucuklardan hangi sosun görüneceğini seçersiniz; sosun alerjeni ürünün alerjen listesine de kendiliğinden eklenir.<br><br><b>Beyan:</b> her üründe alkol ve domuz türevi beyanı vardır (varsayılan: içermez). Mevzuat gereği içeren ürünlerde "İçerir" seçin.<br><br><b>Ayarlar:</b> telefon, WhatsApp, Instagram, Google, adres, çalışma saati, slogan ve PIN.<br><br>'
     +publine
     +'<b>Fotoğraf:</b> telefondan seçilen fotoğraf otomatik küçültülür (en fazla 720 px).<br><br>'
     +'<b>Panele girmek için:</b> arama kutusuna <code>yönetici</code> yazın, ya da adresin sonuna <code>#admin</code> ekleyin, ya da üstteki ambleme uzun basın.</p>';
@@ -365,7 +370,7 @@ function onItemsClick(e){
   const b=e.target.closest("[data-act]"); if(!b) return;
   const act=b.dataset.act;
   if(act==="add"){ const [si,gi]=b.dataset.p.split(".").map(Number); const g=ST.sections[si].g[gi];
-    const it={id:uid(ST.sections[si].id), name:{tr:"",en:"",ar:""}, ing:{tr:"",en:"",ar:""}, p:0, kcal:null, nut:null, por:null, a:[], ic:g.i[0]?g.i[0].ic:"plate", s:0, so:0, off:0, alc:0, pork:0, img:"", iw:null, ih:null};
+    const it={id:uid(ST.sections[si].id), name:{tr:"",en:"",ar:""}, ing:{tr:"",en:"",ar:""}, p:0, kcal:null, nut:null, por:null, a:[], sos:[], ic:g.i[0]?g.i[0].ic:"plate", s:0, so:0, off:0, alc:0, pork:0, img:"", iw:null, ih:null};
     g.i.push(it); editItem(si,gi,g.i.length-1,true); return; }
   const row=b.closest(".arow"); if(!row) return;
   const [si,gi,ii]=row.dataset.p.split(".").map(Number); const it=ST.sections[si].g[gi].i[ii];
@@ -469,6 +474,7 @@ function editItem(si,gi,ii,isNew){
     +field("Ürün adı (Türkçe)","f_ntr",it.name.tr)+field("Product name (English)","f_nen",it.name.en)+field("اسم المنتج (العربية)","f_nar",it.name.ar,{rtl:1})
     +field("İçindekiler (Türkçe)","f_itr",it.ing.tr,{area:1})+field("Ingredients (English)","f_ien",it.ing.en,{area:1})+field("المكوّنات (العربية)","f_iar",it.ing.ar,{area:1,rtl:1})
     +'<div class="f"><span>Alerjenler</span><div class="chk">'+ALGKEYS.map(k=>'<label class="'+((it.a||[]).includes(k)?'on':'')+'"><input type="checkbox" value="'+k+'"'+((it.a||[]).includes(k)?' checked':'')+'>'+esc(ST.alg[k].tr)+'</label>').join("")+'</div></div>'
+    +(ST.sauces?'<div class="f"><span>Sos kartları (ürün detayında ayrı gösterilir)</span><div class="chk" id="f_soswrap">'+Object.keys(ST.sauces).map(k=>'<label class="'+((it.sos||[]).includes(k)?'on':'')+'"><input type="checkbox" data-sos value="'+k+'"'+((it.sos||[]).includes(k)?' checked':'')+'>'+esc(ST.sauces[k].name.tr)+'</label>').join("")+'</div></div>':'')
     +'<div class="frow"><label class="f"><span>Alkol</span><select id="f_alc"><option value="0"'+(!it.alc?' selected':'')+'>İçermez</option><option value="1"'+(it.alc?' selected':'')+'>İçerir</option></select></label>'
     +'<label class="f"><span>Domuz türevi</span><select id="f_pork"><option value="0"'+(!it.pork?' selected':'')+'>İçermez</option><option value="1"'+(it.pork?' selected':'')+'>İçerir</option></select></label></div>'
     +'<div class="frow"><label class="f"><span>KULE rozeti</span><select id="f_s"><option value="0"'+(!it.s?' selected':'')+'>Yok</option><option value="1"'+(it.s?' selected':'')+'>Var</option></select></label>'
@@ -483,7 +489,7 @@ function editItem(si,gi,ii,isNew){
   let newImg = it.img, newDim=null, removeImg=false, done=false;
   m.querySelector("#f_img").addEventListener("change", async e=>{ const f=e.target.files[0]; if(!f) return; try{ const sh=await shrink(f); newImg=sh.d; newDim={w:sh.w,h:sh.h}; removeImg=false; const pv=$("f_pv"); const img=document.createElement("img"); img.className="pv"; img.id="f_pv"; img.src=newImg; pv.replaceWith(img);}catch(err){ toast("Fotoğraf okunamadı"); } });
   const rm=m.querySelector("#f_rm"); if(rm) rm.addEventListener("click",()=>{ removeImg=true; newImg=""; $("f_pv").outerHTML='<div class="pv" id="f_pv" style="display:grid;place-items:center;color:var(--ink-3);font-size:.75rem">kaldırıldı</div>'; });
-  m.querySelector(".chk").addEventListener("change", e=>{ const l=e.target.closest("label"); if(l) l.classList.toggle("on",e.target.checked); });
+  m.querySelectorAll(".chk").forEach(c=>c.addEventListener("change", e=>{ const l=e.target.closest("label"); if(l) l.classList.toggle("on",e.target.checked); }));
   const shut=()=>{ if(done) return; done=true; A.modal--; m.remove(); renderAdmin(); };
   const cancel=()=>{ if(isNew){ const k=g.i.indexOf(it); if(k>=0) g.i.splice(k,1); } shut(); };
   m.querySelector("#mclose").addEventListener("click",cancel); m.querySelector("#mcancel").addEventListener("click",cancel);
@@ -500,7 +506,9 @@ function editItem(si,gi,ii,isNew){
     it.por = ptr ? {tr:ptr, en:$("f_pen").value.trim()||ptr, ar:$("f_par").value.trim()||$("f_pen").value.trim()||ptr} : null;
     it.name={tr:nm,en:$("f_nen").value.trim()||nm,ar:$("f_nar").value.trim()||$("f_nen").value.trim()||nm};
     it.ing={tr:$("f_itr").value.trim(),en:$("f_ien").value.trim(),ar:$("f_iar").value.trim()};
-    it.a=[...m.querySelectorAll('.chk input:checked')].map(x=>x.value);
+    it.a=[...m.querySelectorAll('.chk input:checked')].filter(x=>!x.hasAttribute("data-sos")).map(x=>x.value);
+    it.sos=[...m.querySelectorAll('#f_soswrap input:checked')].map(x=>x.value);
+    (it.sos||[]).forEach(k=>{ const sc=ST.sauces&&ST.sauces[k]; if(sc) (sc.a||[]).forEach(x=>{ if(!it.a.includes(x)) it.a.push(x); }); });
     it.s=$("f_s").value==="1"?1:0; it.so=$("f_so").value==="1"?1:0;
     it.alc=$("f_alc").value==="1"?1:0; it.pork=$("f_pork").value==="1"?1:0;
     if(removeImg){ it.img=""; it.iw=null; it.ih=null; } else if(newImg){ it.img=newImg; if(newDim){ it.iw=newDim.w; it.ih=newDim.h; } }

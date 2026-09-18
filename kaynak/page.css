@@ -367,3 +367,13 @@ table.nut th{color:var(--ink-3)} table.nut td{color:var(--ink)} table.nut td b{c
 .lb-x{color:var(--gold-2)}
 .adm-foot .live .sw[aria-checked="true"]{background:var(--gold)}
 .tag{background:var(--gold-soft);color:var(--price)}
+/* sos kartları */
+.sos{border-inline-start:2px solid var(--gold-3);padding-inline-start:11px;margin-bottom:12px}
+.sos:last-child{margin-bottom:0}
+.sos-n{margin:0 0 3px;font-weight:700;font-size:.9rem;color:var(--ink)}
+.sos-i{margin:0 0 7px;font-size:.82rem;line-height:1.5;color:var(--ink-2)}
+.sos .achips{margin-bottom:6px}
+.sos .achip{font-size:.74rem;padding:4px 9px 4px 5px}
+.sos-t{margin:0 0 4px;font-size:.76rem;line-height:1.45;color:var(--ink-3)}
+.sos-t b{color:var(--price)}
+.sos .snone{font-size:.78rem;margin-bottom:6px}

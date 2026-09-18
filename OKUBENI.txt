@@ -100,6 +100,8 @@ yana kaydırılır ve o anki bölüm altın çizgiyle işaretlenir.
 Kodeksi Gıda Etiketleme ve Tüketicileri Bilgilendirme Yönetmeliği
 değişikliği) için menüde artık şunlar var:
   • Temel bileşenler / hammaddeler (her üründe "İçindekiler")
+  • Hazır sosların (Sweet Chili, Cafe de Paris, Demi Glace) kendi
+    içindekileri ve alerjenleri — ürün detayında AYRI "Soslar" bloğu
   • Porsiyon başına enerji (kcal + kJ) ve protein / yağ / karbonhidrat
   • 14 alerjen (ürün başına işaret + alerjen filtresi)
   • Alkol ve domuz türevi beyanı (her üründe; alt bilgide genel beyan)
@@ -121,7 +123,11 @@ Kaynak: 01.04.2026 tarihli basılı menü (10 sayfa).
 
 7) AÇIK KALAN İŞ
 -----------------
-• İçindekiler: mutfağın 16.09.2026 tarihli düzeltmeleri işlendi.
+• İçindekiler: mutfağın 16.09 ve 18.09.2026 tarihli düzeltmeleri işlendi.
+• DEMİ GLACE ET SOSU: sos kartı hazır ama hiçbir ürüne bağlı değil.
+  Hangi yemeklerde kullanılıyorsa yönetici panelinden o ürünün
+  düzenleme ekranındaki "Sos kartları" kutucuğundan işaretle
+  (alerjenleri — gluten, süt, kereviz — ürüne kendiliğinden eklenir).
 • BESİN DEĞERLERİ TASLAKTIR: standart tarif ve gramajlardan hesaplanmış
   yaklaşık değerler. Mevzuata uygun beyan için mutfak gramajlarıyla bir
   gıda mühendisi / diyetisyene doğrulatıp KULE-alerjen-kontrol.xlsx

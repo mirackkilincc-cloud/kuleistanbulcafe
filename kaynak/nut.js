@@ -10,21 +10,21 @@ module.exports = {
  "Menemen":[350,17,27,9],"Kaşarlı Menemen":[440,25,34,9],"Kuymak":[520,20,40,24],
  "Çift Kaşarlı Tost":[720,30,36,68],"Kaşarlı Sucuklu Tost":[780,35,42,66],
  // Aparatifler
- "Günün Çorbası":[180,6,8,20],"Cajun Finger":[640,36,30,55],"Big Combo Mix":[950,42,52,78],"Elma Dilim Patates":[400,5,18,54],
- "Parmak Patates":[400,5,19,52],"Sosis Box":[620,24,40,40],"Soğan Halkası":[430,6,24,48],"Sigara Böreği":[380,14,24,28],
+ "Günün Çorbası":[180,6,8,20],"Cajun Finger":[680,38,34,56],"Big Combo Mix":[1180,50,66,92],"Elma Dilim Patates":[400,5,18,54],
+ "Parmak Patates":[400,5,19,52],"Sosis Box":[900,34,58,56],"Soğan Halkası":[700,9,36,84],"Sigara Böreği":[620,22,38,46],
  // Salatalar & Makarnalar
- "Çoban Salata":[160,3,12,11],"Mevsim Salata":[130,3,9,11],"Şişte Köfte Salata":[420,28,30,10],"Tavuklu Sezar Salata":[540,40,32,22],"Cajun Tavuk Salata":[430,38,22,18],
+ "Çoban Salata":[160,3,12,11],"Mevsim Salata":[130,3,9,11],"Şişte Köfte Salata":[420,28,30,10],"Tavuklu Sezar Salata":[540,40,32,22],"Cajun Tavuk Salata":[560,40,30,34],
  "Spagetti Bolonez":[880,42,32,105],"Mac & Cheese":[900,36,44,88],"Penne Arrabbiata":[780,24,30,102],"Fettuccine Alfredo":[960,48,48,84],
  "Noodle Sebzeli":[620,16,18,96],"Noodle Tavuklu":[730,36,20,96],
  // Burgerler & Wrapler (patates dahil)
- "Kule İstanbul Burger":[1060,48,56,88],"Cheese Burger":[1080,50,58,86],"Jumbo Cheese Burger":[1450,82,84,88],"Tavuk Burger":[1000,46,50,90],
- "Etli Wrap":[900,42,42,86],"Tavuklu Wrap":[830,40,34,90],"Kaşarlı Köfteli Wrap":[950,46,46,86],
+ "Kule İstanbul Burger":[1130,49,63,90],"Cheese Burger":[1150,51,65,88],"Jumbo Cheese Burger":[1520,83,91,90],"Tavuk Burger":[1090,48,58,94],
+ "Etli Wrap":[1000,48,50,88],"Tavuklu Wrap":[930,46,42,92],"Kaşarlı Köfteli Wrap":[1010,48,51,88],
  // Ana Yemekler (garnitür dahil)
- "Izgara Anne Köftesi":[820,44,42,66],"Kule İstanbul Kebap":[800,42,42,62],"Beğendili Köfte":[790,42,44,56],
- "Kaymaklı Kule Tavuk":[860,50,44,62],"Köri Soslu Tavuk":[780,48,34,66],"BBQ Soslu Tavuk":[760,48,30,70],"Tavuk Sote":[700,46,28,64],
+ "Izgara Anne Köftesi":[900,47,44,80],"Kule İstanbul Kebap":[800,42,42,62],"Beğendili Köfte":[790,42,44,56],
+ "Kaymaklı Kule Tavuk":[880,51,45,66],"Köri Soslu Tavuk":[830,49,40,66],"BBQ Soslu Tavuk":[820,49,36,72],"Tavuk Sote":[700,46,28,64],
  "Baharatlı Piliç Izgara":[720,46,32,60],"Tavuk Külbastı":[620,46,26,48],
- "Chicken Schnitzel":[820,48,38,70],"Mantar Soslu Schnitzel":[880,48,44,70],"Cheddar Soslu Schnitzel":[940,52,50,70],
- "Cafe de Paris Soslu Tavuk Lokum":[560,42,38,8],"Cheddar Soslu Tavuk Lokum":[580,44,40,8],"Sweet Chili Kule Topları":[640,40,30,48],
+ "Chicken Schnitzel":[780,44,36,68],"Mantar Soslu Schnitzel":[880,48,44,70],"Cheddar Soslu Schnitzel":[940,52,50,70],
+ "Cafe de Paris Soslu Tavuk Lokum":[600,43,42,10],"Cheddar Soslu Tavuk Lokum":[620,45,44,10],"Sweet Chili Kule Topları":[640,40,30,48],
  // Kırmızı Etler (garnitür dahil)
  "Karışık Izgara":[1900,120,110,90],"Kuzu Pirzola (3 Parça)":[850,44,56,44],"Kuzu Pirzola (4 Parça)":[1050,58,72,44],"Antrikot":[950,52,60,44],
  "Bonfile":[850,50,48,44],"Mantar Soslu Bonfile":[950,52,56,46],"Cafe de Paris Soslu Bonfile":[980,52,60,46],"Fajita":[1120,58,54,92],"Combo Fajita":[1150,66,52,92],

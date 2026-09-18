@@ -106,6 +106,76 @@
    "ar": "ترمس"
   }
  },
+ "sauces": {
+  "sweetchili": {
+   "name": {
+    "tr": "Sweet Chili Sos",
+    "en": "Sweet Chilli Sauce",
+    "ar": "صوص سويت تشيلي"
+   },
+   "ing": {
+    "tr": "Su, şeker (%37,5), sirke, biber salçası, modifiye nişasta, tuz, sarımsak püresi, acı pul biber (%1,5), ayçiçek yağı, baharatlar, koruyucu (potasyum sorbat), asitlik düzenleyici (sitrik asit), kıvam artırıcı (ksantan gam), acı biber ekstraktı, aroma verici.",
+    "en": "Water, sugar (37.5%), vinegar, pepper paste, modified starch, salt, garlic purée, chilli flakes (1.5%), sunflower oil, spices, preservative (potassium sorbate), acidity regulator (citric acid), thickener (xanthan gum), chilli extract, flavouring.",
+    "ar": "ماء، سكر (37,5%)، خل، معجون فلفل، نشا معدّل، ملح، معجون ثوم، رقائق فلفل حار (1,5%)، زيت عبّاد الشمس، بهارات، مادة حافظة (سوربات البوتاسيوم)، منظّم حموضة (حمض الستريك)، مادة مثخّنة (صمغ الزانثان)، مستخلص الفلفل الحار، منكّه."
+   },
+   "a": [],
+   "trace": {
+    "tr": "Yer fıstığı, fındık, ceviz, kereviz, hardal, süt ve soya içeren ürünlerle aynı hatta üretilmiştir.",
+    "en": "Produced on the same line as products containing peanuts, hazelnuts, walnuts, celery, mustard, milk and soy.",
+    "ar": "يُنتَج على نفس الخط مع منتجات تحتوي على الفول السوداني والبندق والجوز والكرفس والخردل والحليب والصويا."
+   },
+   "note": {
+    "tr": "Domuz yağı ve domuz türevi katkı içermez.",
+    "en": "Contains no pork fat or pork-derived additives.",
+    "ar": "لا يحتوي على شحم الخنزير أو مشتقاته."
+   }
+  },
+  "cafedeparis": {
+   "name": {
+    "tr": "Cafe de Paris Sos",
+    "en": "Café de Paris Sauce",
+    "ar": "صوص كافيه دو باري"
+   },
+   "ing": {
+    "tr": "Tereyağı tozu (%16), modifiye mısır nişastası, bitkisel yağ (ayçiçek), maltodekstrin, yağsız süt tozu, domates tozu, buğday unu, yağ tozu, aroma verici (et aroması), zerdeçal, köri, maya ekstraktı, tuz, asitlik düzenleyici (sitrik asit), şeker, soğan tozu, karabiber, sarımsak tozu, paprika ekstraktı, baharatlar, tarhun (%0,3), kırmızı biber, kekik, mercanköşk, biberiye.",
+    "en": "Butter powder (16%), modified maize starch, vegetable oil (sunflower), maltodextrin, skimmed milk powder, tomato powder, wheat flour, fat powder, flavouring (meat flavour), turmeric, curry, yeast extract, salt, acidity regulator (citric acid), sugar, onion powder, black pepper, garlic powder, paprika extract, spices, tarragon (0.3%), red pepper, thyme, marjoram, rosemary.",
+    "ar": "مسحوق زبدة (16%)، نشا ذرة معدّل، زيت نباتي (عبّاد الشمس)، مالتوديكسترين، حليب مجفف خالي الدسم، مسحوق طماطم، دقيق قمح، مسحوق دهون، منكّه (نكهة اللحم)، كركم، كاري، مستخلص الخميرة، ملح، منظّم حموضة (حمض الستريك)، سكر، مسحوق بصل، فلفل أسود، مسحوق ثوم، مستخلص البابريكا، بهارات، طرخون (0,3%)، فلفل أحمر، زعتر، مردقوش، إكليل الجبل."
+   },
+   "a": [
+    "G",
+    "M"
+   ],
+   "trace": {
+    "tr": "Eser miktarda kereviz, yumurta, badem, yer fıstığı, Antep fıstığı, sülfit ve soya içerebilir.",
+    "en": "May contain traces of celery, egg, almond, peanut, pistachio, sulphites and soy.",
+    "ar": "قد يحتوي على آثار من الكرفس والبيض واللوز والفول السوداني والفستق الحلبي والكبريتيت والصويا."
+   },
+   "note": null
+  },
+  "demiglace": {
+   "name": {
+    "tr": "Demi Glace Et Sosu",
+    "en": "Demi-Glace Meat Sauce",
+    "ar": "صوص ديمي غلاس للحوم"
+   },
+   "ing": {
+    "tr": "Mısır nişastası, buğday unu (gluten), patates nişastası, aroma vericiler, iyotlu tuz, aroma artırıcı (monosodyum glutamat), renklendirici (karamel), maya özütü, yağ tozu (bitkisel yağ (palm), glukoz şurubu, süt proteini), kurutulmuş öğütülmüş domates, bitkisel yağ (palm), kurutulmuş öğütülmüş soğan, şeker, kurutulmuş öğütülmüş kereviz, kurutulmuş öğütülmüş havuç, kurutulmuş öğütülmüş defne yaprağı.",
+    "en": "Maize starch, wheat flour (gluten), potato starch, flavourings, iodised salt, flavour enhancer (monosodium glutamate), colour (caramel), yeast extract, fat powder (vegetable oil (palm), glucose syrup, milk protein), dried ground tomato, vegetable oil (palm), dried ground onion, sugar, dried ground celery, dried ground carrot, dried ground bay leaf.",
+    "ar": "نشا ذرة، دقيق قمح (غلوتين)، نشا بطاطس، منكّهات، ملح ميوّد، معزّز نكهة (غلوتامات أحادية الصوديوم)، ملوّن (كراميل)، مستخلص الخميرة، مسحوق دهون (زيت نباتي (نخيل)، شراب غلوكوز، بروتين الحليب)، طماطم مجففة مطحونة، زيت نباتي (نخيل)، بصل مجفف مطحون، سكر، كرفس مجفف مطحون، جزر مجفف مطحون، ورق غار مجفف مطحون."
+   },
+   "a": [
+    "G",
+    "M",
+    "C"
+   ],
+   "trace": {
+    "tr": "İz miktarda yumurta, hardal, soya, Antep fıstığı, fındık, badem ve susam içerebilir.",
+    "en": "May contain traces of egg, mustard, soy, pistachio, hazelnut, almond and sesame.",
+    "ar": "قد يحتوي على آثار من البيض والخردل والصويا والفستق والبندق واللوز والسمسم."
+   },
+   "note": null
+  }
+ },
  "sections": [
   {
    "id": "kahvalti",
@@ -143,9 +213,9 @@
         "ar": "فطور مشكّل (للشخص)"
        },
        "ing": {
-        "tr": "Sahanda yumurta, menemen, kalem böreği, patates tabağı, söğüş tabağı, beyaz peynir, taze kaşar, çeçil peyniri, burgu peynir, lor peyniri, jambon, kaymak, tereyağı, siyah–yeşil zeytin, zeytin salatası, acuka, bal, Nutella, reçel",
-        "en": "Fried eggs, menemen, cheese rolls, potato plate, sliced tomato & cucumber, white cheese, fresh kashar, chechil cheese, braided cheese, curd cheese, ham, clotted cream, butter, black & green olives, olive salad, acuka, honey, Nutella, jam",
-        "ar": "بيض مقلي، منمن، لفائف جبنة، طبق بطاطس، شرائح طماطم وخيار، جبنة بيضاء، قشقوان طازج، جبنة شيشيل، جبنة مضفورة، جبنة لور، جامبون، قشطة، زبدة، زيتون أسود وأخضر، سلطة زيتون، أجوكا، عسل، نوتيلا، مربى"
+        "tr": "Sahanda yumurta, menemen, kalem böreği, patates tabağı, söğüş tabağı, beyaz peynir, taze kaşar, çeçil peyniri, burgu peynir, lor peyniri, jambon, kaymak, tereyağı, siyah–yeşil zeytin, zeytin salatası, acuka, bal, Nutella, reçel, sınırsız ekmek sepeti, sınırsız çay",
+        "en": "Fried eggs, menemen, cheese rolls, potato plate, sliced tomato & cucumber, white cheese, fresh kashar, chechil cheese, braided cheese, curd cheese, ham, clotted cream, butter, black & green olives, olive salad, acuka, honey, Nutella, jam, unlimited bread basket, unlimited tea",
+        "ar": "بيض مقلي، منمن، لفائف جبنة، طبق بطاطس، شرائح طماطم وخيار، جبنة بيضاء، قشقوان طازج، جبنة شيشيل، جبنة مضفورة، جبنة لور، جامبون، قشطة، زبدة، زيتون أسود وأخضر، سلطة زيتون، أجوكا، عسل، نوتيلا، مربى، سلة خبز غير محدودة، شاي غير محدود"
        },
        "p": 995,
        "a": [
@@ -158,6 +228,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 1250,
        "nut": {
         "kcal": 1250,
@@ -192,9 +263,9 @@
         "ar": "أومليت سادة"
        },
        "ing": {
-        "tr": "Yumurta, tereyağı, tuz",
-        "en": "Egg, butter, salt",
-        "ar": "بيض، زبدة، ملح"
+        "tr": "Yumurta, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, butter, salt, sunflower oil",
+        "ar": "بيض، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 405,
        "a": [
@@ -205,6 +276,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 330,
        "nut": {
         "kcal": 330,
@@ -228,9 +300,9 @@
         "ar": "أومليت بالجبنة"
        },
        "ing": {
-        "tr": "Yumurta, beyaz peynir, tereyağı, tuz",
-        "en": "Egg, white cheese, butter, salt",
-        "ar": "بيض، جبنة بيضاء، زبدة، ملح"
+        "tr": "Yumurta, beyaz peynir, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, white cheese, butter, salt, sunflower oil",
+        "ar": "بيض، جبنة بيضاء، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 435,
        "a": [
@@ -241,6 +313,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 420,
        "nut": {
         "kcal": 420,
@@ -264,9 +337,9 @@
         "ar": "أومليت بالقشقوان"
        },
        "ing": {
-        "tr": "Yumurta, kaşar peyniri, tereyağı, tuz",
-        "en": "Egg, kashar cheese, butter, salt",
-        "ar": "بيض، قشقوان، زبدة، ملح"
+        "tr": "Yumurta, kaşar peyniri, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, kashar cheese, butter, salt, sunflower oil",
+        "ar": "بيض، قشقوان، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 435,
        "a": [
@@ -277,6 +350,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 430,
        "nut": {
         "kcal": 430,
@@ -300,9 +374,9 @@
         "ar": "أومليت مشكّل"
        },
        "ing": {
-        "tr": "Yumurta, kaşar peyniri, sucuk, sosis, biber, tereyağı, tuz",
-        "en": "Egg, kashar cheese, sucuk, sausage, pepper, butter, salt",
-        "ar": "بيض، قشقوان، سجق، نقانق، فلفل، زبدة، ملح"
+        "tr": "Yumurta, kaşar peyniri, sucuk, sosis, biber, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, kashar cheese, sucuk, sausage, pepper, butter, salt, sunflower oil",
+        "ar": "بيض، قشقوان، سجق، نقانق، فلفل، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 460,
        "a": [
@@ -313,6 +387,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 540,
        "nut": {
         "kcal": 540,
@@ -347,9 +422,9 @@
         "ar": "بيض باللحم المحمّر"
        },
        "ing": {
-        "tr": "Yumurta, et kavurma, tereyağı, tuz",
-        "en": "Egg, roasted meat, butter, salt",
-        "ar": "بيض، لحم محمّر، زبدة، ملح"
+        "tr": "Yumurta, et kavurma, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, roasted meat, butter, salt, sunflower oil",
+        "ar": "بيض، لحم محمّر، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 475,
        "a": [
@@ -360,6 +435,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 480,
        "nut": {
         "kcal": 480,
@@ -383,9 +459,9 @@
         "ar": "بيض بالسجق"
        },
        "ing": {
-        "tr": "Yumurta, sucuk, tereyağı, tuz",
-        "en": "Egg, sucuk, butter, salt",
-        "ar": "بيض، سجق، زبدة، ملح"
+        "tr": "Yumurta, sucuk, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, sucuk, butter, salt, sunflower oil",
+        "ar": "بيض، سجق، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 435,
        "a": [
@@ -396,6 +472,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 450,
        "nut": {
         "kcal": 450,
@@ -419,9 +496,9 @@
         "ar": "بيض مقلي"
        },
        "ing": {
-        "tr": "Yumurta, tereyağı, tuz",
-        "en": "Egg, butter, salt",
-        "ar": "بيض، زبدة، ملح"
+        "tr": "Yumurta, tereyağı, tuz, ayçiçek yağı",
+        "en": "Egg, butter, salt, sunflower oil",
+        "ar": "بيض، زبدة، ملح، زيت عبّاد الشمس"
        },
        "p": 380,
        "a": [
@@ -432,6 +509,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 300,
        "nut": {
         "kcal": 300,
@@ -455,9 +533,9 @@
         "ar": "سجق مقلي"
        },
        "ing": {
-        "tr": "Sucuk, tereyağı",
-        "en": "Sucuk, butter",
-        "ar": "سجق، زبدة"
+        "tr": "Sucuk, tereyağı, ayçiçek yağı",
+        "en": "Sucuk, butter, sunflower oil",
+        "ar": "سجق، زبدة، زيت عبّاد الشمس"
        },
        "p": 395,
        "a": [
@@ -467,6 +545,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 380,
        "nut": {
         "kcal": 380,
@@ -490,9 +569,9 @@
         "ar": "منمن"
        },
        "ing": {
-        "tr": "Yumurta, domates, sivri biber, tereyağı, tuz, karabiber",
-        "en": "Egg, tomato, green pepper, butter, salt, black pepper",
-        "ar": "بيض، طماطم، فلفل أخضر، زبدة، ملح، فلفل أسود"
+        "tr": "Yumurta, domates, sivri biber, tereyağı, tuz, karabiber, ayçiçek yağı",
+        "en": "Egg, tomato, green pepper, butter, salt, black pepper, sunflower oil",
+        "ar": "بيض، طماطم، فلفل أخضر، زبدة، ملح، فلفل أسود، زيت عبّاد الشمس"
        },
        "p": 430,
        "a": [
@@ -503,6 +582,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 350,
        "nut": {
         "kcal": 350,
@@ -526,9 +606,9 @@
         "ar": "منمن بالقشقوان"
        },
        "ing": {
-        "tr": "Yumurta, domates, sivri biber, kaşar peyniri, tereyağı, tuz, karabiber",
-        "en": "Egg, tomato, green pepper, kashar cheese, butter, salt, black pepper",
-        "ar": "بيض، طماطم، فلفل أخضر، قشقوان، زبدة، ملح، فلفل أسود"
+        "tr": "Yumurta, domates, sivri biber, kaşar peyniri, tereyağı, tuz, karabiber, ayçiçek yağı",
+        "en": "Egg, tomato, green pepper, kashar cheese, butter, salt, black pepper, sunflower oil",
+        "ar": "بيض، طماطم، فلفل أخضر، قشقوان، زبدة، ملح، فلفل أسود، زيت عبّاد الشمس"
        },
        "p": 460,
        "a": [
@@ -539,6 +619,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 440,
        "nut": {
         "kcal": 440,
@@ -574,6 +655,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 520,
        "nut": {
         "kcal": 520,
@@ -599,9 +681,9 @@
       "ar": "توست"
      },
      "note": {
-      "tr": "Domates, salatalık ve patates eşliğinde",
-      "en": "Served with tomato, cucumber and fries",
-      "ar": "يُقدَّم مع طماطم وخيار وبطاطس"
+      "tr": "Domates, salatalık ve parmak patates eşliğinde",
+      "en": "Served with tomato, cucumber and french fries",
+      "ar": "يُقدَّم مع طماطم وخيار وبطاطس مقلية"
      },
      "i": [
       {
@@ -612,9 +694,9 @@
         "ar": "توست بقشقوان مضاعف"
        },
        "ing": {
-        "tr": "Tost ekmeği, çift kaşar peyniri, tereyağı; domates, salatalık, patates",
-        "en": "Toast bread, double kashar cheese, butter; tomato, cucumber, fries",
-        "ar": "خبز توست، قشقوان مضاعف، زبدة؛ طماطم، خيار، بطاطس"
+        "tr": "Tost ekmeği, çift kaşar peyniri, tereyağı; domates, salatalık, parmak patates eşliğinde",
+        "en": "Toast bread, double kashar cheese, butter; served with tomato, cucumber and french fries",
+        "ar": "خبز توست، قشقوان مضاعف، زبدة؛ يُقدَّم مع طماطم وخيار وبطاطس مقلية"
        },
        "p": 430,
        "a": [
@@ -625,6 +707,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 720,
        "nut": {
         "kcal": 720,
@@ -648,9 +731,9 @@
         "ar": "توست بالقشقوان والسجق"
        },
        "ing": {
-        "tr": "Tost ekmeği, kaşar peyniri, sucuk, tereyağı; domates, salatalık, patates",
-        "en": "Toast bread, kashar cheese, sucuk, butter; tomato, cucumber, fries",
-        "ar": "خبز توست، قشقوان، سجق، زبدة؛ طماطم، خيار، بطاطس"
+        "tr": "Tost ekmeği, kaşar peyniri, sucuk, tereyağı; domates, salatalık, parmak patates eşliğinde",
+        "en": "Toast bread, kashar cheese, sucuk, butter; served with tomato, cucumber and french fries",
+        "ar": "خبز توست، قشقوان، سجق، زبدة؛ يُقدَّم مع طماطم وخيار وبطاطس مقلية"
        },
        "p": 450,
        "a": [
@@ -661,6 +744,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 780,
        "nut": {
         "kcal": 780,
@@ -722,6 +806,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 180,
        "nut": {
         "kcal": 180,
@@ -745,9 +830,9 @@
         "ar": "أصابع دجاج كاجون"
        },
        "ing": {
-        "tr": "Cajun baharatlı çıtır tavuk parçaları, patates, sos (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu)",
-        "en": "Cajun-spiced crispy chicken strips, fries, sauce (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce)",
-        "ar": "شرائح دجاج مقرمشة بتوابل الكاجون، بطاطس، صوص (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)"
+        "tr": "180 g Cajun baharatlı çıtır tavuk parçaları, sos (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu), elma dilim patates eşliğinde",
+        "en": "180 g Cajun-spiced crispy chicken pieces, sauce (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce), served with wedge potatoes",
+        "ar": "180 غ قطع دجاج مقرمشة بتوابل الكاجون، صوص (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)، تُقدَّم مع بطاطس ودجز"
        },
        "p": 575,
        "a": [
@@ -760,13 +845,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 640,
+       "sos": [],
+       "kcal": 680,
        "nut": {
-        "kcal": 640,
-        "kj": 2678,
-        "p": 36,
-        "f": 30,
-        "c": 55
+        "kcal": 680,
+        "kj": 2845,
+        "p": 38,
+        "f": 34,
+        "c": 56
        },
        "por": null,
        "alc": 0,
@@ -783,28 +869,29 @@
         "ar": "بيغ كومبو ميكس"
        },
        "ing": {
-        "tr": "Çıtır tavuk, soğan halkası, mozzarella stick, sosis, patates, soslar",
-        "en": "Crispy chicken, onion rings, mozzarella sticks, sausage, fries, dips",
-        "ar": "دجاج مقرمش، حلقات بصل، أصابع موزاريلا، نقانق، بطاطس، صوصات"
+        "tr": "2 adet çıtır tavuk (yumurta, un, süt, Cajun baharatı, tuz, karabiber, soya sosu), 2 adet sigara böreği, 2 adet soğan halkası, 2 adet mozzarella stick, 2 adet sosis, elma dilim patates eşliğinde",
+        "en": "2 crispy chicken pieces (egg, flour, milk, Cajun spice, salt, black pepper, soy sauce), 2 cheese rolls, 2 onion rings, 2 mozzarella sticks, 2 sausages, served with wedge potatoes",
+        "ar": "قطعتا دجاج مقرمش (بيض، دقيق، حليب، توابل كاجون، ملح، فلفل أسود، صلصة صويا)، لفافتا جبنة، حلقتا بصل، أصبعا موزاريلا، قطعتا نقانق، تُقدَّم مع بطاطس ودجز"
        },
        "p": 605,
        "a": [
         "G",
-        "Y",
         "M",
-        "H"
+        "Y",
+        "S"
        ],
        "ic": "combo",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 950,
+       "sos": [],
+       "kcal": 1180,
        "nut": {
-        "kcal": 950,
-        "kj": 3975,
-        "p": 42,
-        "f": 52,
-        "c": 78
+        "kcal": 1180,
+        "kj": 4937,
+        "p": 50,
+        "f": 66,
+        "c": 92
        },
        "por": null,
        "alc": 0,
@@ -831,6 +918,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 400,
        "nut": {
         "kcal": 400,
@@ -854,9 +942,9 @@
         "ar": "بطاطس مقلية"
        },
        "ing": {
-        "tr": "Patates, tuz",
-        "en": "Potato, salt",
-        "ar": "بطاطس، ملح"
+        "tr": "Patates",
+        "en": "Potato",
+        "ar": "بطاطس"
        },
        "p": 410,
        "a": [],
@@ -864,6 +952,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 400,
        "nut": {
         "kcal": 400,
@@ -887,9 +976,9 @@
         "ar": "صندوق نقانق"
        },
        "ing": {
-        "tr": "Izgara sosis, patates",
-        "en": "Grilled sausages, fries",
-        "ar": "نقانق مشوية، بطاطس"
+        "tr": "8 adet ızgara sosis, parmak patates eşliğinde",
+        "en": "8 grilled sausages, served with french fries",
+        "ar": "8 قطع نقانق مشوية، تُقدَّم مع بطاطس مقلية"
        },
        "p": 400,
        "a": [
@@ -899,13 +988,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 620,
+       "sos": [],
+       "kcal": 900,
        "nut": {
-        "kcal": 620,
-        "kj": 2594,
-        "p": 24,
-        "f": 40,
-        "c": 40
+        "kcal": 900,
+        "kj": 3766,
+        "p": 34,
+        "f": 58,
+        "c": 56
        },
        "por": null,
        "alc": 0,
@@ -922,9 +1012,9 @@
         "ar": "حلقات بصل"
        },
        "ing": {
-        "tr": "Soğan, galeta unu",
-        "en": "Onion, breadcrumbs",
-        "ar": "بصل، بقسماط"
+        "tr": "8 adet soğan halkası (soğan, galeta unu), parmak patates eşliğinde",
+        "en": "8 onion rings (onion, breadcrumbs), served with french fries",
+        "ar": "8 حلقات بصل (بصل، بقسماط)، تُقدَّم مع بطاطس مقلية"
        },
        "p": 400,
        "a": [
@@ -935,13 +1025,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 430,
+       "sos": [],
+       "kcal": 700,
        "nut": {
-        "kcal": 430,
-        "kj": 1799,
-        "p": 6,
-        "f": 24,
-        "c": 48
+        "kcal": 700,
+        "kj": 2929,
+        "p": 9,
+        "f": 36,
+        "c": 84
        },
        "por": null,
        "alc": 0,
@@ -958,9 +1049,9 @@
         "ar": "لفائف الجبنة (سيجارة بوريك)"
        },
        "ing": {
-        "tr": "Yufka, beyaz peynir, maydanoz, tuz",
-        "en": "Yufka pastry, white cheese, parsley, salt",
-        "ar": "عجينة يوفكا، جبنة بيضاء، بقدونس، ملح"
+        "tr": "10 adet sigara böreği (yufka, beyaz peynir, maydanoz, soda, tuz), domates ve salatalık eşliğinde",
+        "en": "10 cheese rolls (yufka pastry, white cheese, parsley, sparkling water, salt), served with tomato and cucumber",
+        "ar": "10 لفائف جبنة (عجينة يوفكا، جبنة بيضاء، بقدونس، مياه غازية، ملح)، تُقدَّم مع طماطم وخيار"
        },
        "p": 400,
        "a": [
@@ -971,13 +1062,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 380,
+       "sos": [],
+       "kcal": 620,
        "nut": {
-        "kcal": 380,
-        "kj": 1590,
-        "p": 14,
-        "f": 24,
-        "c": 28
+        "kcal": 620,
+        "kj": 2594,
+        "p": 22,
+        "f": 38,
+        "c": 46
        },
        "por": null,
        "alc": 0,
@@ -1022,9 +1114,9 @@
         "ar": "سلطة الراعي"
        },
        "ing": {
-        "tr": "Domates, salatalık, soğan, biber, maydanoz, zeytinyağı",
-        "en": "Tomato, cucumber, onion, pepper, parsley, olive oil",
-        "ar": "طماطم، خيار، بصل، فلفل، بقدونس، زيت زيتون"
+        "tr": "Domates, salatalık, soğan, biber, maydanoz, zeytinyağı, limon eşliğinde",
+        "en": "Tomato, cucumber, onion, pepper, parsley, olive oil, served with lemon",
+        "ar": "طماطم، خيار، بصل، فلفل، بقدونس، زيت زيتون، تُقدَّم مع الليمون"
        },
        "p": 475,
        "a": [],
@@ -1032,6 +1124,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 160,
        "nut": {
         "kcal": 160,
@@ -1065,6 +1158,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 130,
        "nut": {
         "kcal": 130,
@@ -1100,6 +1194,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 420,
        "nut": {
         "kcal": 420,
@@ -1123,9 +1218,9 @@
         "ar": "سلطة سيزر بالدجاج"
        },
        "ing": {
-        "tr": "160 g tavuk, göbek salata, kruton ekmek, parmesan, Sezar sos (mayonez, hardal, kapari çiçeği, ançüez)",
-        "en": "160 g chicken, iceberg lettuce, croutons, parmesan, Caesar dressing (mayonnaise, mustard, capers, anchovy)",
-        "ar": "160 غ دجاج، خس، خبز محمّص، بارميزان، صوص سيزر (مايونيز، خردل، كبر، أنشوجة)"
+        "tr": "160 g tavuk (zeytinyağı, taze kekik, tatlı kırmızı toz biber ile marine edilmiş), göbek salata, kruton ekmek, parmesan, Sezar sos (mayonez, hardal, kapari çiçeği, ançüez)",
+        "en": "160 g chicken (marinated in olive oil, fresh thyme and sweet paprika), iceberg lettuce, croutons, parmesan, Caesar dressing (mayonnaise, mustard, capers, anchovy)",
+        "ar": "160 غ دجاج (متبّل بزيت الزيتون والزعتر الطازج والفلفل الأحمر الحلو)، خس، خبز محمّص، بارميزان، صوص سيزر (مايونيز، خردل، كبر، أنشوجة)"
        },
        "p": 560,
        "a": [
@@ -1139,6 +1234,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 540,
        "nut": {
         "kcal": 540,
@@ -1162,25 +1258,30 @@
         "ar": "سلطة دجاج كاجون"
        },
        "ing": {
-        "tr": "160 g Cajun tavuk, taze yeşillikler, ballı hardal sos",
-        "en": "160 g Cajun chicken, fresh greens, honey mustard dressing",
-        "ar": "160 غ دجاج كاجون، خضار ورقية طازجة، صوص عسل وخردل"
+        "tr": "160 g Cajun tavuk (yumurta, süt, un, pane, galeta unu, soya sosu, Cajun baharatı, tuz), taze yeşillikler, ballı hardal sos",
+        "en": "160 g Cajun chicken (egg, milk, flour, breading, breadcrumbs, soy sauce, Cajun spice, salt), fresh greens, honey mustard dressing",
+        "ar": "160 غ دجاج كاجون (بيض، حليب، دقيق، خلطة تغليف، بقسماط، صلصة صويا، توابل كاجون، ملح)، خضار ورقية طازجة، صوص عسل وخردل"
        },
        "p": 560,
        "a": [
+        "G",
+        "M",
+        "Y",
+        "S",
         "H"
        ],
        "ic": "salad",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 430,
+       "sos": [],
+       "kcal": 560,
        "nut": {
-        "kcal": 430,
-        "kj": 1799,
-        "p": 38,
-        "f": 22,
-        "c": 18
+        "kcal": 560,
+        "kj": 2343,
+        "p": 40,
+        "f": 30,
+        "c": 34
        },
        "por": null,
        "alc": 0,
@@ -1208,9 +1309,9 @@
         "ar": "سباغيتي بولونيز"
        },
        "ing": {
-        "tr": "200 g spagetti, dana kıyma, domates sos (salça, domates, karabiber, tuz), fesleğenli pesto sos, parmesan",
-        "en": "200 g spaghetti, minced beef, tomato sauce (tomato paste, tomato, black pepper, salt), basil pesto, parmesan",
-        "ar": "200 غ سباغيتي، لحم بقري مفروم، صلصة طماطم (معجون طماطم، طماطم، فلفل أسود، ملح)، بيستو الريحان، بارميزان"
+        "tr": "200 g spagetti, dana kıyma, domates sos (domates, salça, tuz, karabiber), fesleğenli pesto sos, parmesan, ayçiçek yağı",
+        "en": "200 g spaghetti, minced beef, tomato sauce (tomato, tomato paste, salt, black pepper), basil pesto, parmesan, sunflower oil",
+        "ar": "200 غ سباغيتي، لحم بقري مفروم، صلصة طماطم (طماطم، معجون طماطم، ملح، فلفل أسود)، بيستو الريحان، بارميزان، زيت عبّاد الشمس"
        },
        "p": 665,
        "a": [
@@ -1222,6 +1323,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 880,
        "nut": {
         "kcal": 880,
@@ -1245,9 +1347,9 @@
         "ar": "ماك آند تشيز"
        },
        "ing": {
-        "tr": "200 g makarna, cheddar, kaşar, krema, tereyağı",
-        "en": "200 g macaroni, cheddar, kashar cheese, cream, butter",
-        "ar": "200 غ معكرونة، شيدر، قشقوان، كريمة، زبدة"
+        "tr": "200 g makarna, cheddar, kaşar, krema, tereyağı, ayçiçek yağı",
+        "en": "200 g macaroni, cheddar, kashar cheese, cream, butter, sunflower oil",
+        "ar": "200 غ معكرونة، شيدر، قشقوان، كريمة، زبدة، زيت عبّاد الشمس"
        },
        "p": 665,
        "a": [
@@ -1258,6 +1360,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 900,
        "nut": {
         "kcal": 900,
@@ -1281,9 +1384,9 @@
         "ar": "بيني أرابياتا"
        },
        "ing": {
-        "tr": "200 g penne, domates sos (salça, domates, karabiber, tuz), fesleğenli pesto sos, pul biber, siyah zeytin, zeytinyağı",
-        "en": "200 g penne, tomato sauce (tomato paste, tomato, black pepper, salt), basil pesto, chilli flakes, black olives, olive oil",
-        "ar": "200 غ بيني، صلصة طماطم (معجون طماطم، طماطم، فلفل أسود، ملح)، بيستو الريحان، رقائق فلفل حار، زيتون أسود، زيت زيتون"
+        "tr": "200 g penne, domates sos (domates, salça, tuz, karabiber), fesleğenli pesto sos, acı sos, pul biber, siyah zeytin, zeytinyağı, ayçiçek yağı",
+        "en": "200 g penne, tomato sauce (tomato, tomato paste, salt, black pepper), basil pesto, hot sauce, chilli flakes, black olives, olive oil, sunflower oil",
+        "ar": "200 غ بيني، صلصة طماطم (طماطم، معجون طماطم، ملح، فلفل أسود)، بيستو الريحان، صوص حار، رقائق فلفل حار، زيتون أسود، زيت زيتون، زيت عبّاد الشمس"
        },
        "p": 635,
        "a": [
@@ -1295,6 +1398,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 780,
        "nut": {
         "kcal": 780,
@@ -1318,9 +1422,9 @@
         "ar": "فيتوتشيني ألفريدو"
        },
        "ing": {
-        "tr": "200 g fettuccine, 80 g tavuk, krema, parmesan, tereyağı, mantar, tuz, karabiber",
-        "en": "200 g fettuccine, 80 g chicken, cream, parmesan, butter, mushroom, salt, black pepper",
-        "ar": "200 غ فيتوتشيني، 80 غ دجاج، كريمة، بارميزان، زبدة، فطر، ملح، فلفل أسود"
+        "tr": "200 g fettuccine, 80 g tavuk, krema, parmesan, tereyağı, mantar, tuz, karabiber, ayçiçek yağı",
+        "en": "200 g fettuccine, 80 g chicken, cream, parmesan, butter, mushroom, salt, black pepper, sunflower oil",
+        "ar": "200 غ فيتوتشيني، 80 غ دجاج، كريمة، بارميزان، زبدة، فطر، ملح، فلفل أسود، زيت عبّاد الشمس"
        },
        "p": 650,
        "a": [
@@ -1332,6 +1436,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 960,
        "nut": {
         "kcal": 960,
@@ -1355,9 +1460,9 @@
         "ar": "نودلز بالخضار"
        },
        "ing": {
-        "tr": "200 g noodle, renkli biber, havuç, soya filizi, soya sos, susam yağı, susam",
-        "en": "200 g noodles, bell peppers, carrot, bean sprouts, soy sauce, sesame oil, sesame",
-        "ar": "200 غ نودلز، فلفل ملوّن، جزر، براعم الصويا، صلصة صويا، زيت سمسم، سمسم"
+        "tr": "200 g noodle, renkli biber, havuç, kabak, soya filizi, soya sos, susam yağı, susam, ayçiçek yağı",
+        "en": "200 g noodles, bell peppers, carrot, courgette, bean sprouts, soy sauce, sesame oil, sesame, sunflower oil",
+        "ar": "200 غ نودلز، فلفل ملوّن، جزر، كوسا، براعم الصويا، صلصة صويا، زيت سمسم، سمسم، زيت عبّاد الشمس"
        },
        "p": 635,
        "a": [
@@ -1370,6 +1475,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 620,
        "nut": {
         "kcal": 620,
@@ -1393,9 +1499,9 @@
         "ar": "نودلز بالدجاج"
        },
        "ing": {
-        "tr": "200 g noodle, 80 g tavuk, renkli biber, havuç, soya filizi, soya sos, susam yağı, susam",
-        "en": "200 g noodles, 80 g chicken, bell peppers, carrot, bean sprouts, soy sauce, sesame oil, sesame",
-        "ar": "200 غ نودلز، 80 غ دجاج، فلفل ملوّن، جزر، براعم الصويا، صلصة صويا، زيت سمسم، سمسم"
+        "tr": "200 g noodle, 80 g tavuk, renkli biber, havuç, kabak, soya filizi, soya sos, susam yağı, susam, ayçiçek yağı",
+        "en": "200 g noodles, 80 g chicken, bell peppers, carrot, courgette, bean sprouts, soy sauce, sesame oil, sesame, sunflower oil",
+        "ar": "200 غ نودلز، 80 غ دجاج، فلفل ملوّن، جزر، كوسا، براعم الصويا، صلصة صويا، زيت سمسم، سمسم، زيت عبّاد الشمس"
        },
        "p": 650,
        "a": [
@@ -1408,6 +1514,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 730,
        "nut": {
         "kcal": 730,
@@ -1437,9 +1544,9 @@
     "ar": "برجر ولفائف"
    },
    "sub": {
-    "tr": "Patates eşliğinde",
-    "en": "Served with fries",
-    "ar": "تُقدَّم مع البطاطس"
+    "tr": "Patates ve Sweet Chili sos eşliğinde",
+    "en": "Served with fries and sweet chilli sauce",
+    "ar": "تُقدَّم مع البطاطس وصوص سويت تشيلي"
    },
    "g": [
     {
@@ -1459,9 +1566,9 @@
         "ar": "برجر كوله إسطنبول"
        },
        "ing": {
-        "tr": "180 g burger köftesi, kıvırcık, domates, turşu, mantar sos (mantar, krema, tuz, karabiber), patates",
-        "en": "180 g beef patty, lettuce, tomato, pickles, mushroom sauce (mushroom, cream, salt, black pepper), fries",
-        "ar": "180 غ لحم برجر، خس، طماطم، مخلل، صوص فطر (فطر، كريمة، ملح، فلفل أسود)، بطاطس"
+        "tr": "180 g burger köftesi, kıvırcık, domates, turşu, mantar sos (mantar, krema, tuz, karabiber), hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "180 g beef patty, lettuce, tomato, pickles, mushroom sauce (mushroom, cream, salt, black pepper), burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "180 غ لحم برجر، خس، طماطم، مخلل، صوص فطر (فطر، كريمة، ملح، فلفل أسود)، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 820,
        "a": [
@@ -1474,13 +1581,16 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 1060,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1130,
        "nut": {
-        "kcal": 1060,
-        "kj": 4435,
-        "p": 48,
-        "f": 56,
-        "c": 88
+        "kcal": 1130,
+        "kj": 4728,
+        "p": 49,
+        "f": 63,
+        "c": 90
        },
        "por": null,
        "alc": 0,
@@ -1497,27 +1607,31 @@
         "ar": "تشيز برجر"
        },
        "ing": {
-        "tr": "180 g burger köftesi, kıvırcık, domates, turşu, cheddar peyniri, patates",
-        "en": "180 g beef patty, lettuce, tomato, pickles, cheddar, fries",
-        "ar": "180 غ لحم برجر، خس، طماطم، مخلل، جبنة شيدر، بطاطس"
+        "tr": "180 g burger köftesi, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "180 g beef patty, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "180 غ لحم برجر، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 815,
        "a": [
         "G",
         "M",
+        "Y",
         "SS"
        ],
        "ic": "burger",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 1080,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1150,
        "nut": {
-        "kcal": 1080,
-        "kj": 4519,
-        "p": 50,
-        "f": 58,
-        "c": 86
+        "kcal": 1150,
+        "kj": 4812,
+        "p": 51,
+        "f": 65,
+        "c": 88
        },
        "por": null,
        "alc": 0,
@@ -1534,27 +1648,31 @@
         "ar": "جامبو تشيز برجر"
        },
        "ing": {
-        "tr": "360 g burger köftesi, kıvırcık, domates, turşu, cheddar peyniri, patates",
-        "en": "360 g beef patty, lettuce, tomato, pickles, cheddar, fries",
-        "ar": "360 غ لحم برجر، خس، طماطم، مخلل، جبنة شيدر، بطاطس"
+        "tr": "360 g burger köftesi, kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "360 g beef patty, lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "360 غ لحم برجر، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 925,
        "a": [
         "G",
         "M",
+        "Y",
         "SS"
        ],
        "ic": "burger",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 1450,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1520,
        "nut": {
-        "kcal": 1450,
-        "kj": 6067,
-        "p": 82,
-        "f": 84,
-        "c": 88
+        "kcal": 1520,
+        "kj": 6360,
+        "p": 83,
+        "f": 91,
+        "c": 90
        },
        "por": null,
        "alc": 0,
@@ -1571,9 +1689,9 @@
         "ar": "برجر دجاج"
        },
        "ing": {
-        "tr": "180 g özel soslu tavuk (yumurta, un, süt, soya sosu, tuz, karabiber, Cajun baharatı), kıvırcık, domates, turşu, cheddar peyniri, patates",
-        "en": "180 g chicken in special sauce (egg, flour, milk, soy sauce, salt, black pepper, Cajun spice), lettuce, tomato, pickles, cheddar, fries",
-        "ar": "180 غ دجاج بصوص خاص (بيض، دقيق، حليب، صلصة صويا، ملح، فلفل أسود، توابل كاجون)، خس، طماطم، مخلل، جبنة شيدر، بطاطس"
+        "tr": "180 g özel soslu tavuk (yumurta, un, süt, panko, galeta unu, pane, soya sosu, tuz, karabiber, Cajun baharatı), kıvırcık, domates, turşu, cheddar peyniri, hamburger sosu (mayonez, Sweet Chili sos, az acı, tuz, pul biber), patates ve Sweet Chili sos eşliğinde",
+        "en": "180 g chicken in special coating (egg, flour, milk, panko, breadcrumbs, breading, soy sauce, salt, black pepper, Cajun spice), lettuce, tomato, pickles, cheddar, burger sauce (mayonnaise, sweet chilli sauce, mild chilli, salt, chilli flakes), served with fries and sweet chilli sauce",
+        "ar": "180 غ دجاج بخلطة خاصة (بيض، دقيق، حليب، بانكو، بقسماط، خلطة تغليف، صلصة صويا، ملح، فلفل أسود، توابل كاجون)، خس، طماطم، مخلل، جبنة شيدر، صوص البرجر (مايونيز، صوص سويت تشيلي، فلفل خفيف، ملح، رقائق فلفل)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 745,
        "a": [
@@ -1587,13 +1705,16 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 1000,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1090,
        "nut": {
-        "kcal": 1000,
-        "kj": 4184,
-        "p": 46,
-        "f": 50,
-        "c": 90
+        "kcal": 1090,
+        "kj": 4561,
+        "p": 48,
+        "f": 58,
+        "c": 94
        },
        "por": null,
        "alc": 0,
@@ -1621,27 +1742,31 @@
         "ar": "لفافة لحم"
        },
        "ing": {
-        "tr": "170 g jülyen et, soğan, renkli biberler, özel sos, patates",
-        "en": "170 g julienne beef, onion, bell peppers, special sauce, fries",
-        "ar": "170 غ لحم شرائح، بصل، فلفل ملوّن، صوص خاص، بطاطس"
+        "tr": "170 g jülyen et, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g julienne beef, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ لحم شرائح، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 810,
        "a": [
         "G",
         "M",
-        "Y"
+        "Y",
+        "S"
        ],
        "ic": "wrap",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 900,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1000,
        "nut": {
-        "kcal": 900,
-        "kj": 3766,
-        "p": 42,
-        "f": 42,
-        "c": 86
+        "kcal": 1000,
+        "kj": 4184,
+        "p": 48,
+        "f": 50,
+        "c": 88
        },
        "por": null,
        "alc": 0,
@@ -1658,25 +1783,30 @@
         "ar": "لفافة دجاج"
        },
        "ing": {
-        "tr": "170 g jülyen tavuk, soğan, renkli biberler, Sweet Chili sos, patates",
-        "en": "170 g julienne chicken, onion, bell peppers, sweet chilli sauce, fries",
-        "ar": "170 غ دجاج شرائح، بصل، فلفل ملوّن، صوص سويت تشيلي، بطاطس"
+        "tr": "170 g jülyen tavuk, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g julienne chicken, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ دجاج شرائح، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 730,
        "a": [
-        "G"
+        "G",
+        "M",
+        "S"
        ],
        "ic": "wrap",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 830,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 930,
        "nut": {
-        "kcal": 830,
-        "kj": 3473,
-        "p": 40,
-        "f": 34,
-        "c": 90
+        "kcal": 930,
+        "kj": 3891,
+        "p": 46,
+        "f": 42,
+        "c": 92
        },
        "por": null,
        "alc": 0,
@@ -1693,9 +1823,9 @@
         "ar": "لفافة كفتة بالقشقوان"
        },
        "ing": {
-        "tr": "170 g köfte, soğan, renkli biberler, kaşar peyniri, soya sosu, patates",
-        "en": "170 g meatballs, onion, bell peppers, kashar cheese, soy sauce, fries",
-        "ar": "170 غ كفتة، بصل، فلفل ملوّن، قشقوان، صلصة صويا، بطاطس"
+        "tr": "170 g köfte, soğan, renkli biberler, kaşar peyniri, özel sos (soya sosu, Cajun baharatı), patates ve Sweet Chili sos eşliğinde",
+        "en": "170 g meatballs, onion, bell peppers, kashar cheese, special sauce (soy sauce, Cajun spice), served with fries and sweet chilli sauce",
+        "ar": "170 غ كفتة، بصل، فلفل ملوّن، قشقوان، صوص خاص (صلصة صويا، توابل كاجون)، تُقدَّم مع البطاطس وصوص سويت تشيلي"
        },
        "p": 765,
        "a": [
@@ -1707,13 +1837,16 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 950,
+       "sos": [
+        "sweetchili"
+       ],
+       "kcal": 1010,
        "nut": {
-        "kcal": 950,
-        "kj": 3975,
-        "p": 46,
-        "f": 46,
-        "c": 86
+        "kcal": 1010,
+        "kj": 4226,
+        "p": 48,
+        "f": 51,
+        "c": 88
        },
        "por": null,
        "alc": 0,
@@ -1758,9 +1891,9 @@
         "ar": "كفتة مشوية على طريقة الأم"
        },
        "ing": {
-        "tr": "180 g anne köfte, közlenmiş biber & domates, pilav ve patates",
-        "en": "180 g homestyle meatballs, roasted pepper & tomato, rice and fries",
-        "ar": "180 غ كفتة بيتية، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "180 g anne köfte, lavaş, közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "180 g homestyle meatballs, lavash, served with roasted pepper & tomato, rice and fries",
+        "ar": "180 غ كفتة بيتية، خبز لافاش، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 840,
        "a": [
@@ -1770,13 +1903,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 820,
+       "sos": [],
+       "kcal": 900,
        "nut": {
-        "kcal": 820,
-        "kj": 3431,
-        "p": 44,
-        "f": 42,
-        "c": 66
+        "kcal": 900,
+        "kj": 3766,
+        "p": 47,
+        "f": 44,
+        "c": 80
        },
        "por": null,
        "alc": 0,
@@ -1793,9 +1927,9 @@
         "ar": "كباب كوله إسطنبول"
        },
        "ing": {
-        "tr": "180 g özel soslu köfte, süzme yoğurt, közlenmiş biber & domates, patates",
-        "en": "180 g meatballs in special sauce, strained yoghurt, roasted pepper & tomato, fries",
-        "ar": "180 غ كفتة بصوص خاص، لبن مصفّى، فلفل وطماطم مشوية، بطاطس"
+        "tr": "180 g köfte, domates sos (domates, salça, tuz, karabiber), süzme yoğurt, közlenmiş biber & domates, patates eşliğinde",
+        "en": "180 g meatballs, tomato sauce (tomato, tomato paste, salt, black pepper), strained yoghurt, roasted pepper & tomato, served with fries",
+        "ar": "180 غ كفتة، صلصة طماطم (طماطم، معجون طماطم، ملح، فلفل أسود)، لبن مصفّى، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
        },
        "p": 870,
        "a": [
@@ -1806,6 +1940,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 800,
        "nut": {
         "kcal": 800,
@@ -1829,9 +1964,9 @@
         "ar": "كفتة مع بيغندي الباذنجان"
        },
        "ing": {
-        "tr": "180 g köfte, patlıcan beğendi, közlenmiş biber & domates, patates",
-        "en": "180 g meatballs, smoked aubergine purée, roasted pepper & tomato, fries",
-        "ar": "180 غ كفتة، بيغندي باذنجان مدخّن، فلفل وطماطم مشوية، بطاطس"
+        "tr": "180 g köfte, patlıcan beğendi (süt, kaşar peyniri, tuz, karabiber), közlenmiş biber & domates, patates eşliğinde",
+        "en": "180 g meatballs, smoked aubergine purée (milk, kashar cheese, salt, black pepper), roasted pepper & tomato, served with fries",
+        "ar": "180 غ كفتة، بيغندي باذنجان (حليب، قشقوان، ملح، فلفل أسود)، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
        },
        "p": 870,
        "a": [
@@ -1842,6 +1977,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 790,
        "nut": {
         "kcal": 790,
@@ -1876,9 +2012,9 @@
         "ar": "دجاج كوله بصوص القشطة"
        },
        "ing": {
-        "tr": "180 g tavuk, süzme yoğurt, çıtır yufka, közlenmiş biber & domates, özel kaymak sos (kaymak, tereyağı, barbekü sos), patates",
-        "en": "180 g chicken, strained yoghurt, crispy yufka, roasted pepper & tomato, special cream sauce (clotted cream, butter, BBQ sauce), fries",
-        "ar": "180 غ دجاج، لبن مصفّى، يوفكا مقرمشة، فلفل وطماطم مشوية، صوص قشطة خاص (قشطة، زبدة، صوص باربكيو)، بطاطس"
+        "tr": "180 g tavuk, süzme yoğurt, çıtır yufka, közlenmiş biber & domates, özel kaymak sos (kaymak, tereyağı, barbekü sos), pilav eşliğinde",
+        "en": "180 g chicken, strained yoghurt, crispy yufka, roasted pepper & tomato, special cream sauce (clotted cream, butter, BBQ sauce), served with rice",
+        "ar": "180 غ دجاج، لبن مصفّى، يوفكا مقرمشة، فلفل وطماطم مشوية، صوص قشطة خاص (قشطة، زبدة، صوص باربكيو)، تُقدَّم مع الأرز"
        },
        "p": 840,
        "a": [
@@ -1889,13 +2025,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 860,
+       "sos": [],
+       "kcal": 880,
        "nut": {
-        "kcal": 860,
-        "kj": 3598,
-        "p": 50,
-        "f": 44,
-        "c": 62
+        "kcal": 880,
+        "kj": 3682,
+        "p": 51,
+        "f": 45,
+        "c": 66
        },
        "por": null,
        "alc": 0,
@@ -1912,9 +2049,9 @@
         "ar": "دجاج بصوص الكاري"
        },
        "ing": {
-        "tr": "180 g tavuk, renkli biberler, mantar, köri sos, pilav ve patates",
-        "en": "180 g chicken, bell peppers, mushroom, curry sauce, rice and fries",
-        "ar": "180 غ دجاج، فلفل ملوّن، فطر، صوص كاري، أرز وبطاطس"
+        "tr": "180 g tavuk, renkli biberler, mantar, köri sos, krema, tuz, karabiber, pilav ve patates eşliğinde",
+        "en": "180 g chicken, bell peppers, mushroom, curry sauce, cream, salt, black pepper, served with rice and fries",
+        "ar": "180 غ دجاج، فلفل ملوّن، فطر، صوص كاري، كريمة، ملح، فلفل أسود، تُقدَّم مع الأرز والبطاطس"
        },
        "p": 790,
        "a": [
@@ -1924,12 +2061,13 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 780,
+       "sos": [],
+       "kcal": 830,
        "nut": {
-        "kcal": 780,
-        "kj": 3264,
-        "p": 48,
-        "f": 34,
+        "kcal": 830,
+        "kj": 3473,
+        "p": 49,
+        "f": 40,
         "c": 66
        },
        "por": null,
@@ -1947,23 +2085,26 @@
         "ar": "دجاج بصوص الباربكيو"
        },
        "ing": {
-        "tr": "180 g tavuk, BBQ sos, renkli biberler, mantar, pilav ve patates",
-        "en": "180 g chicken, BBQ sauce, bell peppers, mushroom, rice and fries",
-        "ar": "180 غ دجاج، صوص باربكيو، فلفل ملوّن، فطر، أرز وبطاطس"
+        "tr": "180 g tavuk, barbekü sos (barbekü, krema, tuz, karabiber), renkli biberler, mantar, krema, tuz, karabiber, pilav ve patates eşliğinde",
+        "en": "180 g chicken, BBQ sauce (BBQ, cream, salt, black pepper), bell peppers, mushroom, cream, salt, black pepper, served with rice and fries",
+        "ar": "180 غ دجاج، صوص باربكيو (باربكيو، كريمة، ملح، فلفل أسود)، فلفل ملوّن، فطر، كريمة، ملح، فلفل أسود، تُقدَّم مع الأرز والبطاطس"
        },
        "p": 790,
-       "a": [],
+       "a": [
+        "M"
+       ],
        "ic": "chicken",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 760,
+       "sos": [],
+       "kcal": 820,
        "nut": {
-        "kcal": 760,
-        "kj": 3180,
-        "p": 48,
-        "f": 30,
-        "c": 70
+        "kcal": 820,
+        "kj": 3431,
+        "p": 49,
+        "f": 36,
+        "c": 72
        },
        "por": null,
        "alc": 0,
@@ -1980,9 +2121,9 @@
         "ar": "دجاج سوتيه"
        },
        "ing": {
-        "tr": "180 g tavuk, renkli biberler, soğan, domates, sarımsak, pilav ve patates",
-        "en": "180 g chicken, bell peppers, onion, tomato, garlic, rice and fries",
-        "ar": "180 غ دجاج، فلفل ملوّن، بصل، طماطم، ثوم، أرز وبطاطس"
+        "tr": "180 g tavuk, renkli biberler, soğan, domates, sarımsak, tuz, karabiber, pilav ve patates eşliğinde",
+        "en": "180 g chicken, bell peppers, onion, tomato, garlic, salt, black pepper, served with rice and fries",
+        "ar": "180 غ دجاج، فلفل ملوّن، بصل، طماطم، ثوم، ملح، فلفل أسود، تُقدَّم مع الأرز والبطاطس"
        },
        "p": 790,
        "a": [],
@@ -1990,6 +2131,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 700,
        "nut": {
         "kcal": 700,
@@ -2013,9 +2155,9 @@
         "ar": "دجاج مشوي متبّل"
        },
        "ing": {
-        "tr": "180 g tavuk but, közlenmiş biber & domates, pilav ve patates",
-        "en": "180 g chicken thigh, roasted pepper & tomato, rice and fries",
-        "ar": "180 غ فخذ دجاج، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "180 g tavuk but (taze kekik, kırmızı tatlı toz biber, pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "180 g chicken thigh (marinated in fresh thyme, sweet paprika and chilli flakes), served with roasted pepper & tomato, rice and fries",
+        "ar": "180 غ فخذ دجاج (متبّل بالزعتر الطازج والفلفل الأحمر الحلو ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 805,
        "a": [],
@@ -2023,6 +2165,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 720,
        "nut": {
         "kcal": 720,
@@ -2046,9 +2189,9 @@
         "ar": "كولباستي دجاج"
        },
        "ing": {
-        "tr": "180 g marine edilmiş tavuk göğsü, patlıcan beğendi, közlenmiş biber & domates, patates",
-        "en": "180 g marinated chicken breast, smoked aubergine purée, roasted pepper & tomato, fries",
-        "ar": "180 غ صدر دجاج متبّل، بيغندي باذنجان، فلفل وطماطم مشوية، بطاطس"
+        "tr": "180 g marine edilmiş tavuk göğsü (taze kekik, kırmızı tatlı toz biber, pul biber), patlıcan beğendi (süt, kaşar peyniri, tuz, karabiber), közlenmiş biber & domates, patates eşliğinde",
+        "en": "180 g marinated chicken breast (fresh thyme, sweet paprika, chilli flakes), smoked aubergine purée (milk, kashar cheese, salt, black pepper), roasted pepper & tomato, served with fries",
+        "ar": "180 غ صدر دجاج متبّل (زعتر طازج، فلفل أحمر حلو، رقائق فلفل)، بيغندي باذنجان (حليب، قشقوان، ملح، فلفل أسود)، فلفل وطماطم مشوية، تُقدَّم مع البطاطس"
        },
        "p": 820,
        "a": [
@@ -2058,6 +2201,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 620,
        "nut": {
         "kcal": 620,
@@ -2092,9 +2236,9 @@
         "ar": "شنيتزل دجاج"
        },
        "ing": {
-        "tr": "200 g panelenmiş tavuk, schnitzel sosu (galeta unu, pane, yumurta, un, soya sosu, tuz, Cajun baharatı), mini salata, patates",
-        "en": "200 g breaded chicken, schnitzel coating (breadcrumbs, breading, egg, flour, soy sauce, salt, Cajun spice), side salad, fries",
-        "ar": "200 غ دجاج مقرمش بالبقسماط، خلطة الشنيتزل (بقسماط، خلطة تغليف، بيض، دقيق، صلصة صويا، ملح، توابل كاجون)، سلطة صغيرة، بطاطس"
+        "tr": "180 g panelenmiş tavuk (pane, galeta unu), schnitzel sosu (galeta unu, pane, yumurta, un, soya sosu, tuz, Cajun baharatı), mini salata, patates eşliğinde",
+        "en": "180 g breaded chicken (breading, breadcrumbs), schnitzel coating (breadcrumbs, breading, egg, flour, soy sauce, salt, Cajun spice), side salad, served with fries",
+        "ar": "180 غ دجاج مغلّف (خلطة تغليف، بقسماط)، خلطة الشنيتزل (بقسماط، خلطة تغليف، بيض، دقيق، صلصة صويا، ملح، توابل كاجون)، سلطة صغيرة، تُقدَّم مع البطاطس"
        },
        "p": 775,
        "a": [
@@ -2106,13 +2250,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 820,
+       "sos": [],
+       "kcal": 780,
        "nut": {
-        "kcal": 820,
-        "kj": 3431,
-        "p": 48,
-        "f": 38,
-        "c": 70
+        "kcal": 780,
+        "kj": 3264,
+        "p": 44,
+        "f": 36,
+        "c": 68
        },
        "por": null,
        "alc": 0,
@@ -2129,9 +2274,9 @@
         "ar": "شنيتزل بصوص الفطر"
        },
        "ing": {
-        "tr": "180 g panelenmiş tavuk, schnitzel sosu (galeta unu, pane, yumurta, un, soya sosu, tuz, Cajun baharatı), mantar sos, mini salata, patates",
-        "en": "180 g breaded chicken, schnitzel coating (breadcrumbs, breading, egg, flour, soy sauce, salt, Cajun spice), mushroom sauce, side salad, fries",
-        "ar": "180 غ دجاج مقرمش، خلطة الشنيتزل (بقسماط، خلطة تغليف، بيض، دقيق، صلصة صويا، ملح، توابل كاجون)، صوص فطر، سلطة صغيرة، بطاطس"
+        "tr": "180 g panelenmiş tavuk (pane, galeta unu), schnitzel sosu (galeta unu, pane, yumurta, un, soya sosu, tuz, Cajun baharatı), mantar sos, mini salata, patates eşliğinde",
+        "en": "180 g breaded chicken (breading, breadcrumbs), schnitzel coating (breadcrumbs, breading, egg, flour, soy sauce, salt, Cajun spice), mushroom sauce, side salad, served with fries",
+        "ar": "180 غ دجاج مغلّف (خلطة تغليف، بقسماط)، خلطة الشنيتزل (بقسماط، خلطة تغليف، بيض، دقيق، صلصة صويا، ملح، توابل كاجون)، صوص فطر، سلطة صغيرة، تُقدَّم مع البطاطس"
        },
        "p": 795,
        "a": [
@@ -2144,6 +2289,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 880,
        "nut": {
         "kcal": 880,
@@ -2167,9 +2313,9 @@
         "ar": "شنيتزل بصوص الشيدر"
        },
        "ing": {
-        "tr": "180 g panelenmiş tavuk, schnitzel sosu (galeta unu, pane, yumurta, un, soya sosu, tuz, Cajun baharatı), cheddar sos, krema, mini salata, patates",
-        "en": "180 g breaded chicken, schnitzel coating (breadcrumbs, breading, egg, flour, soy sauce, salt, Cajun spice), cheddar sauce, cream, side salad, fries",
-        "ar": "180 غ دجاج مقرمش، خلطة الشنيتزل (بقسماط، خلطة تغليف، بيض، دقيق، صلصة صويا، ملح، توابل كاجون)، صوص شيدر، كريمة، سلطة صغيرة، بطاطس"
+        "tr": "180 g panelenmiş tavuk (pane, galeta unu), schnitzel sosu (galeta unu, pane, yumurta, un, soya sosu, tuz, Cajun baharatı), cheddar sos (cheddar, krema), mini salata, patates eşliğinde",
+        "en": "180 g breaded chicken (breading, breadcrumbs), schnitzel coating (breadcrumbs, breading, egg, flour, soy sauce, salt, Cajun spice), cheddar sauce (cheddar, cream), side salad, served with fries",
+        "ar": "180 غ دجاج مغلّف (خلطة تغليف، بقسماط)، خلطة الشنيتزل (بقسماط، خلطة تغليف، بيض، دقيق، صلصة صويا، ملح، توابل كاجون)، صوص شيدر (شيدر، كريمة)، سلطة صغيرة، تُقدَّم مع البطاطس"
        },
        "p": 795,
        "a": [
@@ -2182,6 +2328,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 940,
        "nut": {
         "kcal": 940,
@@ -2216,26 +2363,30 @@
         "ar": "قطع دجاج بصوص كافيه دو باري"
        },
        "ing": {
-        "tr": "180 g tavuk parçaları, Cafe de Paris sos",
-        "en": "180 g chicken pieces, Café de Paris sauce",
-        "ar": "180 غ قطع دجاج، صوص كافيه دو باري"
+        "tr": "180 g tavuk parçaları, Cafe de Paris sos, krema",
+        "en": "180 g chicken pieces, Café de Paris sauce, cream",
+        "ar": "180 غ قطع دجاج، صوص كافيه دو باري، كريمة"
        },
        "p": 750,
        "a": [
         "M",
-        "H"
+        "H",
+        "G"
        ],
        "ic": "chicken",
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 560,
+       "sos": [
+        "cafedeparis"
+       ],
+       "kcal": 600,
        "nut": {
-        "kcal": 560,
-        "kj": 2343,
-        "p": 42,
-        "f": 38,
-        "c": 8
+        "kcal": 600,
+        "kj": 2510,
+        "p": 43,
+        "f": 42,
+        "c": 10
        },
        "por": null,
        "alc": 0,
@@ -2252,9 +2403,9 @@
         "ar": "قطع دجاج بصوص الشيدر"
        },
        "ing": {
-        "tr": "180 g tavuk parçaları, cheddar sos",
-        "en": "180 g chicken pieces, cheddar sauce",
-        "ar": "180 غ قطع دجاج، صوص شيدر"
+        "tr": "180 g tavuk parçaları, cheddar sos, krema",
+        "en": "180 g chicken pieces, cheddar sauce, cream",
+        "ar": "180 غ قطع دجاج، صوص شيدر، كريمة"
        },
        "p": 750,
        "a": [
@@ -2264,13 +2415,14 @@
        "s": 0,
        "so": 0,
        "off": 0,
-       "kcal": 580,
+       "sos": [],
+       "kcal": 620,
        "nut": {
-        "kcal": 580,
-        "kj": 2427,
-        "p": 44,
-        "f": 40,
-        "c": 8
+        "kcal": 620,
+        "kj": 2594,
+        "p": 45,
+        "f": 44,
+        "c": 10
        },
        "por": null,
        "alc": 0,
@@ -2287,9 +2439,9 @@
         "ar": "كرات كوله بالسويت تشيلي"
        },
        "ing": {
-        "tr": "180 g tavuk parçaları, Sweet Chili sos",
-        "en": "180 g chicken pieces, sweet chilli sauce",
-        "ar": "180 غ قطع دجاج، صوص سويت تشيلي"
+        "tr": "180 g tavuk parçaları, Sweet Chili sos, maydanoz",
+        "en": "180 g chicken pieces, sweet chilli sauce, parsley",
+        "ar": "180 غ قطع دجاج، صوص سويت تشيلي، بقدونس"
        },
        "p": 750,
        "a": [
@@ -2300,6 +2452,9 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [
+        "sweetchili"
+       ],
        "kcal": 640,
        "nut": {
         "kcal": 640,
@@ -2355,9 +2510,9 @@
         "ar": "مشاوي مشكّلة"
        },
        "ing": {
-        "tr": "1 kuzu pirzola, 200 g antrikot, 2 köfte, 2 tavuk kanat, 1 tavuk bonfile (zeytinyağı ve kekikle marine edilmiş), közlenmiş biber & domates, pilav ve patates",
-        "en": "1 lamb chop, 200 g ribeye, 2 meatballs, 2 chicken wings, 1 chicken fillet (marinated in olive oil and thyme), roasted pepper & tomato, rice and fries",
-        "ar": "ريشة غنم، 200 غ أنتريكوت، كفتتان، جناحا دجاج، فيليه دجاج (متبّل بزيت الزيتون والزعتر)، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "1 kuzu pirzola, 200 g antrikot, 2 köfte, 2 tavuk kanat, 1 tavuk bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "1 lamb chop, 200 g ribeye, 2 meatballs, 2 chicken wings, 1 chicken fillet (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
+        "ar": "ريشة غنم، 200 غ أنتريكوت، كفتتان، جناحا دجاج، فيليه دجاج (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 2500,
        "a": [
@@ -2367,6 +2522,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 1900,
        "nut": {
         "kcal": 1900,
@@ -2390,9 +2546,9 @@
         "ar": "ريش غنم (3 قطع)"
        },
        "ing": {
-        "tr": "3 parça kuzu pirzola (zeytinyağı ve kekikle marine edilmiş), közlenmiş biber & domates, pilav ve patates",
-        "en": "3 lamb chops (marinated in olive oil and thyme), roasted pepper & tomato, rice and fries",
-        "ar": "3 ريش غنم (متبّل بزيت الزيتون والزعتر)، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "3 parça kuzu pirzola (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "3 lamb chops (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
+        "ar": "3 ريش غنم (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 1320,
        "a": [],
@@ -2400,6 +2556,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 850,
        "nut": {
         "kcal": 850,
@@ -2423,9 +2580,9 @@
         "ar": "ريش غنم (4 قطع)"
        },
        "ing": {
-        "tr": "4 parça kuzu pirzola (zeytinyağı ve kekikle marine edilmiş), közlenmiş biber & domates, pilav ve patates",
-        "en": "4 lamb chops (marinated in olive oil and thyme), roasted pepper & tomato, rice and fries",
-        "ar": "4 ريش غنم (متبّل بزيت الزيتون والزعتر)، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "4 parça kuzu pirzola (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "4 lamb chops (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
+        "ar": "4 ريش غنم (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 1570,
        "a": [],
@@ -2433,6 +2590,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 1050,
        "nut": {
         "kcal": 1050,
@@ -2456,9 +2614,9 @@
         "ar": "أنتريكوت"
        },
        "ing": {
-        "tr": "200 g antrikot (zeytinyağı ve kekikle marine edilmiş), közlenmiş biber & domates, pilav ve patates",
-        "en": "200 g ribeye (marinated in olive oil and thyme), roasted pepper & tomato, rice and fries",
-        "ar": "200 غ أنتريكوت (متبّل بزيت الزيتون والزعتر)، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g antrikot (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "200 g ribeye (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
+        "ar": "200 غ أنتريكوت (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 1320,
        "a": [],
@@ -2466,6 +2624,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 950,
        "nut": {
         "kcal": 950,
@@ -2489,9 +2648,9 @@
         "ar": "بونفيليه (فيليه بقري)"
        },
        "ing": {
-        "tr": "200 g bonfile (zeytinyağı ve kekikle marine edilmiş), közlenmiş biber & domates, pilav ve patates",
-        "en": "200 g tenderloin (marinated in olive oil and thyme), roasted pepper & tomato, rice and fries",
-        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر)، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "200 g tenderloin (marinated in olive oil, thyme and chilli flakes), served with roasted pepper & tomato, rice and fries",
+        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 1450,
        "a": [],
@@ -2499,6 +2658,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 850,
        "nut": {
         "kcal": 850,
@@ -2522,18 +2682,22 @@
         "ar": "فيليه بصوص الفطر"
        },
        "ing": {
-        "tr": "200 g bonfile (zeytinyağı ve kekikle marine edilmiş), mantar sos, közlenmiş biber & domates, pilav ve patates",
-        "en": "200 g tenderloin (marinated in olive oil and thyme), mushroom sauce, roasted pepper & tomato, rice and fries",
-        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر)، صوص فطر، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g bonfile (zeytinyağı, kekik ve pul biber ile marine edilmiş), mantar sos (krema, Cafe de Paris sos), közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "200 g tenderloin (marinated in olive oil, thyme and chilli flakes), mushroom sauce (cream, Café de Paris sauce), served with roasted pepper & tomato, rice and fries",
+        "ar": "200 غ فيليه (متبّل بزيت الزيتون والزعتر ورقائق الفلفل)، صوص فطر (كريمة، صوص كافيه دو باري)، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 1500,
        "a": [
-        "M"
+        "M",
+        "G"
        ],
        "ic": "steak",
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [
+        "cafedeparis"
+       ],
        "kcal": 950,
        "nut": {
         "kcal": 950,
@@ -2557,19 +2721,23 @@
         "ar": "فيليه بصوص كافيه دو باري"
        },
        "ing": {
-        "tr": "200 g bonfile, Cafe de Paris sos, közlenmiş biber & domates, pilav ve patates",
-        "en": "200 g tenderloin, Café de Paris sauce, roasted pepper & tomato, rice and fries",
-        "ar": "200 غ فيليه، صوص كافيه دو باري، فلفل وطماطم مشوية، أرز وبطاطس"
+        "tr": "200 g bonfile, Cafe de Paris sos, közlenmiş biber & domates, pilav ve patates eşliğinde",
+        "en": "200 g tenderloin, Café de Paris sauce, served with roasted pepper & tomato, rice and fries",
+        "ar": "200 غ فيليه، صوص كافيه دو باري، تُقدَّم مع فلفل وطماطم مشوية، أرز وبطاطس"
        },
        "p": 1500,
        "a": [
         "M",
-        "H"
+        "H",
+        "G"
        ],
        "ic": "steak",
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [
+        "cafedeparis"
+       ],
        "kcal": 980,
        "nut": {
         "kcal": 980,
@@ -2595,9 +2763,9 @@
       "ar": "فاهيتا"
      },
      "note": {
-      "tr": "Kekik ve zeytinyağı ile marine edilir; renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos ve lavaş eşliğinde",
-      "en": "Marinated in thyme and olive oil; served with bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce and lavash",
-      "ar": "متبّلة بالزعتر وزيت الزيتون؛ تُقدَّم مع فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص وخبز لافاش"
+      "tr": "Kekik, zeytinyağı ve pul biber ile marine edilir; renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos ve lavaş eşliğinde",
+      "en": "Marinated in thyme, olive oil and chilli flakes; served with bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce and lavash",
+      "ar": "متبّلة بالزعتر وزيت الزيتون ورقائق الفلفل؛ تُقدَّم مع فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص وخبز لافاش"
      },
      "i": [
       {
@@ -2608,9 +2776,9 @@
         "ar": "فاهيتا لحم"
        },
        "ing": {
-        "tr": "200 g kekik ve zeytinyağı ile marine edilmiş et, renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos (Sweet Chili sos, mayonez, acı sos, salsa sos), lavaş",
-        "en": "200 g beef marinated in thyme and olive oil, bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, salsa), lavash",
-        "ar": "200 غ لحم متبّل بالزعتر وزيت الزيتون، فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص (صوص سويت تشيلي، مايونيز، صوص حار، صلصة سالسا)، لافاش"
+        "tr": "200 g kekik, zeytinyağı ve pul biber ile marine edilmiş et, renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos (Sweet Chili sos, mayonez, acı sos, pul biber, tuz), lavaş",
+        "en": "200 g beef marinated in thyme, olive oil and chilli flakes, bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, chilli flakes, salt), lavash",
+        "ar": "200 غ لحم متبّل بالزعتر وزيت الزيتون ورقائق الفلفل، فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص (صوص سويت تشيلي، مايونيز، صوص حار، رقائق فلفل، ملح)، لافاش"
        },
        "p": 1470,
        "a": [
@@ -2622,6 +2790,9 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [
+        "sweetchili"
+       ],
        "kcal": 1120,
        "nut": {
         "kcal": 1120,
@@ -2645,9 +2816,9 @@
         "ar": "فاهيتا كومبو"
        },
        "ing": {
-        "tr": "150 g et ve 150 g tavuk (kekik ve zeytinyağı ile marine edilmiş), renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos (Sweet Chili sos, mayonez, acı sos, salsa sos), lavaş",
-        "en": "150 g beef and 150 g chicken (marinated in thyme and olive oil), bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, salsa), lavash",
-        "ar": "150 غ لحم و150 غ دجاج (متبّل بالزعتر وزيت الزيتون)، فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص (صوص سويت تشيلي، مايونيز، صوص حار، صلصة سالسا)، لافاش"
+        "tr": "150 g et ve 150 g tavuk (kekik, zeytinyağı ve pul biber ile marine edilmiş), renkli biberler, soğan, Sweet Chili sos, süzme yoğurt, özel Kule sos (Sweet Chili sos, mayonez, acı sos, pul biber, tuz), lavaş",
+        "en": "150 g beef and 150 g chicken (marinated in thyme, olive oil and chilli flakes), bell peppers, onion, sweet chilli sauce, strained yoghurt, special Kule sauce (sweet chilli sauce, mayonnaise, hot sauce, chilli flakes, salt), lavash",
+        "ar": "150 غ لحم و150 غ دجاج (متبّل بالزعتر وزيت الزيتون ورقائق الفلفل)، فلفل ملوّن، بصل، صوص سويت تشيلي، لبن مصفّى، صوص كوله الخاص (صوص سويت تشيلي، مايونيز، صوص حار، رقائق فلفل، ملح)، لافاش"
        },
        "p": 1520,
        "a": [
@@ -2659,6 +2830,9 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [
+        "sweetchili"
+       ],
        "kcal": 1150,
        "nut": {
         "kcal": 1150,
@@ -2724,6 +2898,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 420,
        "nut": {
         "kcal": 420,
@@ -2761,6 +2936,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 410,
        "nut": {
         "kcal": 410,
@@ -2799,6 +2975,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 450,
        "nut": {
         "kcal": 450,
@@ -2837,6 +3014,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 430,
        "nut": {
         "kcal": 430,
@@ -2875,6 +3053,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 380,
        "nut": {
         "kcal": 380,
@@ -2912,6 +3091,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 460,
        "nut": {
         "kcal": 460,
@@ -2951,6 +3131,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 480,
        "nut": {
         "kcal": 480,
@@ -2988,6 +3169,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 400,
        "nut": {
         "kcal": 400,
@@ -3025,6 +3207,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 380,
        "nut": {
         "kcal": 380,
@@ -3062,6 +3245,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 420,
        "nut": {
         "kcal": 420,
@@ -3100,6 +3284,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 450,
        "nut": {
         "kcal": 450,
@@ -3153,6 +3338,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 420,
        "nut": {
         "kcal": 420,
@@ -3190,6 +3376,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 380,
        "nut": {
         "kcal": 380,
@@ -3227,6 +3414,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 380,
        "nut": {
         "kcal": 380,
@@ -3264,6 +3452,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 400,
        "nut": {
         "kcal": 400,
@@ -3308,6 +3497,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 220,
        "nut": {
         "kcal": 220,
@@ -3343,6 +3533,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 120,
        "nut": {
         "kcal": 120,
@@ -3378,6 +3569,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 360,
        "nut": {
         "kcal": 360,
@@ -3439,6 +3631,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 5,
        "nut": {
         "kcal": 5,
@@ -3472,6 +3665,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 10,
        "nut": {
         "kcal": 10,
@@ -3507,6 +3701,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 20,
        "nut": {
         "kcal": 20,
@@ -3540,6 +3735,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 10,
        "nut": {
         "kcal": 10,
@@ -3573,6 +3769,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 5,
        "nut": {
         "kcal": 5,
@@ -3608,6 +3805,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 150,
        "nut": {
         "kcal": 150,
@@ -3643,6 +3841,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 120,
        "nut": {
         "kcal": 120,
@@ -3679,6 +3878,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 280,
        "nut": {
         "kcal": 280,
@@ -3715,6 +3915,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 320,
        "nut": {
         "kcal": 320,
@@ -3750,6 +3951,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 220,
        "nut": {
         "kcal": 220,
@@ -3785,6 +3987,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 230,
        "nut": {
         "kcal": 230,
@@ -3820,6 +4023,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 220,
        "nut": {
         "kcal": 220,
@@ -3855,6 +4059,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 240,
        "nut": {
         "kcal": 240,
@@ -3890,6 +4095,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 260,
        "nut": {
         "kcal": 260,
@@ -3925,6 +4131,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 220,
        "nut": {
         "kcal": 220,
@@ -3961,6 +4168,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 260,
        "nut": {
         "kcal": 260,
@@ -3996,6 +4204,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -4031,6 +4240,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 210,
        "nut": {
         "kcal": 210,
@@ -4067,6 +4277,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 290,
        "nut": {
         "kcal": 290,
@@ -4103,6 +4314,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 300,
        "nut": {
         "kcal": 300,
@@ -4139,6 +4351,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 300,
        "nut": {
         "kcal": 300,
@@ -4185,6 +4398,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 130,
        "nut": {
         "kcal": 130,
@@ -4218,6 +4432,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 10,
        "nut": {
         "kcal": 10,
@@ -4253,6 +4468,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 220,
        "nut": {
         "kcal": 220,
@@ -4288,6 +4504,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 240,
        "nut": {
         "kcal": 240,
@@ -4324,6 +4541,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 260,
        "nut": {
         "kcal": 260,
@@ -4360,6 +4578,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 280,
        "nut": {
         "kcal": 280,
@@ -4395,6 +4614,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 210,
        "nut": {
         "kcal": 210,
@@ -4430,6 +4650,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 230,
        "nut": {
         "kcal": 230,
@@ -4465,6 +4686,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 190,
        "nut": {
         "kcal": 190,
@@ -4500,6 +4722,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -4544,6 +4767,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 2,
        "nut": {
         "kcal": 2,
@@ -4577,6 +4801,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 2,
        "nut": {
         "kcal": 2,
@@ -4610,6 +4835,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 2,
        "nut": {
         "kcal": 2,
@@ -4643,6 +4869,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 2,
        "nut": {
         "kcal": 2,
@@ -4676,6 +4903,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 5,
        "nut": {
         "kcal": 5,
@@ -4709,6 +4937,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 10,
        "nut": {
         "kcal": 10,
@@ -4742,6 +4971,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 10,
        "nut": {
         "kcal": 10,
@@ -4775,6 +5005,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 10,
        "nut": {
         "kcal": 10,
@@ -4808,6 +5039,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 20,
        "nut": {
         "kcal": 20,
@@ -4852,6 +5084,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 140,
        "nut": {
         "kcal": 140,
@@ -4885,6 +5118,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 1,
        "nut": {
         "kcal": 1,
@@ -4918,6 +5152,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 130,
        "nut": {
         "kcal": 130,
@@ -4951,6 +5186,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 140,
        "nut": {
         "kcal": 140,
@@ -4984,6 +5220,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 110,
        "nut": {
         "kcal": 110,
@@ -5017,6 +5254,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 120,
        "nut": {
         "kcal": 120,
@@ -5050,6 +5288,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 110,
        "nut": {
         "kcal": 110,
@@ -5083,6 +5322,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 90,
        "nut": {
         "kcal": 90,
@@ -5116,6 +5356,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 80,
        "nut": {
         "kcal": 80,
@@ -5151,6 +5392,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 90,
        "nut": {
         "kcal": 90,
@@ -5184,6 +5426,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 0,
        "nut": {
         "kcal": 0,
@@ -5217,6 +5460,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 20,
        "nut": {
         "kcal": 20,
@@ -5250,6 +5494,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 150,
        "nut": {
         "kcal": 150,
@@ -5283,6 +5528,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 180,
        "nut": {
         "kcal": 180,
@@ -5316,6 +5562,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 5,
        "nut": {
         "kcal": 5,
@@ -5349,6 +5596,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 0,
        "nut": {
         "kcal": 0,
@@ -5382,6 +5630,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 160,
        "nut": {
         "kcal": 160,
@@ -5428,6 +5677,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 450,
        "nut": {
         "kcal": 450,
@@ -5464,6 +5714,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 480,
        "nut": {
         "kcal": 480,
@@ -5499,6 +5750,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 440,
        "nut": {
         "kcal": 440,
@@ -5536,6 +5788,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 520,
        "nut": {
         "kcal": 520,
@@ -5571,6 +5824,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 460,
        "nut": {
         "kcal": 460,
@@ -5619,6 +5873,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 180,
        "nut": {
         "kcal": 180,
@@ -5652,6 +5907,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 170,
        "nut": {
         "kcal": 170,
@@ -5685,6 +5941,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -5718,6 +5975,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 180,
        "nut": {
         "kcal": 180,
@@ -5751,6 +6009,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 190,
        "nut": {
         "kcal": 190,
@@ -5784,6 +6043,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -5817,6 +6077,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -5850,6 +6111,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -5883,6 +6145,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 190,
        "nut": {
         "kcal": 190,
@@ -5916,6 +6179,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 200,
        "nut": {
         "kcal": 200,
@@ -5949,6 +6213,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 230,
        "nut": {
         "kcal": 230,
@@ -5997,6 +6262,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 160,
        "nut": {
         "kcal": 160,
@@ -6030,6 +6296,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 180,
        "nut": {
         "kcal": 180,
@@ -6063,6 +6330,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": 180,
        "nut": {
         "kcal": 180,
@@ -6124,6 +6392,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6151,6 +6420,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6178,6 +6448,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6205,6 +6476,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6232,6 +6504,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6259,6 +6532,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6286,6 +6560,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6313,6 +6588,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6340,6 +6616,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6367,6 +6644,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6394,6 +6672,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6421,6 +6700,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6448,6 +6728,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6475,6 +6756,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6502,6 +6784,7 @@
        "s": 0,
        "so": 0,
        "off": 0,
+       "sos": [],
        "kcal": null,
        "nut": null,
        "por": null,
@@ -6516,5 +6799,5 @@
    ]
   }
  ],
- "pub": 1789571198197
+ "pub": 1789724590262
 }
