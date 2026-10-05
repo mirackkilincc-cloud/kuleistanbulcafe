@@ -75,9 +75,11 @@ function build(){
   menuEl.innerHTML = SEC.map(s=>{
     const groups = s.g.filter(g=>!g.off).map(g=>{
       const items = g.i.filter(it=>!it.off).map(it=>{
-        const nm = tx(it.name), ing = tx(it.ing);
-        // içindekiler yazılmamış ve alerjeni de yoksa (kapalı ambalaj gazlı içecekler) bu blokları hiç gösterme
-        const nodet = !ing && !(it.a||[]).length && !it.aunk;
+        const nm = tx(it.name);
+        const ing = it.ihide ? "" : tx(it.ing);     // ihide: içindekiler menüde gösterilmez (içecekler, dondurma)
+        const hasAlg = !!((it.a||[]).length || it.aunk);
+        const nodet = !ing && !hasAlg;              // gösterilecek içindekiler de alerjen de yoksa blokları hiç açma
+        const mlbl = ing ? t.more : (hasAlg ? t.all : t.kcal);
         const key = [it.name.tr,it.name.en,it.name.ar,it.ing.tr,it.ing.en,it.ing.ar,g.title.tr,g.title.en,g.title.ar,s.title.tr,s.title.en,s.title.ar].join(" ").toLocaleLowerCase("tr");
         const chips = (it.a||[]).map(a=>{ const sr=(it.asrc&&it.asrc[a])?tx(it.asrc[a]):null;
           return '<div class="algrow"><span class="achip"><b>'+esc(a)+'</b>'+esc(tx(ST.alg[a]))+'</span>'
@@ -91,7 +93,7 @@ function build(){
               +'<span class="line"><span class="nm">'+esc(nm)+(it.s?'<span class="badge">KULE</span>':'')+(it.so?'<span class="badge out">'+t.out+'</span>':'')+(kc(it)!==null?'<span class="badge kcal">'+esc(kcTxt(it))+'</span>':'')
               +'</span><span class="dots"></span><span class="pr">'+money(it.p)+'</span></span>'
               +((ing||(it.por&&tx(it.por)))?'<span class="desc">'+(it.por&&tx(it.por)?'<b class="pg">'+esc(tx(it.por))+'</b>'+(ing?' · ':''):'')+esc(ing)+'</span>':'')
-              +'<span class="more">'+(nodet?t.kcal:t.more)+CHEV+'</span>'
+              +'<span class="more">'+mlbl+CHEV+'</span>'
             +'</span></button>'
           +'<div class="idet" id="d-'+it.id+'"><div><div class="idin">'+photo
             +(ing?'<div class="dblock"><h4>'+t.ing+'</h4><p>'+esc(ing)+'</p></div>':'')
