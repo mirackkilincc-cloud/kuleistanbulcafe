@@ -76,10 +76,15 @@ function build(){
     const groups = s.g.filter(g=>!g.off).map(g=>{
       const items = g.i.filter(it=>!it.off).map(it=>{
         const nm = tx(it.name);
-        const ing = it.ihide ? "" : tx(it.ing);     // ihide: içindekiler menüde gösterilmez (içecekler, dondurma)
-        const hasAlg = !!((it.a||[]).length || it.aunk);
-        const nodet = !ing && !hasAlg;              // gösterilecek içindekiler de alerjen de yoksa blokları hiç açma
-        const mlbl = ing ? t.more : (hasAlg ? t.all : t.kcal);
+        // ihide/nhide/ahide/dhide: build.js'te bölüm bazlı — veri durur, menüde çizilmez
+        const ing = it.ihide ? "" : tx(it.ing);
+        const sosK = (it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k]);
+        const shIng = !!ing, shSos = sosK.length>0;
+        const shAlg = !it.ahide && !!((it.a||[]).length || it.aunk);
+        const shNut = !it.nhide && kc(it)!==null;
+        const shDec = !it.dhide && s.id!=="nargile";
+        const anyDet = shIng || shSos || shAlg || shNut || shDec || !!it.img;
+        const mlbl = (shIng&&shAlg) ? t.more : shIng ? t.ing : shAlg ? t.all : shNut ? t.kcal : shDec ? t.decl : t.zoom;
         const key = [it.name.tr,it.name.en,it.name.ar,it.ing.tr,it.ing.en,it.ing.ar,g.title.tr,g.title.en,g.title.ar,s.title.tr,s.title.en,s.title.ar].join(" ").toLocaleLowerCase("tr");
         const chips = (it.a||[]).map(a=>{ const sr=(it.asrc&&it.asrc[a])?tx(it.asrc[a]):null;
           return '<div class="algrow"><span class="achip"><b>'+esc(a)+'</b>'+esc(tx(ST.alg[a]))+'</span>'
@@ -87,31 +92,31 @@ function build(){
         const dim = (it.iw&&it.ih) ? ' width="'+it.iw+'" height="'+it.ih+'"' : '';
         const photo = it.img ? '<button type="button" class="photo" data-zoom="'+it.id+'" aria-label="'+esc(nm)+' — '+t.zoom+'"><img src="'+it.img+'" alt="'+esc(nm)+'"'+dim+' loading="lazy"><span class="zi">'+I_ZOOM+'</span></button>' : '';
         return '<div class="item'+(it.so?' so':'')+'" data-id="'+it.id+'" data-k="'+esc(key)+'" data-a="'+((it.a||[]).join(","))+'">'
-          +'<button class="irow" type="button" aria-expanded="false" aria-controls="d-'+it.id+'">'
+          +(anyDet?'<button class="irow" type="button" aria-expanded="false" aria-controls="d-'+it.id+'">':'<div class="irow flat">')
             +'<span class="thumb">'+(it.img?'<img src="'+it.img+'" alt="" loading="lazy">':ICO(it.ic))+'</span>'
             +'<span class="ibody">'
-              +'<span class="line"><span class="nm">'+esc(nm)+(it.s?'<span class="badge">KULE</span>':'')+(it.so?'<span class="badge out">'+t.out+'</span>':'')+(kc(it)!==null?'<span class="badge kcal">'+esc(kcTxt(it))+'</span>':'')
+              +'<span class="line"><span class="nm">'+esc(nm)+(it.s?'<span class="badge">KULE</span>':'')+(it.so?'<span class="badge out">'+t.out+'</span>':'')+(shNut?'<span class="badge kcal">'+esc(kcTxt(it))+'</span>':'')
               +'</span><span class="dots"></span><span class="pr">'+money(it.p)+'</span></span>'
               +((ing||(it.por&&tx(it.por)))?'<span class="desc">'+(it.por&&tx(it.por)?'<b class="pg">'+esc(tx(it.por))+'</b>'+(ing?' · ':''):'')+esc(ing)+'</span>':'')
-              +'<span class="more">'+mlbl+CHEV+'</span>'
-            +'</span></button>'
+              +(anyDet?'<span class="more">'+mlbl+CHEV+'</span>':'')
+            +'</span>'+(anyDet?'</button>':'</div>')
           +'<div class="idet" id="d-'+it.id+'"><div><div class="idin">'+photo
             +(ing?'<div class="dblock"><h4>'+t.ing+'</h4><p>'+esc(ing)+'</p></div>':'')
-            +(((it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k])).length?'<div class="dblock"><h4>'+t.sauces+'</h4>'+(it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k]).map(k=>{const sc=ST.sauces[k];
+            +(shSos?'<div class="dblock"><h4>'+t.sauces+'</h4>'+(it.sos||[]).filter(k=>ST.sauces&&ST.sauces[k]).map(k=>{const sc=ST.sauces[k];
                return '<details class="sos"><summary class="sos-n">'+esc(tx(sc.name))+'<span class="sos-h">'+t.more+'</span>'+CHEV+'</summary><div class="sos-b">'
                  +'<p class="sos-i">'+esc(tx(sc.ing))+'</p>'
                  +((sc.a||[]).length?'<div class="achips">'+(sc.a||[]).map(x=>'<span class="achip"><b>'+esc(x)+'</b>'+esc(tx(ST.alg[x]))+'</span>').join("")+'</div>':'<p class="snone">'+t.noall+'</p>')
                  +(tx(sc.trace||{})?'<p class="sos-t">'+esc(tx(sc.trace))+'</p>':'')
                  +(tx(sc.note||{})?'<p class="sos-t">'+esc(tx(sc.note))+'</p>':'')+'</div></details>';}).join("")+'</div>':'')
-            +(kc(it)!==null?'<div class="dblock"><h4>'+t.kcal+(it.por&&tx(it.por)?' <span class="pw">· '+esc(tx(it.por))+'</span>':'')+'</h4>'
+            +(shNut?'<div class="dblock"><h4>'+t.kcal+(it.por&&tx(it.por)?' <span class="pw">· '+esc(tx(it.por))+'</span>':'')+'</h4>'
               +'<table class="nut"><tbody>'
               +'<tr><th>'+t.nEn+'</th><td><b>'+esc(kcTxt(it))+'</b>'+(it.nut&&it.nut.kj?' <span class="kj">/ '+Number(it.nut.kj).toLocaleString(lang==="tr"?"tr-TR":"en-US")+' kJ</span>':'')+'</td></tr>'
               +(it.nut?'<tr><th>'+t.nPr+'</th><td>'+esc(gr(it.nut.p))+'</td></tr>'
                       +'<tr><th>'+t.nFa+'</th><td>'+esc(gr(it.nut.f))+'</td></tr>'
                       +'<tr><th>'+t.nCa+'</th><td>'+esc(gr(it.nut.c))+'</td></tr>':'')
               +'</tbody></table><p class="kcaln">'+t.kcalN+'</p></div>':'')
-            +(nodet?'':'<div class="dblock"><h4>'+t.all+'</h4>'+(it.aunk?'<p class="snone">'+t.aunk+'</p>':(chips?'<div class="algrid">'+chips+'</div>':'<p class="snone">'+t.noall+'</p>'))+'</div>')
-            +(s.id!=="nargile"?'<div class="dblock"><h4>'+t.decl+'</h4><div class="achips"><span class="achip dcl'+(it.alc?' warn':'')+'">'+(it.alc?t.alcYes:t.alcNo)+'</span><span class="achip dcl'+(it.pork?' warn':'')+'">'+(it.pork?t.porkYes:t.porkNo)+'</span></div></div>':'')
+            +(!shAlg?'':'<div class="dblock"><h4>'+t.all+'</h4>'+(it.aunk?'<p class="snone">'+t.aunk+'</p>':(chips?'<div class="algrid">'+chips+'</div>':'<p class="snone">'+t.noall+'</p>'))+'</div>')
+            +(shDec?'<div class="dblock"><h4>'+t.decl+'</h4><div class="achips"><span class="achip dcl'+(it.alc?' warn':'')+'">'+(it.alc?t.alcYes:t.alcNo)+'</span><span class="achip dcl'+(it.pork?' warn':'')+'">'+(it.pork?t.porkYes:t.porkNo)+'</span></div></div>':'')
           +'</div></div></div></div>';
       }).join("");
       if(!items) return '';
@@ -206,7 +211,7 @@ function lightbox(src, alt){
 menuEl.addEventListener("click", e=>{
   const z=e.target.closest("[data-zoom]");
   if(z){ e.preventDefault(); e.stopPropagation(); const im=z.querySelector("img"); if(im) lightbox(im.src, im.alt); return; }
-  const btn=e.target.closest(".irow"); if(!btn) return;
+  const btn=e.target.closest(".irow"); if(!btn || btn.classList.contains("flat")) return;
   const item=btn.closest(".item"); const open=!item.classList.contains("open");
   item.classList.toggle("open",open); btn.setAttribute("aria-expanded",open?"true":"false");
 });

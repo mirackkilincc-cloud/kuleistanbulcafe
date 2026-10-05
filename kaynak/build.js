@@ -8,9 +8,12 @@ const ALG_DERIVED = JSON.parse(fs.readFileSync("alerjen.json","utf8"));   // ale
 const SOCIAL = JSON.parse(fs.readFileSync("social.json","utf8"));
 const PHOTOS = JSON.parse(fs.readFileSync("photos.json","utf8"));
 const PHOTO_WH = JSON.parse(fs.readFileSync("photo-size.json","utf8"));   // fotolar.py üretir
-// İçindekilerin menüde GÖSTERİLMEYECEĞİ yerler (alerjenler görünmeye devam eder)
-const IHIDE_SECTIONS = new Set(["icecek"]);
-const IHIDE_ITEMS = new Set(["Dondurma (1 Top)","Dondurma (3 Top)"]);
+// Menüde GÖSTERİLMEYECEK bloklar. Veri yerinde kalır (Excel'de ve alerjen türetiminde görünür).
+const IHIDE_SECTIONS = new Set(["icecek"]);                   // içindekiler
+const IHIDE_ITEMS    = new Set(["Dondurma (1 Top)","Dondurma (3 Top)"]);
+const NHIDE_SECTIONS = new Set(["icecek","nargile"]);         // besin değerleri (kalori rozeti + tablo)
+const AHIDE_SECTIONS = new Set(["icecek","nargile"]);         // alerjen bloğu
+const DHIDE_SECTIONS = new Set(["icecek"]);                   // alkol/domuz beyanı (nargilede zaten yok)
 const CSS = fs.readFileSync("page.css","utf8");
 const JS  = fs.readFileSync("page.js","utf8");
 const LOGO_MASK = fs.readFileSync("logo-mask.b64","utf8").trim();
@@ -62,6 +65,9 @@ const sections = DATA.map((s,si)=>({
         p, a:alg, asrc, aunk:(a===null?1:0), ic, s:0, so:0, off:0, sos,
         kcal, nut, por:null, alc:0, pork:0,
         ihide: (IHIDE_SECTIONS.has(s.id) || IHIDE_ITEMS.has(n)) ? 1 : 0,
+        nhide: NHIDE_SECTIONS.has(s.id) ? 1 : 0,
+        ahide: AHIDE_SECTIONS.has(s.id) ? 1 : 0,
+        dhide: DHIDE_SECTIONS.has(s.id) ? 1 : 0,
         img: img && PHOTOS[img] ? PHOTOS[img] : "",
         iw: (img && PHOTO_WH[img]) ? PHOTO_WH[img][0] : null,
         ih: (img && PHOTO_WH[img]) ? PHOTO_WH[img][1] : null
